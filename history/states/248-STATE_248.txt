@@ -1,0 +1,29 @@
+state={
+     id=248
+     name="STATE_248" #’O”g#TANBA
+     manpower = 98635
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 86
+         rubber = 3
+         tungsten = 1
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = SET
+         add_core_of = SET
+         add_core_of = HYG
+         victory_points = {3294 5} #’O”gŽs,Tamba-shi
+         victory_points = {4999 1} #’O”gŽÂŽRŽs,TambaSasayama-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+        586 1039 1326 1675 2698 2936 3162 3221 3294 4773 4847 4874 4890 4906 4937 4960 4967 4980 4994 4999 5008 5009 5015 5029 5049 5083
+     }
+}

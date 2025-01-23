@@ -1,0 +1,33 @@
+state={
+     id=14
+     name="STATE_14" #êœíO#SHAKOTAN
+     manpower = 166219
+     state_category = large_town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {3463 10} #è¨íMés,Otaru-shi
+         victory_points = {2470 1} #ä‚ì‡í¨,Iwanai-cho
+         victory_points = {1052 1} #ó]ésí¨,Yoichi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+             fuel_silo = 1
+             2640 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         47 55 71 328 414 778 885 1052 1373 1458 1662 1703 1912 1955 2351 2428 2470 2565 2640 2650 2766 2826 2830 2918 3003 3070 3318 3463 3482 3496 3503 3548 3550 3553 3556 3560 3567 3569 3570 3571 3573 3575 3577 3579 3581 3584 3585 3597 3602 3608 3613 
+     }
+}

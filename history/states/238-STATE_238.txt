@@ -1,0 +1,28 @@
+state={
+     id=238
+     name="STATE_238" #‹ž’OŒã#KYOTANGO
+     manpower = 55109
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KYT
+         add_core_of = KYT
+         victory_points = {175 3} #‹ž’OŒãŽs,Kyotango-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             dockyard = 3
+         }
+     }
+     provinces={
+         175 774 914 923 2619 2673 3163 4618 4640 4656 4665 4707 
+     }
+}

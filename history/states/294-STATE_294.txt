@@ -1,0 +1,32 @@
+state={
+     id=294
+     name="STATE_294" #í}å„#CHIKUGO
+     manpower = 202011
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = NGS
+         add_core_of = HKO
+         victory_points = {4187 2} #ñˆêÏés,Yanagawa-shi
+         victory_points = {2095 5} #í}å„és,Chikugo-shi
+         victory_points = {2956 1} #ëÂêÏés,Okawa-shi
+         victory_points = {2956 1} #ëÂñÿí¨,Oki-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         922 2095 2956 3060 4187 4199 4207 
+     }
+}

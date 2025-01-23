@@ -1,0 +1,28 @@
+state={
+     id=128
+     name="STATE_128" #ñkÉAÉãÉvÉX#KITAARUPUSU
+     manpower = 61455
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 12
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {201 1} #ëÂí¨és,Omachi-shi
+         victory_points = {3510 1} #è¨íJë∫,Otari-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         33 172 201 709 763 1243 1300 2350 3510 5237 5311 
+     }
+}

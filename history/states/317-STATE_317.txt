@@ -1,0 +1,29 @@
+state={
+     id=317
+     name="STATE_317" #î™ë„#YASHIRO
+     manpower = 139935
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 48
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {483 3} #î™ë„és,Yatsushiro-shi
+         victory_points = {4407 1} #ïXêÏí¨,Hikawa-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         413 483 894 1090 1400 4405 4407 4418 4428 4438 4444 4457 4459 4478 4479 
+     }
+}

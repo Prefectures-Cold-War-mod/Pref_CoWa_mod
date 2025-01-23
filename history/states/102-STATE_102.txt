@@ -1,0 +1,31 @@
+state={
+     id=102
+     name="STATE_102" #“üŠÔ#IRUMA
+     manpower = 501082
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {2524 5} #”Ñ”\Žs,Hanno-shi
+         victory_points = {6283 1} #“üŠÔŽs,Iruma-shi
+         victory_points = {6251 1} #’ßƒ–“‡Žs,Tsurugashima-shi
+         victory_points = {6213 1} #–Ñ˜CŽR’¬,Moroyama-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         2524 3320 6204 6213 6221 6228 6232 6239 6240 6246 6251 6255 6259 6265 6267 6283 
+     }
+}

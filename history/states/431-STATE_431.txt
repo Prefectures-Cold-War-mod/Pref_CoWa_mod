@@ -1,0 +1,28 @@
+state={
+     id=431
+     name="STATE_431" #ìF#SENSATSU
+     manpower = 116883
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 16
+         rubber = 0
+         tungsten = 5
+         steel = 85
+         chromium = 8
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {1366 5} #F–€ì“às,Satsumasendai-shi
+         victory_points = {727 1} #‚³‚Â‚Ü’¬,Satsuma-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         54 234 491 727 771 1366 1522 1960 2704 3036 3272 4533 4544 4566 4634 
+     }
+}

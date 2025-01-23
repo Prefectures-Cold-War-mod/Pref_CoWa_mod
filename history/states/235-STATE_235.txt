@@ -1,0 +1,30 @@
+state={
+     id=235
+     name="STATE_235" #‹{’Ã#MIYAZU
+     manpower = 41955
+     state_category = rural
+     resources={
+         oil = 34
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 23
+     }
+     history ={
+         owner = KYT
+         add_core_of = KYT
+         victory_points = {2371 3} #‹{’ÃŽs,Miyazu-shi
+         victory_points = {1273 1} #—^ŽÓ–ì’¬,Yosano-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+             fuel_silo = 1
+             air_base = 2
+         }
+     }
+     provinces={
+         877 1273 2371 2614 2917 4695 4747 
+     }
+}

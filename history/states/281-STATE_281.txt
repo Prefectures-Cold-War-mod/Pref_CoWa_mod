@@ -1,0 +1,31 @@
+state={
+     id=281
+     name="STATE_281" #ä‚çë#IWAKUNI
+     manpower = 141779
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 3
+         rubber = 0
+         tungsten = 188
+         steel = 20
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {991 3} #ä‚çëés,Iwakuni-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+	air_base = 6
+             991 = {
+                naval_base = 6
+             }
+         }
+     }
+     provinces={
+         83 991 1014 1037 1193 1343 1759 2893 4253 4261 4281 4357 
+     }
+}

@@ -1,0 +1,33 @@
+state={
+     id=258
+     name="STATE_258" #ìåîı#TOBI
+     manpower = 130779
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         victory_points = {4749 2} #îıëOés,Bizen-shi
+         victory_points = {4757 3} #ê£åÀì‡és,Setouchi-shi
+         victory_points = {4658 2} #ê‘î÷és,Akaiwa-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+             dockyard = 2
+             4749 = {
+                naval_base = 3
+             }
+         }
+     }
+     provinces={
+         404 513 1381 1630 1657 3182 4604 4617 4630 4658 4664 4669 4686 4702 4725 4726 4738 4749 4757 6770
+     }
+}

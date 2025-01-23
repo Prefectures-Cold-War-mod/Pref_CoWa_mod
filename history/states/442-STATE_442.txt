@@ -1,0 +1,30 @@
+state={
+     id=442
+     name="STATE_442" #çëìå#KUNISAKI
+     manpower = 50985
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {4344 1} #ñLå„çÇìcés,Bungotakada-shi
+         victory_points = {3332 1} #çëìåés,Kunisaki-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 0
+             air_base = 1
+         }
+     }
+     provinces={
+         736 1136 3071 3234 3332 4344 4356 4400 
+     }
+}

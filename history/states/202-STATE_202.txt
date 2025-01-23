@@ -1,0 +1,32 @@
+state={
+     id=202
+     name="STATE_202" #åKñº#KUWANA
+     manpower = 290462
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         victory_points = {9336 1} #ñÌïxés,Yatomi-shi
+         victory_points = {3389 2} #åKñºés,Kuwana-shi
+         victory_points = {2976 1} #Ç¢Ç»Ç◊és,Inabe-shi
+         victory_points = {9336 2} #ñÿë]ñ¶í¨,Kisosaki-cho
+         victory_points = {3179 1} #ìåàıí¨,Toin-cho
+         victory_points = {3389 1} #êÏâzí¨,Kawagoe-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 3
+         }
+     }
+     provinces={
+         746 1196 2976 3179 3389 9336 9337 9338 9339 9461
+     }
+}

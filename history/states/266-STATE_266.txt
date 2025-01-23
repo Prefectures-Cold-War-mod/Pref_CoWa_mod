@@ -1,0 +1,31 @@
+state={
+     id=266
+     name="STATE_266" #•Äq#YONAGO
+     manpower = 224488
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 60
+     }
+     history ={
+         owner = TTR
+         add_core_of = TTR
+         victory_points = {4232 5} #•Äqs,Yonago-shi
+         victory_points = {4206 3} #‹«`s,Sakaiminato-shi
+         victory_points = {3168 1} #“ú‹g’Ã‘º,Hiezu-son
+         victory_points = {2400 1} #“ì•”’¬,Nambu-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 4
+         }
+     }
+     provinces={
+         98 1574 2400 3168 3228 3293 4206 4232 4257 4269 9271
+     }
+}

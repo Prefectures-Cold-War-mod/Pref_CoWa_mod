@@ -1,0 +1,33 @@
+state={
+     id=269
+     name="STATE_269" #å‡#KURE
+     manpower = 262150
+     state_category = metropolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 1
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = HRS
+         victory_points = {2395 25} #å‡és,Kure-shi
+         victory_points = {2497 1} #åFñÏí¨,Kumano-cho
+         victory_points = {2887 1} #ç‚í¨,Saka-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 1
+             dockyard = 7
+             2395 = {
+                naval_base = 7
+             }
+         }
+     }
+     provinces={
+         2236 2395 2497 2887 4375 4382 4399 4436 
+     }
+}

@@ -1,0 +1,36 @@
+state={
+     id=393
+     name="STATE_393" #ŽO“‡‘º#MISHIMAMURA
+     manpower = 373
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {6772 1} #ŽO“‡‘º,Mishima-mura
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6779 = {
+                naval_base = 1
+             }
+		6772 = {
+                     naval_base = 1
+             }
+		6780 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6772 6779 6780
+     }
+}

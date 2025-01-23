@@ -1,0 +1,29 @@
+state={
+     id=118
+     name="STATE_118" #ê¬î~#AOME
+     manpower = 378732
+     state_category = town
+     resources={
+         oil = 11
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {1376 1} #âHë∫és,Hamura-shi
+         victory_points = {9314 1} #ì˙ÇÃèoí¨,Hinode-machi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 0
+             arms_factory = 4
+             air_base = 4
+         }
+     }
+     provinces={
+         1376 1836 2892 3357 6236 6245 6266 6277 9314
+     }
+}

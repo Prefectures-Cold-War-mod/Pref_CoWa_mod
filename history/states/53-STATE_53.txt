@@ -1,0 +1,29 @@
+state={
+     id=53
+     name="STATE_53" #êÂìÏ#SENNAN
+     manpower = 93596
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {3092 3} #ë†â§í¨,Zao-machi
+         victory_points = {5859 1} #ëÂâÕå¥í¨,Ogawara-machi
+         victory_points = {696 1} #êÏçËí¨,Kawasaki-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 4
+         }
+     }
+     provinces={
+         204 285 696 1928 2800 3092 3157 3330 3368 5621 5654 5678 5710 5734 5749 5760 5814 5859
+     }
+}

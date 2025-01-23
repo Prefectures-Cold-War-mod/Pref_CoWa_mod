@@ -1,0 +1,32 @@
+state={
+     id=79
+     name="STATE_79" #ì°å¥ÅEåIéR#FUJIHARAÅEKURIYAMA
+     manpower = 156500
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 16
+         steel = 12
+         chromium = 0
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             24 = {
+				bunker = 1
+			}
+			 5905 = {
+				bunker = 1
+			}
+         }
+     }
+     provinces={
+         24 228 526 5905 5964 5978 
+     }
+}

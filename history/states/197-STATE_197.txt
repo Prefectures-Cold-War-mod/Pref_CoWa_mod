@@ -1,0 +1,30 @@
+state={
+     id=197
+     name="STATE_197" #çbâÍ#KOGA
+     manpower = 146027
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 11
+     }
+     history ={
+         owner = RAS
+         add_core_of = RAS
+         add_core_of = SIG
+         victory_points = {2483 2} #çbâÍés,Koka-shi
+         victory_points = {5449 1} #åŒìÏés,Konan-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             air_base = 4
+         }
+     }
+     provinces={
+         256 707 1425 2483 3424 5449 5494 5542 5557 5565 
+     }
+}

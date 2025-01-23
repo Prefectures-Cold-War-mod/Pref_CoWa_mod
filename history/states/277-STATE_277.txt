@@ -1,0 +1,28 @@
+state={
+     id=277
+     name="STATE_277" #îã#HAGI
+     manpower = 50938
+     state_category = rural
+     resources={
+         oil = 58
+         aluminium = 7
+         rubber = 0
+         tungsten = 22
+         steel = 10
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {3499 5} #îãés,Hagi-shi
+         victory_points = {4021 1} #à¢ïêí¨,Abu-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         222 773 1163 1173 1315 2310 2430 2821 3499 4021 4063 4068 4092 
+     }
+}

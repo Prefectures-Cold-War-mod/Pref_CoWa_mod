@@ -1,0 +1,29 @@
+state={
+     id=187
+     name="STATE_187" #â¡âÍ#KAGA
+     manpower = 175934
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 20
+         chromium = 0
+     }
+     history ={
+         owner = ISI
+         add_core_of = ISI
+         victory_points = {783 5} #è¨èºés,Komatsu-shi
+         victory_points = {4805 3} #â¡âÍés,Kaga-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 2
+             air_base = 5
+         }
+     }
+     provinces={
+         783 993 2975 3314 4805 4875 4911 4939 
+     }
+}

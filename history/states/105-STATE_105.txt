@@ -1,0 +1,29 @@
+state={
+     id=105
+     name="STATE_105" #‚³‚¢‚½‚Ü#SAITAMA
+     manpower = 1302256
+     state_category = metropolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {2874 35} #‰Y˜a‹æ,Saitama-shi, Urawa-ku
+	  victory_points = {2660 20}
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 5
+             arms_factory = 2
+         }
+     }
+     provinces={
+         1813 2660 2874 3121 6314 6327 6328 6329 6332 6342 6344 6345 6360 6376 
+     }
+}

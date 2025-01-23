@@ -1,0 +1,28 @@
+state={
+     id=5
+     name="STATE_5" #“ì‹ó’m#MINAMISORACHI
+     manpower = 172325
+     state_category = town
+     resources={
+         oil = 486
+         aluminium = 12
+         rubber = 72
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+    history ={
+         owner = H08
+         add_core_of = H08
+         victory_points = {3517 2} #—[’£Žs,Yubari-shi
+             buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             fuel_silo = 1
+             }
+         }
+    provinces={
+            544 562 670 688 874 3259  1573   1750 1755 2126 2165 2980  3517   3748 3753 3756 3757 3771 3780  3784 3786 3788 3800 3802   
+   }
+}

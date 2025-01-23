@@ -1,0 +1,37 @@
+state={
+     id=318
+     name="STATE_318" #ìVëê#AMAKUSA
+     manpower = 115778
+     state_category = town
+     resources={
+         oil = 75
+         aluminium = 0
+         rubber = 35
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {6746 3} #è„ìVëêés,Kamiamakusa-shi
+         victory_points = {1476 5} #ìVëêés,Amakusa-shi
+         victory_points = {2493 1} #óËñkí¨,Reihoku-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             2944 = {
+                naval_base = 1
+             }
+             3360 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+     	6719
+        6746 2944 393 1963 2797 1476 4341 2978 2493 2946 4296 4338 2499 1939 2177 4333 1499 3360 9508
+     }
+}

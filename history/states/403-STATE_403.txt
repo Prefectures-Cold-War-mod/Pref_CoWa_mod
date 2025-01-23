@@ -1,0 +1,27 @@
+state={
+     id=403
+     name="STATE_403" #êºïƒó«#NISHIMERA
+     manpower = 1153
+     state_category = pastoral
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         299 1200 1720 2016 2328 4698 4741 4774 
+     }
+}

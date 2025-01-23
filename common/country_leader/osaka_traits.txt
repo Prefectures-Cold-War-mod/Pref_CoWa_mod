@@ -1,0 +1,12 @@
+
+leader_traits = {
+
+	kurotasan = {
+		random = no
+		custom_modifier_tooltip = OSK_pf_uchigeba_kurota_tt
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

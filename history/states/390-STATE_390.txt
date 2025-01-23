@@ -1,0 +1,30 @@
+state={
+     id=390
+     name="STATE_390" #ã ñº#TAMANA
+     manpower = 160731
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {4241 2} #çrîˆés,Arao-shi
+         victory_points = {4280 1} #ã ñºés,Tamana-shi
+         victory_points = {3395 1} #ã ìåí¨,Gyokuto-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1734 2180 2582 3395 4241 4242 4273 4276 4280 4298 
+     }
+}

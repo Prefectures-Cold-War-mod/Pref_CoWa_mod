@@ -1,0 +1,27 @@
+state={
+     id=219
+     name="STATE_219" #çrêÏãÊ#ARAKAWAKU
+     manpower = 215966
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6467 7} #çrêÏãÊ,Arakawa-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         6467
+     }
+}

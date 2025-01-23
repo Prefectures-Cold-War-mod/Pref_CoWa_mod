@@ -1,0 +1,32 @@
+state={
+     id=308
+     name="STATE_308" #íÜí√ÅEâFç≤#NAKATSUÅEUSA
+     manpower = 140824
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 55
+         rubber = 0
+         tungsten = 0
+         steel = 12
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {2970 5} #íÜí√és,Nakatsu-shi
+         victory_points = {4320 1} #âFç≤és,Usa-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 2
+             2970 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         452 1105 1118 1271 1374 1413 1788 2531 2538 2841 2970 3394 4220 4225 4259 4267 4275 4284 4291 4300 4309 4314 4317 4320 4330 4343 4371 
+     }
+}

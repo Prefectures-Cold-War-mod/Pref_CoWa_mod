@@ -1,0 +1,36 @@
+state={
+     id=307
+     name="STATE_307" #å‹ìáóÒìá#GOTORETTO
+     manpower = 58850
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 15
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {3896 3} #å‹ìáés,Goto-shi
+         victory_points = {6685 1} #è¨ílâÍí¨,Ojika-cho
+         victory_points = {3091 3} #êVè„å‹ìáí¨,Shinkamigoto-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 3
+             3091 = {
+                naval_base = 2
+             }
+             3896 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         378 1891 2933 3896 323 3091 6688 6689 6690 6684 6685 6686 6693 6695
+     }
+}

@@ -1,0 +1,32 @@
+state={
+     id=173
+     name="STATE_173" #íÜí√êÏ#NAKATSUGAWA
+     manpower = 129413
+     state_category = rural
+     resources={
+         oil = 15
+         aluminium = 6
+         rubber = 0
+         tungsten = 22
+         steel = 0
+         chromium = 45
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {5833 5} #íÜí√êÏés,Nakatsugawa-shi
+         victory_points = {3473 1} #åbìﬂés,Ena-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             1886 = {bunker = 1}
+             5918 = {bunker = 1}
+             625 = {bunker = 1}
+             5952 = {bunker = 1}
+         }
+     }
+     provinces={
+         182 625 1006 1257 1406 1773 1886 2133 2154 2231 2299 2463 2849 2905 3064 3471 3473 5646 5709 5720 5728 5737 5779 5818 5826 5833 5852 5870 5879 5909 5918 5942 5952 
+     }
+}

@@ -1,0 +1,37 @@
+state={
+     id=52
+     name="STATE_52" #“Œ•”å‘ä#TOBUSENDAI
+     manpower = 1264328
+     state_category = metropolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 11
+         steel = 21
+         chromium = 0
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {5780 35} #Â—t‹æ,Sendai-shi, Aoba-ku
+         victory_points = {2203 5} #‰–â}s,Shiogama-shi
+         victory_points = {5840 5} #–¼æs,Natori-shi
+         victory_points = {2203 7} #‘½‰êés,Tagajo-shi
+         victory_points = {5889 3} #ŠâÀs,Iwanuma-shi
+         victory_points = {5711 2} #•x’Js,Tomiya-shi
+         victory_points = {5763 2} #—˜•{’¬,Rifu-cho
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 2
+             arms_factory = 4
+             air_base = 6 #å‘ä‹ó`EŠî’n,Sendai-airport/airbase
+             5884 = {
+                naval_base = 2
+            }
+         }
+     }
+     provinces={
+         1131 2203 2213 2781 2820 2904 3024 3309 3331 5705 5711 5731 5739 5752 5766 5769 5777 5780 5789 5804 5820 5821 5840 5847 5854 5873 5884 5889 5908 5987 5763 5743
+     }
+}

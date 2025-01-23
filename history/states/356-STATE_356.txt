@@ -1,0 +1,28 @@
+state={
+     id=356
+     name="STATE_356" #ˆÉ‰ê#IGA
+     manpower = 171093
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         victory_points = {5664 3} #–¼’£Žs,Nabari-shi
+         victory_points = {5637 2} #ˆÉ‰êŽs,Iga-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         539 1581 5564 5574 5597 5633 5637 5664 5672 5717 
+     }
+}

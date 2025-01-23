@@ -1,0 +1,26 @@
+state={
+     id=450
+     name="STATE_450" #ïüìáÅEëÈìá#FUKUSHIMAÅETAKASHIMA
+     manpower = 4295
+     state_category = pastoral
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         6682 6696
+     }
+}

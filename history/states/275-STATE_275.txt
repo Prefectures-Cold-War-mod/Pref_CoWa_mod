@@ -1,0 +1,28 @@
+state={
+     id=275
+     name="STATE_275" #ïlìc#HAMADA
+     manpower = 77992
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 98
+         rubber = 0
+         tungsten = 7
+         steel = 0
+         chromium = 56
+     }
+     history ={
+         owner = SMN
+         add_core_of = SMN
+         victory_points = {1396 5} #ïlìcés,Hamada-shi
+         victory_points = {987 1} #ç]í√és,Gotsu-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         457 514 752 987 1043 1055 1396 1566 1872 3117 3337 4056 4110 4124 
+     }
+}

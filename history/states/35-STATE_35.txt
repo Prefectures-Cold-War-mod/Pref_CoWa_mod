@@ -1,0 +1,28 @@
+state={
+     id=35
+     name="STATE_35" #–{‘‘—R—˜#HONJOYURI
+     manpower = 102014
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AKI
+         add_core_of = AKI
+         victory_points = {1687 2} #—R—˜–{‘‘Žs,Yurihonjo-shi
+         victory_points = {607 1} #‚É‚©‚ÙŽs,Nikaho-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         80 607 717 1589 1687 1752 1867 3042 3104 4771 4892 4902 9449 9447 9446
+     }
+}

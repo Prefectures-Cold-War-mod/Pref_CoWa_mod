@@ -1,0 +1,64 @@
+OSK_com = {
+    color = rgb { 143 22 22 }
+    color_ui = rgb { 143 22 22 }
+}
+WKY_com = {
+    color = rgb { 211 50 50 }
+    color_ui = rgb { 211 50 50 }
+}
+NRA_com = {
+    color = rgb { 211 50 50 }
+    color_ui = rgb { 211 50 50 }
+}
+SKY_com = {
+    color = rgb { 143 50 50 }
+    color_ui = rgb { 143 50 50 }
+}
+SET_com = {
+    color = rgb { 143 50 50 }
+    color_ui = rgb { 143 50 50 }
+}
+TNB_com = {
+    color = rgb { 143 50 50 }
+    color_ui = rgb { 143 50 50 }
+}
+SIG_com = {
+    color = rgb { 143 22 22 }
+    color_ui = rgb { 143 22 22 }
+}
+RK_EHM = {
+    color = rgb { 100 100 135 }
+    color_ui = rgb { 100 100 135 }
+}
+RK_KUT = {
+    color = rgb { 100 122 100 }
+    color_ui = rgb { 100 122 100 }
+}
+RK_TKS = {
+    color = rgb { 129 100 100 }
+    color_ui = rgb { 129 100 100 }
+}
+RK_EIM = {
+    color = rgb { 100 85 100 }
+    color_ui = rgb { 100 85 100 }
+}
+RK_HRM = {
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
+}
+RK_AWJ = {
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
+}
+RK_OKY = {
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
+}
+RK_RKK = {
+    color = rgb { 100 100 135 }
+    color_ui = rgb { 100 100 135 }
+}
+RK_OIT = {
+    color = rgb { 129 100 100 }
+    color_ui = rgb { 129 100 100 }
+}

@@ -1,0 +1,45 @@
+state={
+     id=169
+     name="STATE_169" #äÚïå#GIFU
+     manpower = 1131019
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {3437 20} #äÚïåés,Gifu-shi
+         victory_points = {1899 3} #ëÂä_és,Ogaki-shi
+         victory_points = {1899 1} #âHìáés,Hashima-shi
+         victory_points = {826 1} #äeñ±å¥és,Kakamigahara-shi
+         victory_points = {826 1} #äÚìÏí¨,Ginan-cho
+         victory_points = {5575 1} #ä}èºí¨,Kasamatsu-cho
+         victory_points = {593 1} #ó{òVí¨,Yoro-cho
+         victory_points = {5412 1} #ä÷ÉPå¥í¨,Sekigahara-cho
+         victory_points = {2014 1} #írìcí¨,Ikeda-cho
+         victory_points = {1978 1} #å¢éRés,Inuyama-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 4
+             arms_factory = 1
+             fuel_silo = 1
+			 air_base = 2
+
+             2450 = {bunker = 1}
+			 5586 = {bunker = 1}
+			 5575 = {bunker = 1}
+             826 = {bunker = 1}
+             5583 = {bunker = 1}
+             1978 = {bunker = 1}
+         }
+     }
+     provinces={
+         593 826 1420 1899 1978 2014 2450 3437 5412 5472 5478 5486 5527 5575 5583 5586 
+     }
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H22
+		add_core_of = H22
+		victory_points = {
+			9311 20 
+		}
+		victory_points = {
+			814 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		42 211 248 342 370 488 702 814 898 1142 1221 1595 1611 2086 2908 3034 3540 3545 3558 3563 3582 9310 9311 
+	}
+	manpower=421855
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+state={
+     id=106
+     name="STATE_106" #èäëÚ#TOKOROZAWA
+     manpower = 958239
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {1432 5} #èäëÚés,Tokorozawa-shi
+         victory_points = {6365 1} #í©â‡és,Asaka-shi
+         victory_points = {2639 1} #ïxémå©és,Fujimi-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 5
+             arms_factory = 2
+         }
+     }
+     provinces={
+         1432 2052 2639 6313 6321 6339 6350 6353 6365 6373
+     }
+}

@@ -1,0 +1,30 @@
+state={
+     id=380
+     name="STATE_380" #î\å©#NOMI
+     manpower = 222879
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 10
+         chromium = 0
+     }
+     history ={
+         owner = ISI
+         add_core_of = ISI
+         victory_points = {4855 1} #îíéRés,Hakusan-shi
+         victory_points = {3094 1} #î\î¸és,Nomi-shi
+         victory_points = {4855 1} #ñÏÅXésés,Nonoichi-shi
+         victory_points = {3094 1} #êÏñkí¨,Kawakita-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         3094 4855 9329
+     }
+}

@@ -1,0 +1,27 @@
+state={
+     id=236
+     name="STATE_236" #“ì’O#NANTAN
+     manpower = 31981
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 11
+         rubber = 0
+         tungsten = 1
+         steel = 0
+         chromium = 8
+     }
+     history ={
+         owner = KYT
+         add_core_of = KYT
+         victory_points = {99 2} #“ì’OŽs,Nantan-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         99 279 315 1234 1834 1935 2769 2941 5012 5034 5047 5081 5084 5092 5093 5100 5105 5106 5116 5117 5119 5130 5138 
+     }
+}

@@ -1,0 +1,28 @@
+state={
+     id=426
+     name="STATE_426" #î™èó#YAME
+     manpower = 83429
+     state_category = rural
+     resources={
+         oil = 25
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4203 2} #î™èóés,Yame-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         748 1078 1354 2098 2613 2863 2934 4203 4215 4233 4258 4301 
+     }
+}

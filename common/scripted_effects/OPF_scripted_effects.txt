@@ -1,0 +1,45 @@
+#共産党
+OSK_cp_small_opposition = {
+	custom_effect_tooltip = OSK_cp_small_opposition_tt
+	add_to_variable = { var = OCP_OSK_pf_uchigeba_category_value value = -5 }
+}
+OSK_cp_small_support = {
+	custom_effect_tooltip = OSK_cp_small_support_tt
+	add_to_variable = { var = OCP_OSK_pf_uchigeba_category_value value = 5 }
+}
+#社会市民連合
+OSK_pco_small_opposition = {
+	custom_effect_tooltip = OSK_pco_small_opposition_tt
+	add_to_variable = { var = PCO_OSK_pf_uchigeba_category_value value = -5 }
+}
+OSK_pco_small_support = {
+	custom_effect_tooltip = OSK_pco_small_support_tt
+	add_to_variable = { var = PCO_OSK_pf_uchigeba_category_value value = 5 }
+}
+#解放同盟
+OSK_kl_small_opposition = {
+	custom_effect_tooltip = OSK_kl_small_opposition_tt
+	add_to_variable = { var = KL_OSK_pf_uchigeba_category_value value = -5 }
+}
+OSK_kl_small_support = {
+	custom_effect_tooltip = OSK_kl_small_support_tt
+	add_to_variable = { var = KL_OSK_pf_uchigeba_category_value value = 5 }
+}
+#無政府
+OSK_acp_small_opposition = {
+	custom_effect_tooltip = OSK_acp_small_opposition_tt
+	add_to_variable = { var = ACP_OSK_pf_uchigeba_category_value value = -5 }
+}
+OSK_acp_small_support = {
+	custom_effect_tooltip = OSK_acp_small_support_tt
+	add_to_variable = { var = ACP_OSK_pf_uchigeba_category_value value = 5 }
+}
+#黒田
+OSK_kurota_small_opposition = {
+	custom_effect_tooltip = OSK_kurota_small_opposition_tt
+	add_to_variable = { var = Kurota_OSK_pf_uchigeba_category_value value = -5 }
+}
+OSK_kurota_small_support = {
+	custom_effect_tooltip = OSK_kurota_small_support_tt
+	add_to_variable = { var = Kurota_OSK_pf_uchigeba_category_value value = 5 }
+}

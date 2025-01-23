@@ -1,0 +1,30 @@
+state={
+     id=400
+     name="STATE_400" #Ž­‰®#KANOYA
+     manpower = 110344
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 7
+         rubber = 0
+         tungsten = 0
+         steel = 11
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {2175 3} #Ž­‰®Žs,Kanoya-shi
+         victory_points = {5066 1} #“Œ‹ø—Ç’¬,Higashikushira-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             fuel_silo = 1
+             air_base = 1
+         }
+     }
+     provinces={
+         1879 2175 3033 4990 5020 5066 5144 
+     }
+}

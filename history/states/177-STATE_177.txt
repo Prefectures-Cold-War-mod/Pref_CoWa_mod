@@ -1,0 +1,28 @@
+state={
+     id=177
+     name="STATE_177" #ŠC•”#AMA
+     manpower = 359058
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {5644 1} #’Ã“‡Žs,Tsushima-shi
+         victory_points = {2742 1} #”ò“‡‘º,Tobishima-mura
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         2742 2796 3241 5613 5644 5665 5669 5683 5684 
+     }
+}

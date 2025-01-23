@@ -1,0 +1,957 @@
+add_namespace = KGW_event_harada
+
+
+country_event = {
+	id = KGW_event_harada.1
+	title = KGW_event_harada.1.t
+	desc = KGW_event_harada.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.1.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.2
+	title = KGW_event_harada.2.t
+	desc = KGW_event_harada.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.2.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.3
+	title = KGW_event_harada.3.t
+	desc = KGW_event_harada.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.3.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.4
+	title = KGW_event_harada.4.t
+	desc = KGW_event_harada.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.4.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.5
+	title = KGW_event_harada.5.t
+	desc = KGW_event_harada.5.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.5.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.6
+	title = KGW_event_harada.6.t
+	desc = KGW_event_harada.6.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.6.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.7
+	title = KGW_event_harada.7.t
+	desc = KGW_event_harada.7.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.7.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.8
+	title = KGW_event_harada.8.t
+	desc = KGW_event_harada.8.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.8.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.9
+	title = KGW_event_harada.9.t
+	desc = KGW_event_harada.9.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.9.a	
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.10
+	title = KGW_event_harada.10.t
+	desc = KGW_event_harada.10.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.10.a	
+hidden_effect = {
+set_country_flag = Harada_Fukuya
+}
+	}	
+	option = {
+		name = KGW_event_harada.10.a	
+hidden_effect = {
+set_country_flag = Harada_Ohira
+
+}
+	}		
+}
+add_namespace = KGW_event_harada.1
+
+
+country_event = {
+	id = KGW_event_harada.11
+	title = KGW_event_harada.11.t
+	desc = KGW_event_harada.11.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.11.a	
+hidden_effect = {
+set_country_flag = Harada_kondo
+
+}
+
+	}	
+	option = {
+		name = KGW_event_harada.11.b	
+hidden_effect = {
+set_country_flag = Harada_Ono
+
+}
+	}			
+}
+country_event = {
+	id = KGW_event_harada.12
+	title = KGW_event_harada.12.t
+	desc = KGW_event_harada.12.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.12.a	
+		trigger = {
+
+			has_country_flag = Harada_Fukuya
+		}
+hidden_effect = {
+state_event = { 
+    days = 1
+id = KGW_news_event.2
+}
+clr_country_flag = Harada_Ohira
+clr_country_flag = Harada_Ono
+clr_country_flag = Harada_kondo
+}
+	}	
+	option = {
+		name = KGW_event_harada.12.b	
+		trigger = {
+			has_country_flag = Harada_Ohira
+		}
+hidden_effect = {
+state_event = { 
+    days = 1
+id = KGW_news_event.3
+}
+clr_country_flag = Harada_Fukuya
+clr_country_flag = Harada_Ono
+clr_country_flag = Harada_kondo
+}
+	}	
+	option = {
+		name = KGW_event_harada.12.c	
+		trigger = {
+			has_country_flag = Harada_kondo
+		}
+hidden_effect = {
+state_event = { 
+    days = 1
+id = KGW_news_event.4
+}
+clr_country_flag = Harada_Fukuya
+clr_country_flag = Harada_Ono
+clr_country_flag = Harada_Ohira
+}
+	}
+	option = {
+		name = KGW_event_harada.12.d	
+		trigger = {
+			has_country_flag = Harada_Ono
+		}
+hidden_effect = {
+state_event = { 
+    days = 1
+id = KGW_news_event.5
+}
+clr_country_flag = Harada_Fukuya
+clr_country_flag = Harada_kondo
+clr_country_flag = Harada_Ohira
+}
+	}	
+
+	
+}
+#内戦イベント
+country_event = {
+	id = KGW_event_harada.13
+	title = KGW_event_harada.13.t
+	desc = KGW_event_harada.13.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = KGW
+		date > 1963.10.1
+	}
+		
+	option = {
+		name = KGW_event_harada.13.a	
+add_stability = -0.02
+state_event = { 
+    days = 1
+id = KGW_news_event.1
+}
+state_event = { 
+    days = 14
+id = KGW_event_harada.14
+}
+create_country_leader = { 
+	name = "指導者不在" 
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+	picture = "KGW2.dds" 
+	expire = "2000.1.1" 
+	ideology = nazism
+
+}
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.14
+	title = KGW_event_harada.14.t
+	desc = KGW_event_harada.14.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.14.a	
+hidden_effect = {
+state_event = { 
+    days = 14
+id = KGW_event_harada.19
+}
+}
+	}			
+}
+country_event = {
+	id = KGW_event_harada.15
+	title = KGW_event_harada.15.t
+	desc = KGW_event_harada.15.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.15.a	
+		trigger = {
+			has_country_flag = Harada_fukuya
+		}
+hidden_effect = {
+clr_country_flag = Harada_fukuya
+set_global_flag = kagawa_civil_war_global
+		KG1 = { change_tag_from = KGW }
+
+KG1 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG2 = {
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG3 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG4 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+}
+
+}
+	}
+	option = {
+		name = KGW_event_harada.15.b	
+		trigger = {
+			has_country_flag = Harada_Ohira
+		}
+hidden_effect = {
+clr_country_flag = Harada_Ohira
+set_global_flag = kagawa_civil_war_global
+		KG2 = { change_tag_from = KGW }
+
+KG1 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG2 = {
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG3 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG4 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+}
+
+}
+	}
+	option = {
+		name = KGW_event_harada.15.c	
+		trigger = {
+			has_country_flag = Harada_kondo
+		}
+hidden_effect = {
+clr_country_flag = Harada_kondo
+set_global_flag = kagawa_civil_war_global
+		KG3 = { change_tag_from = KGW }
+
+KG1 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG2 = {
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG3 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG4 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+}
+
+}
+	}
+	option = {
+		name = KGW_event_harada.15.d	
+		trigger = {
+			has_country_flag = Harada_Ono
+		}
+hidden_effect = {
+
+clr_country_flag = Harada_Ono
+set_global_flag = kagawa_civil_war_global
+		KG4 = { change_tag_from = KGW }
+
+KG1 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG2 = {
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG3 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG4
+    type = annex_everything
+}
+}
+KG4 = {
+declare_war_on = {
+    target = KG2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KG1
+    type = annex_everything
+}
+}
+
+}
+	}			
+}
+country_event = {
+	id = KGW_event_harada.16
+	title = KGW_event_harada.16.t
+	desc = KGW_event_harada.16.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_harada.16.a	
+
+	}			
+}
+#内戦終結
+country_event = {
+	id = KGW_event_harada.17
+	title = KGW_event_harada.17.t
+	desc = KGW_event_harada.17.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = KG1
+owns_state = 548
+owns_state = 250
+owns_state = 370
+owns_state = 541
+owns_state = 551
+owns_state = 550
+owns_state = 372
+owns_state = 507
+owns_state = 549
+owns_state = 373
+owns_state = 542
+owns_state = 286
+owns_state = 252
+	}
+		
+	option = {
+		name = KGW_event_harada.17.a
+KG1 = {
+retire_country_leader = yes
+}
+
+KGW = {	
+set_politics = {
+	ruling_party = nazism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+create_country_leader = { 
+	name = "福家俊一"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+	picture = "KGW3.dds" 
+	expire = "2000.1.1" 
+	ideology = nazism
+
+}
+annex_country = {
+    target = KG1
+    transfer_troops = yes
+}
+		KGW = { change_tag_from = KG1 }
+}
+news_event = {
+id = KGW_news_event.7
+day = 2
+}
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.18
+	title = KGW_event_harada.18.t
+	desc = KGW_event_harada.18.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = KG2
+owns_state = 548
+owns_state = 250
+owns_state = 370
+owns_state = 541
+owns_state = 551
+owns_state = 550
+owns_state = 372
+owns_state = 507
+owns_state = 549
+owns_state = 373
+owns_state = 542
+owns_state = 286
+owns_state = 252
+	}
+		
+	option = {
+		name = KGW_event_harada.18.a
+		KGW = { change_tag_from = KG2 }
+KG2 = {
+retire_country_leader = yes
+}
+
+KGW = {	
+annex_country = {
+    target = KG2
+    transfer_troops = yes
+}
+set_politics = {
+	ruling_party = fascism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+create_country_leader = { 
+	name = "大平正芳"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+	picture = "KGW4.dds" 
+	expire = "2000.1.1" 
+	ideology = fascism
+
+}
+}
+news_event = {
+id = KGW_news_event.8
+day = 2
+}
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.21
+	title = KGW_event_harada.21.t
+	desc = KGW_event_harada.21.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = KG3
+owns_state = 548
+owns_state = 250
+owns_state = 370
+owns_state = 541
+owns_state = 551
+owns_state = 550
+owns_state = 372
+owns_state = 507
+owns_state = 549
+owns_state = 373
+owns_state = 542
+owns_state = 286
+owns_state = 252
+	}
+		
+	option = {
+		name = KGW_event_harada.21.a
+		KGW = { change_tag_from = KG3 }
+KG3 = {
+retire_country_leader = yes
+}
+
+KGW = {	
+annex_country = {
+    target = KG3
+    transfer_troops = yes
+}
+set_politics = {
+	ruling_party = ultranationalism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+create_country_leader = { 
+	name = "近藤新八"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+	picture = "KGW5.dds" 
+	expire = "2000.1.1" 
+	ideology = ultranationalism
+
+}
+}
+news_event = {
+id = KGW_news_event.9
+day = 2
+}
+
+	}			
+}
+country_event = {
+	id = KGW_event_harada.22
+	title = KGW_event_harada.22.t
+	desc = KGW_event_harada.22.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = KG4
+owns_state = 548
+owns_state = 250
+owns_state = 370
+owns_state = 541
+owns_state = 551
+owns_state = 550
+owns_state = 372
+owns_state = 507
+owns_state = 549
+owns_state = 373
+owns_state = 542
+owns_state = 286
+owns_state = 252
+	}
+		
+	option = {
+		name = KGW_event_harada.22.a
+		KGW = { change_tag_from = KG4 }
+KG4 = {
+retire_country_leader = yes
+}
+
+KGW = {	
+annex_country = {
+    target = KG4
+    transfer_troops = yes
+}
+set_politics = {
+	ruling_party = esoteric_nazism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+create_country_leader = { 
+	name = "大野広一"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+	picture = "KGW6.dds" 
+	expire = "2000.1.1" 
+	ideology = esoteric_nazism
+
+}
+}
+news_event = {
+id = KGW_news_event.10
+day = 2
+}
+
+	}			
+}
+#内戦実行イベント
+country_event = {
+	id = KGW_event_harada.19
+	title = KGW_event_harada.19.t
+	desc = KGW_event_harada.19.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		    hidden = yes
+	option = {
+		name = KGW_event_harada.19.a
+set_politics = {
+	ruling_party = nazism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+
+state_event = { 
+    days = 3
+id = KGW_news_event.6
+}	
+state_event = { 
+id = KGW_event_harada.15
+}
+KG1 = {
+transfer_state = 541
+transfer_state = 370
+transfer_state = 551
+load_oob = "KG1_civilwar"
+add_state_core = 541
+add_state_core = 370
+add_state_core = 551
+add_state_core = 286
+add_state_core = 542
+add_state_core = 642
+add_state_core = 373
+add_state_core = 541
+add_state_core = 252
+add_state_core = 250
+add_state_core = 548
+}
+KG2 = {
+transfer_state = 286
+transfer_state = 542
+transfer_state = 642
+transfer_state = 373
+transfer_state = 252
+load_oob = "KG2_civilwar"
+add_state_core = 541
+add_state_core = 370
+add_state_core = 551
+add_state_core = 286
+add_state_core = 542
+add_state_core = 642
+add_state_core = 373
+add_state_core = 541
+add_state_core = 252
+add_state_core = 250
+add_state_core = 548
+}
+KG3 = {
+transfer_state = 250
+transfer_state = 548
+load_oob = "KG3_civilwar"
+add_state_core = 541
+add_state_core = 370
+add_state_core = 551
+add_state_core = 286
+add_state_core = 542
+add_state_core = 642
+add_state_core = 373
+add_state_core = 541
+add_state_core = 252
+add_state_core = 250
+add_state_core = 548
+}
+KG4 = {
+transfer_state = 549
+transfer_state = 507
+transfer_state = 372
+transfer_state = 550
+load_oob = "KG4_civilwar"
+add_state_core = 541
+add_state_core = 370
+add_state_core = 551
+add_state_core = 286
+add_state_core = 542
+add_state_core = 642
+add_state_core = 373
+add_state_core = 541
+add_state_core = 252
+add_state_core = 250
+add_state_core = 548
+}
+KGW = {
+		transfer_units_fraction = {
+			target = KG1
+			size = 0.20
+}
+		transfer_units_fraction = {
+			target = KG2
+			size = 0.4
+}
+		transfer_units_fraction = {
+			target = KG3
+			size = 0.6
+}
+		transfer_units_fraction = {
+			target = KG4
+			size = 0.8
+}
+}
+	}			
+}

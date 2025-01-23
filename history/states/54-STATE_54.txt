@@ -1,0 +1,29 @@
+state={
+     id=54
+     name="STATE_54" #îíêŒ#SHIROISHI
+     manpower = 78523
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 24
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {5809 10} #îíêŒés,Shiroishi-shi
+         victory_points = {20 2} #äpìcés,Kakuda-shi
+         victory_points = {5722 1} #éµÉñèhí¨,Shichikashuku-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         20 45 535 705 1821 2377 2380 2859 5686 5722 5730 5753 5759 5788 5809 5819 5846 5853 5876 5881 5894 5968 9330
+     }
+}

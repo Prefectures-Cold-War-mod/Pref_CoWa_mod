@@ -1,0 +1,34 @@
+state={
+     id=242
+     name="STATE_242" #ìåîdñÅ#HIGASHI HARIMA
+     manpower = 712267
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HRM
+         add_core_of = HYG
+         add_core_of = HRM
+         victory_points = {2232 5} #ñæêŒés,Akashi-shi
+         victory_points = {5041 2} #â¡å√êÏés,Kakogawa-shi
+         victory_points = {2023 1} #çÇçªés,Takasago-shi
+         victory_points = {2848 1} #îdñÅí¨,Harima-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 1
+             5240 = {
+                naval_base = 3
+             }
+         }
+     }
+     provinces={
+        2023 2232 2848 2922 4998 5041 5045
+     }
+}

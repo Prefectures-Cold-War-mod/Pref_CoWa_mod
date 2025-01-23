@@ -1,0 +1,37 @@
+
+state={
+	id=198
+	name="STATE_198"
+	resources={
+		oil = 0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 114
+	}
+
+	history={
+		owner = SIG
+		add_core_of = SIG
+		add_core_of = RAS
+		victory_points = {
+			5259 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		435 1371 1543 1851 2638 5153 5156 5189 5208 5258 5259 9240 
+	}
+	manpower=48963
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

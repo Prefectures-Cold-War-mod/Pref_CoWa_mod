@@ -1,0 +1,30 @@
+state={
+     id=80
+     name="STATE_80" #ì»ñÿ#TOCHIGI
+     manpower = 452235
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 120
+         rubber = 0
+         tungsten = 0
+         steel = 8
+         chromium = 98
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         victory_points = {6197 15} #ì»ñÿés,Tochigi-shi
+         victory_points = {6134 2} #é≠è¿és,Kanuma-shi
+         victory_points = {6230 2} #è¨éRés,Oyama-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 1
+             air_base = 4
+         }
+     }
+     provinces={
+         537 594 623 1545 1992 2412 2521 2545 2612 2686 2804 2831 2909 2964 3432 6089 6125 6134 6137 6148 6151 6159 6178 6194 6197 6223 6230 6243 6248 
+     }
+}

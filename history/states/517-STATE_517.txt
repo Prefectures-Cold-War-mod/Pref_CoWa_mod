@@ -1,0 +1,27 @@
+state={
+     id=517
+     name="STATE_517" #ç≤âÍñkïî#SAGAHOKUBU
+     manpower = 31900
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         add_core_of = SGA
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         660 2083 2272 2974 3307 4023 4032 4039 4040 4044 4054 4059 4067 4069 4070 
+     }
+}

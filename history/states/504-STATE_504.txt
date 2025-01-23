@@ -1,0 +1,30 @@
+state={
+     id=504
+     name="STATE_504" #ëÂçËè„ìá#OSAKIKAMIJIMA
+     manpower = 7538
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+ add_core_of = HRS
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             1225 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         1225
+     }
+}

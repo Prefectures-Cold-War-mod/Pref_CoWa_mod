@@ -1,0 +1,28 @@
+state={
+     id=66
+     name="STATE_66" #è¿ìc#NUMATA
+     manpower = 263274
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 19
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 15
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {5887 5} #è¿ìcés,Numata-shi
+         victory_points = {5872 1} #êÏèÍë∫,Kawaba-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 2
+         }
+     }
+     provinces={
+         236 940 1226 1228 1517 2501 2623 2705 2842 3469 5872 5887 5900 5924 5943 5977 
+     }
+}

@@ -1,0 +1,29 @@
+state={
+     id=385
+     name="STATE_385" #î—íÀÅEâ√ñÉ#IIZUKAÅEKAMA
+     manpower = 180908
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 12
+         rubber = 10
+         tungsten = 5
+         steel = 35
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {2202 5} #î—íÀés,Iizuka-shi
+         victory_points = {4103 1} #åjêÏí¨,Keisen-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         405 1631 1901 2202 3265 4089 4103 4131 4151 
+     }
+}

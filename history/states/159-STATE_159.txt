@@ -1,0 +1,31 @@
+state={
+     id=159
+     name="STATE_159" #âìèBìÏ#ENSHUMINAMI
+     manpower = 1311264
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 3
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SIZ
+         add_core_of = TOO
+         victory_points = {6135 15} #íÜãÊ,Hamamatsu-shi, Naka-ku
+         victory_points = {6224 1} #î÷ìcés,Iwata-shi
+         victory_points = {6254 1} #ä|êÏés,Kakegawa-shi
+         victory_points = {9288 1} #åŒêºés,Kosai-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 4
+             arms_factory = 2
+             air_base = 5
+         }
+     }
+     provinces={
+         918 1074 1516 1565 1890 1927 2441 2544 2554 2687 2714 2989 6135 6149 6183 6205 6224 6250 6254 9288 9328
+     }
+}

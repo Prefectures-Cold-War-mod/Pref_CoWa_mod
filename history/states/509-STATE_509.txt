@@ -1,0 +1,26 @@
+state={
+     id=509
+     name="STATE_509" #‚Æ‚Ñ‚µ‚ÜŠC“¹#TOBISHIMAKAIDO
+     manpower = 72
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EHM
+         add_core_of = EHM
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         6732 6733 6734
+     }
+}

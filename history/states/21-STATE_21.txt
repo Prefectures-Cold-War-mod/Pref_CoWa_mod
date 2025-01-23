@@ -1,0 +1,31 @@
+state={
+     id=21
+     name="STATE_21" #—˜K#RISHIRI
+     manpower = 4529
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = H15
+         add_core_of = H15
+         victory_points = {699 1} #—˜K’¬,Rishiri-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 2 #—˜K‹ó`,Rishiri-airport
+             699 = {
+                naval_base = 1
+			}
+         }
+     }
+     provinces={
+         699 2341 
+     }
+}

@@ -1,0 +1,32 @@
+state={
+     id=306
+     name="STATE_306" #‘Î”n#TSUSHIMA
+     manpower = 31005
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 15
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {3692 5} #‘Î”nŽs,Tsushima-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 1
+             fuel_silo = 1
+             air_base = 2
+             3692 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         616 1060 1981 2157 2386 2504 2508 2707 2776 2793 2937 3089 3386 3583 3588 3590 3591 3593 3594 3595 3599 3600 3601 3603 3609 3610 3611 3615 3625 3640 3655 3660 3664 3665 3667 3674 3675 3682 3692 3699 
+     }
+}

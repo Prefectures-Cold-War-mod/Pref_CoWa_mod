@@ -1,0 +1,30 @@
+state={
+     id=444
+     name="STATE_444" #å‹ñÿ#ITSUKI
+     manpower = 11312
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {4597 1} #êÖè„ë∫,Mizukami-mura
+         victory_points = {4517 1} #å‹ñÿë∫,Itsuki-mura
+         victory_points = {4550 1} #éRç]ë∫,Yamae-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         46 130 1053 1094 1801 2636 2940 3275 4491 4512 4517 4526 4550 4551 4554 4567 4580 4597 4628 
+     }
+}

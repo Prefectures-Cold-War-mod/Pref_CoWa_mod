@@ -1,0 +1,33 @@
+state={
+     id=146
+     name="STATE_146" #ç≤ìn#SADO
+     manpower = 55333
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 44
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 8
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         victory_points = {4781 3} #ç≤ìnés,Sado-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 0
+             2264 = {
+				naval_base = 1
+			}
+             3190 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         134 271 1058 1367 1523 1560 2134 2264 2683 2899 3107 3151 3190 4677 4731 4752 4761 4781 4813 4827 
+     }
+}

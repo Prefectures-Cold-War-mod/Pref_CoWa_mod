@@ -1,0 +1,96 @@
+﻿l_japanese:
+##政府支出
+ budget:0 "政府支出"
+ Army_budget:0 "軍事予算"
+ Police_budget:0 "国内治安・警察予算"
+ Education_budget:0 "教育予算"
+ Public_budget:0 "公共事業予算"
+ welfare:0 "社会保障予算"
+
+ Road_to_Serfdom:0 "政府の裁量"
+ Road_to_Serfdom1:0 "高度分散行政"
+ Road_to_Serfdom2:0 "非常に小さな政府"
+ Road_to_Serfdom3:0 "小さな政府"
+ Road_to_Serfdom4:0 "中間的政府"
+ Road_to_Serfdom5:0 "大きな政府"
+ Road_to_Serfdom6:0 "非常に大きな政府"
+ Road_to_Serfdom7:0 "超中央集権政府"
+
+ Army_budget1:0 "最低限の国境警備"
+ Army_budget2:0 "最低限の自衛予算"
+ Army_budget3:0 "少ない軍事予算"
+ Army_budget4:0 "中程度の軍事予算"
+ Army_budget5:0 "大規模な軍事予算"
+ Army_budget6:0 "非常に大規模な軍事予算"
+ Army_budget7:0 "高度国防国家"
+ Army_budget8:0 "国家総力戦"
+
+ Police_budget1:0 "最低限の警備予算"
+ Police_budget2:0 "少ない警察予算"
+ Police_budget3:0 "中程度の警察予算"
+ Police_budget4:0 "大規模な警察予算"
+ Police_budget5:0 "警察国家"
+ Police_budget6:0 "偉大な兄弟は常に君を見ている"
+
+ Education_budget1:0 "最低限の教育予算"
+ Education_budget2:0 "少ない教育予算"
+ Education_budget3:0 "中規模な教育予算"
+ Education_budget4:0 "大規模な教育予算"
+ Education_budget5:0 "限定的教育無償化"
+ Education_budget6:0 "完全教育無償化"
+
+ Public_budget1:0 "コンクリートから人へ"
+ Public_budget2:0 "少ない公共事業予算"
+ Public_budget3:0 "中程度の公共事業予算"
+ Public_budget4:0 "大規模な程度の公共事業予算"
+ Public_budget5:0 "国土強靭化政策"
+ Public_budget6:0 "要塞国家"
+
+ welfare1:0 "最小国家"
+ welfare2:0 "少ない社会保障予算"
+ welfare3:0 "中程度の社会保障予算"
+ welfare4:0 "大規模な社会保障予算"
+ welfare5:0 "福祉国家"
+ welfare6:0 "偉大な社会"
+
+ economy:0 "経済政策"
+ market:0 "市場への介入"
+ cop_tax:0 "事業税"
+ fair_tax:0 "住民税"
+ financial:0 "金融政策"
+ inflation:0 "インフレ率"
+ finance:0 "財政健全度"
+
+##経済政策
+#市場への介入
+market1:0 "自由放任主義"
+market2:0 "最低限の監視"
+market3:0 "消極的自由主義経済"
+market4:0 "積極的自由主義経済"
+market5:0 "計画経済国家"
+market6:0 "高度計画経済"
+#住民税
+fair_tax1:0 "住民税の廃止"
+fair_tax2:0 "かなり低い住民税"
+fair_tax3:0 "低い住民税"
+fair_tax4:0 "中程度の住民税"
+fair_tax5:0 "高い住民税"
+fair_tax6:0 "かなり高い住民税"
+fair_tax7:0 "日本人なら贅沢はできないはずだ！"
+#事業税
+cop_tax1:0 "事業税の廃止"
+cop_tax2:0 "非常に低い事業税"
+cop_tax3:0 "低い事業税"
+cop_tax4:0 "中程度の事業税"
+cop_tax5:0 "高い事業税"
+cop_tax6:0 "非常に高い事業税"
+cop_tax7:0 "資本家の打倒"
+#労働規制
+#ビジネス規制
+#国際貿易
+
+#政府規制と権利
+
+#三権分立
+#政治の自由
+#マイノリティの権利

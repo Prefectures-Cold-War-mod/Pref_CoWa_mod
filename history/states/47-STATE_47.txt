@@ -1,0 +1,27 @@
+state={
+     id=47
+     name="STATE_47" #åIå¥ÅEëÂçË#KURIHARAÅEOSAKI
+     manpower = 30269
+     state_category = town
+     resources={
+         oil = 32
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {1036 1} #â¡î¸í¨,Kami-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         22 232 469 977 1036 1066 1184 1239 1689 1717 2082 5458 5533 5548 
+     }
+}

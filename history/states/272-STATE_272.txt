@@ -1,0 +1,28 @@
+state={
+     id=272
+     name="STATE_272" #îıñk#BIHOKU
+     manpower = 88112
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 22
+         steel = 0
+         chromium = 22
+     }
+     history ={
+         owner = HRS
+         add_core_of = HRS
+         victory_points = {1375 3} #éOéüés,Miyoshi-shi
+         victory_points = {179 2} #èØå¥és,Shobara-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         67 179 233 252 1087 1101 1254 1375 1495 1524 1526 1736 1762 2271 2725 2815 2959 3012 3198 3321 4230 4247 4264 4303 4325 4332 4336 4345 4359 4368 4378 4396 
+     }
+}

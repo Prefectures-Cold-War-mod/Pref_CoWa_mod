@@ -1,0 +1,32 @@
+state={
+     id=158
+     name="STATE_158" #è¿í√#NUMAZU
+     manpower = 929201
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SIZ
+         add_core_of = SIZ
+         victory_points = {1590 5} #è¿í√és,Numazu-shi
+         victory_points = {1590 2} #éOìáés,Mishima-shi
+         victory_points = {831 2} #ïxémã{és,Fujinomiya-shi
+         victory_points = {6323 2} #ïxémés,Fuji-shi
+         victory_points = {2862 1} #å‰ìaèÍés,Gotemba-shi
+         victory_points = {1590 1} #ê¥êÖí¨,Shimizu-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         143 355 482 598 831 1179 1590 2043 2862 6199 6218 6244 6288 6307 6310 6323 6325 6374 9324
+     }
+}

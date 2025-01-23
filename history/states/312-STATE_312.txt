@@ -1,0 +1,32 @@
+state={
+     id=312
+     name="STATE_312" #ç≤îå#SAIKI
+     manpower = 71807
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 64
+         rubber = 12
+         tungsten = 0
+         steel = 12
+         chromium = 20
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {4693 2} #ç≤îåés,Saiki-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 1
+             dockyard = 1
+             3160 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         127 293 858 1236 1259 1275 1322 1984 3160 3377 4607 4637 4642 4673 4693 4712 
+     }
+}

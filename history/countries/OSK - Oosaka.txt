@@ -1,0 +1,225 @@
+﻿capital = 228
+
+oob = "OSK_1962"
+
+create_faction = OSK_rev_union
+add_to_faction = OSK
+add_to_faction = SET
+add_to_faction = SKY
+add_to_faction = NRA
+add_to_faction = TNB
+#革新自治体
+add_dynamic_modifier = { modifier = OSK_Kakushinzititai_modifier }
+set_variable = { var = democratic_deficit_research_speed_factor value = -0.2 }
+set_variable = { var = democratic_deficit_consumer_goods_factor value = 0.2 }
+set_variable = { var = democratic_deficit_stability_factor value = 0.1 }
+set_variable = { var = democratic_deficit_political_power_gain_factor value = -0.5 }
+set_variable = { var = democratic_deficit_industrial_capacity_factory_factor value = -0.2 }
+set_variable = { var = democratic_deficit_industrial_capacity_dockyard_factor value = -0.2 }
+set_variable = { var = democratic_deficit_production_factory_start_efficiency_factor value = -0.2 }
+set_variable = { var = democratic_deficit_line_change_production_efficiency_factor value = -0.2 }
+set_variable = { var = democratic_deficit_production_speed_buildings_factor value = -0.2 }
+#内ゲバ
+set_variable = { var = KL_OSK_pf_uchigeba_category_value value = 30 }
+set_variable = { var = OCP_OSK_pf_uchigeba_category_value value = 10 }
+set_variable = { var = PCO_OSK_pf_uchigeba_category_value value = 10 }
+set_variable = { var = ACP_OSK_pf_uchigeba_category_value value = 0 }
+#議会
+set_variable = { var = OSK_senators_support value = 60 }
+set_variable = { var = OSK_senators_total value = 109 }
+USA_recalc_congress_icon_frames = yes
+
+set_research_slots = 4
+add_ideas = {
+Road_to_Serfdom5
+Army_budget3
+Police_budget2
+Education_budget3
+Public_budget3
+welfare3
+market5
+fair_tax4
+cop_tax4
+}
+add_ideas = {
+OSK_idea1
+OSK_idea2
+OSK_idea4
+OSK_idea7
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	basic_train = 1
+	trench_warfare = 1
+	base_strike = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+		gwtank = 1
+		basic_light_tank = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+			cv_early_fighter = 1
+			cv_CAS1 = 1
+			cv_naval_bomber1 = 1
+			early_fighter = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+}
+
+set_cosmetic_tag = OSK_com
+
+
+TNB = {
+set_cosmetic_tag = TNB_com
+}
+NRA = {
+set_cosmetic_tag = NRA_com
+}
+RAS = {
+set_cosmetic_tag = SIG_com
+}
+SET = {
+set_cosmetic_tag = SET_com
+}
+SKY = {
+set_cosmetic_tag = SKY_com
+}
+
+	set_autonomy = {
+		target = TNB
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = NRA
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SET
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SKY
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+set_popularities = {
+ communism = 15
+ anarchist_communism = 2
+ socialism = 30
+ democratic_socialism = 3
+ progressivism = 15
+ democratic = 15
+ liberalism = 5
+ conservatism = 10
+ fascism = 3
+ nazism = 1
+ esoteric_nazism = 1
+}
+	set_politics = {
+		ruling_party = socialism
+		last_election = "1960.12.5"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+
+
+set_convoys = 400
+set_stability = 0.1
+set_war_support = 0.1
+create_country_leader = {
+	name = "全国浪人共闘会議"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK3"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+anarcho_communist_council
+		revolutionary_council
+	}
+}
+create_country_leader = {
+	name = "朝田善次郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK3"
+	expire = "1965.1.1"
+	ideology = progressivism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "宮本顕治"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK3"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {	
+	}
+}
+create_country_leader = {
+	name = "西村栄一"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK11"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "原田憲"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK4"
+	expire = "1965.1.1"
+	ideology =  democratic
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "丸山眞男"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK4"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "中山太郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK4"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+

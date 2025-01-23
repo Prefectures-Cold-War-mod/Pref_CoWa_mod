@@ -1,0 +1,28 @@
+state={
+     id=510
+     name="STATE_510" #����#IMABARI
+     manpower = 160178
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EHM
+         add_core_of = EHM
+         victory_points = {1617 5} #�����s,Imabari-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 1
+         }
+     }
+     provinces={
+         363 1205 1617 2709 4537 4556 4599 4627 
+     }
+}

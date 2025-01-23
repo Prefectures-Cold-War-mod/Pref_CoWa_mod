@@ -1,0 +1,30 @@
+state={
+     id=99
+     name="STATE_99" #íÅïÉ#CHICHIBU
+     manpower = 99839
+     state_category = rural
+     resources={
+         oil = 21
+         aluminium = 66
+         rubber = 0
+         tungsten = 4
+         steel = 24
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {6174 10} #íÅïÉés,Chichibu-shi
+         victory_points = {2278 1} #è¨é≠ñÏí¨,Ogano-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             air_base = 1
+         }
+     }
+     provinces={
+         498 728 986 1744 1975 2278 2726 2759 2879 3111 3140 6061 6094 6097 6101 6113 6120 6133 6160 6163 6174 6177 6192 
+     }
+}

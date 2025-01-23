@@ -1,0 +1,27 @@
+state={
+     id=519
+     name="STATE_519" #èºâY#MATSURA
+     manpower = 22966
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {995 1} #èºâYés,Matsuura-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         995
+     }
+}

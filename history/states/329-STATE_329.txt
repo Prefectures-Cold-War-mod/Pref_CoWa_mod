@@ -1,0 +1,48 @@
+state={
+     id=329
+     name="STATE_329" #è\ìáë∫#TOSHIMAMURA
+     manpower = 689
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {6789 1} #è\ìáë∫,Toshima-mura
+         buildings ={
+             infrastructure = 0
+             industrial_complex = 0
+             arms_factory = 0
+		6786 = {
+                     naval_base = 1
+             }
+		6782 = {
+                     naval_base = 1
+             }
+		6785 = {
+                     naval_base = 1
+             }
+		6789 = {
+                     naval_base = 1
+             }
+		6790 = {
+                     naval_base = 1
+             }
+		6791 = {
+                     naval_base = 1
+             }
+		6792 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6782 6785 6786 6789 6790 6791 6792
+     }
+}

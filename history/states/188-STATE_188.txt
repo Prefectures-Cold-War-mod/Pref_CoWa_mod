@@ -1,0 +1,26 @@
+state={
+     id=188
+     name="STATE_188" #”’ŽR˜[#HAKUSANFUMOTO
+     manpower = 0
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 8
+         steel = 28
+         chromium = 0
+     }
+     history ={
+         owner = ISI
+         add_core_of = ISI
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         842 1307 1806 2381 4984 5059 
+     }
+}

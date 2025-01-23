@@ -1,0 +1,28 @@
+state={
+     id=410
+     name="STATE_410" #‰v“c#MASUDA
+     manpower = 60580
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 2
+         chromium = 0
+     }
+     history ={
+         owner = SMN
+         add_core_of = SMN
+         victory_points = {4061 3} #‰v“cŽs,Masuda-shi
+         victory_points = {4108 1} #’Ã˜a–ì’¬,Tsuwano-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         266 476 1599 1814 2785 2847 2994 3127 3406 3423 3433 4026 4061 4088 4090 4093 4108 4128 4142 4157 4170 4194 
+     }
+}

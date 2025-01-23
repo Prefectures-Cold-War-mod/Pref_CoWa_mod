@@ -1,0 +1,30 @@
+state={
+     id=388
+     name="STATE_388" #‹v—¯•Ä#KURUME
+     manpower = 351449
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4166 15} #‹v—¯•Äs,Kurume-shi
+         victory_points = {1242 3} #’}‘O’¬,Chikuzen-machi
+         victory_points = {4159 1} #‘å“ô’¬,Tachiarai-machi
+         buildings ={
+             infrastructure = 0
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1230 1242 2439 4141 4144 4159 4166 4181 
+     }
+}

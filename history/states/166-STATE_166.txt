@@ -1,0 +1,33 @@
+state={
+     id=166
+     name="STATE_166" #êVêÏ#NIIKAWA
+     manpower = 153763
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TYM
+         add_core_of = TYM
+         victory_points = {5019 3} #ãõí√és,Uozu-shi
+         victory_points = {5035 2} #ääêÏés,Namerikawa-shi
+         victory_points = {5019 2} #çïïîés,Kurobe-shi
+         victory_points = {5027 1} #í©ì˙í¨,Asahi-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             5019 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         580 1111 1211 1768 2013 2419 3292 3315 5019 5027 5035 5135 
+     }
+}

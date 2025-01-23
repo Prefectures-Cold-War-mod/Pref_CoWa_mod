@@ -1,0 +1,27 @@
+state={
+     id=397
+     name="STATE_397" #‘]‰—#SOO
+     manpower = 36207
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {1987 2} #‘]‰—Žs,So-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1728 1987 2344 3439 4920 9344
+     }
+}

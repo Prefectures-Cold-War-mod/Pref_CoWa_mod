@@ -1,0 +1,36 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		oil= 0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+		owner = TYM
+		add_core_of = TYM
+		victory_points = {
+			1695 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		403 1190 1248 1695 5178 5296 9241 9468 9470 9471 9481 9483 9485 9486 9489 
+	}
+	manpower=49897
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

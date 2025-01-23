@@ -1,0 +1,35 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		oil=3.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H16
+		add_core_of = H16
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			fuel_silo = 3
+			air_base = 8
+
+		}
+
+	}
+
+	provinces={
+		 92 430 655 836 1466 1546 1731 1995 2128 2620 3334 3824 3833 3836 3840 3849 3850
+	}
+	manpower=192499
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+state={
+     id=229
+     name="STATE_229" #–‡•û#HIRAKATA
+     manpower = 1013181
+     state_category = large_town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {5352 2} #–‡•ûs,Hirakata-shi
+         victory_points = {2242 1} #Q‰®ìs,Neyagawa-shi
+         victory_points = {5398 1} #‘å“Œs,Daito-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 2
+             fuel_silo = 1
+         }
+     }
+     provinces={
+         1712 2242 2788 5352 5367 5372 5391 5398 5399 5423 5429 
+     }
+}

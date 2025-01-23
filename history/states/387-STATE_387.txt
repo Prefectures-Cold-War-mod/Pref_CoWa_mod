@@ -1,0 +1,29 @@
+state={
+     id=387
+     name="STATE_387" #•Ÿ‰ª¼•”#FUKUOKASEIBU
+     manpower = 969755
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         
+         victory_points = {4017 30} #’†‰›‹æ,Fukuoka-shi, Chuo-ku
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 4
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1569 2346 2792 3520 4004 4017 4024 4034 4035 4041 4047 4062 
+     }
+}

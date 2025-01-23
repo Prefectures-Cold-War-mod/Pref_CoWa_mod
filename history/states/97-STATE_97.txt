@@ -1,0 +1,28 @@
+state={
+     id=97
+     name="STATE_97" #éôã #KODAMA
+     manpower = 134354
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {6102 3} #ñ{èØés,Honjo-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         112 6091 6102 6116 6131 
+     }
+}

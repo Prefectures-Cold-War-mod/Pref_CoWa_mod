@@ -1,0 +1,33 @@
+state={
+     id=324
+     name="STATE_324" #è¨ó—#KOBAYASHI
+     manpower = 55413
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {1309 2} #è¨ó—és,Kobayashi-shi
+         victory_points = {4795 2} #çÇå¥í¨,Takaharu-cho
+         victory_points = {4829 1} #èHìcèƒéR,Akitashouzan
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             4794 = {
+                bunker = 2
+             }
+         }
+     }
+     provinces={
+         1309 2053 2246 2325 2559 2712 2896 4732 4745 4792 4794 4795 4822 4829 4849 
+     }
+}

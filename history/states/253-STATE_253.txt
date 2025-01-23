@@ -1,0 +1,31 @@
+state={
+     id=253
+     name="STATE_253" #ìøìá#TOKUSHIMA
+     manpower = 292434
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {5275 20} #ìøìáés,Tokushima-shi
+         victory_points = {5328 3} #è¨èºìáés,Komatsushima-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+             5328 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         3346 5253 5275 5295 5301 5328 
+     }
+}

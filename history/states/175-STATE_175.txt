@@ -1,0 +1,36 @@
+
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		oil= 0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+		owner = GIF
+		add_core_of = GIF
+		victory_points = {
+			1339 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		455 692 1166 1339 1942 2267 5157 5168 5191 9469 9487
+	}
+	manpower=24272
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

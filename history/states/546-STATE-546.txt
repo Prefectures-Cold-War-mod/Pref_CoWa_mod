@@ -1,0 +1,28 @@
+state={
+    id=546
+    name="STATE_546" #KAGAWA
+    manpower = 10
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+        owner = KGW
+        add_core_of = KGW
+        victory_points = {9320 3} #Ź¤Ź,Shodoshima-cho
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+    }
+    provinces={
+        9320
+    }
+}

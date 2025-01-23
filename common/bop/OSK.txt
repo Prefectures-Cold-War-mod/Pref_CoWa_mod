@@ -1,0 +1,89 @@
+
+OSK_balance_of_power = {
+	initial_value = -0.3
+	left_side = OSK_left_side
+	right_side = OSK_right_side
+	decision_category = OSK_decision_cat_1
+	range = {
+		id = OSK_mid_range
+		min = -0.1
+		max = 0.1
+		modifier = {
+
+		}
+	}
+	side = {
+		id = OSK_left_side
+		icon =GFX_idea_generic_democratic_drift_bonus
+		range = {
+			id = OSK_left_side_range.1
+			min = -0.4
+			max = 0
+			modifier = {
+
+			}
+		}
+		range = {
+			id = OSK_left_side_range.2
+			min = -0.6
+			max = -0.4
+			modifier = {
+
+			}
+		}
+		range = {
+			id = OSK_left_side_range.3
+			min = -0.8
+			max = -0.6
+			modifier = {
+
+			}
+		}
+		range = {
+			id = OSK_left_side_range.4
+			min = -1
+			max = -0.8
+			modifier = {
+
+			}
+		}
+	}
+	side = {
+		id = OSK_right_side
+		icon = GFX_idea_FRA_army_of_aggression_focus
+		range = {
+			id = OSK_right_side_range.1
+			min = 0
+			max = 0.4
+			modifier = {
+	
+
+			}
+}
+		range = {
+			id = OSK_right_side_range.2
+			min = 0.4
+			max = 0.6
+			modifier = {
+	
+			}
+}
+		range = {
+			id = OSK_right_side_range.3
+			min = 0.6
+			max = 0.8
+			modifier = {
+
+			}
+}
+		range = {
+			id = OSK_right_side_range.4
+			min = 0.8
+			max = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+

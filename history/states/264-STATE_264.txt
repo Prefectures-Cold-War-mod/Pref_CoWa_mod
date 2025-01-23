@@ -1,0 +1,32 @@
+state={
+     id=264
+     name="STATE_264" #’¹Žæ#TOTTORI
+     manpower = 199924
+     state_category = large_town
+     resources={
+         oil = 2
+         aluminium = 42
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TTR
+         add_core_of = TTR
+         victory_points = {2303 15} #’¹ŽæŽs,Tottori-shi
+         victory_points = {1650 1} #Šâ”ü’¬,Iwami-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             air_base = 1
+             2303 = {
+                naval_base = 3
+             }
+         }
+     }
+     provinces={
+         1435 1538 1650 2303 2602 2749 4392 4414 4453 4465 
+     }
+}

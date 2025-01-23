@@ -1,0 +1,30 @@
+state={
+     id=303
+     name="STATE_303" #Ê|ëÅÅEëÂë∫#ISAHAYAÅEOMURA
+     manpower = 233712
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {2208 2} #Ê|ëÅés,Isahaya-shi
+         victory_points = {2208 2} #ëÂë∫és,Omura-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             dockyard = 2
+             air_base = 2
+         }
+     }
+     provinces={
+         600 884 1632 2208 2697 2743 4114 4155 4180 4196 
+     }
+}

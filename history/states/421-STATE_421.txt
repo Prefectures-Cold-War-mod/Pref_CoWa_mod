@@ -1,0 +1,30 @@
+state={
+     id=421
+     name="STATE_421" #ëqï~#KURASHIKI
+     manpower = 564242
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         victory_points = {4615 10} #ëqï~és,Kurashiki-shi
+         victory_points = {4593 1} #ëçé–és,Soja-shi
+         victory_points = {4635 1} #ëÅìáí¨,Hayashima-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 1
+             dockyard = 3
+         }
+     }
+     provinces={
+         264 1515 1852 1976 2806 3037 4542 4557 4565 4587 4593 4605 4615 4635 4694 4736 
+     }
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=12
+	name="STATE_12"
+	resources={
+		oil=39.000
+		aluminium=0.000
+		rubber=15.000
+		tungsten=0.000
+		steel=22.000
+		chromium=0.000
+	}
+
+	history={
+		owner = HOK
+		add_core_of = HOK
+		victory_points = {
+			3658 35 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		284 669 747 1098 1279 1299 1387 1619 1832 1977 2060 2090 2330 2455 2592 2858 2889 2939 2949 2966 2969 3010 3052 3085 3364 3413 3604 3626 3628 3634 3653 3657 3658 3679 3680 3681 3683 3686 3695 3702 3707 3713 3714 3726 3738 3743 3745 3747 3749 3758 3761 3762 3763 3775 3776 3781 
+	}
+	manpower=2299983
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

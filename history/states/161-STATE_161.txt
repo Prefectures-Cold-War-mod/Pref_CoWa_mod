@@ -1,0 +1,33 @@
+state={
+     id=161
+     name="STATE_161" #ê√â™#SHIZUOKA
+     manpower = 702395
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 6
+     }
+     history ={
+         owner = SIZ
+         add_core_of = SIZ
+         victory_points = {3400 25} #à®ãÊ,Shizuoka-shi, Aoi-ku
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 3
+             fuel_silo = 1
+			 dockyard = 2
+			 air_base = 2
+             3400 = {
+				naval_base = 3
+			}
+         }
+     }
+     provinces={
+         28 341 395 839 1002 2435 2459  3264 3400 6171 6262 9325
+     }
+}

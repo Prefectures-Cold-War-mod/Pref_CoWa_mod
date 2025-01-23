@@ -1,0 +1,31 @@
+state={
+     id=295
+     name="STATE_295" #å‰ä}#MIKASA
+     manpower = 440221
+     state_category = town
+     resources={
+         oil = 21
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4097 3} #í}éáñÏés,Chikushino-shi
+         victory_points = {2641 2} #ëÂñÏèÈés,Onojo-shi
+         victory_points = {2672 3} #ëæç…ï{és,Dazaifu-shi
+         victory_points = {2548 1} #ìﬂâœêÏés,Nakagawa-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1849 2548 2641 2672 3188 4096 4097 4120 
+     }
+}

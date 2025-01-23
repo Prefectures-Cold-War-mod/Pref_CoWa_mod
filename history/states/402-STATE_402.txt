@@ -1,0 +1,30 @@
+state={
+     id=402
+     name="STATE_402" #çÇêÁï‰#TAKACHIHO
+     manpower = 20330
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 75
+         rubber = 0
+         tungsten = 105
+         steel = 120
+         chromium = 60
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {4538 1} #çÇêÁï‰í¨,Takachiho-cho
+         victory_points = {384 1} #ì˙îVâeí¨,Hinokage-cho
+         victory_points = {4545 1} #å‹Éñê£í¨,Gokase-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         384 652 982 1306 1492 2492 2954 4514 4530 4538 4545 4559 4572 4589 4610 
+     }
+}

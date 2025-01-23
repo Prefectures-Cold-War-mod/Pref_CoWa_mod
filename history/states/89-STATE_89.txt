@@ -1,0 +1,33 @@
+state={
+     id=89
+     name="STATE_89" #çÅéÊÅEäCëx#KATORIÅEKAISO
+     manpower = 269838
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 96
+         steel = 96
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = TBA
+         victory_points = {3310 5} #í∂éqés,Choshi-shi
+         victory_points = {1311 1} #àÆés,Asahi-shi
+         victory_points = {3261 1} #çÅéÊés,Katori-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 4
+             arms_factory = 2
+             3310 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         214 984 1311 2256 3261 3310 6599 6602 6619 6625 6626 6635 6641 6643 6644 6651 6653 6656 6658 
+     }
+}

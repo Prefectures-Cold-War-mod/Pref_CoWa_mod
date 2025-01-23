@@ -1,0 +1,28 @@
+state={
+     id=195
+     name="STATE_195" #—ä“ì“Œ•”#REINANTOBU
+     manpower = 90583
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HKI
+         add_core_of = HKI
+         victory_points = {2761 5} #“Ö‰êŽs,Tsuruga-shi
+         victory_points = {95 2} #Žá‹·’¬,Wakasa-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         95 2019 2317 2384 2761 3467 5120 5123 5139 
+     }
+}

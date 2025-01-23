@@ -1,0 +1,34 @@
+state={
+     id=45
+     name="STATE_45" #ë∫éR#MURAYAMA
+     manpower = 540813
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 6
+         rubber = 1
+         tungsten = 0
+         steel = 0
+         chromium = 6
+     }
+     history ={
+         owner = YAG
+         add_core_of = YAG
+         victory_points = {3417 15} #éRå`és,Yamagata-shi
+         victory_points = {958 1} #ä¶âÕç]és,Sagae-shi
+         victory_points = {5551 2} #è„éRés,Kaminoyama-shi
+         victory_points = {3343 2} #ë∫éRés,Murayama-shi
+         victory_points = {5528 1} #ìVì∂és,Tendo-shi
+         victory_points = {5356 1} #îˆâ‘ëÚés,Obanazawa-shi
+         victory_points = {813 1} #åééR,Gassan
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 4
+             arms_factory = 1
+             air_base = 2 #éRå`ãÛç`,Yamagata-airport
+         }
+     }
+     provinces={
+         6 119 283 473 813 958 1120 1346 1411 1460 1815 1865 2057 2754 2945 2999 3285 3343 3407 3417 5289 5304 5317 5318 5339 5343 5356 5369 5404 5426 5432 5441 5473 5495 5528 5541 5551 5570 5571 5584 5608 5653 5655 
+     }
+}

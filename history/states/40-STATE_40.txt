@@ -1,0 +1,36 @@
+state={
+     id=40
+     name="STATE_40" #ê∑â™ÅEâ‘ñk#MORIOKAÅEHANAKITA
+     manpower = 662549
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 67
+         steel = 18
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         add_core_of = IWA
+         victory_points = {1467 20} #ê∑â™és,Morioka-shi
+         victory_points = {1220 3} #â‘ä™és,Hanamaki-shi
+         victory_points = {5285 3} #ñkè„és,Kitakami-shi
+         victory_points = {1672 2} #î™î¶ïΩés,Hachimantai-shi
+         victory_points = {929 1} #ëÍëÚés,Takizawa-shi
+         victory_points = {2873 1} #é¥êŒí¨,Shizukuishi-cho
+         victory_points = {392 1} #ñÓã–í¨,Yahaba-cho
+         victory_points = {1251 1} #êºòaâÍí¨,Nishiwaga-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 5
+             arms_factory = 2
+             air_base = 4 #â‘ä™ãÛç`,Hanamaki-airport
+         }
+     }
+     provinces={
+         109 235 244 356 392 411 464 475 554 581 613 725 756 759 791 803 808 929 944 947 1144 1220 1232 1251 1292 1293 1467 1503 1557 1614 1672 1678 1841 1869 1878 1959 1994 2066 2106 2233 2301 2405 2503 2514 2666 2774 2873 2960 3118 3136 3150 3181 3281 3381 3397 4729 4788 4856 4863 4926 4962 4973 4974 4997 5001 5036 5037 5040 5052 5053 5088 5096 5101 5108 5125 5126 5174 5184 5216 5226 5257 5285 5294 5313 9387 9442
+     }
+}

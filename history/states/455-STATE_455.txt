@@ -1,0 +1,27 @@
+state={
+     id=455
+     name="STATE_455" #žwŽR–k•”#HIYAMAHOKUBU
+     manpower = 13327
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {1693 1} #‚¹‚½‚È’¬,Setana-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         439 443 493 541 646 1500 1693 1861 2042 2568 2778 2900 2955 3045 3236 3274 3353 3619 3638 3641 3656 3668 3676 3684 3688 3696 3698 3710 3718 3719 3721 3724 3728 3729 3733 3739 3742 3750 3764 3768 
+     }
+}

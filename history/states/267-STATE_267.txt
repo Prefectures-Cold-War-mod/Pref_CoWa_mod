@@ -1,0 +1,29 @@
+state={
+     id=267
+     name="STATE_267" #ïüéR#FUKUYAMA
+     manpower = 518658
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 12
+         rubber = 0
+         tungsten = 0
+         steel = 54
+         chromium = 0
+     }
+     history ={
+         owner = FKY
+         add_core_of = FKY
+         victory_points = {2872 5} #ïüéRés,Fukuyama-shi
+         victory_points = {4470 3} #ï{íÜés,Fuchu-shi
+         victory_points = {1116 1} #ê_êŒçÇå¥í¨,Jinsekikogen-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         91 335 497 1116 1922 2001 2101 2552 2872 3243 3468 4403 4470 4485 4497 4527 4577 
+     }
+}

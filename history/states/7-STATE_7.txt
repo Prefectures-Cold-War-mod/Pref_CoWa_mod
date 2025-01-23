@@ -1,0 +1,28 @@
+state={
+     id=7
+     name="STATE_7" #è\èü#TOKACHI
+     manpower = 340088
+     state_category = town
+     resources={
+         oil = 44
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 58
+         chromium = 0
+     }
+     history ={
+         owner = H31
+         add_core_of = H31
+         victory_points = {882 2} #ë—çLés,Obihiro-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 4 #ë—çLãÛç`,Obihiro-airport
+         }
+     }
+     provinces={
+         39   116  138  154   237     374    673  882  935 956        1561 1584 1684 1730 1847   2590  3021         4042 4150 
+     }
+}

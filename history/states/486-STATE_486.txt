@@ -1,0 +1,29 @@
+state={
+     id=486
+     name="STATE_486" #‘åŒ#OTSUKI
+     manpower = 80025
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 13
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = YMS
+         add_core_of = YMS
+         victory_points = {1082 2} #“s—¯s,Tsuru-shi
+         victory_points = {3277 2} #‘åŒs,Otsuki-shi
+         victory_points = {1233 2} #ã–ìŒ´s,Uenohara-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         93 1062 1082 1233 1416 2152 2961 3277 6271 6276 6289 
+     }
+}

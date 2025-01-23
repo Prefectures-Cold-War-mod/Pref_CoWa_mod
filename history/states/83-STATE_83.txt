@@ -1,0 +1,27 @@
+state={
+     id=83
+     name="STATE_83" #é≠çs#ROKKO
+     manpower = 275867
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 72
+     }
+     history ={
+         owner = IBA
+         add_core_of = IBA
+         victory_points = {1871 1} #ê_ê≤és,Kamisu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         895 910 1871 1936 2018 2362 3014 3054 3123 3453 6511 6526 6610 6622 
+     }
+}

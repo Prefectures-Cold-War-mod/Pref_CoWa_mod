@@ -1,0 +1,35 @@
+state={
+     id=176
+     name="STATE_176" #ímëΩ#CHITA
+     manpower = 634237
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {5914 3} #îºìcés,Handa-shi
+         victory_points = {2822 1} #èÌääés,Tokoname-shi
+         victory_points = {1894 2} #ìåäCés,Tokai-shi
+         victory_points = {1875 3} #ímëΩés,Chita-shi
+         victory_points = {5935 2} #ìÏímëΩí¨,Minamichita-cho
+         victory_points = {1722 1} #ïêñLí¨,Taketoyo-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 3
+             arms_factory = 0
+             1875 = {
+				naval_base = 2
+			}
+         }
+     }
+     provinces={
+         1282 1722 1875 1894 2822 5831 5836 5861 5885 5914 5935 9285
+     }
+}

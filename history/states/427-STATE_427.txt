@@ -1,0 +1,30 @@
+state={
+     id=427
+     name="STATE_427" #íºï˚#NOGATA
+     manpower = 106917
+     state_category = rural
+     resources={
+         oil = 21
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {2041 3} #íºï˚és,Nogata-shi
+         victory_points = {3210 1} #à∆éËí¨,Kurate-machi
+         victory_points = {4121 1} #çÅètí¨,Kawara-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2041 3210 4087 4104 4121 
+     }
+}

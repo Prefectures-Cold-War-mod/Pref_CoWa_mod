@@ -1,0 +1,27 @@
+state={
+     id=368
+     name="STATE_368" #‹ž’O”g#KYOTAMBA
+     manpower = 14246
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KYT
+         add_core_of = KYT
+         victory_points = {5073 1} #‹ž’O”g’¬,Kyotamba-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         510 2674 4957 4968 4969 4981 4983 4995 5000 5010 5011 5017 5025 5026 5046 5058 5073 5076 
+     }
+}

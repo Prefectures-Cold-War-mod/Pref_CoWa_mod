@@ -1,0 +1,30 @@
+state={
+     id=62
+     name="STATE_62" #íÜí ÇËìÏïî#NAKADORINAMBU
+     manpower = 182432
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {2515 5} #îíâÕés,Shirakawa-shi
+         victory_points = {6047 1} #êºãΩë∫,Nishigo-mura
+         victory_points = {1167 1} #ñÓç’í¨,Yamatsuri-machi
+         victory_points = {6132 1} #êŒêÏí¨,Ishikawa-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         555 850 1167 1274 1377 2273 2354 2515 2990 3066 6021 6047 6067 6090 6107 6132 6154 6155 6168 6176 6182 6190 6196 6198 6216 
+     }
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=134
+	name="STATE_134"
+	resources={
+		oil=0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 4
+	}
+
+	history={
+		owner = NGA
+		add_core_of = NGA
+		victory_points = {
+			1453 1 
+		}
+		victory_points = {
+			29 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		29 139 428 1453 1786 2616 2813 3119 3180 5587 5659 5666 5721 5867 9298 9460 9473 9474 
+	}
+	manpower=27256
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

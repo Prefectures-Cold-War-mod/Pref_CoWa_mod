@@ -1,0 +1,29 @@
+state={
+     id=265
+     name="STATE_265" #”ª“ª#YAZU
+     manpower = 27517
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TTR
+         add_core_of = TTR
+         victory_points = {4548 1} #á÷’¬,Wakasa-cho
+         victory_points = {2580 1} #’q“ª’¬,Chizu-cho
+         victory_points = {4476 1} #”ª“ª’¬,Yazu-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         16 602 962 1107 1186 1779 2280 2367 2580 3115 4452 4475 4476 4500 4535 4548 
+     }
+}

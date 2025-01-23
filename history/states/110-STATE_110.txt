@@ -1,0 +1,27 @@
+state={
+     id=110
+     name="STATE_110" #êÁë„ìcãÊ#CHIYODAKU
+     manpower = 63635
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6484 50} #êÁë„ìcãÊ,Chiyoda-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 4
+             arms_factory = 0
+         }
+     }
+     provinces={
+         6484
+     }
+}

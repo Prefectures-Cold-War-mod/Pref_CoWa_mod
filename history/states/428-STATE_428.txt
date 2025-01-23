@@ -1,0 +1,29 @@
+state={
+     id=428
+     name="STATE_428" #à¶ó«#AIRA
+     manpower = 212634
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 5
+         rubber = 0
+         tungsten = 0
+         steel = 12
+         chromium = 1
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {3116 1} #ñ∂ìáés,Kirishima-shi
+         victory_points = {343 2} #à¶ó«és,Aira-shi
+         victory_points = {4678 1} #óNêÖí¨,Yusui-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         343 446 630 1361 2263 2353 2368 2526 2542 2713 2765 2768 2840 3116 3250 4662 4678 4697 4723 4735 4767 4791 4811 4840 4860 
+     }
+}

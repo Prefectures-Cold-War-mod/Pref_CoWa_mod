@@ -1,0 +1,29 @@
+state={
+     id=408
+     name="STATE_408" #ñˆà‰ÅEåı#YANAIÅEHIKARI
+     manpower = 110651
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {1597 2} #åıés,Hikari-shi
+         victory_points = {961 1} #ñˆà‰és,Yanai-shi
+         victory_points = {961 1} #ïΩê∂í¨,Hirao-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         961 1597 2962 4349 
+     }
+}

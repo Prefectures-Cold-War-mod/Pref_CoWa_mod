@@ -1,0 +1,34 @@
+state={
+     id=260
+     name="STATE_260" #à‰ä}#IKASA
+     manpower = 149351
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 55
+         rubber = 0
+         tungsten = 0
+         steel = 79
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         victory_points = {2 2} #ä}â™és,Kasaoka-shi
+         victory_points = {4528 2} #à‰å¥és,Ibara-shi
+         victory_points = {4585 1} #êÛå˚és,Asakuchi-shi
+         victory_points = {1106 1} #ó¢èØí¨,Satosho-cho
+         victory_points = {1740 2} #ñÓä|í¨,Yakage-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             2 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         2 573 1106 1740 2064 2294 4507 4515 4528 4552 4573 4585 4608 
+     }
+}

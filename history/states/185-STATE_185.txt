@@ -1,0 +1,27 @@
+state={
+     id=185
+     name="STATE_185" #ê›äy#SHITARA
+     manpower = 9171
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 32
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 12
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {2360 1} #ìåâhí¨,Toei-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         757 1383 1514 2149 2166 2360 3235 6007 6023 6040 6052 6054 6072 6073 6093 
+     }
+}

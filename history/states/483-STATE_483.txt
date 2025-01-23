@@ -1,0 +1,29 @@
+state={
+     id=483
+     name="STATE_483" #éOèÅEå‹êÚ#SANJOÅEGOSEN
+     manpower = 198708
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         victory_points = {2199 5} #éOèés,Sanjo-shi
+         victory_points = {641 2} #â¡ñŒés,Kamo-shi
+         victory_points = {1732 1} #å‹êÚés,Gosen-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         622 641 651 1023 1241 1541 1732 1926 2199 2253 2375 3192 5359 5512 
+     }
+}

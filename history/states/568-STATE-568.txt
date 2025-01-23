@@ -1,0 +1,34 @@
+
+state={
+	id=568
+	name="STATE_568"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H24
+		add_core_of = H24
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		572 590 1330 1369 1474 1765 2795 3175 3356 3398 3530 3533 3536 3537 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

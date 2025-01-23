@@ -1,0 +1,39 @@
+state={
+     id=340
+     name="STATE_340" #ìﬂîe#NAHA
+     manpower = 618634
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 5
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6647 30} #ìﬂîeés,Naha-shi
+         victory_points = {942 2} #éÖñûés,Itoman-shi
+         victory_points = {942 1} #ñLå©èÈés,Tomigusuku-shi
+         victory_points = {155 1} #ìÏèÈés,Nanjo-shi
+         victory_points = {2925 1} #ó^ìﬂå¥í¨,Yonabaru-cho
+         victory_points = {6655 1} #î™èdê£í¨,Yaese-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 1
+             air_base = 7
+             6647 = {
+                naval_base = 9
+             }
+             6646 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         155 942 1485 1674 2925 6646 6647 6655 6659 6665 
+     }
+}

@@ -1,0 +1,31 @@
+state={
+     id=314
+     name="STATE_314" #à¢ëh#ASO
+     manpower = 56243
+     state_category = town
+     resources={
+         oil = 5
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 54
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {2029 3} #à¢ëhés,Aso-shi
+         victory_points = {4381 1} #ìÏè¨çëí¨,Minamioguni-machi
+         victory_points = {4381 1} #è¨çëí¨,Oguni-machi
+         victory_points = {4431 1} #ìÏà¢ëhë∫,Minamiaso-mura
+         buildings ={
+             infrastructure = 0
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         398 536 619 1033 1149 2027 2029 2385 3013 4342 4374 4381 4394 4431 4472 4489 4504 
+     }
+}

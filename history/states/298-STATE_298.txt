@@ -1,0 +1,32 @@
+state={
+     id=298
+     name="STATE_298" #ç≤âÍÅEëΩãv#SAGAÅETAKU
+     manpower = 298166
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         add_core_of = SGA
+         victory_points = {4102 20} #ç≤âÍés,Saga-shi
+         victory_points = {4046 1} #ëΩãvés,Taku-shi
+         victory_points = {4082 1} #è¨èÈés,Ogi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+             dockyard = 1
+             air_base = 1
+         }
+     }
+     provinces={
+         516 1174 1301 1758 4046 4049 4066 4082 4102 4119 4126 4149 
+     }
+}

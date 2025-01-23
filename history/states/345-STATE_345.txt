@@ -1,0 +1,35 @@
+state={
+     id=345
+     name="STATE_345" #êºï\#IRIOMOTE
+     manpower = 3615
+     state_category = town
+     resources={
+         oil = 54
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 1
+             666 = {
+                naval_base = 4
+             }
+		6844 = {
+                     naval_base = 1
+             }
+		6847 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         477 666 2665 6844  6847
+     }
+}

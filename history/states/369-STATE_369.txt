@@ -1,0 +1,27 @@
+state={
+     id=369
+     name="STATE_369" #–k“s—¯#KITATSURU
+     manpower = 1278
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = YMS
+         add_core_of = YMS
+         victory_points = {6186 1} #’O”gŽR‘º,Tabayama-mura
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2880 6186 9315 9316
+     }
+}

@@ -1,0 +1,36 @@
+state={
+     id=212
+     name="STATE_212" #ãIñk#KIHOKU
+     manpower = 572816
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = WKY
+         add_core_of = WKY
+         victory_points = {1013 20} #òaâÃéRés,Wakayama-shi
+         victory_points = {5604 3} #ã¥ñ{és,Hashimoto-shi
+         victory_points = {5550 2} #ãIÇÃêÏés,Kinokawa-shi
+         victory_points = {2084 1} #ä‚èoés,Iwade-shi
+         victory_points = {5555 2} #Ç©Ç¬ÇÁÇ¨í¨,Katsuragi-cho
+         victory_points = {2391 1} #ã„ìxéRí¨,Kudoyama-cho
+         victory_points = {5640 2} #çÇñÏí¨,Koya-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             1013 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         714 1013 2084 2391 2507 2671 3166 3464 3476 5451 5477 5531 5537 5550 5554 5555 5581 5585 5596 5603 5604 5632 5640 5648 5663 
+     }
+}

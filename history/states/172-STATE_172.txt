@@ -1,0 +1,27 @@
+state={
+     id=172
+     name="STATE_172" #åSè„#GUJO
+     manpower = 62685
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 8
+         steel = 0
+         chromium = 10
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {9291 3} #î¸îZés,Mino-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         187 241 274 313 1128 3479 5278 5378 5450 5514 9291 9292 9293
+     }
+}

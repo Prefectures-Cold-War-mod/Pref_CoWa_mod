@@ -1,0 +1,27 @@
+state={
+     id=348
+     name="STATE_348" #‰_“ì#UNNAN
+     manpower = 56071
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SMN
+         add_core_of = SMN
+         victory_points = {854 1} #‰_“ìŽs,Unnan-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         242 638 854 1024 1424 1645 1694 1923 2089 2664 3005 3025 3436 4154 4171 4173 4176 4228 4260 
+     }
+}

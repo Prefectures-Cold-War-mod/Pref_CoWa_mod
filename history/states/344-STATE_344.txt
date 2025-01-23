@@ -1,0 +1,35 @@
+state={
+     id=344
+     name="STATE_344" #êŒä_#ISHIGAKI
+     manpower = 53905
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 35
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {1456 5} #êŒä_és,Ishigaki-shi
+         victory_points = {6845 1} #í|ïxí¨,Taketomi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             fuel_silo = 1
+             1456 = {
+                naval_base = 3
+             }
+		6845 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         1456 2432 3165 6845
+     }
+}

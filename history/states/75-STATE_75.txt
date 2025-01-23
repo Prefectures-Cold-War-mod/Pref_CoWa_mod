@@ -1,0 +1,27 @@
+state={
+     id=75
+     name="STATE_75" #–î”Â#YAITA
+     manpower = 43869
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 9
+         chromium = 4
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         victory_points = {6118 2} #–î”ÂŽs,Yaita-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         683 1483 1661 6050 6118 
+     }
+}

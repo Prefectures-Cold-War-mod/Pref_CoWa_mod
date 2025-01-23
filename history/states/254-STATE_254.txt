@@ -1,0 +1,28 @@
+state={
+     id=254
+     name="STATE_254" #ŠC•”#KAIFU
+     manpower = 20382
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {121 1} #–´Šò’¬,Mugi-cho
+         victory_points = {121 1} #ŠC—z’¬,Kaiyo-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         121 421 1124 1723 5365 5370 5406 5415 5437 
+     }
+}

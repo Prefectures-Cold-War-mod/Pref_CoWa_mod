@@ -1,0 +1,29 @@
+state={
+     id=443
+     name="STATE_443" #í≈ót#SHIIBA
+     manpower = 4525
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {920 1} #èîíÀë∫,Morotsuka-son
+         victory_points = {2843 1} #í≈ótë∫,Shiiba-son
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         474 920 1529 1781 2598 2740 2829 2843 3027 4581 4598 4611 4629 
+     }
+}

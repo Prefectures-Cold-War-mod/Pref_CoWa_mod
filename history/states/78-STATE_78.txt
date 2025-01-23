@@ -1,0 +1,46 @@
+state={
+     id=78
+     name="STATE_78" #ç≤ñÏ#SANO
+     manpower = 118951
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 54
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 64
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         victory_points = {6180 3} #ç≤ñÏés,Sano-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             fuel_silo = 1
+             6074 = {
+				bunker = 1
+			}
+             3172 = {
+				bunker = 1
+			}
+             6087 = {
+				bunker = 1
+			}
+            6128 = {
+                bunker = 1
+             }
+             6145 = {
+                bunker = 1
+             }
+             2189 = {
+                bunker = 1
+             }
+         }
+     }
+     provinces={
+         1989 2189 2399 2547 3133 3172 6074 6087 6098 6106 6112 6128 6145 6164 6165 6180 6188 
+     }
+}

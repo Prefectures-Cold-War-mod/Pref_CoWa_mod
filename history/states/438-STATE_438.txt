@@ -1,0 +1,29 @@
+state={
+     id=438
+     name="STATE_438" #í√éR#TSUYAMA
+     manpower = 133775
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EIM
+         add_core_of = EIM
+         victory_points = {2519 5} #í√éRés,Tsuyama-shi
+         victory_points = {291 1} #ãvïƒìÏí¨,Kumenan-cho
+         victory_points = {2413 1} #î¸çÁí¨,Misaki-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         183 291 492 738 906 1017 1112 1360 1646 2413 2519 3022 3046 4411 4417 4437 4445 4458 4464 4474 4493 4578 
+     }
+}

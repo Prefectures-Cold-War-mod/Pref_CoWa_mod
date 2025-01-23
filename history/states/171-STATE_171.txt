@@ -1,0 +1,27 @@
+state={
+     id=171
+     name="STATE_171" #—K”ã#IBI
+     manpower = 124623
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 2
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {5471 1} #–k•û’¬,Kitagata-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 2
+         }
+     }
+     provinces={
+         61 144 359 860 1086 2011 2227 2406 2942 3227 5251 5413 5471 
+     }
+}

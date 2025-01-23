@@ -1,0 +1,28 @@
+state={
+     id=36
+     name="STATE_36" #â°éË#YOKOTE
+     manpower = 112612
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AKI
+         add_core_of = AKI
+         victory_points = {321 2} #â°éËés,Yokote-shi
+         #victory_points = {687 1} #ìåê¨ê£ë∫,Higashinaruse-mura
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         69 321 391 528 1159 1544 2693 4996 5079 9388 9389 9448
+     }
+}

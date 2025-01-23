@@ -1,0 +1,27 @@
+state={
+     id=255
+     name="STATE_255" #美馬南部・神山#MIMANAMBU・KAMIYAMA
+     manpower = 7681
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 11
+         rubber = 0
+         tungsten = 0
+         steel = 75
+         chromium = 7
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {794 1} #佐那河内村,Sanagouchi-son
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         794 3125 3352 3440 5155 5265 6708 6810 
+     }
+}

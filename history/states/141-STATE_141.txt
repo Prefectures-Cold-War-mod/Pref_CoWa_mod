@@ -1,0 +1,35 @@
+state={
+     id=141
+     name="STATE_141" #????#SHONAN
+     manpower = 1312439
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = KAN
+         victory_points = {6535 3} #?????s,Fujisawa-shi
+         victory_points = {6517 1} #???????s,Chigasaki-shi
+         victory_points = {6459 1} #???a?s,Yamato-shi
+         victory_points = {2462 1} #?C?V???s,Ebina-shi
+         victory_points = {6431 1} #?????s,Zama-shi
+         victory_points = {6465 1} #?????s,Ayase-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 2
+		dockyard = 1
+             air_base = 4
+         }
+     }
+     provinces={
+         1681 2462 2777 6431 6459 6465 6486 6495 6517 6535 
+     }
+}

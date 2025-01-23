@@ -1,0 +1,50 @@
+state={
+     id=425
+     name="STATE_425" #ëΩé°å©#TAJIMI
+     manpower = 207362
+     state_category = town
+     resources={
+         oil = 8
+         aluminium = 25
+         rubber = 0
+         tungsten = 0
+         steel = 7
+         chromium = 0
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {5750 3} #ëΩé°å©és,Tajimi-shi
+         victory_points = {5765 1} #êêòQés,Mizunami-shi
+         victory_points = {5757 2} #ìyäÚés,Toki-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             5689 = {
+                bunker = 1
+             }
+             618 = {
+                bunker = 1
+             }
+             5750 = {
+                bunker = 1
+             }
+             1357 = {
+                bunker = 1
+             }
+             5794 = {
+                bunker = 1
+             }
+             5799 = {
+                bunker = 1
+             }
+             5844 = {
+                bunker = 1
+             }
+         }
+     }
+     provinces={
+         564 618 1357 3102 5689 5724 5750 5757 5765 5785 5794 5799 5844 
+     }
+}

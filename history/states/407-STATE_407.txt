@@ -1,0 +1,27 @@
+state={
+     id=407
+     name="STATE_407" #”ü”I#MINE
+     manpower = 24567
+     state_category = rural
+     resources={
+         oil = 60
+         aluminium = 0
+         rubber = 0
+         tungsten = 25
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {316 1} #”ü”IŽs,Mine-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         316 1946 2316 2532 3512 4055 4086 4107 
+     }
+}

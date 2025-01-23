@@ -1,0 +1,27 @@
+state={
+     id=359
+     name="STATE_359" #îíïlÅEÇ∑Ç≥Ç›#SHIRAHAMAÅESUSAMI
+     manpower = 25666
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = WKY
+         add_core_of = WKY
+         victory_points = {2030 1} #Ç∑Ç≥Ç›í¨,Susami-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2030 2845 5874 5934 5981 
+     }
+}

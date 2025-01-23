@@ -1,0 +1,29 @@
+state={
+     id=335
+     name="STATE_335" #‘“ª#KUNIGAMI
+     manpower = 9640
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 10
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6512 2} #‘“ª‘º,Kunigami-son
+         victory_points = {6533 1} #‘å‹X–¡‘º,Ogimi-son
+         victory_points = {2076 2} #“Œ‘º,Higashi-son
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         606 1876 2076 6512 6522 6533 6536 6543 6547 6558 6564 6570 6571 
+     }
+}

@@ -1,0 +1,28 @@
+state={
+     id=293
+     name="STATE_293" #ìcêÏ#TAGAWA
+     manpower = 94422
+     state_category = rural
+     resources={
+         oil = 182
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {2453 3} #ìcêÏés,Tagawa-shi
+         victory_points = {4152 1} #êÏçËí¨,Kawasaki-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2453 2588 3283 4152 4156 4169 4174 4191 4192 4197 
+     }
+}

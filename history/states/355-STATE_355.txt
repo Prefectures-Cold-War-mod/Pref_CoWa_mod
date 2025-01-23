@@ -1,0 +1,28 @@
+state={
+     id=355
+     name="STATE_355" #â∫ñÏ#SHIMOTSUKE
+     manpower = 130899
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         victory_points = {2387 1} #â∫ñÏés,Shimotsuke-shi
+         victory_points = {6211 1} #è„éOêÏí¨,Kaminokawa-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1150 2387 6211 6231 
+     }
+}

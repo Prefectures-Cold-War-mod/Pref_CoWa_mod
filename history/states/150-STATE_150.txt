@@ -1,0 +1,33 @@
+state={
+     id=150
+     name="STATE_150" #í∑â™ÅEîêçË#NAGAOKAÅEKASHIWAZAKI
+     manpower = 440711
+     state_category = town
+     resources={
+         oil = 4
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 4
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         victory_points = {246 10} #í∑â™és,Nagaoka-shi
+         victory_points = {5260 5} #îêçËés,Kashiwazaki-shi
+         victory_points = {5355 1} #è¨êÁíJés,Ojiya-shi
+         victory_points = {2334 1} #èoâ_çËí¨,Izumozaki-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+             5220 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         3 163 246 290 964 1031 1310 1559 1592 1688 1961 2334 3418 3435 3502 5220 5260 5293 5303 5324 5342 5355 5409 
+     }
+}

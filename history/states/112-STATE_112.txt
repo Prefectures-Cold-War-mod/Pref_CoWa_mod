@@ -1,0 +1,32 @@
+state={
+     id=112
+     name="STATE_112" #ç`ãÊ#MINATOKU
+     manpower = 257426
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6500 20} #ç`ãÊ,Minato-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 3
+             arms_factory = 1
+             fuel_silo = 1
+			 dockyard = 2
+             6500 = {
+                naval_base = 7
+            }
+         }
+     }
+     provinces={
+         6497 6500 
+     }
+}

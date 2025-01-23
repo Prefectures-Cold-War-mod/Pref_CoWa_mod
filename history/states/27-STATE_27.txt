@@ -1,0 +1,32 @@
+state={
+     id=27
+     name="STATE_27" #“ŒÂ’ÃŒy#TOSEITSUGARU
+     manpower = 308607
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {18 20} #ÂXs,Aomori-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 4
+             arms_factory = 1
+             dockyard = 3
+             1649 = {
+				naval_base = 4
+			}
+			air_base = 4 #ÂX‹ó`,Aomori-airport
+         }
+     }
+     provinces={
+         18 156 399 1026 1041 1104 1324 1397 1760 1843 2021 2031 2365 2436 2608 2710 2811 3205 3414 4265 4266 4305 4307 4319 4340 4355 4360 4390 4397 4402 4406 4422 4435 4450 
+     }
+}

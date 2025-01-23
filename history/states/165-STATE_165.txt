@@ -1,0 +1,36 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		oil=0.000
+		aluminium = 1
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+		owner = TYM
+		add_core_of = TYM
+		victory_points = {
+			2005 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		220 835 843 945 1372 1508 2005 2390 2495 2634 3055 3208 3339 5042 5065 5107 5141 5142 5154 5158 9488 
+	}
+	manpower=417234
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

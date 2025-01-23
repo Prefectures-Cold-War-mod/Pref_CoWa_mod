@@ -1,0 +1,30 @@
+state={
+     id=283
+     name="STATE_283" #êmóÑêÏ#NIYODOGAWA
+     manpower = 101209
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 32
+         rubber = 0
+         tungsten = 15
+         steel = 43
+         chromium = 85
+     }
+     history ={
+         owner = KUT
+         add_core_of = KUT
+         victory_points = {208 3} #ìyç≤és,Tosa-shi
+         victory_points = {1542 1} #ê{çËés,Susaki-shi
+         victory_points = {4913 1} #êmóÑêÏí¨,Niyodogawa-cho
+         victory_points = {4935 1} #âzímí¨,Ochi-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         208 979 1069 1426 1489 1542 2073 2187 2323 2864 2921 4843 4872 4913 4935 4954 4963 4982 5003 5071 
+     }
+}

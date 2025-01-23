@@ -1,0 +1,31 @@
+state={
+     id=135
+     name="STATE_135" #ìÏêMèB#MINAMISHINSHU
+     manpower = 162059
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 17
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {2044 3} #î—ìcés,Iida-shi
+         victory_points = {2044 1} #à¢íqë∫,Achi-mura
+         victory_points = {326 1} #îÑñÿë∫,Urugi-mura
+         victory_points = {287 1} #ñLãuë∫,Toyooka-mura
+         victory_points = {617 1} #ëÂé≠ë∫,Oshika-mura
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         287 326 617 640 642 963 1636 1776 1907 2044 2358 2364 2662 5904 5991 6043 6070 
+     }
+}

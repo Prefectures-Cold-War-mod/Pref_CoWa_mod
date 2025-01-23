@@ -1,0 +1,31 @@
+state={
+     id=320
+     name="STATE_320" #êlãg#HITOYOSHI
+     manpower = 76149
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 22
+         rubber = 0
+         tungsten = 28
+         steel = 88
+         chromium = 25
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {4584 2} #êlãgés,Hitoyoshi-shi
+         victory_points = {4586 1} #ëΩó«ñÿí¨,Taragi-machi
+         victory_points = {37 1} #ìíëOí¨,Yunomae-machi
+         victory_points = {4595 1} #Ç†Ç≥Ç¨ÇËí¨,Asagiri-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         37 229 921 1378 2194 2418 2452 2585 2991 3177 3240 3338 4508 4524 4564 4584 4586 4592 4595 4606 4613 4623 4641 4653 4660 4691 4701 
+     }
+}

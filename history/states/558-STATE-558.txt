@@ -1,0 +1,29 @@
+state={
+    id=558
+    name="STATE_558" #
+    manpower = 10
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+        owner = H11
+        add_core_of = H11
+              
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+        victory_points = {2070 2} #ęěs,Takikawa-shi
+    }
+    provinces={
+        2070 2237 470 3631 2844 1965 1848 776
+    }
+}

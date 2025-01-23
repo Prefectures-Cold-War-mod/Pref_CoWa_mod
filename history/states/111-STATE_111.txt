@@ -1,0 +1,27 @@
+state={
+     id=111
+     name="STATE_111" #êVèhãÊ#SHINJUKUKU
+     manpower = 346162
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6471 40} #êVèhãÊ,Shinjuku-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 12
+             arms_factory = 4
+         }
+     }
+     provinces={
+         6471
+     }
+}

@@ -1,0 +1,29 @@
+state={
+     id=479
+     name="STATE_479" #êºîVìá#NISHINOSHIMA
+     manpower = 0
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         buildings ={
+             infrastructure = 0
+             industrial_complex = 0
+             arms_factory = 0
+         }
+         6857 = {
+              naval_base = 1
+          }
+     }
+     provinces={
+         6852
+     }
+}

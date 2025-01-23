@@ -1,0 +1,29 @@
+state={
+     id=502
+     name="STATE_502" #êŒìá#ISHIMA
+     manpower = 92
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             9317 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         9317
+     }
+}

@@ -1,0 +1,33 @@
+state={
+     id=162
+     name="STATE_162" #éuëæ#SHIDA
+     manpower = 459857
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SIZ
+         add_core_of = SIZ
+         victory_points = {6281 1} #ìáìcés,Shimada-shi
+         victory_points = {3031 1} #èƒí√és,Yaizu-shi
+         victory_points = {6281 1} #ì°é}és,Fujieda-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+             air_base = 3
+             122 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         122 1044 1810 2996 3031 3412 6281 6319 9326 9327
+     }
+}

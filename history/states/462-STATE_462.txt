@@ -1,0 +1,32 @@
+state={
+     id=462
+     name="STATE_462" #êºí√åy#NISHITSUGARU
+     manpower = 105668
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {649 1} #å‹èäêÏå¥és,Goshogawara-shi
+         victory_points = {649 1} #Ç¬Ç™ÇÈés,Tsugaru-shi
+         victory_points = {1902 1} #ê[âYí¨,Fukaura-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             4236 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         41 131 649 768 916 1902 2437 2952 4236 4287 4295 9354 9359 9362 9361 9356 9360 9357 9355 9382 9379 9376 9380 9372 339 9377 9375 9383
+     }
+}

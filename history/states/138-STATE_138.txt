@@ -1,0 +1,36 @@
+state={
+     id=138
+     name="STATE_138" #éOâY#MIURA
+     manpower = 718150
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = KAN
+         victory_points = {2261 10} #â°ê{âÍés,Yokosuka-shi
+         victory_points = {6553 3} #äôëqés,Kamakura-shi
+         victory_points = {6553 1} #êÄéqés,Zushi-shi
+         victory_points = {2496 2} #éOâYés,Miura-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 6
+		fuel_silo = 1
+             2261 = {
+				naval_base = 8
+			}
+         }
+     }
+     provinces={
+         2261 2496 6553 9509
+     }
+}

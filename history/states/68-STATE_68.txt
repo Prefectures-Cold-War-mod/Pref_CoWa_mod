@@ -1,0 +1,28 @@
+state={
+     id=68
+     name="STATE_68" #‘¾“c#OTA
+     manpower = 406731
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 18
+         rubber = 0
+         tungsten = 21
+         steel = 50
+         chromium = 8
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {1114 2} #‘¾“cŽs,Ota-shi
+         victory_points = {487 2} #ŠÙ—ÑŽs,Tatebayashi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 2
+         }
+     }
+     provinces={
+         487 1114 1567 3206 3458 6114 6126 6147 6162 6179 6184 6202 
+     }
+}

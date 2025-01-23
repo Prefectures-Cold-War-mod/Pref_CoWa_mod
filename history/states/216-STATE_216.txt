@@ -1,0 +1,46 @@
+state={
+     id=216
+     name="STATE_216" #“Ş—Ç#NARA
+     manpower = 1254252
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NRA
+         add_core_of = NRA
+         victory_points = {178 15} #“Ş—Çs,Nara-shi
+         victory_points = {5582 2} #‘å˜a‚“cs,Yamatotakada-shi
+         victory_points = {1109 1} #‘å˜aŒSRs,Yamatokoriyama-shi
+         victory_points = {3317 3} #“V—s,Tenri-shi
+         victory_points = {3350 2} #Š€Œ´s,Kashihara-shi
+         victory_points = {3350 2} #÷ˆäs,Sakurai-shi
+         victory_points = {2728 1} #ŒäŠs,Gose-shi
+         victory_points = {459 2} #¶‹îs,Ikoma-shi
+         victory_points = {2049 1} #Ås,Kashiba-shi
+         victory_points = {2728 1} #Š‹és,Katsuragi-shi
+         victory_points = {5492 1} #O‹½’¬,Sango-cho
+         victory_points = {1605 1} #”Á”µ’¬,Ikaruga-cho
+         victory_points = {1605 1} #ˆÀ“g’¬,Ando-cho
+         victory_points = {1605 1} #O‘î’¬,Miyake-cho
+         victory_points = {170 1} #“cŒ´–{’¬,Tawaramoto-cho
+         victory_points = {1189 1} #‚æ’¬,Takatori-cho
+         victory_points = {3350 1} #–¾“ú‘º,Asuka-mura
+         victory_points = {1605 1} #ã–q’¬,Kammaki-cho
+         victory_points = {1605 1} #‰Í‡’¬,Kawai-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+             air_base = 1
+         }
+     }
+     provinces={
+         170 178 388 459 663 1109 1189 1605 2049 2728 3317 3350 5447 5492 5543 5556 5573 5582 5628 
+     }
+}

@@ -1,0 +1,38 @@
+state={
+     id=96
+     name="STATE_96" #ˆÎ‹÷EˆÀ–[#ISUMIEAWA
+     manpower = 198669
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = TBA
+         victory_points = {1900 3} #ŠÙRs,Tateyama-shi
+         victory_points = {6676 1} #Ÿ‰Ys,Katsuura-shi
+         victory_points = {3451 1} #Š›ìs,Kamogawa-shi
+         victory_points = {6662 1} #“ì–[‘s,Minamiboso-shi
+         victory_points = {6675 1} #‚¢‚·‚İs,Isumi-shi
+         victory_points = {6669 1} #‘å‘½Šì’¬,Otaki-machi
+         victory_points = {6662 1} #‹˜“ì’¬,Kyonan-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 3
+             dockyard = 1
+             3451 = {
+				naval_base = 3
+			}
+         }
+     }
+     provinces={
+         263 461 679 755 1900 2069 2109 2230 2731 3451 6662 6668 6669 6671 6672 6673 6674 6675 6676 
+     }
+}

@@ -1,0 +1,30 @@
+state={
+     id=224
+     name="STATE_224" #êÚç≤ñÏ#IZUMISANO
+     manpower = 215504
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {5474 1} #êÚç≤ñÏés,Izumisano-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+             5474 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         2244 2827 5474 5489 
+     }
+}

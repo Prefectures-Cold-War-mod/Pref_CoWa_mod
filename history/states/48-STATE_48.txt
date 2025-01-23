@@ -1,0 +1,30 @@
+state={
+     id=48
+     name="STATE_48" #ìoïƒ#TOME
+     manpower = 320013
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {376 2} #ìoïƒés,Tome-shi
+         victory_points = {5577 2} #åIå¥és,Kurihara-shi
+         victory_points = {5667 5} #ëÂçËés,Osaki-shi
+         victory_points = {5700 1} #î¸ó¢í¨,Misato-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 2
+         }
+     }
+     provinces={
+         376 891 1079 1195 1612 2443 2897 2973 3286 5577 5618 5656 5667 5674 5694 5700 5746 5754 
+     }
+}

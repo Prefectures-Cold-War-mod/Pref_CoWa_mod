@@ -1,0 +1,30 @@
+state={
+     id=191
+     name="STATE_191" #î\ìoñkïî#NOTOHOKUBU
+     manpower = 67261
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ISI
+         add_core_of = ISI
+         victory_points = {1844 2} #ó÷ìáés,Wajima-shi
+         victory_points = {2679 3} #éÏèFés,Suzu-shi
+         victory_points = {3174 2} #î\ìoí¨,Noto-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             air_base = 2
+         }
+     }
+     provinces={
+         72 294 302 478 654 1295 1844 2679 2881 3174 3226 4553 9302
+     }
+}

@@ -1,0 +1,36 @@
+state={
+     id=160
+     name="STATE_160" #à…ì§ñk#IZUKITA
+     manpower = 223827
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 2
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 2
+     }
+     history ={
+         owner = SIZ
+         add_core_of = IZU
+         add_core_of = SIZ
+         victory_points = {1029 5} #îMäCés,Atami-shi
+         victory_points = {626 1} #à…ìåés,Ito-shi
+         victory_points = {6513 5} #à…ì§és,Izu-shi
+         victory_points = {805 1} #à…ì§ÇÃçëés,Izunokuni-shi
+         victory_points = {1897 1} #îüìÏí¨,Kannami-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             air_base = 1
+             626 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         626 805 1029 1222 1897 2720 6513 6559 6580 9452 9451
+     }
+}

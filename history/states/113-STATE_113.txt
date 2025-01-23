@@ -1,0 +1,30 @@
+state={
+     id=113
+     name="STATE_113" #‘«—§‹æ#ADACHIKU
+     manpower = 688512
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {2502 7} #‘«—§‹æ,Adachi-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 3
+             arms_factory = 5
+             2677 = {
+                bunker = 1
+             }
+         }
+     }
+     provinces={
+         2502 2677 6435 6468 
+     }
+}

@@ -1,0 +1,29 @@
+state={
+     id=206
+     name="STATE_206" #”ö˜h#OWASE
+     manpower = 34095
+     state_category = town
+     resources={
+         oil = 19
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 10
+     }
+     history ={
+         owner = MIE
+         add_core_of = WKY
+         add_core_of = MIE
+         victory_points = {1625 1} #”ö˜hŽs,Owase-shi
+         victory_points = {6008 1} #‹I–k’¬,Kihoku-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         708 779 865 1625 1940 5999 6008 
+     }
+}

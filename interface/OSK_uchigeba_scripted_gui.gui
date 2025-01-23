@@ -1,0 +1,99 @@
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "osk_uchigeba_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 300% height= 230 }
+		background = {
+			name ="decision_uchigeba_haikei"
+			spriteType = "GFX_decision_uchigeba_haikei"
+			position = { x= 0	 y = 0 }
+		}
+		background = {
+			name ="decision_uchigeba_bkl_icon"
+			spriteType = "GFX_OSK_focus1"
+			position = { x= 30	 y = 50 }
+		}
+		background = {
+			name ="decision_uchigeba_spj_icon"
+			spriteType = "GFX_OSK_focus6"
+			position = { x= 135	 y = 50 }
+		}
+		background = {
+			name ="decision_uchigeba_ocp_icon"
+			spriteType = "GFX_OSK_focus2"
+			position = { x= 250	 y = 50 }
+		}
+		background = {
+			name ="decision_uchigeba_acp_icon"
+			spriteType = "GFX_OSK_focus7"
+			position = { x= 370	 y = 50 }
+		}
+
+		instantTextBoxType = {
+			name ="pf_uchigeba_category_inf"
+			position = { x = 190 y = 30 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_category_inf"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_kl"
+			position = { x = 43 y = 150 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_kl"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_murata"
+			position = { x = 135 y = 150 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_murata"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_cp"
+			position = { x = 278 y = 150 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_cp"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_acp"
+			position = { x = 370 y = 150 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_acp"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_kl_value"
+			position = { x = 65 y = 180 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_kl_value"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_murata_value"
+			position = { x = 175 y = 180 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_pco_value"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_cp_value"
+			position = { x = 290 y = 180 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_cp_value"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="uchigeba_txt_acp_value"
+			position = { x = 415 y = 180 }
+			font = "hoi_24header"
+			text = "OSK_pf_uchigeba_acp_value"
+			format = left
+		}
+
+	}
+}

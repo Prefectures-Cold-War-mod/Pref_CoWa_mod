@@ -1,0 +1,30 @@
+state={
+     id=284
+     name="STATE_284" #î¶ëΩ#HATA
+     manpower = 86100
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 8
+         chromium = 0
+     }
+     history ={
+         owner = KUT
+         add_core_of = KUT
+         victory_points = {5069 1} #èhñ—és,Sukumo-shi
+         victory_points = {5264 1} #ìyç≤ê¥êÖés,Tosashimizu-shi
+         victory_points = {5102 2} #élñúè\és,Shimanto-shi
+         victory_points = {1465 1} #ëÂåéí¨,Otsuki-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         553 742 851 1049 1423 1465 1726 2091 2110 2758 2789 3156 4903 4970 5022 5032 5060 5069 5091 5102 5132 5161 5169 5186 5222 5264 
+     }
+}

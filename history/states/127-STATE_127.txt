@@ -1,0 +1,43 @@
+
+state={
+	id=127
+	name="STATE_127"
+	resources={
+		oil=0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 5
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+		owner = NGA
+		add_core_of = NGA
+		victory_points = {
+			2179 20 
+		}
+		victory_points = {
+			3419 2 
+		}
+		victory_points = {
+			5382 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		389 761 790 817 1833 1850 2035 2179 3419 5382 5431 9300 9475 
+	}
+	manpower=544983
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

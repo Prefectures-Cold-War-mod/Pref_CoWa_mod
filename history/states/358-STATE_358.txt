@@ -1,0 +1,27 @@
+state={
+     id=358
+     name="STATE_358" #êVã{#SHINGU
+     manpower = 28876
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = WKY
+         add_core_of = WKY
+         victory_points = {2505 1} #êVã{és,Shingu-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2505 9278 9279
+     }
+}

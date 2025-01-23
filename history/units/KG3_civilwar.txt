@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "民兵大隊" 			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+
+##### OOB #####
+units = {
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 5028
+		division_template = "民兵大隊"
+	}
+}

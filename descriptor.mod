@@ -1,0 +1,17 @@
+version="1.0"
+tags={
+	"Alternative History"
+}
+replace_path="common/decisions"
+replace_path="common/national_focus"
+replace_path="events"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="history/states"
+replace_path="history/countries"
+replace_path="history/units"
+replace_path="common/ai_strategy"
+replace_path="common/on_actions"
+name="Kagawasoviet"
+supported_version="1.15.4"
+remote_file_id="3412281370"

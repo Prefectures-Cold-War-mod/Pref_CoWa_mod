@@ -1,0 +1,32 @@
+state={
+     id=91
+     name="STATE_91" #êÁót#CHIBA
+     manpower = 970049
+     state_category = metropolis
+     resources={
+         oil = 0
+         aluminium = 2
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+           owner = TKO
+         add_core_of = TKO
+         add_core_of = TBA
+         victory_points = {1862 35} #íÜâõãÊ,Chiba-shi, Chuo-ku
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 4
+             arms_factory = 5
+             fuel_silo = 2
+             1862 = {
+				naval_base = 8
+			}
+         }
+     }
+     provinces={
+         367 1862 6588 6589 6605 6614 6615 6618 6623 6630 6632 6636 
+     }
+}

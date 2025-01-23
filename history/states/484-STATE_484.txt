@@ -1,0 +1,28 @@
+state={
+     id=484
+     name="STATE_484" #十日町・南魚沼#TOKAMACHI・MINAMIUONUMA
+     manpower = 127986
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 13
+         chromium = 0
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         victory_points = {1663 2} #十日町市,Tokamachi-shi
+         victory_points = {722 1} #南魚沼市,Minamiuonuma-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         31 86 150 249 662 672 722 729 1067 1663 2283 2477 2689 3113 5454 5510 5601 
+     }
+}

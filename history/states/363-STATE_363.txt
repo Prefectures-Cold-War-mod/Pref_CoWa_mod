@@ -1,0 +1,28 @@
+state={
+     id=363
+     name="STATE_363" #êÏè„#KAWAKAMI
+     manpower = 3204
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 1
+         chromium = 0
+     }
+     history ={
+         owner = NRA
+         add_core_of = NRA
+         add_core_of = NRA
+         victory_points = {5805 1} #êÏè„ë∫,Kawakami-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         227 407 529 5795 5805 
+     }
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		oil=0.000
+		aluminium = 7
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 10
+	}
+
+	history={
+		owner = GIF
+		add_core_of = GIF
+		victory_points = {
+			301 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		96 190 301 423 1018 1555 1807 1979 2321 2376 2473 5281 5302 5309 5310 5368 5425 5578 9297 9466 9467 9476 9477 9478 9479 9480 9482 9484 
+	}
+	manpower=88482
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

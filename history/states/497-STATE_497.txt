@@ -1,0 +1,27 @@
+state={
+     id=497
+     name="STATE_497" #òaêÚ#IZUMI
+     manpower = 184495
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {312 3} #òaêÚés,Izumi-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         312 3023 5469 5490 5505 5508 5519 5524 
+     }
+}

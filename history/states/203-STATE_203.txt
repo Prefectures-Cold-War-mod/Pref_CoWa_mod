@@ -1,0 +1,35 @@
+state={
+     id=203
+     name="STATE_203" #í√ÅEèºç‚#TSUÅEMATSUZAKA
+     manpower = 482231
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         victory_points = {5764 25} #í√és,Tsu-shi
+         victory_points = {352 5} #èºç„és,Matsusaka-shi
+         victory_points = {5932 1} #ëΩãCí¨,Taki-cho
+         victory_points = {5925 1} #ñæòaí¨,Meiwa-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 2
+             dockyard = 2
+			 fuel_silo = 1
+             352 = {
+				naval_base = 5
+			}
+         }
+     }
+     provinces={
+         352 567 1711 1957 2020 2248 2297 2313 2802 2951 2988 3232 3270 5718 5726 5764 5770 5806 5815 5823 5830 5841 5860 5893 5903 5925 5932 5972 
+     }
+}

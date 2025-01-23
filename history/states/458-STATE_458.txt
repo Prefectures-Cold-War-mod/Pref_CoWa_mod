@@ -1,0 +1,28 @@
+state={
+     id=458
+     name="STATE_458" #‹ú˜H“Œ•”#KUSHIROTOBU
+     manpower = 32664
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = H29
+         add_core_of = H29
+         victory_points = {749 1} #•l’†’¬,Hamanaka-cho
+         victory_points = {2425 2} #’íŽq‹ü’¬,Teshikaga-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         108 217 286 589 611 749 785 804 905 937 971 1258 1337 1571 1725 1774 2062 2102 2182 2312 2333 2345 2425 3050 3087 3276 3383 3430 3460 3845 3868 3893 3894 3895 3921 3930 3999 4129 4172 4198 
+     }
+}

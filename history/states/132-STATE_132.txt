@@ -1,0 +1,29 @@
+state={
+     id=132
+     name="STATE_132" #êzñK#SUWA
+     manpower = 198539
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 3
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {548 5} #â™íJés,Okaya-shi
+         victory_points = {1290 5} #êzñKés,Suwa-shi
+         victory_points = {5937 1} #ïxémå©í¨,Fujimi-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         548 1197 1290 1462 2833 5801 5937 
+     }
+}

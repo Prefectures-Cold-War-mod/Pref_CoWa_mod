@@ -1,0 +1,29 @@
+state={
+     id=237
+     name="STATE_237" #Ré“ì•”#YAMASHIRONAMBU
+     manpower = 122703
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SKY
+         add_core_of = SKY
+         add_core_of = KYT
+         victory_points = {5475 2} #–Ø’Ãìs,Kizugawa-shi
+         victory_points = {5475 1} #¸‰Ø’¬,Seika-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         463 1238 5475 5500 5546 9340 9341 9342
+     }
+}

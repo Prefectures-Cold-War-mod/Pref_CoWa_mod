@@ -1,0 +1,27 @@
+state={
+     id=16
+     name="STATE_16" #å„éuêºïî#SHIRIBESHISEIBU
+     manpower = 7308
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 9
+         steel = 5
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {2270 1} #çïèºì‡í¨,Kuromatsunai-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         416 545 870 1217 1904 2075 2192 2270 2734 2745 2835 3124 3586 3606 3607 3616 3620 3629 3635 3644 3645 3693 3697 3712 
+     }
+}

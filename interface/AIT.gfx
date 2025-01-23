@@ -1,0 +1,19 @@
+spriteTypes = {
+
+       spriteType = {
+              name = "GFX_AIT1"
+              texturefile = "gfx/leaders/AIT/AIT1.dds"
+       }
+       spriteType = {
+              name = "GFX_AIT2"
+              texturefile = "gfx/leaders/AIT/AIT2.dds"
+       }
+       spriteType = {
+              name = "GFX_AIT3"
+              texturefile = "gfx/leaders/AIT/AIT3.dds"
+       }
+       spriteType = {
+              name = "GFX_AIT4"
+              texturefile = "gfx/leaders/AIT/AIT4.dds"
+       }
+ }

@@ -1,0 +1,31 @@
+state={
+     id=209
+     name="STATE_209" #ìcï”#TANABE
+     manpower = 89843
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = WKY
+         add_core_of = WKY
+         victory_points = {816 1} #ìcï”és,Tanabe-shi
+         victory_points = {1551 1} #è„ïxìcí¨,Kamitonda-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             816 = {
+				naval_base = 2
+			}
+         }
+     }
+     provinces={
+         185 311 816 1551 1669 2198 2218 5931 5940 9275 9276 9277
+     }
+}

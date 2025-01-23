@@ -1,0 +1,28 @@
+state={
+     id=213
+     name="STATE_213" #è\í√êÏ#TOTSUKAWA
+     manpower = 3702
+     state_category = rural
+     resources={
+         oil = 1
+         aluminium = 1
+         rubber = 20
+         tungsten = 1
+         steel = 1
+         chromium = 1
+     }
+     history ={
+         owner = NRA
+         add_core_of = NRA
+         add_core_of = WKY
+         victory_points = {5890 1} #è\í√êÏë∫,Totsukawa-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         684 811 890 960 1046 1260 1446 1479 5732 5829 5890 5896 
+     }
+}

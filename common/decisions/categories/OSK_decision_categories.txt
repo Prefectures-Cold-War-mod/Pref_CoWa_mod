@@ -1,0 +1,27 @@
+
+
+#OSK_congress = {
+#	icon = usa_congress
+#	allowed = {
+#		original_tag = OSK
+#	}
+#
+#	scripted_gui = osk_congress_decision_ui	
+#
+#	priority = 85
+#}
+
+OSK_pf_uchigeba_category = {
+	icon = generic_political_actions
+
+	scripted_gui = osk_uchigeba_decision_ui
+
+	priority = 75
+
+	allowed = {
+		original_tag = OSK
+	}
+	priority = {
+		base = 10
+	}
+}

@@ -1,0 +1,32 @@
+state={
+     id=291
+     name="STATE_291" #ãûìs#MIYAKO
+     manpower = 130994
+     state_category = rural
+     resources={
+         oil = 4
+         aluminium = 0
+         rubber = 20
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {1123 1} #çsã¥és,Yukuhashi-shi
+         victory_points = {4125 1} #ä°ìcí¨,Kanda-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             4125 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         1123 2161 2977 4125 4132 4153 4162 
+     }
+}

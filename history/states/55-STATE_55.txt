@@ -1,0 +1,29 @@
+state={
+     id=55
+     name="STATE_55" #íÜí ÇËñkïî#NAKADORIHOKUBU
+     manpower = 374599
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {1893 20} #ïüìáés,Fukushima-shi
+         victory_points = {3269 1} #çëå©í¨,Kunimi-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 2
+             air_base = 2
+         }
+     }
+     provinces={
+         1269 1464 1639 1882 1893 2055 2268 2472 2695 2839 2915 3269 3327 3388 3410 3448 5738 5772 5776 5787 5802 5803 5808 5834 5849 5850 5875 5888 5907 5916 5927 5930 5959 5965 6005 9332
+     }
+}

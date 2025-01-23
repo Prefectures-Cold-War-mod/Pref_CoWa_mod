@@ -1,0 +1,32 @@
+state={
+     id=180
+     name="STATE_180" #ñºå√âÆ#NAGOYA
+     manpower = 2639640
+     state_category = megalopolis
+     resources={
+         oil = 10
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {5723 35} #íÜãÊ,Nagoya-shi, Naka-ku
+         victory_points = {5812 1} #ì˙êiés,Nisshin-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 12
+             arms_factory = 6
+             fuel_silo = 1
+             5744 = {
+                naval_base = 7
+             }
+         }
+     }
+     provinces={
+         698 832 1175 1610 2586 3242 3359 5688 5692 5695 5699 5701 5707 5712 5713 5719 5723 5727 5733 5735 5736 5744 5747 5748 5755 5756 5761 5762 5768 5774 5775 5778 5781 5792 5793 5796 5798 5800 5810 5811 5812 5813 5816 5824 5837 5838 5839 5842 5848 
+     }
+}

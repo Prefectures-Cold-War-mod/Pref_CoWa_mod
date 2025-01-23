@@ -1,0 +1,28 @@
+state={
+     id=153
+     name="STATE_153" #•xŽmŒÜŒÎ#FUJIGOKO
+     manpower = 98617
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 2
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = YMS
+         add_core_of = YMS
+         victory_points = {2628 3} #•xŽm‹g“cŽs,Fujiyoshida-shi
+         victory_points = {2311 1} #•xŽm‰ÍŒûŒÎ’¬,Fujikawaguchiko-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         601 1739 1951 2311 2628 3519 6275 
+     }
+}

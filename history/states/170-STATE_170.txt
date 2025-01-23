@@ -1,0 +1,32 @@
+state={
+     id=170
+     name="STATE_170" #â¡ñŒ#KAMO
+     manpower = 316227
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 9
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         victory_points = {2646 5} #ä÷és,Seki-shi
+         victory_points = {3079 2} #î¸îZâ¡ñŒés,Minokamo-shi
+         victory_points = {1288 1} #â¬éôés,Kani-shi
+         victory_points = {3038 1} #éµè@í¨,Hichiso-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 2
+             3079 = {bunker = 1}
+             1288 = {bunker = 1}
+         }
+     }
+     provinces={
+         385 628 1288 1327 1353 1606 1857 1898 2516 2646 2647 3038 3079 3080 3204 5547 5558 5569 5591 5620 5642 5645 5657 5677 5685 5690 
+     }
+}

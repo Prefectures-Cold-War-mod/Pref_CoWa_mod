@@ -1,0 +1,37 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=8.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H26
+		add_core_of = H26
+		victory_points = {
+			275 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		34 275 410 481 522 1157 1338 3422 3494 3783 
+	}
+	manpower=218786
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

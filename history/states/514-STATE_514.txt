@@ -1,0 +1,30 @@
+state={
+     id=514
+     name="STATE_514" # @  #MUNAKATA
+     manpower = 253946
+     state_category = pastoral
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {1690 1} # @   s,Munakata-shi
+         victory_points = {1613 1} # É s,Koga-shi
+         victory_points = {3472 2} #   Îs,Fukutsu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1613 1690 3040 3472 4000 4018 
+     }
+}

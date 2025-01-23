@@ -1,0 +1,27 @@
+state={
+     id=256
+     name="STATE_256" #éOçD#MIYOSHI
+     manpower = 40686
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 12
+         chromium = 8
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {5033 1} #ìåÇ›ÇÊÇµí¨,Higashimiyoshi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         397 627 5004 5033 5062 5109 5175 
+     }
+}

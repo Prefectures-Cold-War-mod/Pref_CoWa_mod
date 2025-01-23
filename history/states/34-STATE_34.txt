@@ -1,0 +1,28 @@
+state={
+     id=34
+     name="STATE_34" #êÂñk#SENHOKU
+     manpower = 108174
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 5
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 2
+     }
+     history ={
+         owner = AKI
+         add_core_of = AKI
+         victory_points = {925 2} #ëÂêÂés,Daisen-shi
+         victory_points = {4876 1} #êÂñkés,Semboku-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         78 107 531 690 765 925 1061 1140 1562 2635 3514 4756 4809 4876 4889 9407 9399 9397 9391 9390 9393 9396 9398 9402 9394 9400 9395 9403 9405 9260 9392 9404 9406 9408
+     }
+}

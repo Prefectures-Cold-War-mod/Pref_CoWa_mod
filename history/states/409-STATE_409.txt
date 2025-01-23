@@ -1,0 +1,30 @@
+state={
+     id=409
+     name="STATE_409" #é¸ìÏÅEâ∫èº#SHUNANÅEKUDAMATSU
+     manpower = 200930
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 12
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {2907 3} #â∫èºés,Kudamatsu-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+             9269 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         636 681 990 1710 1749 2907 3128 4178 4214 4217 4224 9269
+     }
+}

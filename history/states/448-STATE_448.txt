@@ -1,0 +1,33 @@
+state={
+     id=448
+     name="STATE_448" #•Ÿ‰ª“Œ•”#FUKUOKATOBU
+     manpower = 580155
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4025 20} #”Ž‘½‹æ,Fukuoka-shi, Hakata-ku
+         victory_points = {2576 1} #‹vŽR’¬,Hisayama-machi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 2
+             arms_factory = 0
+             air_base = 4
+             2576 = {
+                naval_base = 5
+             }
+         }
+     }
+     provinces={
+         2200 2576 4025 4050 6700
+     }
+}

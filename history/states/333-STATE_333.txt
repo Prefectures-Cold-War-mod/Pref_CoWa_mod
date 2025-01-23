@@ -1,0 +1,38 @@
+state={
+     id=333
+     name="STATE_333" #種子島#TANEGASHIMA
+     manpower = 29179
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 11
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {5476 3} #西之表市,Nishinoomote-shi
+         victory_points = {2649 1} #中種子町,Nakatane-cho
+         victory_points = {1415 2} #南種子町,Minamitane-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+	   2649 = {
+                     naval_base = 2
+             }
+	   5476= {
+                     naval_base = 2
+             }
+		6778 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         151 1415 2649 2838 3001 3169 5476 5488 5493 5523 5536 5553 5595 5612 6788
+     }
+}

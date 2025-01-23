@@ -1,0 +1,31 @@
+state={
+     id=148
+     name="STATE_148" #è„âzÅEñ≠çÇ#JOETSUÅEMYOKO
+     manpower = 225777
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 2
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         victory_points = {5299 2} #ñ≠çÇés,Myoko-shi
+         victory_points = {2998 1} #è„âzés,Joetsu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             5229 = {
+				naval_base = 3
+			}
+         }
+     }
+     provinces={
+         135 192 786 896 959 1050 1604 1771 2145 2923 2998 3306 5229 5245 5268 5299 5300 5306 5331 5350 5354 5403 
+     }
+}

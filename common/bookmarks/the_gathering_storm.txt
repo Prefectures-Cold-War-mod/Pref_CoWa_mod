@@ -1,0 +1,75 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1962.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "KGW"
+		default = yes
+		
+		"KGW"={
+			history = "HOK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HRS"={
+			history = "GNM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"OSK"={
+			history = "MYG_GATHERING_STORM_DESC"
+			ideology =  neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SKY"={
+			history = "GNM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TKO"={
+			history = "GNM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AIT"={
+			history = "TKO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"AOM"={
+			history = "TKO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"HOK"={
+			history = "TKO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+}

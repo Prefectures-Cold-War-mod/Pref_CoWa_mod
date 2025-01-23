@@ -1,0 +1,30 @@
+state={
+     id=41
+     name="STATE_41" #ã{å√#MIYAKO
+     manpower = 81475
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 16
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         add_core_of = IWA
+         victory_points = {5468 5} #ã{å√és,Miyako-shi
+         victory_points = {2500 1} #ä‚êÚí¨,Iwaizumi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             fuel_silo = 1
+         }
+     }
+     provinces={
+         148 583 658 703 712 735 871 954 988 1198 1437 1480 1513 1637 1947 1999 2212 2500 2550 2561 2622 2928 3020 5203 5209 5210 5238 5252 5279 5286 5307 5308 5314 5333 5344 5375 5385 5388 5468 5483 5517 5526
+     }
+}

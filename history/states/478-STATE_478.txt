@@ -1,0 +1,27 @@
+state={
+     id=478
+     name="STATE_478" #]ŒËì‹æ#EDOGAWAKU
+     manpower = 698031
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {3297 7} #]ŒËì‹æ,Edogawa-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         3297 6515 6524 6529 6532 
+     }
+}

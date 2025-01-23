@@ -1,0 +1,28 @@
+state={
+     id=401
+     name="STATE_401" #‰„‰ª#NOBEOKA
+     manpower = 123483
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {1429 3} #‰„‰ªŽs,Nobeoka-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1429 1607 2026 2440 2730 3229 3504 4619 4646 4661 4685 4692 4763 4769 4785 
+     }
+}

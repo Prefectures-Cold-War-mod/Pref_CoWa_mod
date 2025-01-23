@@ -1,0 +1,27 @@
+state={
+     id=103
+     name="STATE_103" #”Ñ”\#HANNO
+     manpower = 345100
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 6
+         steel = 0
+         chromium = 16
+     }
+     history ={
+          owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 0
+         }
+     }
+     provinces={
+         219 976 1564 6200 6203 6212 6220 6238 
+     }
+}

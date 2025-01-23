@@ -1,0 +1,43 @@
+
+state={
+	id=567
+	name="STATE_567"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H23
+		add_core_of = H23
+		victory_points = {
+			351 2 
+		}
+		victory_points = {
+			2281 1 
+		}
+		victory_points = {
+			3529 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		13 21 351 633 849 975 1025 1410 2281 2308 2487 2724 3244 3529 3535 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

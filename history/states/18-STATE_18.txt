@@ -1,0 +1,29 @@
+state={
+     id=18
+     name="STATE_18" #ìnìáêºïî#OSHIMASEIBU
+     manpower = 19928
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {837 1} #èºëOí¨,Matsumae-cho
+         victory_points = {4007 2} #ïüìáí¨,Fukushima-cho
+         victory_points = {1409 5} #ímì‡í¨,Shiriuchi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         358 837 1021 1045 1409 1438 1624 1738 1803 1881 2045 2118 2190 2251 3039 3371 3917 3928 3929 3941 3945 3953 3955 3960 3961 3962 3971 3976 3977 3978 3987 3992 4001 4007 4010 
+     }
+}

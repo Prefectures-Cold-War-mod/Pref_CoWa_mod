@@ -1,0 +1,28 @@
+state={
+     id=461
+     name="STATE_461" #ñkí√åy#KITATSUGARU
+     manpower = 22725
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {1162 1} #ç°ï í¨,Imabetsu-machi
+         victory_points = {1085 1} #äOÉñïlí¨,Sotogahama-machi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         120 1085 1162 1615 2204 2828 4212 4218 4227 4237 4288 9384
+     }
+}

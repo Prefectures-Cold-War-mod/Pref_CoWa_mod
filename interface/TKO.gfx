@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_TKO1"
+		texturefile = "gfx/leaders/TKO/TKO1.dds"
+	}
+	spriteType = {
+		name = "GFX_TKO2"
+		texturefile = "gfx/leaders/TKO/TKO2.dds"
+	}
+	spriteType = {
+		name = "GFX_TKO3"
+		texturefile = "gfx/leaders/TKO/TKO3.dds"
+	}
+	spriteType = {
+		name = "GFX_TKO4"
+		texturefile = "gfx/leaders/TKO/TKO4.dds"
+	}
+
+}

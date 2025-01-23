@@ -1,0 +1,27 @@
+state={
+     id=459
+     name="STATE_459" #ì˙çÇìåïî#HIDAKATOBU
+     manpower = 21496
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 86
+         rubber = 0
+         tungsten = 0
+         steel = 149
+         chromium = 36
+     }
+     history ={
+         owner = H18
+         add_core_of = H18
+         victory_points = {907 1} #Ç¶ÇËÇ‡í¨,Erimo-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         382 559 710 907 1670 1950 2037 2040 4158 4202 4222 4244 4361 9246
+     }
+}

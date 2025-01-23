@@ -1,0 +1,28 @@
+state={
+     id=371
+     name="STATE_371" #“ß‰êEŸ‰Y#NAKAEKATSURA
+     manpower = 15234
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {2038 1} #Ÿ‰Y’¬,Katsuura-cho
+         victory_points = {2298 1} #ãŸ’¬,Kamikatsu-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         213 503 1345 1384 2025 2038 2247 2298 3487 3521 5231 5239 5269 5272 5288 5346 
+     }
+}

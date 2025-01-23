@@ -1,0 +1,738 @@
+adjacency_rule =
+{
+	name = "AMAKUSA_SIMABARA"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 2493 1347 }
+
+	is_disabled = {
+		NOT = { has_global_flag = SIMAHARA_NAGASIMA_KAITU }
+	}
+	icon = 2493
+	offset = { 13 0 5 }
+}
+adjacency_rule =
+{
+	name = "AMAKUSA_NAGASIMA"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 2891 3360 }
+
+	is_disabled = {
+		NOT = { has_global_flag = SIMAHARA_NAGASIMA_KAITU }
+	}
+	icon = 3360
+	offset = { 6 0 -12 }
+}
+adjacency_rule =
+{
+	name = "KAZENO_TOU"
+
+	contested =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	friend =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 6560 6821 }
+		
+	is_disabled = {
+		NOT = { has_global_flag = KAZENO_TOU_KAITU }
+	}
+	icon = 7664
+	offset = { 0 0 6 }
+}
+
+adjacency_rule =
+{
+	name = "KAGOSIMA_WAN"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	
+	required_provinces = { 5127 2669 }
+		
+	icon = 8968
+	offset = { 1 0 -6 }
+}
+
+
+adjacency_rule =
+{
+	name = "TUSIMA_KAIKYOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 3699 3828 }
+		
+	icon = 8302
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "UTIURA_WAN"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = {3835 2332  }
+		
+	icon = 7918
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "NAGASIMA_KAIKYOU"
+
+		contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1499 2891 }
+		
+	icon = 7726
+	offset = { -2 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "HAYASAKI_KAIKYOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1347 2493 }
+		
+	icon = 7833
+	offset = { -10 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "TUGARU_KAIKYOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 3987 639 }
+	
+	icon = 7994
+	offset = { 0.0 0.0 0.0 }
+}
+
+adjacency_rule =
+{
+	name = "MUTU_WAN"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 4218 4250 }
+	
+	icon = 7437
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "TOUKYOU_WAN"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 2496 1900 1938}
+		
+	icon = 6873
+	offset = { -35 0 -5 }
+}
+
+adjacency_rule =
+{
+	name = "ATUMI_WAN"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 694 5935 }
+	
+	icon = 8573
+	offset = { 0 0 -0 }
+}
+
+adjacency_rule =
+{
+	name = "ISE_WAM"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 9289 644 }
+		
+	icon = 7565
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "OOSAKA_WAN"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = {5290 309 5451 }
+		
+	icon = 6926
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "NARUTO_KAIKYOU"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 5223 5266}
+		
+	icon = 9121
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "AKASI_KAIKYOU"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 608 2717 }
+		
+	icon = 7789
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "KANMON_KAIKYOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 4060 4084}
+		
+	icon = 8517
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "HOOUYO_KAIKYOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 3110 4555}
+		
+	icon = 7707
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "HARIO_SETO"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 4005 4013}
+		
+	icon = 8572
+	offset = { 0 0 0 }
+}
+

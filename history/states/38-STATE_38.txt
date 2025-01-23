@@ -1,0 +1,29 @@
+state={
+     id=38
+     name="STATE_38" #óºî÷#RYOBAN
+     manpower = 258177
+     state_category = city
+     resources={
+         oil = 1
+         aluminium = 0
+         rubber = 0
+         tungsten = 132
+         steel = 221
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         add_core_of = IWA
+         victory_points = {1920 2} #àÍä÷és,Ichinoseki-shi
+         victory_points = {2054 1} #âúèBés,Oshu-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         104 324 585 648 678 1019 1270 1298 1699 1920 2039 2054 2427 2461 2694 3251 3390 5312 5332 5419 5466 5529 5534 5563 5647 
+     }
+}

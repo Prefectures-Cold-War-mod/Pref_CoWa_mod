@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_HRS1"
+		texturefile = "gfx/leaders/HRS/HRS1.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS2"
+		texturefile = "gfx/leaders/HRS/HRS2.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS3"
+		texturefile = "gfx/leaders/HRS/HRS3.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS4"
+		texturefile = "gfx/leaders/HRS/HRS4.dds"
+	}
+
+}

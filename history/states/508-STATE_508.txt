@@ -1,0 +1,30 @@
+state={
+     id=508
+     name="STATE_508" #çöìﬂèîìá#KUTSUNASHOTO
+     manpower = 4151
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         add_core_of = EHM
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6731 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6727 6728 6731 6740
+     }
+}

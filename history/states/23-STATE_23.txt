@@ -1,0 +1,33 @@
+state={
+     id=23
+     name="STATE_23" #‰º–k#SHIMOKITA
+     manpower = 73802
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {2482 2} #‚Þ‚ÂŽs,Mutsu-shi
+         victory_points = {2389 1} #‘åŠÔ’¬,Oma-machi
+         victory_points = {1439 1} #“Œ’Ê‘º,Higashidori-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             fuel_silo = 1
+             3095 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         14 90 1294 1439 1461 1586 1673 1840 2389 2482 3095 4195 4250 4380 4423 9378 9373 9374 9381 9371 9370
+     }
+}

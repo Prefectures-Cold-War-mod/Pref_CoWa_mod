@@ -1,0 +1,30 @@
+state={
+     id=310
+     name="STATE_310" #ì˙ìc#HITA
+     manpower = 90695
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 155
+         rubber = 0
+         tungsten = 0
+         steel = 10
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {4252 2} #ì˙ìcés,Hita-shi
+         victory_points = {239 1} #ã„èdí¨,Kokonoe-machi
+         victory_points = {3048 1} #ãËéÏí¨,Kusu-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         239 347 437 840 996 1117 1204 1915 2235 2250 3048 3305 4238 4252 4289 4315 4328 4329 4346 4351 4386 4398 
+     }
+}

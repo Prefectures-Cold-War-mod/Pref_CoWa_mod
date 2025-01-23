@@ -1,0 +1,28 @@
+state={
+     id=357
+     name="STATE_357" #ŒF–ì#KUMANO
+     manpower = 37251
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         tungsten = 0
+         chromium = 0
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         victory_points = {6038 2} #ŒF–ìŽs,Kumano-shi
+         victory_points = {9281 2} #–kŽR‘º,Kitayama-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         48 591 5998 6006 6038 9280 9281
+     }
+}

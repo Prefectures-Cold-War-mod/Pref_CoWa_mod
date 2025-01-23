@@ -1,0 +1,357 @@
+ideas = {
+country = {
+
+		OSK_idea1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = POL_looming_peasants_strike
+
+			rule = {
+
+
+			}
+			modifier = {
+				civilian_factory_use = 5
+stability_factor = -0.15
+	war_support_factor = -0.15
+global_building_slots_factor = -0.10
+consumer_goods_factor = 0.15
+political_power_factor = -0.05
+			}
+	}
+
+		OSK_idea2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_whampoa_military_academy
+
+			rule = {
+
+
+			}
+			modifier = {
+political_advisor_cost_factor = 0.3
+mobilization_laws_cost_factor = 0.8
+trade_laws_cost_factor = 0.8
+drift_defence_factor = 0.2
+
+
+Road_to_Serfdom_cost_factor = 2
+Army_budget_cost_factor = 2
+Police_budget_cost_factor = 2
+Education_budget_cost_factor = 2
+Public_budget_cost_factor = 2
+welfare_cost_factor = 2
+			}
+	}
+
+		OSK_idea3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SPR_subvert_soviet_control
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_factor = -0.15
+stability_factor = -0.3
+industrial_capacity_factory = -0.1
+production_factory_efficiency_gain_factor = -0.1
+industrial_capacity_dockyard = -0.1
+local_resources_factor = -0.10
+			}
+	}
+
+		OSK_idea4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SOV_soviet_railways
+
+			rule = {
+
+
+			}
+			modifier = {
+	consumer_goods_factor = 0.05
+production_factory_start_efficiency_factor = 0.05
+min_export = 0.05
+production_speed_industrial_complex_factor = 0.1
+production_speed_infrastructure_factor = 0.1
+
+			}
+	}
+
+		OSK_idea5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SOV_transformation_of_nature
+
+			rule = {
+
+
+			}
+			modifier = {
+stability_factor = 0.3
+consumer_goods_factor = democratic_deficit_consumer_goods_factor
+industrial_capacity_factory = -0.15
+	industrial_capacity_dockyard = -0.15
+political_power_gain = 0.5
+political_advisor_cost_factor = -0.25
+mobilization_laws_cost_factor = 0.8
+trade_laws_cost_factor = 0.8
+drift_defence_factor = 0.2
+	research_speed_factor = 0.05
+
+Road_to_Serfdom_cost_factor = 2
+Army_budget_cost_factor = 2
+Police_budget_cost_factor = 2
+Education_budget_cost_factor = 2
+Public_budget_cost_factor = 2
+welfare_cost_factor = 2
+			}
+	}
+
+		OSK_idea6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = YUG_federal_defense_council
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_factor = -0.25
+			}
+	}
+
+		OSK_idea7 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SOV_third_five_year_plan
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_arms_factory_factor = 0.1
+production_speed_dockyard_factor = 0.1
+production_speed_industrial_complex_factor = 0.1
+production_factory_max_efficiency_factor = 0.1
+local_resources_factor = 0.10
+production_oil_factor = 0.1
+industrial_capacity_factory = 0.2
+industrial_capacity_dockyard = 0.2
+industry_air_damage_factor = -0.1
+			}
+	}
+
+		OSK_idea8 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = FRA_motorized_focus
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_industrial_complex_factor = 0.1
+production_speed_naval_base_factor = 0.2
+	repair_speed_rail_way_factor = 0.5
+production_speed_infrastructure_factor = 0.2
+MONTHLY_POPULATION = 0.2
+production_speed_air_base_factor = 0.15
+
+			}
+	}
+		OSK_idea9 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+research_speed_factor = 0.05
+consumer_goods_factor = 0.05
+			}
+	}
+		OSK_idea10 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+conscription_factor = 0.25
+consumer_goods_factor = 0.05
+			}
+	}
+		OSK_idea11 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_factor = 0.05
+consumer_goods_factor = 0.05
+			}
+	}
+		OSK_idea12 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+	stability_factor = 0.05
+consumer_goods_factor = 0.05
+			}
+	}
+		OSK_idea13 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+	consumer_goods_factor = 0.5
+	industrial_capacity_factory = -0.5
+	industrial_capacity_dockyard = -0.5
+production_speed_buildings_factor = -0.5
+	local_resources_factor = -0.5
+production_factory_efficiency_gain_factor = -0.5
+production_factory_start_efficiency_factor = -0.5
+production_factory_max_efficiency_factor = -0.5
+production_factory_max_efficiency_factor = -0.5
+research_speed_factor = -0.5
+	stability_factor = -0.5
+	stability_weekly = -0.02
+political_power_factor = -0.5
+
+			}
+	}
+		OSK_idea14 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+	consumer_goods_factor = 0.25
+	stability_factor = -0.2
+production_factory_efficiency_gain_factor = -0.2
+production_factory_start_efficiency_factor = -0.2
+production_factory_max_efficiency_factor = -0.2
+production_factory_max_efficiency_factor = -0.2
+	stability_factor = -0.25
+	stability_weekly = -0.1
+political_power_factor = -0.25
+			}
+	}
+		OSK_idea15 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = ?
+
+			rule = {
+
+
+			}
+			modifier = {
+	consumer_goods_factor = 0.25
+	industrial_capacity_factory = -0.25
+	industrial_capacity_dockyard = -0.25
+research_speed_factor = -0.1
+	stability_factor = -0.2
+	stability_factor = -0.25
+	stability_weekly = -0.1
+political_power_factor = -0.25
+
+			}
+	}
+}
+}
+}

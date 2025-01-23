@@ -1,0 +1,41 @@
+democratic_deficit_research_speed_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_research_speed_factor_5_tt
+	add_to_variable = { var = democratic_deficit_research_speed_factor value = 0.05 }
+}
+democratic_deficit_consumer_goods_factor_2 = {
+	custom_effect_tooltip = democratic_deficit_consumer_goods_factor_2_tt
+	add_to_variable = { var = democratic_deficit_consumer_goods_factor value = 0.02 }
+}
+democratic_deficit_stability_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_stability_factor_5_tt
+	add_to_variable = { var = democratic_deficit_stability_factor value = 0.05 }
+}
+democratic_deficit_political_power_gain_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_political_power_gain_factor_5_tt
+	add_to_variable = { var = democratic_deficit_political_power_gain_factor value = 0.05 }
+}
+democratic_deficit_industrial_capacity_factory_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_industrial_capacity_factory_factor_5_tt
+	add_to_variable = { var = democratic_deficit_industrial_capacity_factory_factor value = 0.05 }
+}
+democratic_deficit_industrial_capacity_dockyard_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_industrial_capacity_dockyard_factor_5_tt
+	add_to_variable = { var = democratic_deficit_industrial_capacity_dockyard_factor value = 0.05 }
+}
+democratic_deficit_industrial_capacity_dockyard_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_industrial_capacity_dockyard_factor_5_tt
+	add_to_variable = { var = democratic_deficit_industrial_capacity_dockyard_factor value = 0.05 }
+}
+
+democratic_deficit_production_factory_start_efficiency_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_production_factory_start_efficiency_factorr_5_tt
+	add_to_variable = { var = democratic_deficit_production_factory_start_efficiency_factor value = 0.05 }
+}
+democratic_deficit_line_change_production_efficiency_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_line_change_production_efficiency_factor_5_tt
+	add_to_variable = { var = democratic_deficit_line_change_production_efficiency_factor value = 0.05 }
+}
+democratic_deficit_production_speed_buildings_factor_5 = {
+	custom_effect_tooltip = democratic_deficit_production_speed_buildings_factor_5_tt
+	add_to_variable = { var = democratic_deficit_production_speed_buildings_factor value = 0.05 }
+}

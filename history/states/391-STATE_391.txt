@@ -1,0 +1,32 @@
+state={
+     id=391
+     name="STATE_391" #éRé≠ÅEãeír#YAMAGAÅEKIKUCHI
+     manpower = 240301
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {4299 2} #éRé≠és,Yamaga-shi
+         victory_points = {775 2} #ãeírés,Kikuchi-shi
+         victory_points = {3195 1} #çáéués,Koshi-shi
+         victory_points = {744 1} #ãeózí¨,Kikuyo-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             air_base = 2
+         }
+     }
+     provinces={
+         664 744 775 1648 2289 3135 3195 3391 4274 4299 4313 4362 4367 
+     }
+}

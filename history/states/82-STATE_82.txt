@@ -1,0 +1,29 @@
+state={
+     id=82
+     name="STATE_82" #…ŒË#MITO
+     manpower = 469420
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 14
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = IBA
+         add_core_of = IBA
+         victory_points = {2824 20} #…ŒËs,Mito-shi
+         victory_points = {6472 1} #‘åô’¬,Oarai-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 6
+             arms_factory = 0
+             air_base = 5
+         }
+     }
+     provinces={
+         1370 1644 1921 1949 2123 2249 2361 2553 2784 2824 2903 3498 6300 6338 6366 6370 6382 6389 6398 6419 6438 6445 6447 6472 6485 6494 
+     }
+}

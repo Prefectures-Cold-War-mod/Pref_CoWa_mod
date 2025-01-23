@@ -1,0 +1,34 @@
+state={
+     id=279
+     name="STATE_279" #‰F•”ER—z¬–ì“c#UBEESANYOONODA
+     manpower = 228577
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 12
+         rubber = 0
+         tungsten = 0
+         steel = 26
+         chromium = 35
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {1210 5} #‰F•”s,Ube-shi
+         victory_points = {4098 1} #R—z¬–ì“cs,Sanyoonoda-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             1210 = {
+                naval_base = 3
+             }
+              4098 = {
+                naval_base = 3
+              }
+         }
+     }
+     provinces={
+         1210 1399 2319 4085 4098 4100 4161 
+     }
+}

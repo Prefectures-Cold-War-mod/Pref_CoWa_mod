@@ -1,0 +1,33 @@
+state={
+     id=289
+     name="STATE_289" #“ì—\“ì•”#NANYONAMBU
+     manpower = 111671
+     state_category = rural
+     resources={
+         oil = 26
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EHM
+         add_core_of = EHM
+         victory_points = {1990 2} #‰F˜a“‡Žs,Uwajima-shi
+         victory_points = {760 1} #‹S–k’¬,Kihoku-cho
+         victory_points = {1958 1} #ˆ¤“ì’¬,Ainan-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 2
+             1990 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         453 760 915 1156 1448 1873 1958 1990 2633 3067 3203 4841 4871 4878 4904 4908 
+     }
+}

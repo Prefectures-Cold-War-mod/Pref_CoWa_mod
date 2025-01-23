@@ -1,0 +1,30 @@
+state={
+     id=259
+     name="STATE_259" #‰ªŽR#OKAYAMA
+     manpower = 780405
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         victory_points = {560 25} #–k‹æ,Okayama-shi, Kita-ku
+         victory_points = {1552 3} #‹Ê–ìŽs,Tamano-shi
+         victory_points = {4499 2} #‹g”õ’†‰›’¬,Kibichuo-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 2
+             air_base = 2
+         }
+     }
+     provinces={
+         269 408 560 887 1287 1358 1388 1552 1914 1973 2051 2366 2799 3018 3302 3382 4499 4518 4529 4546 4574 4600 4616 4644 4650 4668 4704 4705 4706 4742 
+     }
+}

@@ -1,0 +1,31 @@
+state={
+     id=273
+     name="STATE_273" #èºç]#MATSUE
+     manpower = 241868
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SMN
+         add_core_of = SMN
+         victory_points = {931 20} #èºç]és,Matsue-shi
+         victory_points = {2048 2} #à¿óàés,Yasugi-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             931 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         44 277 521 931 1212 1941 2048 2875 4101 4221 4231 
+     }
+}

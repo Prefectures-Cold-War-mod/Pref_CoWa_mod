@@ -1,0 +1,19 @@
+on_actions = {
+	on_startup = {
+		effect = {
+KGW = {
+set_country_flag = Harada_Fukuya
+}
+OSK = {
+					set_power_balance = {
+						id = OSK_balance_of_power
+}
+	add_power_balance_value = { 
+    id = OSK_balance_of_power
+    value = 0.1
+    tooltip_side = OSK_right_side
+}
+}
+}
+}
+}

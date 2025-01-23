@@ -1,0 +1,123 @@
+spriteTypes = {
+
+       spriteType = {
+              name = "GFX_AOM1"
+              texturefile = "gfx/leaders/AOM/AOM1.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM2"
+              texturefile = "gfx/leaders/AOM/AOM2.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM3"
+              texturefile = "gfx/leaders/AOM/AOM3.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM4"
+              texturefile = "gfx/leaders/AOM/AOM4.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_JFK_tsugaru"
+              texturefile = "gfx/interface/AOM/focus/NF_JFK_tsugaru.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_economic_controls"
+              texturefile = "gfx/interface/AOM/focus/NF_economic_controls.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_dead_kunio"
+              texturefile = "gfx/interface/AOM/focus/NF_dead_kunio.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_kaigo_shunkichi"
+              texturefile = "gfx/interface/AOM/focus/NF_kaigo_shunkichi.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_kaigo_moriteru"
+              texturefile = "gfx/interface/AOM/focus/NF_kaigo_moriteru.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_army_chusei"
+              texturefile = "gfx/interface/AOM/focus/NF_army_chusei.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_Dissolution_Congress"
+              texturefile = "gfx/interface/AOM/focus/NF_Dissolution_Congress.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_Dissolution_Congress"
+              texturefile = "gfx/interface/AOM/focus/NF_Dissolution_Congress.dds"
+       }
+       spriteType = {
+              name = "GFX_NF_Election"
+              texturefile = "gfx/interface/AOM/focus/NF_Election.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_akira"
+              texturefile = "gfx/interface/AOM/icon/icon_akira.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_emperortuneyoshi"
+              texturefile = "gfx/interface/AOM/icon/icon_emperortuneyoshi.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_etsusaburo"
+              texturefile = "gfx/interface/AOM/icon/icon_etsusaburo.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_junzo"
+              texturefile = "gfx/interface/AOM/icon/icon_junzo.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_kunio"
+              texturefile = "gfx/interface/AOM/icon/icon_kunio.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_shogo"
+              texturefile = "gfx/interface/AOM/icon/icon_shogo.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_toshihide"
+              texturefile = "gfx/interface/AOM/icon/icon_toshihide.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_yuji"
+              texturefile = "gfx/interface/AOM/icon/icon_yuji.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM_ideas1"
+              texturefile = "gfx/interface/AOM/icon/icon_zenko.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM_ideas3"
+              texturefile = "gfx/interface/AOM/icon/icon_anti_government.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_crisis"
+              texturefile = "gfx/interface/AOM/icon/icon_crisis.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM_ideas5"
+              texturefile = "gfx/interface/AOM/icon/icon_inflation.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_keizo"
+              texturefile = "gfx/interface/AOM/icon/icon_keizo.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_NIS"
+              texturefile = "gfx/interface/AOM/icon/icon_NIS.dds"
+       }
+       spriteType = {
+              name = "GFX_AOM_ideas2"
+              texturefile = "gfx/interface/AOM/icon/icon_oshoku.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_reppandomei"
+              texturefile = "gfx/interface/AOM/icon/icon_reppandomei.dds"
+       }
+       spriteType = {
+              name = "GFX_icon_soldier"
+              texturefile = "gfx/interface/AOM/icon/icon_soldier.dds"
+       }
+}

@@ -1,0 +1,27 @@
+state={
+     id=296
+     name="STATE_296" #Ž…“‡#ITOSHIMA
+     manpower = 101658
+     state_category = town
+     resources={
+         oil = 6
+         aluminium = 0
+         rubber = 2
+         tungsten = 0
+         steel = 21
+         chromium = 7
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         add_core_of = HKO
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1924 2155 2541 2653 3959 3981 3984 3989 3998 4002 4003 4006 4008 4015 4016 
+     }
+}

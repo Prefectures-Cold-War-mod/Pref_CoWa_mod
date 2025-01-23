@@ -1,0 +1,27 @@
+state={
+     id=463
+     name="STATE_463" #•l’Ê‚è’†•”#HAMADORICHUBU
+     manpower = 27433
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 17
+         steel =7
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {1263 1} #“è—t’¬,Naraha-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1005 1263 1314 3392 6222 
+     }
+}

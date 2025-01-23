@@ -1,0 +1,26 @@
+state={
+     id=156
+     name="STATE_156" #ˆÀ”{#ABE
+     manpower = 0
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 5
+         rubber = 0
+         tungsten = 0
+         steel = 4
+         chromium = 4
+     }
+     history ={
+         owner = SIZ
+         add_core_of = SIZ
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1129 2738 3375 9454
+     }
+}

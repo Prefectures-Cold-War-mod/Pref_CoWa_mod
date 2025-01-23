@@ -1,0 +1,27 @@
+state={
+     id=194
+     name="STATE_194" #‰z‘O#ECHIZEN
+     manpower = 96446
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HKI
+         add_core_of = HKI
+         victory_points = {2573 1} #‰z‘OŽs,Echizen-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1135 1191 1507 1809 2573 4961 5030 5039 5068 5086 5094 5121 5140 
+     }
+}

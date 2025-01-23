@@ -1,0 +1,27 @@
+state={
+     id=353
+     name="STATE_353" #‘«—˜#ASHIKAGA
+     manpower = 148792
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         victory_points = {6139 5} #‘«—˜Žs,Ashikaga-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         721 3153 3477 6110 6124 6139 6158 
+     }
+}

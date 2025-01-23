@@ -1,0 +1,31 @@
+state={
+     id=64
+     name="STATE_64" #•l’Ê‚è“ì•”#HAMADORINAMBU
+     manpower = 330271
+     state_category = town
+     resources={
+         oil = 12
+         aluminium = 0
+         rubber = 0
+         tungsten = 17
+         steel = 7
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {6302 10} #‚¢‚í‚«Žs,Iwaki-shi
+         victory_points = {3361 1} #‘o—t’¬,Futaba-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 2
+             3365 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         665 1000 1838 2322 2398 2696 2741 2906 3361 3365 3483 6166 6191 6208 6237 6242 6302 
+     }
+}

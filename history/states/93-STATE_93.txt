@@ -1,0 +1,30 @@
+state={
+     id=93
+     name="STATE_93" #ŒN’Ã#KIMITSU
+     manpower = 129609
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = TBA
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 2
+		1953 = {
+				naval_base = 1
+		}
+         }
+     }
+     provinces={
+         159 218 1743 1953 2105 2475 2557 3266 6645 6652 6660 
+     }
+}

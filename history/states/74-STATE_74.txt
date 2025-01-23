@@ -1,0 +1,26 @@
+state={
+     id=74
+     name="STATE_74" #‘å“cŒ´#OTAWARA
+     manpower = 0
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 12
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 23
+     }
+     history ={
+         owner = TOT
+         add_core_of = TOT
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1535 2763 6141 6152 
+     }
+}

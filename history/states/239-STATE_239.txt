@@ -1,0 +1,34 @@
+state={
+     id=239
+     name="STATE_239" #ìåê_åÀ#HIGASHI KOBE
+     manpower = 1064523
+     state_category = town
+     resources={
+         oil = 12
+         aluminium = 0
+         rubber = 0
+         tungsten = 1
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HRM
+         add_core_of = HRM
+         add_core_of = SET
+         add_core_of = HYG
+         victory_points = {5240 30} #ê_åÀés,Kobe-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 2
+             arms_factory = 1
+             dockyard = 1
+             air_base = 2
+             5240 = {
+                naval_base = 5
+             }
+         }
+     }
+     provinces={
+        792 897 2207 3253 3311 3351 5163 5166 5171 5177 5195 5211 5218 5219 5240 5248
+     }
+}

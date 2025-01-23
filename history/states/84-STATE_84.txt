@@ -1,0 +1,32 @@
+state={
+     id=84
+     name="STATE_84" #Ç¬Ç≠ÇŒ#TSUKUBA
+     manpower = 693813
+     state_category = city
+     resources={
+         oil = 21
+         aluminium = 56
+         rubber = 0
+         tungsten = 0
+         steel = 11
+         chromium = 24
+     }
+     history ={
+         owner = IBA
+         add_core_of = IBA
+         victory_points = {2431 2} #ìyâYés,Tsuchiura-shi
+         victory_points = {1985 1} #êŒâ™és,Ishioka-shi
+         victory_points = {6493 1} #ãçãvés,Ushiku-shi
+         victory_points = {6418 5} #Ç¬Ç≠ÇŒés,Tsukuba-shi
+         victory_points = {6442 1} #Ç©Ç∑Ç›Ç™Ç§ÇÁés,Kasumigaura-shi
+         victory_points = {6463 1} #Ç¬Ç≠ÇŒÇ›ÇÁÇ¢és,Tsukubamirai-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 0
+         }
+     }
+     provinces={
+         425 1635 1985 1986 2431 2445 2569 2735 2895 3077 3167 6363 6364 6377 6386 6393 6396 6397 6416 6418 6437 6442 6463 6464 6474 6489 6493 6542 
+     }
+}

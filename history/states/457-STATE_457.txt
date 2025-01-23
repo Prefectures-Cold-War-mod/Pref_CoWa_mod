@@ -1,0 +1,27 @@
+state={
+     id=457
+     name="STATE_457" #ûwéRìÏïî#HIYAMANAMBU
+     manpower = 20186
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 192
+         steel = 245
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {3209 1} #ç]ç∑í¨,Esashi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         303 417 647 810 1172 1235 1422 1519 1668 2259 2318 2393 2491 2711 2884 3209 3818 3837 3839 3843 3844 3853 3854 3856 3860 3861 3862 3872 3873 3876 3888 3890 3897 3901 3905 3912 3916 3923 3933 
+     }
+}

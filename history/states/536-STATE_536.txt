@@ -1,0 +1,30 @@
+state={
+     id=536
+     name="STATE_536" #�c�Ǌ�#KERAMA
+     manpower = 1625
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+
+            6828 = {
+                naval_base = 1
+            }
+         }
+     }
+     provinces={
+         6828
+     }
+}

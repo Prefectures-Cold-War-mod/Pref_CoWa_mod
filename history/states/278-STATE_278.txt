@@ -1,0 +1,35 @@
+state={
+     id=278
+     name="STATE_278" #‰ºŠÖ#SHIMONOSEKI
+     manpower = 263573
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         victory_points = {1741 15} #‰ºŠÖŽs,Shimonoseki-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 2
+             dockyard = 1
+             air_base = 2
+             1741 = {
+                naval_base = 3
+             }
+              3004 = {
+                naval_base = 1
+              }
+         }
+     }
+     provinces={
+         224 758 1741 1913 2153 2953 3004 3972 3990 4009 4011 4028 4033 4060 4065 6691
+     }
+}

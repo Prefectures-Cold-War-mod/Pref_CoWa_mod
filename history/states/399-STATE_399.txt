@@ -1,0 +1,31 @@
+state={
+     id=399
+     name="STATE_399" #ìÏÇ≥Ç¬Ç‹#MINAMISATSUMA
+     manpower = 76420
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {2669 2} #éwèhés,Ibusuki-shi
+         victory_points = {2935 3} #ìÏã„èBés,Minamikyushu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             2669 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         1582 2486 2669 2911 2935 4947 
+     }
+}

@@ -1,0 +1,30 @@
+state={
+     id=201
+     name="STATE_201" #åŒìå#KOTO
+     manpower = 135063
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SIG
+         add_core_of = SIG
+		add_core_of = RAS
+         victory_points = {5362 15} #ïFç™és,Hikone-shi
+         victory_points = {2160 1} #çbó«í¨,Kora-cho
+         victory_points = {2160 1} #ëΩâÍí¨,Taga-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1008 2160 5362 5436 
+     }
+}

@@ -1,0 +1,28 @@
+state={
+     id=262
+     name="STATE_262" #ê^íÎ#MANIWA
+     manpower = 46612
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EIM
+         add_core_of = EIM
+         victory_points = {3308 1} #ê^íÎés,Maniwa-shi
+         victory_points = {146 1} #êVèØë∫,Shinjo-son
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         146 454 466 732 2050 2093 2510 2794 3196 3308 4364 4389 4412 4413 4441 4455 
+     }
+}

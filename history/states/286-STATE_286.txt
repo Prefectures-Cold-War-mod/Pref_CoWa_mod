@@ -1,0 +1,29 @@
+state={
+     id=286
+     name="STATE_286" #élçëíÜâõ#SHIKOKUCHUO
+     manpower = 87482
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 38
+         chromium = 8
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         add_core_of = EHM
+         victory_points = {1700 5} #élçëíÜâõés,Shikokuchuo-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 8
+             arms_factory = 5
+             fuel_silo = 1
+         }
+     }
+     provinces={
+         210 889 1700 2184 2658 4816 4835 4858 4893 4917 
+     }
+}

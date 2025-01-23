@@ -1,0 +1,28 @@
+state={
+     id=184
+     name="STATE_184" #ñLìcêºïî#TOYOTASEIBU
+     manpower = 208909
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 16
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {1177 10} #ñLìcés,Toyota-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 7
+             air_base = 2
+         }
+     }
+     provinces={
+         830 1177 1487 1568 3164 3212 3245 3316 3450 5832 5843 5856 5857 5858 5862 5869 5878 5886 5898 5899 5915 5920 5921 5969 
+     }
+}

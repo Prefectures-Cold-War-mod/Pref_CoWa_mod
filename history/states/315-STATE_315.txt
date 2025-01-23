@@ -1,0 +1,31 @@
+state={
+     id=315
+     name="STATE_315" #ŒF–{#KUMAMOTO
+     manpower = 734105
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = KMT
+         victory_points = {4366 25} #’†‰›‹æ,Kumamoto-shi, Chuo-ku
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 2
+             arms_factory = 2
+             1845 = {
+                naval_base = 5
+             }
+         }
+     }
+     provinces={
+         543 1845 2359 2924 3345 4326 4348 4366 4377 4393 
+     }
+}

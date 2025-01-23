@@ -1,0 +1,32 @@
+state={
+     id=309
+     name="STATE_309" #‘å•ª#OITA
+     manpower = 479097
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 42
+         rubber = 5
+         tungsten = 10
+         steel = 20
+         chromium = 5
+     }
+     history ={
+           owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {126 20} #‘å•ªŽs,Oita-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 3
+             arms_factory = 1
+             dockyard = 2
+             4506 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         126 834 1081 2131 2402 3110 3362 4468 4473 4492 4506 4513 
+     }
+}

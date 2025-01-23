@@ -1,0 +1,43 @@
+
+state={
+	id=3
+	name="STATE_3"
+	resources={
+		oil=6.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=4.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H26
+		add_core_of = H26
+		victory_points = {
+			1583 1 
+		}
+		victory_points = {
+			730 1 
+		}
+		victory_points = {
+			730 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		35 56 305 317 671 730 734 873 930 1332 1405 1583 2104 2172 2292 2449 3006 3120 3565 3576 3592 
+	}
+	manpower=62844
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

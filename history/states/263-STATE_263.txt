@@ -1,0 +1,28 @@
+state={
+     id=263
+     name="STATE_263" #êVå©#NIIMI
+     manpower = 29624
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 45
+         tungsten = 0
+         steel = 22
+         chromium = 4
+     }
+     history ={
+         owner = EIM
+         add_core_of = EIM
+         add_core_of = OKY
+         victory_points = {2136 3} #êVå©és,Niimi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         74 693 1355 2136 2853 3420 3462 4352 4373 4429 9272 9273
+     }
+}

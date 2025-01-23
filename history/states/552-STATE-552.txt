@@ -1,0 +1,31 @@
+state={
+    id=552
+    name="STATE_552" #tomakomai
+    manpower = 10
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+        owner = H02
+        add_core_of = H02
+        victory_points = {
+			3819 2 
+		}  
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+        victory_points = {2215 1} #VŹ,Shiraoi-cho
+    }
+    provinces={
+        3826 9303 19 9306 1608 3831 3170 1549 3819 3809 3820 2215 3466 3811 3797 1125 1072 3808 2372
+    }
+}

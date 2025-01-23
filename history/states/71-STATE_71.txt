@@ -1,0 +1,33 @@
+state={
+     id=71
+     name="STATE_71" #?????E????#TAKASAKI?EFUJIOKA
+     manpower = 608920
+     state_category = town
+     resources={
+         oil = 38
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 7
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {441 10} #?????s,Takasaki-shi
+         victory_points = {6064 1} #?????s,Fujioka-shi
+         victory_points = {2984 2} #?x???s,Tomioka-shi
+         victory_points = {5955 1} #?????s,Annaka-shi
+         victory_points = {3129 1} #???m?c??,Shimonita-machi
+         victory_points = {2984 1} #???y??,Kanra-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 2
+             air_base = 2
+         }
+     }
+     provinces={
+         171 320 441 691 820 973 1168 1512 2252 2599 2753 2984 3129 3189 5863 5911 5929 5947 5955 5985 6016 6024 6041 6058 6064 6069 6078 6088 
+     }
+}

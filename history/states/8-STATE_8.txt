@@ -1,0 +1,28 @@
+state={
+     id=8
+     name="STATE_8" #ì˙çÇêºïî#HIDAKASEIBU
+     manpower = 45398
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 86
+         rubber = 0
+         tungsten = 0
+         steel = 149
+         chromium = 36
+     }
+     history ={
+         owner = H17
+         add_core_of = H17
+         victory_points = {1778 1} #ì˙çÇí¨,Hidaka-cho
+         victory_points = {941 1} #êVÇ–ÇæÇ©í¨,Shinhidaka-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         257 292 329 402 518 676 799 824 919 941 946 998 1170 1302 1359 1407 1598 1634 1778 1824 1931 1972 1982 2100 2342 2476 2527 2579 2615 2703 3051 3173 3842 3848 3864 3884 3885 3903 3908 3913 3919 3936 3943 3949 3950 3997 4037 4048 4053 4077 4080 4106 9307 9308 9309
+     }
+}

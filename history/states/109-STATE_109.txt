@@ -1,0 +1,27 @@
+state={
+     id=109
+     name="STATE_109" #èaíJãÊ#SHIBUYAKU
+     manpower = 226594
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6449 25} #èaíJãÊ,Shibuya-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 8
+             arms_factory = 2
+         }
+     }
+     provinces={
+         6449
+     }
+}

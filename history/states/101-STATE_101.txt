@@ -1,0 +1,29 @@
+state={
+     id=101
+     name="STATE_101" #è„îˆ#AGEO
+     manpower = 415384
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = SAI
+         victory_points = {2460 1} #è„îˆés,Ageo-shi
+         victory_points = {6263 1} #ñkñ{és,Kitamoto-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         2460 2852 6263 6303 6305
+     }
+}

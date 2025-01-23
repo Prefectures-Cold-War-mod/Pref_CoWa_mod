@@ -1,0 +1,31 @@
+state={
+     id=243
+     name="STATE_243" #’W˜H#AWAJI
+     manpower = 135625
+     state_category = city
+     resources={
+         oil = 75
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+        owner = AWJ
+        add_core_of = AWJ
+         add_core_of = KGW
+         victory_points = { 89 5} #’W˜HŽs,Awaji-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 3
+             arms_factory = 2
+             1089 = {
+                naval_base = 5
+             }
+         }
+     }
+     provinces={
+         608 1089 2115
+     }
+}

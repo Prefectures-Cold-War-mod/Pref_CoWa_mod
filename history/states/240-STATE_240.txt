@@ -1,0 +1,34 @@
+state={
+     id=240
+     name="STATE_240" #ç„ê_#HANSHIN
+     manpower = 1741695
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 42
+         rubber = 0
+         tungsten = 4
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SET
+         add_core_of = SET
+         add_core_of = HYG
+         victory_points = {5115 1} #éOìcés,Sanda-shi
+         victory_points = {2631 5} #ìÚçËés,Amagasaki-shi
+         victory_points = {2010 3} #êºã{és,Nishinomiya-shi
+         victory_points = {5227 1} #à∞âÆés,Ashiya-shi
+         victory_points = {2423 1} #à…íOés,Itami-shi
+         victory_points = {5233 2} #ïÛíÀés,Takarazuka-shi
+         victory_points = {5267 1} #êÏêºés,Kawanishi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 5
+         }
+     }
+     provinces={
+        318 409 442 563 1297 1877 2010 2112 2225 2423 2631 2676 3355 3508 5063 5067 5099 5111 5115 5146 5151 5167 5182 5185 5187 5188 5196 5201 5206 5212 5227 5232 5233 5234 5254 5267
+     }
+}

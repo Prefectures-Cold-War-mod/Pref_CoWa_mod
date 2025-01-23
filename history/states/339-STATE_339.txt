@@ -1,0 +1,40 @@
+state={
+     id=339
+     name="STATE_339" #‰«“ê#OKINAWA
+     manpower = 602266
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 7
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {1993 5} #‹X–ì˜ps,Ginowan-shi
+         victory_points = {1993 2} #‰Y“Ys,Urasoe-shi
+         victory_points = {6620 15} #‰«“ês,Okinawa-shi
+         victory_points = {6612 2} #‚¤‚é‚Üs,Uruma-shi
+         victory_points = {3053 1} #“Ç’J‘º,Yomitan-son
+         victory_points = {6611 2} #‰Ãè”[’¬,Kadena-cho
+         victory_points = {1993 1} #–k’†é‘º,Kitanakagusuku-son
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+             air_base = 3
+             6633 = {
+                naval_base = 4
+             }
+             1993 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         1993 2574 3053 6606 6611 6612 6613 6620 6628 6633 6639 6825 6831 6832
+     }
+}

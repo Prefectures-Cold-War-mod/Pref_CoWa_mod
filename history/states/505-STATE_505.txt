@@ -1,0 +1,30 @@
+state={
+     id=505
+     name="STATE_505" #ˆ¢“ì#ANAN
+     manpower = 73507
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {468 2} #ˆ¢“ìŽs,Anan-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             5386 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         468 479 955 5386 5455 
+     }
+}

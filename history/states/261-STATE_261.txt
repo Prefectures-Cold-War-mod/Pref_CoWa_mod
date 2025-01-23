@@ -1,0 +1,31 @@
+state={
+     id=261
+     name="STATE_261" #èüâp#SHOEI
+     manpower = 46286
+     state_category = rural
+     resources={
+         oil = 30
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = EIM
+         add_core_of = EIM
+         add_core_of = OKY
+         victory_points = {200 1} #î¸çÏés,Mimasaka-shi
+         victory_points = {4562 1} #èüâõí¨,Shoo-cho
+         victory_points = {1206 1} #ìﬁã`í¨,Nagi-cho
+         victory_points = {1777 1} #êºàæëqë∫,Nishiawakura-son
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         200 767 1206 1742 1777 2468 2985 3017 4562 4579 4612 4625 4643 
+     }
+}

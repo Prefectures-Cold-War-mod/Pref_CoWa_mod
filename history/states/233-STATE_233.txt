@@ -1,0 +1,46 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		oil= 0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 1
+	}
+
+	history={
+		owner = SKY
+		add_core_of = SKY
+		add_core_of = KYT
+		victory_points = {
+			2422 30 
+		}
+		victory_points = {
+			5298 2 
+		}
+		victory_points = {
+			5322 3 
+		}
+		victory_points = {
+			5320 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 6
+			arms_factory = 3
+
+		}
+
+	}
+
+	provinces={
+		981 1553 1602 2148 2163 2422 2433 2447 2563 2846 3446 5137 5152 5200 5207 5213 5225 5228 5235 5242 5262 5263 5270 5273 5282 5298 5320 5322 5323 5338 9490
+	}
+	manpower=1567393
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

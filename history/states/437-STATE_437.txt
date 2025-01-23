@@ -1,0 +1,32 @@
+state={
+     id=437
+     name="STATE_437" #âññOèîìá#SHIOAKISHOTO
+     manpower = 624
+     state_category = tiny_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6761 = {
+                naval_base = 2
+             }
+	     6758 = {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6752 6753 6755 6757 6758 6761 6765
+     }
+}

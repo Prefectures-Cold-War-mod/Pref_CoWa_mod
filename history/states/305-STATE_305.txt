@@ -1,0 +1,33 @@
+state={
+     id=305
+     name="STATE_305" #í∑çË#NAGASAKI
+     manpower = 493743
+     state_category = metropolis
+     resources={
+         oil = 85
+         aluminium = 30
+         rubber = 5
+         tungsten = 0
+         steel = 0
+         chromium = 52
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {1884 25} #í∑çËés,Nagasaki-shi
+         victory_points = {4148 1} #í∑ó^í¨,Nagayo-cho
+         victory_points = {4148 1} #éûí√í¨,Togitsu-cho
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 3
+             arms_factory = 2
+             dockyard = 3
+             1884 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         1884 2085 2396 2866 3100 4095 4113 4137 4148 4184 4186 
+     }
+}

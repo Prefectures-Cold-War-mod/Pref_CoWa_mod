@@ -1,0 +1,44 @@
+state={
+     id=325
+     name="STATE_325" #ìsèÈ#MIYAKONOJO
+     manpower = 191514
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 7
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {2805 2} #ìsèÈés,Miyakonojo-shi
+         victory_points = {807 1} #éOå“í¨,Mimata-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 0
+             978 = {
+                bunker = 2
+             }
+             2805 = {
+                bunker = 2
+             }
+             2523 = {
+                bunker = 2
+             }
+             1702 = {
+                bunker = 2
+             }
+             5021 = {
+                bunker = 2
+             }
+         }
+     }
+     provinces={
+         631 787 807 978 1042 1702 2523 2805 3155 4870 4877 4897 4898 4930 4934 4948 4977 5021 
+     }
+}

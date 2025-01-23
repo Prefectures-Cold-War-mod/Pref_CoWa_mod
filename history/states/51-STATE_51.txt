@@ -1,0 +1,26 @@
+state={
+     id=51
+     name="STATE_51" #êºïîêÂë‰#SEIBUSENDAI
+     manpower = 248370
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 15
+         rubber = 42
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 2
+             arms_factory = 3
+         }
+     }
+     provinces={
+         745 969 1035 1481 1554 1818 2287 3425 5589 5605 5609 5611 5630 5635 5639 5660 5661 5662 5673 5687 5691 5693 5704 
+     }
+}

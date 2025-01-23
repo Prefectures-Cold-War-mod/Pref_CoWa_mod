@@ -1,0 +1,30 @@
+state={
+     id=241
+     name="STATE_241" #ñkîdñÅ#KITA HARIMA
+     manpower = 258027
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 5
+     }
+     history ={
+         owner = HRM
+         add_core_of = HRM
+         add_core_of = HYG
+         victory_points = {2454 1} #éOñÿés,Miki-shi
+         victory_points = {5024 2} #è¨ñÏés,Ono-shi
+         victory_points = {4923 1} #â¡êºés,Kasai-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+        460 467 645 677 1051 1188 1336 1593 1785 2006 2285 2404 2454 2870 3176 4879 4900 4923 4959 4966 5005 5007 5024 5103
+     }
+}

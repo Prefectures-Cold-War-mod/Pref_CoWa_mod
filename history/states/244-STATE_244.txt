@@ -1,0 +1,28 @@
+state={
+     id=244
+     name="STATE_244" #“ì’A#NANTAN(MINAMI TAJIMA)
+     manpower = 49189
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 192
+         rubber = 12
+         tungsten = 12
+         steel = 0
+         chromium = 11
+     }
+     history ={
+         owner = TJI
+         add_core_of = TJI
+         add_core_of = HYG
+         victory_points = {4631 1} #—{•ƒŽs,Yabu-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+        331 357 507 855 1143 1244 1658 1968 2094 3258 3333 4575 4594 4621 4631 4649 4659 4676 4700 4714 4721 4722 4744 4750 4793 4799
+     }
+}

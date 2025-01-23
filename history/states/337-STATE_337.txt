@@ -1,0 +1,29 @@
+state={
+     id=337
+     name="STATE_337" #ç°ãAêm#NAKIJIN
+     manpower = 22645
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 35
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6516 1} #ç°ãAêmë∫,Nakijin-son
+         victory_points = {2448 1} #ñ{ïîí¨,Motobu-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 2
+         }
+     }
+     provinces={
+         1457 2448 6516 6817
+     }
+}

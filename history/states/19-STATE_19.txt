@@ -1,0 +1,48 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=193.000
+		steel=245.000
+		chromium=0.000
+	}
+
+	history={
+		owner = HOK
+		add_core_of = HOK
+		victory_points = {
+			433 1 
+		}
+		victory_points = {
+			3902 1 
+		}
+		victory_points = {
+			3838 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 4
+			fuel_silo = 2
+			943 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		199 433 953 1436 2139 2240 2332 2718 2850 2868 2967 3009 3130 3287 3415 3459 3838 3841 3846 3847 3852 3855 3857 3859 3863 3866 3867 3869 3870 3871 3874 3880 3881 3883 3887 3889 3891 3892 3898 3902 3904 3906 3907 3909 3910 3918 3926 3935 3948 
+	}
+	manpower=353259
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

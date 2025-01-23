@@ -1,0 +1,26 @@
+state={
+     id=503
+     name="STATE_503" #‘q‹´“‡#KURAHASHISHIMA
+     manpower = 15106
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = HRS
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         6718
+     }
+}

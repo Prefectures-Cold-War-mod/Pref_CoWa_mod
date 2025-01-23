@@ -1,0 +1,1686 @@
+focus_tree = {
+	id = OSK
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OSK
+		}
+	}
+	default = no
+	focus = {
+		id = OSK_leftist_rhetoric
+		text = 大阪のルネッサンス
+		icon = GFX_focus_SOV_support_spanish_poum
+		cost = 3.00
+		x = 2
+		y = 0
+			completion_reward = {
+					add_political_power = 120
+				}
+
+	}
+	focus = {
+		id = OSK_join_comintern
+		text = 矢田問題
+		icon = GFX_focus_generic_university_2
+		cost = 5.00
+		x = 7
+		y = 2
+			available = {
+					always = no
+				}
+			bypass = {
+					is_in_faction_with = SOV
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			completion_reward = {
+					SOV = {
+							country_event = {
+									id = soviet.29
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_55
+		text = 宮本の実権
+		icon = GFX_focus_SOV_the_supreme_soviet
+		cost = 1.00
+		x = 24
+		y = 0
+			completion_reward = {
+					add_popularity = {
+							ideology = socialism
+							popularity = 0.1
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_57
+		text = 国民議会選挙
+		icon = GFX_focus_generic_universal_suffrage
+		cost = 5.00
+		x = 9
+		y = 0
+			completion_reward = {
+					remove_decision = OSK_congress
+				}
+			available = {
+					always = no
+				}
+
+	}
+	focus = {
+		id = OSK_reform_the_labour_laws
+		text = 杉田陸軍長官の就任
+		icon = GFX_focus_jap_manchurian_project
+		cost = 2.00
+		x = 45
+		y = 0
+			completion_reward = {
+					create_corps_commander = {
+							name = "杉田一次"
+							picture = "GFX_OSK1
+							" = attack_skill = = = 4 = = = defense_skill = =
+							4 = =
+							planning_skill = =
+							4 = logistics_skill
+							= = 4
+							skill = 6
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_145
+		text = 文化振興研究会
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 2.00
+		prerequisite = {
+			focus = OSK_leftist_rhetoric
+		}
+		x = 1
+		y = 1
+			completion_reward = {
+					add_stability = 0.1
+					add_popularity = {
+							ideology = socialism
+							popularity = 0.05
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_celebrate_the_commune
+		text = 教員への糾弾
+		icon = GFX_OSK_focus1
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_join_comintern
+		}
+		mutually_exclusive = {
+			focus = OSK_strengthen_the_unions
+			focus = OSK_agricultural_collectivization
+		}
+		x = 2
+		y = 3
+			completion_reward = {
+					OSK_pco_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_womens_suffrage
+		text = 解放同幹部との会談
+		icon = GFX_OSK_focus3
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_celebrate_the_commune
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = OSK_focus_123
+		text = 同和事業の拡大
+		icon = GFX_focus_SOV_organize_wreckers
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_celebrate_the_commune
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = OSK_invest_in_the_metropole
+		text = 大衆運動の論理
+		icon = GFX_OSK_focus1
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_womens_suffrage
+		}
+		prerequisite = {
+			focus = OSK_focus_123
+		}
+		x = 2
+		y = 5
+			completion_reward = {
+					OSK_pco_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_142
+		text = 幹部会
+		icon = GFX_focus_BRA_rio_protocol
+		cost = 2.00
+		prerequisite = {
+			focus = OSK_leftist_rhetoric
+		}
+		x = 3
+		y = 1
+			completion_reward = {
+					OSK_kl_small_support = yes
+					OSK_pco_small_support = yes
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_53
+		text = 保守連合の形成
+		icon = GFX_focus_ARG_strengthening_the_concordancia
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_57
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_63
+			focus = OSK_focus_89
+		}
+		x = 6
+		y = 1
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = 0.1
+							tooltip_side = OSK_right_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_strengthen_the_unions
+		text = 沈黙を保つ
+		icon = GFX_focus_generic_court
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_join_comintern
+		}
+		mutually_exclusive = {
+			focus = OSK_celebrate_the_commune
+			focus = OSK_agricultural_collectivization
+		}
+		x = 7
+		y = 3
+			completion_reward = {
+					OSK_kl_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_force_the_issue
+		text = 反差別事業予算
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_strengthen_the_unions
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = OSK_national_mobilization
+		text = 教職員の待遇改善
+		icon = GFX_focus_generic_agricultural_subsidies
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_strengthen_the_unions
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = OSK_legal_equality
+		text = 差別撤廃運動
+		icon = GFX_goal_generic_major_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_national_mobilization
+		}
+		prerequisite = {
+			focus = OSK_force_the_issue
+		}
+		x = 7
+		y = 5
+			completion_reward = {
+					OSK_kl_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_89
+		text = 野党との協調
+		icon = GFX_focus_ARG_women_in_industry
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_57
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_53
+			focus = OSK_focus_88
+			focus = OSK_focus_63
+		}
+		x = 8
+		y = 1
+			completion_reward = {
+					OSK_pco_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_88
+		text = 野党への妨害
+		icon = GFX_focus_SWE_attack_landsorganisationen
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_57
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_89
+			focus = OSK_focus_63
+		}
+		x = 10
+		y = 1
+			completion_reward = {
+					OSK_kl_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_agricultural_collectivization
+		text = 教員への連帯
+		icon = GFX_OSK_focus2
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_join_comintern
+		}
+		mutually_exclusive = {
+			focus = OSK_celebrate_the_commune
+			focus = OSK_strengthen_the_unions
+		}
+		x = 12
+		y = 3
+			completion_reward = {
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_humanite_unie
+		text = 教育カリキュラムの見直し
+		icon = GFX_focus_NOR_moscows_education_centers
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_agricultural_collectivization
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = OSK_focus_63
+		text = 政党の衛生化
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_57
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_53
+			focus = OSK_focus_89
+			focus = OSK_focus_88
+		}
+		x = 12
+		y = 1
+			completion_reward = {
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_industrial_collectivization
+		text = 窓口一本化の廃止
+		icon = GFX_focus_SOV_merge_plants
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_agricultural_collectivization
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = OSK_extra_research_slot
+		text = 公正な行政の論理
+		icon = GFX_OSK_focus2
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_humanite_unie
+		}
+		prerequisite = {
+			focus = OSK_industrial_collectivization
+		}
+		x = 12
+		y = 5
+			completion_reward = {
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_106
+		text = 統一国立学校
+		icon = GFX_focus_SWE_education_reform
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_55
+		}
+		x = 18
+		y = 1
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = OSK_focus_108
+		text = 学生運動への支持
+		icon = GFX_focus_generic_military_academy
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_106
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_109
+			focus = OSK_focus_100
+		}
+		x = 16
+		y = 2
+			completion_reward = {
+					OSK_pco_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_research_speed_factor_5 = yes
+					democratic_deficit_research_speed_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_109
+		text = 共同統治
+		icon = GFX_focus_generic_university_1
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_106
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_108
+			focus = OSK_focus_100
+		}
+		x = 18
+		y = 2
+			completion_reward = {
+					OSK_kl_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_research_speed_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_100
+		text = 教職員組合への支持
+		icon = GFX_focus_AST_squander_bug
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_106
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_108
+			focus = OSK_focus_109
+		}
+		x = 20
+		y = 2
+			completion_reward = {
+					OSK_cp_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_93
+		text = 健康保険法
+		icon = GFX_focus_BRA_cafe_com_leite_politics
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_55
+		}
+		x = 24
+		y = 1
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_stability_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_nationalize_key_industry
+		text = 生産開発株式会社
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_93
+		}
+		x = 22
+		y = 2
+			completion_reward = {
+					democratic_deficit_research_speed_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_95
+		text = 五か年計画
+		icon = GFX_focus_ARG_peronism
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_nationalize_key_industry
+		}
+		x = 18
+		y = 3
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+									free_building_slots = {
+											building = industrial_complex
+											size < 1
+											include_locked = yes
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_124
+		text = 近代産業を重視
+		icon = GFX_focus_CHL_enlarge_the_textile_industries
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_95
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_122
+			focus = OSK_focus_98
+		}
+		x = 16
+		y = 4
+			completion_reward = {
+					OSK_pco_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_production_speed_buildings_factor_5 = yes
+					democratic_deficit_research_speed_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+					democratic_deficit_line_change_production_efficiency_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_98
+		text = 重工業を重視
+		icon = GFX_focus_DEN_no_regulations
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_95
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_124
+			focus = OSK_focus_122
+		}
+		x = 20
+		y = 4
+			completion_reward = {
+					OSK_cp_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_production_speed_buildings_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_general_work_council
+		text = 大衆文化列車
+		icon = GFX_focus_ARG_preparations_for_war
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_93
+		}
+		x = 24
+		y = 2
+			completion_reward = {
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = OSK_autoroutes
+		text = 橋の哲学
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_general_work_council
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_102
+		}
+		x = 23
+		y = 3
+			completion_reward = {
+					democratic_deficit_stability_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_102
+		text = 功利主義的行政
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_general_work_council
+		}
+		mutually_exclusive = {
+			focus = OSK_autoroutes
+		}
+		x = 25
+		y = 3
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_94
+		text = ニュータウンの建設
+		icon = GFX_focus_DEN_civilian_preparations
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_autoroutes
+			focus = OSK_focus_102
+		}
+		x = 24
+		y = 4
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_devalue_the_franc
+		text = 自動車の生産
+		icon = GFX_focus_CHL_domestic_production_of_the_willys_mb
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_94
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_54
+		}
+		x = 23
+		y = 5
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+									free_building_slots = {
+											building = industrial_complex
+											size < 2
+											include_locked = yes
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_54
+		text = 装甲車両の生産
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_94
+		}
+		mutually_exclusive = {
+			focus = OSK_devalue_the_franc
+		}
+		x = 25
+		y = 5
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+									free_building_slots = {
+											building = arms_factory
+											size < 2
+											include_locked = yes
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_97
+		text = 供給価格管理委員会
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_93
+		}
+		x = 26
+		y = 2
+			completion_reward = {
+					democratic_deficit_research_speed_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_117
+		text = 大手前協定
+		icon = GFX_focus_usa_union_representation_act
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_55
+		}
+		x = 30
+		y = 1
+			completion_reward = {
+					add_stability = 0.1
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_121
+		text = 生産性運動
+		icon = GFX_focus_generic_university_2
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_117
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_118
+			focus = OSK_focus_120
+		}
+		x = 28
+		y = 2
+			completion_reward = {
+					OSK_pco_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_line_change_production_efficiency_factor_5 = yes
+					democratic_deficit_line_change_production_efficiency_factor_5 = yes
+					democratic_deficit_line_change_production_efficiency_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_104
+		text = 食料問題
+		icon = GFX_focus_CHL_expand_the_forestry
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_97
+		}
+		x = 30
+		y = 3
+			completion_reward = {
+					add_war_support = 0.1
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_105
+		text = 東京からの輸入
+		icon = GFX_focus_mex_privatisation
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_104
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_99
+			focus = OSK_national_champions
+		}
+		x = 28
+		y = 4
+			completion_reward = {
+					OSK_pco_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_research_speed_factor_5 = yes
+					add_ideas = free_trade
+				}
+
+	}
+	focus = {
+		id = OSK_focus_118
+		text = 労働組合への支持
+		icon = GFX_focus_CHL_enlarge_the_textile_industries
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_117
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_121
+			focus = OSK_focus_120
+		}
+		x = 30
+		y = 2
+			completion_reward = {
+					OSK_kl_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_99
+		text = 同盟国からの輸入
+		icon = GFX_focus_BRA_coffee_crisis
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_104
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_105
+			focus = OSK_national_champions
+		}
+		x = 30
+		y = 4
+			completion_reward = {
+					OSK_kl_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_political_power_gain_factor_5 = yes
+					add_ideas = export_focus
+				}
+
+	}
+	focus = {
+		id = OSK_national_champions
+		text = 集団農場の建設
+		icon = GFX_focus_generic_farmland
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_104
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_105
+			focus = OSK_focus_99
+		}
+		x = 32
+		y = 4
+			completion_reward = {
+					OSK_cp_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_stability_factor_5 = yes
+					add_ideas = closed_economy
+				}
+
+	}
+	focus = {
+		id = OSK_focus_103
+		text = 水産業の国有化
+		icon = GFX_focus_SWE_refuge_from_war
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_105
+			focus = OSK_focus_99
+			focus = OSK_national_champions
+		}
+		x = 30
+		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_120
+		text = 生産手段の公有化
+		icon = GFX_focus_generic_workers_and_farmers_rise
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_117
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_121
+			focus = OSK_focus_118
+		}
+		x = 32
+		y = 2
+			completion_reward = {
+					OSK_cp_small_support = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_line_change_production_efficiency_factor_5 = yes
+					democratic_deficit_production_factory_start_efficiency_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_134
+		text = 1962年革新連合協議会
+		icon = GFX_focus_ARG_the_buenos_aires_conference
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_reform_the_labour_laws
+		}
+		x = 39
+		y = 1
+			completion_reward = {
+					OSK_kl_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_135
+		text = コミンテルン
+		icon = GFX_focus_SOV_father_of_nations
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_134
+		}
+		x = 36
+		y = 2
+			completion_reward = {
+					OSK_pco_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_136
+		text = 和歌山社会党への資金提供
+		icon = GFX_focus_SWE_danish_communists
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_135
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = OSK_focus_137
+		text = 三重社会党への資金提供
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_135
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = OSK_focus_139
+		text = 三重での宣伝活動
+		icon = GFX_focus_ARG_release_hellmuth
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_137
+		}
+		x = 37
+		y = 4
+			completion_reward = {
+					OSK_pco_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_59
+		text = 北部国境の強化
+		icon = GFX_focus_SWE_hedgehog_defense
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_134
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = OSK_focus_58
+		text = 和歌山での宣伝活動
+		icon = GFX_focus_SWI_establish_pro_helvetia
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_136
+		}
+		x = 35
+		y = 4
+			completion_reward = {
+					remove_decision = OSK_congress
+					remove_decision = OSK_pf_uchigeba_category
+				}
+
+	}
+	focus = {
+		id = OSK_focus_133
+		text = 反資本主義闘争
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_134
+		}
+		x = 42
+		y = 2
+			completion_reward = {
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_131
+		text = 武村への援助
+		icon = GFX_focus_generic_aircraft_production
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_133
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = OSK_focus_132
+		text = 滋賀からの金移転
+		icon = GFX_focus_ARG_anti_corruption_policies
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_133
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = OSK_focus_62
+		text = 京都包囲網
+		icon = GFX_focus_SWI_embrace_panoramaheim
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_132
+		}
+		prerequisite = {
+			focus = OSK_focus_131
+		}
+		x = 42
+		y = 4
+			completion_reward = {
+					OSK_cp_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_140
+		text = 経済相互援助会議
+		icon = GFX_focus_SOV_the_comecon
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_58
+		}
+		prerequisite = {
+			focus = OSK_focus_139
+		}
+		prerequisite = {
+			focus = OSK_focus_62
+		}
+		prerequisite = {
+			focus = OSK_focus_59
+		}
+		x = 39
+		y = 5
+			completion_reward = {
+					OSK_kl_small_support = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_113
+		text = 軍制改革
+		icon = GFX_focus_SOV_military_purge
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_reform_the_labour_laws
+		}
+		x = 50
+		y = 1
+			completion_reward = {
+					army_experience = 25
+					navy_experience = 25
+					air_experience = 25
+				}
+
+	}
+	focus = {
+		id = OSK_focus_92
+		text = 労農紅衛兵
+		icon = GFX_focus_CHL_union_of_hispanic_republics
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_113
+		}
+		x = 47
+		y = 2
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = -0.1
+							tooltip_side = OSK_left_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_114
+		text = 労農赤軍海上部の設置
+		icon = GFX_focus_generic_naval_invasion
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_92
+		}
+		x = 46
+		y = 3
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_126
+		text = 装甲戦力の拡大
+		icon = GFX_focus_SWE_lynx_armored_car
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_114
+		}
+		x = 46
+		y = 4
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = -0.1
+							tooltip_side = OSK_left_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_125
+		text = 軍需産業の国有化
+		icon = GFX_focus_FIN_coastal_defense
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_92
+		}
+		x = 48
+		y = 3
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			completion_reward = {
+					OSK_pco_small_support = yes
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_96
+		text = 婦人部隊
+		icon = GFX_focus_mex_soldaderas
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_125
+		}
+		x = 48
+		y = 4
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = -0.1
+							tooltip_side = OSK_left_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_296
+		text = 労働争議への参加
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_126
+		}
+		prerequisite = {
+			focus = OSK_focus_96
+		}
+		x = 47
+		y = 5
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = -0.1
+							tooltip_side = OSK_left_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_127
+		text = 大阪国防軍
+		icon = GFX_focus_FIN_parmis_devils
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_113
+		}
+		x = 53
+		y = 2
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = 0.1
+							tooltip_side = OSK_right_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_60
+		text = 黒衛軍
+		icon = GFX_focus_ARG_no_gods_no_masters
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_92
+			focus = OSK_focus_127
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = OSK_reorganize_the_aviation_industry
+		text = 囚人の解放
+		icon = GFX_focus_ITA_liberate_gramsci
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_60
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = OSK_focus_90
+		text = 第二革命への準備
+		icon = GFX_focus_ETH_support_from_the_japanese_communists
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_reorganize_the_aviation_industry
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = OSK_focus_115
+		text = 兵舎の充実
+		icon = GFX_focus_SWE_defense_act
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_127
+		}
+		x = 52
+		y = 3
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+									free_building_slots = {
+											building = industrial_complex
+											size < 1
+											include_locked = yes
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_form_the_state_arsenals
+		text = 国防軍情報局の人員増加
+		icon = GFX_focus_generic_secret_service_agency
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_115
+		}
+		x = 52
+		y = 4
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = 0.1
+							tooltip_side = OSK_right_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_122
+		text = 建設を重視
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_95
+		}
+		mutually_exclusive = {
+			focus = OSK_focus_124
+			focus = OSK_focus_98
+		}
+		x = 18
+		y = 4
+			completion_reward = {
+					OSK_kl_small_support = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+					democratic_deficit_production_speed_buildings_factor_5 = yes
+					democratic_deficit_production_speed_buildings_factor_5 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_military_factories
+		text = 警察の強化
+		icon = GFX_focus_CHL_departemento_de_las_tropas_nacistas_de_asalto
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_form_the_state_arsenals
+		}
+		prerequisite = {
+			focus = OSK_focus_128
+		}
+		x = 53
+		y = 5
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = 0.1
+							tooltip_side = OSK_right_side
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_101
+		text = ゆりかごから墓場まで
+		icon = GFX_focus_generic_women_in_military
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_94
+		}
+		prerequisite = {
+			focus = OSK_focus_107
+		}
+		prerequisite = {
+			focus = OSK_focus_103
+		}
+		x = 24
+		y = 6
+			completion_reward = {
+					democratic_deficit_political_power_gain_factor_5 = yes
+					democratic_deficit_stability_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_107
+		text = 軍需品の生産
+		icon = GFX_focus_NOR_drobak_coastal_fort
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_124
+			focus = OSK_focus_122
+			focus = OSK_focus_98
+		}
+		x = 18
+		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+					democratic_deficit_industrial_capacity_factory_factor_5 = yes
+					democratic_deficit_industrial_capacity_dockyard_factor_5 = yes
+					democratic_deficit_consumer_goods_factor_2 = yes
+				}
+
+	}
+	focus = {
+		id = OSK_focus_116
+		text = 軍需産業への補助金
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_127
+		}
+		x = 54
+		y = 3
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 2
+				}
+			completion_reward = {
+					OSK_pco_small_support = yes
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OSK_focus_128
+		text = 軍人俸給の増額
+		icon = GFX_focus_SOV_mobilization_plan
+		cost = 5.00
+		prerequisite = {
+			focus = OSK_focus_116
+		}
+		x = 54
+		y = 4
+			completion_reward = {
+					add_power_balance_value = {
+							id = OSK_balance_of_power
+							value = 0.1
+							tooltip_side = OSK_right_side
+						}
+				}
+
+	}
+}

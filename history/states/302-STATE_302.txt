@@ -1,0 +1,32 @@
+state={
+     id=302
+     name="STATE_302" #ç≤ê¢ï€#SASEBO
+     manpower = 266332
+     state_category = city
+     resources={
+         oil = 50
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {2007 20} #ç≤ê¢ï€és,Sasebo-shi
+         victory_points = {3951 1} #ç≤ÅXí¨,Saza-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 4
+             2007 = {
+				naval_base = 8
+			}
+         }
+     }
+     provinces={
+         89 314 927 2007 2823 3073 3951 3983 4031 6698 6699
+     }
+}

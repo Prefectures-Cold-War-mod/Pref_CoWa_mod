@@ -1,0 +1,30 @@
+state={
+     id=39
+     name="STATE_39" #ìÒåÀÅEãvéú#NINOHEÅEKUJI
+     manpower = 113647
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         add_core_of = IWA
+         victory_points = {508 3} #ãvéúés,Kuji-shi
+         victory_points = {2539 2} #ìÒåÀés,Ninohe-shi
+         victory_points = {5261 1} #ïÅë„ë∫,Fudai-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         205 484 508 569 740 1059 1070 1350 1398 1472 1855 1918 2125 2226 2539 2787 3026 3028 3143 3301 3411 3438 4772 4776 4810 4814 4821 4852 4914 4927 4941 4952 5261 9415 9412
+     }
+}

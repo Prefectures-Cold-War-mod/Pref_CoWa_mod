@@ -1,0 +1,31 @@
+state={
+     id=87
+     name="STATE_87" #àÛù◊#IMBA
+     manpower = 730485
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 2
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = TBA
+         victory_points = {6604 5} #ê¨ìcés,Narita-shi
+         victory_points = {6596 1} #ç≤ëqés,Sakura-shi
+         victory_points = {6600 1} #éläXìπés,Yotsukaido-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 8
+             arms_factory = 0
+             air_base = 10
+         }
+     }
+     provinces={
+         656 1390 1964 1967 2238 2343 2943 3254 3376 6541 6546 6554 6565 6567 6569 6577 6581 6585 6590 6591 6592 6593 6596 6598 6600 6601 6604 6607 6608 6609 6616 6617 6621 6627 
+     }
+}

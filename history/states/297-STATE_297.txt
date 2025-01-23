@@ -1,0 +1,33 @@
+state={
+     id=297
+     name="STATE_297" #íπê≤#TOSU
+     manpower = 233884
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         add_core_of = SGA
+         victory_points = {4138 2} #è¨åSés,Ogori-shi
+         victory_points = {4138 5} #íπê≤és,Tosu-shi
+         victory_points = {4130 1} #ê_çÈés,Kanzaki-shi
+         victory_points = {4130 2} #ãgñÏÉñó¢í¨,Yoshinogari-cho
+         victory_points = {3344 1} #äÓéRí¨,Kiyama-cho
+         victory_points = {4134 1} #Ç›Ç‚Ç´í¨,Miyaki-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1141 1194 1284 1459 2890 3344 4091 4130 4134 4138 
+     }
+}

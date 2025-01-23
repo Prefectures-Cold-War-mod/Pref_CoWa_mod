@@ -1,0 +1,27 @@
+state={
+     id=398
+     name="STATE_398" #‚…E÷“‡#TARUMIZUESAKURAJIMA
+     manpower = 14885
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {2243 1} #‚…s,Tarumizu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         231 901 2243 4828 4881 
+     }
+}

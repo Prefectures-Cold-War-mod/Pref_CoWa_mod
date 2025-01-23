@@ -1,0 +1,29 @@
+state={
+     id=321
+     name="STATE_321" #“úŒüE”ü‹½#HYUGAEMISATO
+     manpower = 85330
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {4850 3} #“úŒüs,Hyuga-shi
+         victory_points = {4825 1} #–åì’¬,Kadogawa-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1012 1097 1329 1792 1866 2221 3444 4667 4679 4680 4689 4709 4724 4778 4782 4784 4797 4825 4837 4850 
+     }
+}

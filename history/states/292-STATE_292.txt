@@ -1,0 +1,29 @@
+state={
+     id=292
+     name="STATE_292" #’©‘q#ASAKURA
+     manpower = 83278
+     state_category = rural
+     resources={
+         oil = 24
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4216 2} #‚¤‚«‚ÍŽs,Ukiha-shi
+         victory_points = {2056 1} #’©‘qŽs,Asakura-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         4 371 1262 2056 2239 4160 4182 4185 4201 4216 4219 
+     }
+}

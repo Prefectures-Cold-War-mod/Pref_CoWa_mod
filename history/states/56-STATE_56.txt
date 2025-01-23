@@ -1,0 +1,28 @@
+state={
+     id=56
+     name="STATE_56" #•l’Ê‚è–k•”#HAMADORIHOKUBU
+     manpower = 109624
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {6051 1} #‘Š”nŽs,Soma-shi
+         victory_points = {6111 1} #“ì‘Š”nŽs,Minamisoma-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         501 561 994 1001 1659 2195 2349 2478 2856 2898 3197 3501 3507 5967 5997 6011 6013 6032 6051 6056 6060 6080 6111 6130
+     }
+}

@@ -1,0 +1,27 @@
+state={
+     id=354
+     name="STATE_354" #à…ê®çË#ISEZAKI
+     manpower = 213628
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {418 2} #à…ê®çËés,Isesaki-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         418 1444 1811 6059 6103 
+     }
+}

@@ -1,0 +1,31 @@
+state={
+     id=69
+     name="STATE_69" #ëOã¥#MAEHASHI
+     manpower = 851523
+     state_category = megalopolis
+     resources={
+         oil = 3
+         aluminium = 9
+         rubber = 13
+         tungsten = 12
+         steel = 38
+         chromium = 11
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {2034 20} #ëOã¥és,Maebashi-shi
+         victory_points = {2570 1} #èaêÏés,Shibukawa-shi
+         victory_points = {2570 1} #êYìåë∫,Shinto-mura
+         victory_points = {2570 1} #ãgâ™í¨,Yoshioka-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 10
+             arms_factory = 8
+             air_base = 6
+         }
+     }
+     provinces={
+         114 592 1048 1276 2034 2122 2570 3354 3434 5923 6019 6033 6036 6046 
+     }
+}

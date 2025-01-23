@@ -1,0 +1,29 @@
+state={
+    id=540
+    name="STATE_540" #西神戸#NISHI KOBE
+    manpower = 444874
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+         owner = HRM
+         add_core_of = HRM
+        add_core_of = HYG
+        victory_points = {2717 3} #垂水区,Tarumi-ku
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+    }
+    provinces={
+        2410 2717 3105 5110 5122 5129 5145 5150 5162 5165
+    }
+}

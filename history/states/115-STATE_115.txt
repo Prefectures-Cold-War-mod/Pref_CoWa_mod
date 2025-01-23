@@ -1,0 +1,30 @@
+state={
+     id=115
+     name="STATE_115" #¼“Œ‹#NISHITOKYO
+     manpower = 866715
+     state_category = large_town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6371 1} #¬‹àˆäs,Koganei-shi
+         victory_points = {362 1} #“Œ‘ºRs,Higashimurayama-shi
+         victory_points = {6355 1} #‘•ª›s,Kokubunji-shi
+         victory_points = {6359 1} #“Œ‹v—¯•Äs,Higashikurume-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         362 6349 6355 6359 6367 6371 
+     }
+}

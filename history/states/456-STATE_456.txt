@@ -1,0 +1,28 @@
+state={
+     id=456
+     name="STATE_456" #?????k??#NEMUROHOKUBU
+     manpower = 33931
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 11
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 4
+     }
+     history ={
+         owner = H28
+         add_core_of = H28
+         victory_points = {2772 2} #???P??,Rausu-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 2 #íÜïWí√ãÛç`,Nakashibetsu-airport
+         }
+     }
+     provinces={
+         58 304 332 657 1110 1816 1853 1929 2414 2611 2688 2772 3875 3911 3922 3965 3975 3986 3988 
+     }
+}

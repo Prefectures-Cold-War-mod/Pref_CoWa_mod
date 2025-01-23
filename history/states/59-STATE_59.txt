@@ -1,0 +1,29 @@
+state={
+     id=59
+     name="STATE_59" #‰ï’Ã“ì•”#AIZUNAMBU
+     manpower = 26335
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 18
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {809 1} #žwŽ}Šò‘º,Hinoemata-mura
+         victory_points = {1534 1} #“ì‰ï’Ã’¬,Minamiaizu-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 2
+         }
+     }
+     provinces={
+         1 206 599 809 829 1278 1534 2300 2415 2458 3421 5624 5702 5864 5880 5901 5926 5950 
+     }
+}

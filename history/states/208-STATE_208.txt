@@ -1,0 +1,36 @@
+state={
+     id=208
+     name="STATE_208" #ìåñ¥òK#HIGASHIMURO
+     manpower = 37353
+     state_category = rural
+     resources={
+         oil = 66
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = WKY
+         add_core_of = WKY
+         victory_points = {2643 1} #ìﬂíqèüâYí¨,Nachikatsuura-cho
+         victory_points = {1155 1} #ëæíní¨,Taiji-cho
+         victory_points = {1155 1} #å√ç¿êÏí¨,Kozagawa-cho
+         victory_points = {9347 2} #ã¯ñ{í¨,Kushimoto-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 1
+             9347 = {
+				naval_base = 2
+			}
+             2643 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         605 680 1155 2643 2700 6026 6048 9347
+     }
+}

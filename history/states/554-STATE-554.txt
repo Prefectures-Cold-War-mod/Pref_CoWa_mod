@@ -1,0 +1,28 @@
+state={
+    id=554
+    name="STATE_554" #ABIRA
+    manpower = 10
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+        owner = H04
+        add_core_of = H04
+              
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+    }
+    provinces={
+        1393 793 3812 2719
+    }
+}

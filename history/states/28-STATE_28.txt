@@ -1,0 +1,29 @@
+state={
+     id=28
+     name="STATE_28" #íÜí√åy#NAKATSUGARU
+     manpower = 284749
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 2
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {2140 10} #çOëOés,Hirosaki-shi
+         victory_points = {4372 2} #çïêŒés,Kuroishi-shi
+         victory_points = {1531 1} #ïΩêÏés,Hirakawa-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         9 189 196 949 1506 1531 1724 2140 2721 2926 3363 4372 4426 4460 9351 9350 9349 9437
+     }
+}

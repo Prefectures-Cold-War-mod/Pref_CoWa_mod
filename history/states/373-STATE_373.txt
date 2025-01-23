@@ -1,0 +1,27 @@
+state={
+     id=373
+     name="STATE_373" #ŠÏ‰¹Ž›#KANNONJI
+     manpower = 60466
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         victory_points = {4817 2} #ŠÏ‰¹Ž›Žs,Kanonji-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         4817 4853 
+     }
+}

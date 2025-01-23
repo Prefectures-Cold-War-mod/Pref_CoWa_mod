@@ -1,0 +1,36 @@
+state={
+     id=125
+     name="STATE_125" #è¨ä}å¥èîìá#OGASAWARASHOTO
+     manpower = 2625
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6858 1} #è¨ä}å¥ë∫,Ogasawara-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             6858 = {
+				naval_base = 2
+			}
+             6856 = {
+				naval_base = 1
+			}
+			6857 = {
+                     naval_base = 2
+             }
+         }
+     }
+     provinces={
+         6856 6857 6858 6859 6860
+     }
+}

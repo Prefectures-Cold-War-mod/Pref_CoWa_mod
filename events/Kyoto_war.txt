@@ -1,0 +1,135 @@
+add_namespace = kyoto_war_event
+#南進
+country_event = {
+	id = kyoto_war_event.1
+	title = kyoto_war_event.1.t
+	desc = kyoto_war_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kyoto_war_event.1.a	
+news_event = Kyoto_war_news_event.1
+KYT = {
+declare_war_on = {
+    target = SKY
+    type = annex_everything
+}
+}
+
+	}			
+}
+country_event = {
+	id = kyoto_war_event.2
+	title = kyoto_war_event.2.t
+	desc = kyoto_war_event.2.d
+	picture = GFX_report_event_generic_funeral
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kyoto_war_event.1.a	
+OSK = {
+state_event = { 
+id = kyoto_war_event.3
+      }
+}
+	}			
+}
+#大阪への参戦要請
+country_event = {
+	id = kyoto_war_event.3
+	title = kyoto_war_event.3.t
+	desc = kyoto_war_event.3.d
+	picture = GFX_report_event_generic_funeral
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kyoto_war_event.3.a
+complete_national_focus = OSW_focus_16
+declare_war_on = {
+    target = KYT
+    type = annex_everything
+}	
+	}			
+}
+#講和
+country_event = {
+	id = kyoto_war_event.4
+	title = kyoto_war_event.4.t
+	desc = kyoto_war_event.4.d
+	picture = GFX_report_event_generic_funeral
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kyoto_war_event.4.a
+KYT = {
+annex_country = {
+    target = SKY
+    transfer_troops = no
+}
+}
+HRM = {
+annex_country = {
+    target = SET
+    transfer_troops = no
+}
+}
+SIG = {
+annex_country = {
+    target = RAS
+    transfer_troops = no
+}
+}
+OSK = {
+white_peace = KYT
+}
+add_stability = -0.2
+add_war_support = -0.2
+complete_national_focus = OSW_focus_19
+
+		
+}
+
+}
+
+
+country_event = {
+	id = kyoto_war_event.5
+	title = kyoto_war_event.5.t
+	desc = kyoto_war_event.5.d
+	picture = GFX_report_event_generic_funeral
+
+
+	fire_only_once = yes
+	trigger = {
+KYT = {
+has_war_with = OSK
+surrender_progress > 0.2
+}
+		original_tag = OSK
+}
+	option = {
+		name = kyoto_war_event.5.a
+OSK = {
+white_peace = KYT
+add_stability = 0.2
+add_war_support = 0.2
+complete_national_focus = OSW_focus_18
+}
+
+		
+}
+
+}

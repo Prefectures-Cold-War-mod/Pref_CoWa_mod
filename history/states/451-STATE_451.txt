@@ -1,0 +1,29 @@
+state={
+     id=451
+     name="STATE_451" #ìVîÑÅEèƒêK#TEURIÅEYAGISHIRI
+     manpower = 430
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = H14
+         add_core_of = H14
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6678 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6678
+     }
+}

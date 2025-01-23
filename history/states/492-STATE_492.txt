@@ -1,0 +1,26 @@
+state={
+     id=492
+     name="STATE_492" #êYå¥#HAIBARA
+     manpower = 6863
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = SIZ
+         add_core_of = SIZ
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         167 571 1766 3144 3328 6225
+     }
+}

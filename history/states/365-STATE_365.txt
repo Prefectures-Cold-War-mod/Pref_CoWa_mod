@@ -1,0 +1,28 @@
+state={
+     id=365
+     name="STATE_365" #ŠÝ˜a“c#KISHIWADA
+     manpower = 299490
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 1
+         chromium = 0
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {5410 5} #ŠÝ˜a“cŽs,Kishiwada-shi
+         victory_points = {5438 3} #ŠL’ËŽs,Kaizuka-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1757 5410 5438 5456 5461 5462 5481 5482 5497 5498 5516 
+     }
+}

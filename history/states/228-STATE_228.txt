@@ -1,0 +1,32 @@
+state={
+     id=228
+     name="STATE_228" #ëÂç„#OSAKA
+     manpower = 2857942
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 3
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {5351 35} #ñkãÊ,Osaka-shi, Kita-ku
+         victory_points = {5357 2} #éÁå˚és,Moriguchi-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 12
+             arms_factory = 6
+             dockyard = 2
+             2744 = {
+                naval_base = 6
+             }
+         }
+     }
+     provinces={
+         87 2489 2744 5329 5334 5340 5341 5347 5348 5351 5357 5358 5360 5366 5371 5373 5374 5377 5381 5383 5384 5397 5402 5422 5428 5452 6784 6783 5336
+     }
+}

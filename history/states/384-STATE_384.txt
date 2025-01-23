@@ -1,0 +1,31 @@
+state={
+     id=384
+     name="STATE_384" #ñLíz#HOCHIKU
+     manpower = 58628
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KNM
+         add_core_of = KNM
+         add_core_of = HKO
+         victory_points = {4223 3} #ñLëOés,Buzen-shi
+         victory_points = {4223 1} #ãgïxí¨,Yoshitomi-machi
+         victory_points = {1092 1} #è„ñ—í¨,Koge-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             air_base = 4
+         }
+     }
+     provinces={
+         432 1092 1784 2729 3011 3279 3516 4183 4200 4204 4210 4223 4248 
+     }
+}

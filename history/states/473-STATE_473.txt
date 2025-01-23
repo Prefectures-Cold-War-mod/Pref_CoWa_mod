@@ -1,0 +1,29 @@
+state={
+     id=473
+     name="STATE_473" #’†‰›‹æ#CHUOKU
+     manpower = 162502
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {6506 20} #’†‰›‹æ,Chuo-ku
+         buildings ={
+             infrastructure = 5
+             industrial_complex = 3
+             arms_factory = 1
+             fuel_silo = 1
+			 dockyard = 1
+         }
+     }
+     provinces={
+         6506
+     }
+}

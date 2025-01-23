@@ -1,0 +1,26 @@
+state={
+     id=488
+     name="STATE_488" #èÊà∆è„çÇín#NORIKURAKAMIKOCHI
+     manpower = 504
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 24
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1283 1391 5496 5566 9465 9464 659
+     }
+}

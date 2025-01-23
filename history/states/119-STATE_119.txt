@@ -1,0 +1,27 @@
+state={
+     id=119
+     name="STATE_119" #‰œ‘½–€#OKUTAMA
+     manpower = 7396
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 24
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         victory_points = {2775 3} #‰œ‘½–€’¬,Okutama-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1791 2775 6173 6187 6226 6258 9313
+     }
+}

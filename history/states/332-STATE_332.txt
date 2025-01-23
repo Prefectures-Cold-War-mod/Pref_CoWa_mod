@@ -1,0 +1,27 @@
+state={
+     id=332
+     name="STATE_332" #“ì‘å‹÷#MINAMIOSUMI
+     manpower = 30301
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {2059 1} #“ì‘å‹÷’¬,Minamiosumi-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         88 327 587 603 909 1007 1570 1860 2059 5127 5198 
+     }
+}

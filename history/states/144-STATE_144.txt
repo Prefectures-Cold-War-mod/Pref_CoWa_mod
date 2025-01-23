@@ -1,0 +1,30 @@
+state={
+     id=144
+     name="STATE_144" #å˙ñÿ#ATSUGI
+     manpower = 530975
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = KAN
+         victory_points = {6394 1} #ê`ñÏés,Hadano-shi
+         victory_points = {6429 1} #å˙ñÿés,Atsugi-shi
+         victory_points = {6443 1} #à…ê®å¥és,Isehara-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 5
+             arms_factory = 1
+         }
+     }
+     provinces={
+         102 221 511 1321 2138 3101 3217 3404 6380 6394 6405 6420 6426 6429 6443 6454 
+     }
+}

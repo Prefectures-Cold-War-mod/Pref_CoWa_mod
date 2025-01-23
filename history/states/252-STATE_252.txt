@@ -1,0 +1,28 @@
+state={
+     id=252
+     name="STATE_252" #ŽO–L#MITOYO
+     manpower = 65959
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         victory_points = {401 1} #ŽO–LŽs,Mitoyo-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 3
+         }
+     }
+     provinces={
+         267 401 2790 4865 
+     }
+}

@@ -1,0 +1,29 @@
+state={
+     id=152
+     name="STATE_152" #ã¨ìÏ#KYONAN
+     manpower = 51997
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = YMS
+         add_core_of = YMS
+         victory_points = {1870 1} #ëÅêÏí¨,Hayakawa-cho
+         victory_points = {3484 1} #ìÏïîí¨,Nanbu-cho
+         victory_points = {6138 1} #ïxémêÏí¨,Fujikawa-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 3
+             arms_factory = 1
+         }
+     }
+     provinces={
+         94 247 505 568 1010 1214 1870 2667 3484 6096 6138 9301
+     }
+}

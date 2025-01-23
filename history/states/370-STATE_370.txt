@@ -1,0 +1,33 @@
+state={
+     id=370
+     name="STATE_370" #–Â–å#NARUTO
+     manpower = 145051
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         victory_points = {5266 10} #–Â–ås,Naruto-shi
+         victory_points = {5217 1} #—•Z’¬,Aizumi-cho
+         victory_points = {5217 1} #”Â–ì’¬,Itano-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 10
+             arms_factory = 5
+             air_base = 2
+             5266 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         2603 5176 5217 5250 5266
+     }
+}

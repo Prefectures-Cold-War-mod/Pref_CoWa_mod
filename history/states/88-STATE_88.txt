@@ -1,0 +1,27 @@
+state={
+     id=88
+     name="STATE_88" #ŠC‚Ù‚½‚é#UMIHOTARU
+     manpower = 0
+     state_category = tiny_island
+     resources={
+         oil = 10
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TBA
+         add_core_of = TBA
+         victory_points = {6821 2} #ŠC‚Ù‚½‚é,Umihotaru
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         6821
+     }
+}

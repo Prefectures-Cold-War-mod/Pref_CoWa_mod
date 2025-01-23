@@ -1,0 +1,27 @@
+state={
+     id=60
+     name="STATE_60" #âÔí√íÜïî#AIZUCHUBU
+     manpower = 167762
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HUK
+         add_core_of = HUK
+         victory_points = {1484 10} #âÔí√é·èºés,Aizuwakamatsu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         434 506 566 588 620 862 1080 1484 1616 2173 2632 5758 5944 
+     }
+}

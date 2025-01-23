@@ -1,0 +1,31 @@
+state={
+     id=22
+     name="STATE_22" #—ç•¶#REIBUN
+     manpower = 2526
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = H15
+         add_core_of = H15
+         victory_points = {933 1} #—ç•¶’¬,Rebun-cho
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 1 #—ç•¶‹ó`,Rebun-airport
+             933 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         933
+     }
+}

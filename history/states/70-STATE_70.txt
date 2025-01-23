@@ -1,0 +1,30 @@
+state={
+     id=70
+     name="STATE_70" #å·ç»#AGAZUMA
+     manpower = 65260
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 6
+     }
+     history ={
+         owner = GNM
+         add_core_of = GNM
+         victory_points = {1412 1} #íÜîVèí¨,Nakanojo-machi
+         victory_points = {165 1} #í∑ñÏå¥í¨,Naganohara-machi
+         victory_points = {5828 1} #çÇéRë∫,Takayama-mura
+         victory_points = {1412 1} #ìåå·ç»í¨,Higashiagatsuma-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 3
+         }
+     }
+     provinces={
+         165 458 1015 1063 1412 1536 1537 2509 5634 5783 5828 
+     }
+}

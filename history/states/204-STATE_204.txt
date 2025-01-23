@@ -1,0 +1,26 @@
+state={
+     id=204
+     name="STATE_204" #ëÂë‰ÅEëÂãI#ODAIÅETAIKI
+     manpower = 18000
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1737 2205 2407 2670 2685 3393 5913 5951 5975 
+     }
+}

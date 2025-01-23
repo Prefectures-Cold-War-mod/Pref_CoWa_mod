@@ -1,0 +1,36 @@
+state={
+     id=43
+     name="STATE_43" #èØì‡#SHONAI
+     manpower = 272659
+     state_category = city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = YAG
+         add_core_of = YAG
+         victory_points = {5043 8} #íﬂâ™és,Tsuruoka-shi
+         victory_points = {4886 3} #éìcés,Sakata-shi
+         victory_points = {5016 1} #éOêÏí¨,Mikawa-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             4886 = {
+				naval_base = 4
+			}
+             5006 = {
+                naval_base = 1
+             }
+             air_base = 2 #èØì‡ãÛç`,Shonai-airport
+         }
+     }
+     provinces={
+         448 972 974 1341 1440 1475 1594 1718 1864 1934 1944 1966 2156 2601 2836 2981 3109 3191 3455 3497 4886 4896 4925 4946 4985 5006 5016 5043 5090 5112 5136 5159 5179 5215 
+     }
+}

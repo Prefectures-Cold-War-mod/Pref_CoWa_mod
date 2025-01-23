@@ -1,0 +1,35 @@
+state={
+     id=225
+     name="STATE_225" #??#SAKAI
+     manpower = 1156532
+     state_category = megalopolis
+     resources={
+         oil = 0
+         aluminium = 7
+         rubber = 0
+         tungsten = 55
+         steel = 32
+         chromium = 8
+     }
+     history ={
+         owner = OSK
+         add_core_of = OSK
+         victory_points = {5416 25} #????,Sakai-shi, Sakai-ku
+         victory_points = {5411 5} #???????s,Izumiotsu-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 10
+             arms_factory = 3
+             dockyard = 2
+             5411 = {
+             naval_base = 4
+			}
+             5396 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         1482 3367 3429 3470 5376 5380 5387 5389 5390 5396 5401 5411 5416 5420 5421 5435 5442 5445 5463 5470 5484 5491 5520 
+     }
+}

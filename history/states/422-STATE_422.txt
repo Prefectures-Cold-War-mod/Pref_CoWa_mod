@@ -1,0 +1,27 @@
+state={
+     id=422
+     name="STATE_422" #çÇó¿#TAKAHASHI
+     manpower = 30648
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = OKY
+         add_core_of = OKY
+         victory_points = {4498 1} #çÇó¿és,Takahashi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 1
+             arms_factory = 1
+         }
+     }
+     provinces={
+         105 333 1365 2002 2997 4416 4439 4462 4481 4490 4498 
+     }
+}

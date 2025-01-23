@@ -1,0 +1,29 @@
+state={
+     id=15
+     name="STATE_15" #í_êUêºïî#IBURISEIBU
+     manpower = 199491
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {3830 15} #é∫óñés,Muroran-shi
+         victory_points = {3795 1} #à…íBés,Date-shi
+         victory_points = {1004 2} #ì¥ñÍåŒí¨,Toyako-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         66 76 193 624 1004 1443 1518 1578 1680 1796 2291 2517 2575 2798 2894 3082 3159 3220 3431 3716 3730 3731 3734 3751 3754 3755 3760 3765 3766 3767 3769 3774 3777 3778 3785 3787 3791 3793 3795 3801 3803 3807 3814 3822 3830 3835 
+     }
+}

@@ -1,0 +1,28 @@
+state={
+     id=17
+     name="STATE_17" #?n???k??#OSHIMAHOKUBU
+     manpower = 22178
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {3790 1} #???_??,Yakumo-cho
+         victory_points = {1363 1} #????????,Oshamambe-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         23 49 166 769 772 1363 1504 1696 1910 2072 2295 2378 2429 2457 2465 2534 2648 2948 3139 3282 3373 3670 3700 3744 3772 3773 3779 3790 3794 3798 3805 3813 3815 3817 3821 3825 
+     }
+}

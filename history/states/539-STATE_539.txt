@@ -1,0 +1,19 @@
+state={
+     id=539
+     name="STATE_350" #great wall4#great wall4
+     manpower = 0
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         rubber = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+     }
+     provinces={
+         6681 6830 6829 6824 6826 6827 6823 6822 6861 6862
+     }
+}

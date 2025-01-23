@@ -1,0 +1,29 @@
+state={
+     id=362
+     name="STATE_362" #ñkéR#KITAYAMA
+     manpower = 1412
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NRA
+         add_core_of = NRA
+         add_core_of = WKY
+         victory_points = {5948 1} #â∫ñkéRë∫,Shimokitayama-mura
+         victory_points = {5974 1} #è„ñkéRë∫,Kamikitayama-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         2335 3325 5897 5948 5974 
+     }
+}

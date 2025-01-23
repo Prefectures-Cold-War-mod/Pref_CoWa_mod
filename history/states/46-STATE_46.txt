@@ -1,0 +1,30 @@
+state={
+     id=46
+     name="STATE_46" #íuéí#OKITAMA
+     manpower = 206640
+     state_category = large_town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 108
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = YAG
+         add_core_of = YAG
+         victory_points = {9331 5} #ïƒëÚés,Yonezawa-shi
+         victory_points = {1192 1} #í∑à‰és,Nagai-shi
+         victory_points = {3008 1} #ìÏózés,Nanyo-shi
+         victory_points = {5394 1} #è¨çëí¨,Oguni-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         338 348 818 1113 1185 1192 1255 1342 1454 1827 1835 1919 2276 2290 2456 2589 2779 3008 3387 3427 3478 5327 5394 5418 5440 5457 5479 5502 5522 5525 5540 5559 5567 5576 5588 5598 5607 5625 5652 5703 5729 9331
+     }
+}

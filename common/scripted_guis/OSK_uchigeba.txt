@@ -1,0 +1,8 @@
+scripted_gui = {
+
+	osk_uchigeba_decision_ui = {
+		context_type = decision_category
+		window_name = "osk_uchigeba_decision_ui_window"
+
+}
+

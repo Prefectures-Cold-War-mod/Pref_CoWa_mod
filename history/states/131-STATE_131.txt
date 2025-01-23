@@ -1,0 +1,30 @@
+state={
+     id=131
+     name="STATE_131" #èºñ{#MATSUMOTO
+     manpower = 425000
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 2
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {2607 10} #èºñ{és,Matsumoto-shi
+         victory_points = {5552 1} #à¿ì‹ñÏés,Azumino-shi
+         victory_points = {1108 1} #í©ì˙ë∫,Asahi-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 2
+             air_base = 2
+         }
+     }
+     provinces={
+         827 1108 1277 2607 3340 5501 5552 5594 5682 9462
+     }
+}

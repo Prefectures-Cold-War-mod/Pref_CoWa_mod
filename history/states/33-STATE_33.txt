@@ -1,0 +1,34 @@
+state={
+     id=33
+     name="STATE_33" #èHìcíÜâõ#AKITACHUO
+     manpower = 393375
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 22
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AKI
+         add_core_of = AKI
+         victory_points = {4602 15} #èHìcés,Akita-shi
+         victory_points = {4449 2} #íjé≠és,Oga-shi
+         victory_points = {1095 1} #äÉè„és,Katagami-shi
+         victory_points = {1418 1} #å‹èÈñ⁄í¨,Gojome-machi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 0
+             air_base = 4 #èHìcãÛç`,Akita-airport
+             1095 = {
+				naval_base = 4
+			}
+         }
+     }
+     provinces={
+         100 859 1095 1296 1418 1501 1889 2003 2277 2834 2986 3146 4425 4449 4541 4543 4602 4632 4633 4672 4696 4748 9431 9435 9416 9421
+     }
+}

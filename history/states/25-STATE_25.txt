@@ -1,0 +1,32 @@
+state={
+     id=25
+     name="STATE_25" #è„ñk#KAMIKITA
+     manpower = 123533
+     state_category = large_town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AOM
+         add_core_of = AOM
+         victory_points = {4571 2} #è\òaìcés,Towada-shi
+         victory_points = {1649 1} #ñÏï”íní¨,Noheji-machi
+         victory_points = {431 1} #òZÉñèäë∫,Rokkasho-mura
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 1
+             9364 = {
+				naval_base = 2
+			}
+         }
+     }
+     provinces={
+         268 419 431 471 524 777 1137 1203 1587 1649 1906 2162 2379 2783 4404 4433 4442 4451 4461 4471 4487 4502 4520 4525 4571 9364 9366
+     }
+}

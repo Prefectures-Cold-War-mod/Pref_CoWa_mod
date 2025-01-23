@@ -1,0 +1,77 @@
+add_namespace = news_event
+add_namespace = MIE_news_event
+add_namespace = OSK_news_event
+
+news_event = {
+	id = news_event.1
+	title = news_event.1.t
+	desc = news_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = news_event.1.a	
+	}			
+}
+news_event = {
+	id = MIE_news_event.1
+	title = MIE_news_event.1.t
+	desc = MIE_news_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = MIE_news_event.1.a	
+	}			
+}
+news_event = {
+	id = MIE_news_event.2
+	title = MIE_news_event.2.t
+	desc = MIE_news_event.2.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = MIE_news_event.2.a	
+	}			
+}
+news_event = {
+	id = MIE_news_event.3
+	title = MIE_news_event.3.t
+	desc = MIE_news_event.3.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = MIE_news_event.3.a	
+	}			
+}
+news_event = {
+	id = MIE_news_event.4
+	title = MIE_news_event.4.t
+	desc = MIE_news_event.4.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = MIE_news_event.4.a	
+	}			
+}
+#大阪
+news_event = {
+	id = OSK_news_event.1
+	title = OSK_news_event.1.t
+	desc = OSK_news_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.1.a	
+	}			
+}

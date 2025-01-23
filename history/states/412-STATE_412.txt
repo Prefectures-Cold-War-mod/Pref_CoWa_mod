@@ -1,0 +1,29 @@
+state={
+     id=412
+     name="STATE_412" #‘q‹g#KURAYOSHI
+     manpower = 103410
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TTR
+         add_core_of = TTR
+         victory_points = {2684 2} #‘q‹gŽs,Kurayoshi-shi
+         victory_points = {4379 1} #ŽO’©’¬,Misasa-cho
+         victory_points = {438 1} #‹Õ‰Y’¬,Kotoura-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         184 438 445 685 1488 2684 2751 3108 4311 4339 4353 4379 4401 
+     }
+}

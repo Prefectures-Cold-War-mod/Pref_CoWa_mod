@@ -1,0 +1,30 @@
+state={
+     id=304
+     name="STATE_304" #ìáå¥îºìá#SHIMABARAHANTO
+     manpower = 135558
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGS
+         add_core_of = NGS
+         victory_points = {4285 3} #ìáå¥és,Shimabara-shi
+         victory_points = {2307 3} #â_êÂés,Unzen-shi
+         victory_points = {4312 1} #ìÏìáå¥és,Minamishimabara-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 0
+             dockyard = 2
+         }
+     }
+     provinces={
+         951 1347 2061 2307 4240 4255 4256 4270 4285 4297 4312 
+     }
+}

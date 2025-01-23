@@ -1,0 +1,37 @@
+
+state={
+	id=553
+	name="STATE_553"
+	resources={
+		oil=0.000
+		aluminium=0.000
+		rubber=0.000
+		tungsten=0.000
+		steel=0.000
+		chromium=0.000
+	}
+
+	history={
+		owner = H03
+		add_core_of = H03
+		victory_points = {
+			3207 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		796 1145 1527 2004 2708 2968 3207 3491 3789 3796 3799 3804 9254 9304 9305 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

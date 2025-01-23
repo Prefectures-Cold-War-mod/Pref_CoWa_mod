@@ -1,0 +1,29 @@
+state={
+     id=179
+     name="STATE_179" #îˆí£ìåïî#OWARITOBU
+     manpower = 594732
+     state_category = city
+     resources={
+         oil = 110
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AIT
+         add_core_of = AIT
+         victory_points = {3103 3} #ê£åÀés,Seto-shi
+         victory_points = {5696 2} #ètì˙à‰és,Kasugai-shi
+         victory_points = {3255 1} #è¨ñqés,Komaki-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 2
+         }
+     }
+     provinces={
+         1121 2191 3103 3255 3442 5658 5671 5676 5680 5681 5696 5708 5714 5741 5771 5784 5797 5817 
+     }
+}

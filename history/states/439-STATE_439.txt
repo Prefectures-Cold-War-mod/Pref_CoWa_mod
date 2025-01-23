@@ -1,0 +1,30 @@
+state={
+     id=439
+     name="STATE_439" #‹{“‡#MIYAJIMA
+     manpower = 1453
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         add_core_of = HRS
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+	    4323= {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         4323
+     }
+}

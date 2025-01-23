@@ -1,0 +1,29 @@
+state={
+     id=30
+     name="STATE_30" #é≠äp#KAZUNO
+     manpower = 108763
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = AKI
+         add_core_of = AKI
+         victory_points = {4494 3} #ëÂäŸés,Odate-shi
+         victory_points = {278 1} #é≠äpés,Kazuno-shi
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             air_base = 2 #ëÂäŸî\ë„ãÛç`,OdateNoshiro-airport
+         }
+     }
+     provinces={
+         8 278 700 1227 1335 1808 2296 2535 2581 2950 4494 4570 4588 4626 4636 4683 9363 9432 9436 9434 9430 9427 9425 9418 9411
+     }
+}

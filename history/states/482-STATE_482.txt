@@ -1,0 +1,29 @@
+state={
+     id=482
+     name="STATE_482" #ˆ¾“‡‰Y#AWASHIMAURA
+     manpower = 351
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NIG
+         add_core_of = NIG
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6774 = {
+                naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6774
+     }
+}

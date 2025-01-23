@@ -1,0 +1,28 @@
+state={
+     id=429
+     name="STATE_429" #èoêÖ#IZUMI
+     manpower = 74261
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGS
+         add_core_of = KGS
+         victory_points = {4483 2} #à¢ãvç™és,Akune-shi
+         victory_points = {1642 2} #èoêÖés,Izumi-shi
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         1642 1691 2421 3030 3225 4447 4483 4510 4516 4536 
+     }
+}

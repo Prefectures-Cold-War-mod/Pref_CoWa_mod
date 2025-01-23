@@ -1,0 +1,30 @@
+state={
+     id=528
+     name="STATE_528" #à…ê•ñºÅEà…ïΩâÆ#IZENAÅEIHEYA
+     manpower = 2681
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6802 1} #à…ê•ñºë∫,Izena-son
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             6802 = {
+                naval_base = 2
+             }
+         }
+     }
+     provinces={
+         6802 6801
+     }
+}

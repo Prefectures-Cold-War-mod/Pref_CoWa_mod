@@ -1,0 +1,28 @@
+state={
+     id=49
+     name="STATE_49" #‹CåÀ#KESENNUMA
+     manpower = 76854
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 1
+     }
+     history ={
+         owner = MYG
+         add_core_of = MYG
+         victory_points = {788 5} #‹CåÀs,Kesennuma-shi
+         victory_points = {5790 1} #“ìO—¤’¬,Minamisanriku-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         788 881 1933 2654 5790 5855  6793
+     }
+}

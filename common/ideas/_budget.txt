@@ -1,0 +1,893 @@
+ideas = {
+
+	Road_to_Serfdom = {
+		law = yes
+		use_list_view = yes
+		 Road_to_Serfdom1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+	}
+		 Road_to_Serfdom2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_gain = 0.2
+consumer_goods_expected_value = 0.1
+	production_speed_buildings_factor = 0.1
+Road_to_Serfdom_cost_factor = -0.1
+Army_budget_cost_factor = -0.1
+Police_budget_cost_factor = -0.1
+Education_budget_cost_factor = -0.1
+Public_budget_cost_factor = -0.1
+welfare_cost_factor = -0.1
+			}
+	}
+		 Road_to_Serfdom3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_gain = 0.3
+consumer_goods_expected_value = 0.15
+	production_speed_buildings_factor = 0.15
+Road_to_Serfdom_cost_factor = -0.15
+Army_budget_cost_factor = -0.15
+Police_budget_cost_factor = -0.15
+Education_budget_cost_factor = -0.15
+Public_budget_cost_factor = -0.15
+welfare_cost_factor = -0.15
+			}
+	}
+		 Road_to_Serfdom4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_gain = 0.4
+consumer_goods_expected_value = 0.20
+	production_speed_buildings_factor = 0.2
+Road_to_Serfdom_cost_factor = -0.2
+Army_budget_cost_factor = -0.2
+Police_budget_cost_factor = -0.2
+Education_budget_cost_factor = -0.2
+Public_budget_cost_factor = -0.2
+welfare_cost_factor = -0.2
+			}
+	}
+		 Road_to_Serfdom5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_gain = 0.5
+consumer_goods_expected_value = 0.25
+	production_speed_buildings_factor = 0.25
+Road_to_Serfdom_cost_factor = -0.25
+Army_budget_cost_factor = -0.25
+Police_budget_cost_factor = -0.25
+Education_budget_cost_factor = -0.25
+Public_budget_cost_factor = -0.25
+welfare_cost_factor = -0.25
+			}
+	}
+		 Road_to_Serfdom6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			rule = {
+
+
+			}
+			modifier = {
+political_power_gain = 0.6
+consumer_goods_expected_value = 0.30
+	production_speed_buildings_factor = 0.30
+Road_to_Serfdom_cost_factor = -0.3
+Army_budget_cost_factor = -0.3
+Police_budget_cost_factor = -0.3
+Education_budget_cost_factor = -0.3
+Public_budget_cost_factor = -0.3
+welfare_cost_factor = -0.3
+			}
+	}
+}
+}
+ideas = {
+	Police_budget = {
+		law = yes
+		use_list_view = yes
+		Police_budget1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+	}
+		Police_budget2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+operative_slot = 1
+consumer_goods_expected_value = 0.1
+	stability_factor = 0.1
+	resistance_target = -0.1
+	compliance_gain = 0.1
+	intelligence_agency_defense = 1
+			}
+	}
+		Police_budget3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+operative_slot = 2
+consumer_goods_expected_value = 0.15
+	stability_factor = 0.15
+	resistance_target = -0.15
+	compliance_gain = 0.15
+	intelligence_agency_defense = 2
+			}
+	}
+		Police_budget4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+operative_slot = 3
+consumer_goods_expected_value = 0.2
+	stability_factor = 0.2
+	resistance_target = -0.2
+	compliance_gain = 0.2
+	intelligence_agency_defense = 3
+			}
+	}
+		Police_budget5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+operative_slot = 4
+consumer_goods_expected_value = 0.25
+	stability_factor = 0.25
+	resistance_target = -0.25
+	compliance_gain = 0.25
+	intelligence_agency_defense = 4
+			}
+	}
+		Police_budget6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			rule = {
+
+
+			}
+			modifier = {
+operative_slot = 5
+consumer_goods_expected_value = 0.3
+	stability_factor = 0.3
+	resistance_target = -0.3
+	compliance_gain = 0.3
+	intelligence_agency_defense = 5
+			}
+	}
+}
+}
+ideas = {
+	Public_budget = {
+		law = yes
+		use_list_view = yes
+		Public_budget1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+	}
+		Public_budget2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.1
+production_speed_buildings_factor = 0.1
+
+local_resources_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+			}
+	}
+		Public_budget3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.15
+production_speed_buildings_factor = 0.15
+
+local_resources_factor = 0.15
+industrial_capacity_factory = 0.15
+industrial_capacity_factory = 0.15
+industrial_capacity_dockyard = 0.15
+			}
+	}
+		Public_budget4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.2
+production_speed_buildings_factor = 0.2
+
+local_resources_factor = 0.2
+industrial_capacity_factory = 0.2
+industrial_capacity_factory = 0.2
+industrial_capacity_dockyard = 0.2
+			}
+	}
+		Public_budget5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.25
+production_speed_buildings_factor = 0.25
+
+local_resources_factor = 0.25
+industrial_capacity_factory = 0.25
+industrial_capacity_factory = 0.25
+industrial_capacity_dockyard = 0.25
+			}
+	}
+		Public_budget6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_supply_line
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.3
+production_speed_buildings_factor = 0.3
+
+local_resources_factor = 0.3
+industrial_capacity_factory = 0.3
+industrial_capacity_factory = 0.3
+industrial_capacity_dockyard = 0.3
+			}
+	}
+}
+}
+ideas = {
+	welfare = {
+		law = yes
+		use_list_view = yes
+		welfare1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+	}
+		welfare2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.1
+political_power_factor = 0.1
+war_support_factor = 0.1
+stability_factor = 0.1
+drift_defence_factor = 0.1
+subversive_activites_upkeep = -0.1
+subversive_activites_upkeep = -0.1
+	MONTHLY_POPULATION = 0.1
+			}
+	}
+		welfare3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.15
+political_power_factor = 0.15
+war_support_factor = 0.15
+stability_factor = 0.15
+drift_defence_factor = 0.15
+subversive_activites_upkeep = -0.15
+subversive_activites_upkeep = -0.15
+	MONTHLY_POPULATION = 0.15
+			}
+	}
+		welfare4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.2
+political_power_factor = 0.2
+war_support_factor = 0.2
+stability_factor = 0.2
+drift_defence_factor = 0.2
+subversive_activites_upkeep = -0.2
+subversive_activites_upkeep = -0.2
+	MONTHLY_POPULATION = 0.2
+			}
+	}
+		welfare5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.25
+political_power_factor = 0.25
+war_support_factor = 0.25
+stability_factor = 0.25
+drift_defence_factor = 0.25
+subversive_activites_upkeep = -0.25
+subversive_activites_upkeep = -0.25
+	MONTHLY_POPULATION = 0.25
+			}
+	}
+		welfare6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SWE_folkhemmet
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.3
+political_power_factor = 0.3
+war_support_factor = 0.3
+stability_factor = 0.3
+drift_defence_factor = 0.3
+subversive_activites_upkeep = -0.3
+subversive_activites_upkeep = -0.3
+	MONTHLY_POPULATION = 0.3
+			}
+	}
+}
+}
+ideas = {
+	Education_budget = {
+		law = yes
+		use_list_view = yes
+		Education_budget1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+	}
+		Education_budget2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.1
+	research_time_factor = -0.05
+production_factory_start_efficiency_factor = 0.05
+	research_speed_factor = 0.05
+training_time_army_factor = -0.05
+			}
+	}
+		Education_budget3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.15
+	research_time_factor = -0.1
+production_factory_start_efficiency_factor = 0.1
+	research_speed_factor = 0.1
+training_time_army_factor = -0.1
+			}
+	}
+		Education_budget4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.2
+	research_time_factor = -0.15
+production_factory_start_efficiency_factor = 0.15
+	research_speed_factor = 0.15
+training_time_army_factor = -0.15
+			}
+	}
+		Education_budget5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.25
+	research_time_factor = -0.2
+production_factory_start_efficiency_factor = 0.2
+	research_speed_factor = 0.2
+training_time_army_factor = -0.2
+			}
+	}
+		Education_budget6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.3
+	research_time_factor = -0.25
+production_factory_start_efficiency_factor = 0.25
+	research_speed_factor = 0.25
+training_time_army_factor = -0.25
+			}
+	}
+}
+}
+
+ideas = {
+	Army_budget = {
+		law = yes
+		use_list_view = yes
+		Army_budget1 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+consumer_goods_expected_value = 0.05
+			}
+}
+ 
+		Army_budget2 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.1
+production_speed_arms_factory_factor = 0.1
+consumer_goods_expected_value = 0.1
+
+	experience_gain_army = 0.1
+	experience_gain_navy = 0.1
+	experience_gain_air = 0.1
+	conscription = 0.01
+special_forces_cap = 0.2
+			}
+	}
+		Army_budget3 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.15
+production_speed_arms_factory_factor = 0.15
+consumer_goods_expected_value = 0.15
+
+	experience_gain_army = 0.15
+	experience_gain_navy = 0.15
+	experience_gain_air = 0.15
+	conscription = 0.015
+special_forces_cap = 0.4
+			}
+	}
+		Army_budget4 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.2
+production_speed_arms_factory_factor = 0.2
+consumer_goods_expected_value = 0.2
+
+	experience_gain_army = 0.2
+	experience_gain_navy = 0.2
+	experience_gain_air = 0.2
+	conscription = 0.02
+special_forces_cap = 0.6
+			}
+	}
+		Army_budget5 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.25
+production_speed_arms_factory_factor = 0.25
+consumer_goods_expected_value = 0.25
+
+	experience_gain_army = 0.25
+	experience_gain_navy = 0.25
+	experience_gain_air = 0.25
+	conscription = 0.025
+special_forces_cap = 0.1
+			}
+	}
+		Army_budget6 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.3
+production_speed_arms_factory_factor = 0.3
+consumer_goods_expected_value = 0.3
+
+	experience_gain_army = 0.3
+	experience_gain_navy = 0.3
+	experience_gain_air = 0.3
+	conscription = 0.03
+special_forces_cap = 0.12
+			}
+	}
+		Army_budget7 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.35
+production_speed_arms_factory_factor = 0.35
+consumer_goods_expected_value = 0.4
+
+	experience_gain_army = 0.4
+	experience_gain_navy = 0.4
+	experience_gain_air = 0.4
+	conscription = 0.035
+special_forces_cap = 0.14
+			}
+	}
+		Army_budget8 = {
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = chi_army_corruption3
+
+			rule = {
+
+
+			}
+			modifier = {
+production_speed_dockyard_factor = 0.4
+production_speed_arms_factory_factor = 0.4
+consumer_goods_expected_value = 0.5
+
+	experience_gain_army = 0.5
+	experience_gain_navy = 0.5
+	experience_gain_air = 0.5
+	conscription = 0.04
+special_forces_cap = 0.16
+			}
+	}
+}
+}
+
+

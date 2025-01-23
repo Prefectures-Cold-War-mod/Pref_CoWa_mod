@@ -1,0 +1,30 @@
+state={
+     id=251
+     name="STATE_251" #çÇèº#TAKAMATSU
+     manpower = 877164
+     state_category = town
+     resources={
+         oil = 8
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = KGW
+         add_core_of = KGW
+         victory_points = {3137 20} #çÇèºés,Takamatsu-shi
+         victory_points = {4899 3} #Ç≥Ç Ç´és,Sanuki-shi
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 8
+             arms_factory = 5
+             dockyard = 2
+             naval_base = 3137
+         }
+     }
+     provinces={
+         1442 3083 3131 3137 4899 4922 4955 4993 
+     }
+}

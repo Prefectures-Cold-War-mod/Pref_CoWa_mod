@@ -1,0 +1,31 @@
+state={
+     id=323
+     name="STATE_323" #êºìsÅEçÇìÁ#SAITOÅETAKANABE
+     manpower = 100078
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = MZK
+         victory_points = {2867 1} #êºìsés,Saito-shi
+         victory_points = {2533 1} #êVïxí¨,Shintomi-cho
+         victory_points = {2373 1} #êÏìÏí¨,Kawaminami-cho
+         buildings ={
+             infrastructure = 3
+             industrial_complex = 0
+             arms_factory = 1
+
+         }
+     }
+     provinces={
+         390 904 2373 2403 2533 2867 3057 3218 4768 4796 4800 4815 4824 4831 4834 4846 4861 4864 4883 
+     }
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=537
+	name="STATE_350" #great wall2#great wall2
+	resources={
+		oil=0.000
+		aluminium = 000.000
+		rubber = 000.000
+		rubber = 000.000
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+
+	}
+
+	provinces={
+		6677 9496 9497 9498 9499 9500 9503 9504 9505 9506 9507 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

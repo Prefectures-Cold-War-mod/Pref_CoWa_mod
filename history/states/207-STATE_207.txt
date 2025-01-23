@@ -1,0 +1,30 @@
+state={
+     id=207
+     name="STATE_207" #Žl“úŽs#YOKKAICHI
+     manpower = 604067
+     state_category = large_city
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = MIE
+         add_core_of = MIE
+         victory_points = {1187 15} #Žl“úŽsŽs,Yokkaichi-shi
+         victory_points = {838 2} #—éŽ­Žs,Suzuka-shi
+         victory_points = {2982 2} #‹TŽRŽs,Kameyama-shi
+         victory_points = {5649 1} #ŒÔ–ì’¬,Komono-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 4
+             arms_factory = 3
+         }
+     }
+     provinces={
+         838 845 1187 1395 2117 2416 2982 5592 5616 5649 5698 
+     }
+}

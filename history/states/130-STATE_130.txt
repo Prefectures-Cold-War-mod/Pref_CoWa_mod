@@ -1,0 +1,30 @@
+state={
+     id=130
+     name="STATE_130" #ç≤ãv#SAKU
+     manpower = 202321
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {495 1} #è¨èîés,Komoro-shi
+         victory_points = {556 2} #êÏè„ë∫,Kawakami-mura
+         victory_points = {5954 1} #ìÏñqë∫,Minamimaki-mura
+         victory_points = {5791 1} #åyà‰ëÚí¨,Karuizawa-machi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         354 495 556 582 1047 1404 2181 2348 2682 3524 5791 5825 5827 5954 5992 9299
+     }
+}

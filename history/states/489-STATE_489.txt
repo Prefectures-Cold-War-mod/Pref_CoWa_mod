@@ -1,0 +1,26 @@
+state={
+     id=489
+     name="STATE_489" #‰º˜C#GERO
+     manpower = 32576
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 8
+         steel = 0
+         chromium = 9
+     }
+     history ={
+         owner = GIF
+         add_core_of = GIF
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         319 1038 1229 2015 2558 5424 5544 5593 9463
+     }
+}

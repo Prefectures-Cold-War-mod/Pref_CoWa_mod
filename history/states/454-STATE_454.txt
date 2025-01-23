@@ -1,0 +1,31 @@
+state={
+     id=454
+     name="STATE_454" #—r’ûŽR#YOTEIZAN
+     manpower = 36057
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = HOK
+         add_core_of = HOK
+         victory_points = {3622 1} #—–‰z’¬,Rankoshi-cho
+         victory_points = {1219 1} #ƒjƒZƒR’¬,Niseko-cho
+         victory_points = {240 1} #—¯Žõ“s‘º,Rusutsu-mura
+         victory_points = {584 1} #Šì–Î•Ê’¬,Kimobetsu-cho
+         victory_points = {1356 1} #‹ä’mˆÀ’¬,Kutchan-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         160 240 502 584 819 1161 1216 1219 1356 1505 1511 1532 1705 1822 1856 1997 2121 2229 2315 2374 2528 2564 2727 2791 3084 3596 3612 3617 3621 3622 3623 3627 3632 3633 3636 3642 3647 3650 3652 3661 3662 3666 3669 3671 3672 3685 3689 3690 3694 3701 3704 3705 3722 3725 3735 3740 3741 3752 
+     }
+}

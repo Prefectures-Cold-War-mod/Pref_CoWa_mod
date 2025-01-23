@@ -1,0 +1,17 @@
+
+
+OSK_Kakushinzititai_modifier = {
+	enable = { always = yes }
+	icon = SOV_transformation_of_nature
+
+
+stability_factor = democratic_deficit_stability_factor
+consumer_goods_factor = democratic_deficit_consumer_goods_factor
+industrial_capacity_factory = democratic_deficit_industrial_capacity_factory_factor
+industrial_capacity_dockyard = democratic_deficit_industrial_capacity_dockyard_factor
+political_power_gain = democratic_deficit_political_power_gain_factor
+research_speed_factor = democratic_deficit_research_speed_factor
+production_factory_start_efficiency_factor = democratic_deficit_production_factory_start_efficiency_factor
+line_change_production_efficiency_factor = democratic_deficit_line_change_production_efficiency_factor
+production_speed_buildings_factor = democratic_deficit_production_speed_buildings_factor
+}

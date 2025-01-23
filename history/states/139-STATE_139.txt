@@ -1,0 +1,27 @@
+state={
+     id=139
+     name="STATE_139" #‰¡•l“ì•”#YOKOHAMANAMBU
+     manpower = 679133
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = TKO
+         add_core_of = TKO
+         add_core_of = KAN
+         buildings ={
+             infrastructure = 4
+             industrial_complex = 2
+             arms_factory = 0
+         }
+     }
+     provinces={
+         661 2193 6490 6505 6545 
+     }
+}

@@ -1,0 +1,29 @@
+state={
+     id=257
+     name="STATE_257" #î¸înñkïîÅEà¢ñk#MIMAHOKUBUÅEAHOKU
+     manpower = 155544
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 1
+         rubber = 0
+         tungsten = 0
+         steel = 8
+         chromium = 6
+     }
+     history ={
+         owner = TKS
+         add_core_of = TKS
+         victory_points = {1473 2} #ãgñÏêÏés,Yoshinogawa-shi
+         victory_points = {3366 1} #î¸înés,Mima-shi
+         victory_points = {1473 1} #êŒà‰í¨,Ishii-cho
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+         }
+     }
+     provinces={
+         1034 1428 1473 3273 3366 5194 
+     }
+}

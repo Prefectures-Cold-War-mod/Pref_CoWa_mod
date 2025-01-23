@@ -1,0 +1,28 @@
+state={
+    id=555
+    name="STATE_555" #EBETSU
+    manpower = 10
+    state_category = rural
+    resources={
+        oil = 0
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 0
+    }
+    history ={
+        owner = H06
+        add_core_of = H06
+        victory_points = {3213 1} #]Ęs,Ebetsu-shi
+        buildings ={
+            infrastructure = 4
+            industrial_complex = 0
+            arms_factory = 1
+            dockyard = 1
+        }
+    }
+    provinces={
+        3732 853 3213 3639 3651 3673 3715 3706 
+    }
+}

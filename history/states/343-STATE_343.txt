@@ -1,0 +1,30 @@
+state={
+     id=343
+     name="STATE_343" #‘½—ÇŠÔ#TARAMA
+     manpower = 1172
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6842 1} #‘½—ÇŠÔ‘º,Tarama-son
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6842 = {
+                naval_base = 4
+             }
+         }
+     }
+     provinces={
+         6842
+     }
+}

@@ -1,0 +1,26 @@
+state={
+     id=349
+     name="STATE_349" #çëå„#KUNASHIRI
+     manpower = 0
+     state_category = town
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = H29
+         victory_points = {1629 1} #êFíOë∫,Shikotan-mura
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+         }
+     }
+     provinces={
+         158 936 1071 1629 1716 2185 2269 2675 2816 3303 3379 3858 3899 3939 3970 
+     }
+}

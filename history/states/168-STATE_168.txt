@@ -1,0 +1,47 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		oil=0.000
+		aluminium = 000.000
+		rubber = 000.000
+		tungsten = 000.000
+		steel = 000.000
+		chromium = 000.000
+	}
+
+	history={
+		owner = TYM
+		add_core_of = TYM
+		victory_points = {
+			4891 5 
+		}
+		victory_points = {
+			3041 2 
+		}
+		victory_points = {
+			4869 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			2771 = {
+				naval_base = 4
+			}
+			1521 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		456 1521 2466 2771 2958 3041 3074 4836 4839 4867 4869 4891 4924 4958
+	}
+	manpower=342746
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

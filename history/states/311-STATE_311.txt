@@ -1,0 +1,30 @@
+state={
+     id=311
+     name="STATE_311" #‰P‹n#USUKI
+     manpower = 56417
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 4
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 5
+     }
+     history ={
+         owner = RKK
+         add_core_of = RKK
+         add_core_of = OIT
+         victory_points = {876 3} #‰P‹nŽs,Usuki-shi
+         victory_points = {2223 2} #’Ã‹vŒ©Žs,Tsukumi-shi
+         buildings ={
+             infrastructure = 2
+             industrial_complex = 1
+             arms_factory = 0
+             dockyard = 1
+         }
+     }
+     provinces={
+         147 212 876 2116 2223 2241 2356 4576 4591 
+     }
+}

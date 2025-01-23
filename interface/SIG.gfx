@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SIG1"
+		texturefile = "gfx/leaders/SIG/SIG1.dds"
+	}
+	spriteType = {
+		name = "GFX_SIG2"
+		texturefile = "gfx/leaders/SIG/SIG2.dds"
+	}
+	spriteType = {
+		name = "GFX_SIG3"
+		texturefile = "gfx/leaders/SIG/SIG3.dds"
+	}
+	spriteType = {
+		name = "GFX_SIG4"
+		texturefile = "gfx/leaders/SIG/SIG4.dds"
+	}
+
+}

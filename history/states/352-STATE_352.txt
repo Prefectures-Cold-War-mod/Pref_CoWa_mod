@@ -1,0 +1,33 @@
+state={
+     id=352
+     name="STATE_352" #‘å“Œ”“‡#DAITOSHOTO
+     manpower = 1839
+     state_category = small_island
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 0
+         steel = 0
+         chromium = 0
+     }
+     history ={
+         owner = ONW
+         add_core_of = ONW
+         victory_points = {6848 1} #“ì‘å“Œ‘º,Minamidaito-son
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 0
+             6846 = {
+                naval_base = 1
+             }
+	    6848= {
+                     naval_base = 1
+             }
+         }
+     }
+     provinces={
+         6846 6848
+     }
+}

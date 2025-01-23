@@ -1,0 +1,30 @@
+state={
+     id=133
+     name="STATE_133" #è„à…ìﬂ#KAMIINA
+     manpower = 184905
+     state_category = rural
+     resources={
+         oil = 0
+         aluminium = 0
+         rubber = 0
+         tungsten = 4
+         steel = 6
+         chromium = 0
+     }
+     history ={
+         owner = NGA
+         add_core_of = NGA
+         victory_points = {2583 1} #à…ìﬂés,Ina-shi
+         victory_points = {2583 1} #ãÓÉñç™és,Komagane-shi
+         victory_points = {5928 1} #î—ìáí¨,Iijima-machi
+         victory_points = {5928 1} #íÜêÏë∫,Nakagawa-mura
+         buildings ={
+             infrastructure = 1
+             industrial_complex = 0
+             arms_factory = 1
+         }
+     }
+     provinces={
+         260 504 1266 1683 1892 2583 5715 5745 5871 5928 5953 5976 9459 9458 9456 9457
+     }
+}

@@ -1,0 +1,19 @@
+spriteTypes = {
+
+       spriteType = {
+              name = "GFX_MIE1"
+              texturefile = "gfx/leaders/MIE/MIE1.dds"
+       }
+       spriteType = {
+              name = "GFX_MIE2"
+              texturefile = "gfx/leaders/MIE/MIE2.dds"
+       }
+       spriteType = {
+              name = "GFX_MIE3"
+              texturefile = "gfx/leaders/MIE/MIE3.dds"
+       }
+       spriteType = {
+              name = "GFX_MIE4"
+              texturefile = "gfx/leaders/MIE/MIE4.dds"
+       }
+}
