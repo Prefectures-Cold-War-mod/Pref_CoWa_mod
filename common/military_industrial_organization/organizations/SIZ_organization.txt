@@ -1,0 +1,1521 @@
+@tank_hoesch_X = 9
+@tank_hoesch_Y = 0
+
+@aircraft_hamburSIZ_X = 9
+@aircraft_hamburSIZ_Y = 0
+
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+SIZ_Suzuki_organization = { #鈴木自動車工業株式会社
+	include = generic_infantry_tank_organization
+	icon = GFX_idea_henschel
+	
+	allowed = {	
+		OR = {
+			original_tag = SIZ 
+		}
+	}
+	
+	visible = {
+		IF = {
+			limit = { FROM = { original_tag = ETH } }
+			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+		}
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+
+		IF = {
+			limit = { 
+				OR = { 
+					FROM = { original_tag = BUL }
+					FROM = { original_tag = ETH } 
+				} 
+			}
+			custom_trigSIZ_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_henschel_mio_flag
+				}
+			}
+			
+		}
+		IF = {
+			limit = { FROM = { original_tag = BUL } } 
+			FROM = { 
+				OR = {
+					is_subject = no
+					is_subject_of = SIZ
+				}
+				#is_in_faction_with = SIZ
+				NOT = { has_completed_focus = BUL_nationalization }
+			}
+		}
+	}
+
+	override_trait = {
+		token = generic_mio_trait_light_tank_specialization
+
+		position = { x=-1 y=1 }
+		relative_position_id = SIZ_mio_trait_technical_superiority
+		any_parent = { SIZ_mio_trait_technical_superiority }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_medium_tank_specialization
+
+		position = { x=0 y=1 }
+		relative_position_id = SIZ_mio_trait_technical_superiority
+		any_parent = { SIZ_mio_trait_technical_superiority }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_heavy_tank_specialization
+
+		position = { x=1 y=1 }
+		relative_position_id = SIZ_mio_trait_technical_superiority
+		any_parent = { SIZ_mio_trait_technical_superiority }
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_hoesch_facilities
+		name = SIZ_mio_trait_hoesch_facilities
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=@tank_hoesch_X y=@tank_hoesch_Y }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				NOT = { has_country_flag = SIZ_hoesch_facilities_trait_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_hoesch_facilities_trait_taken_flag
+			}
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_involve_henschel_in_special_projects
+		name = SIZ_mio_trait_involve_henschel_in_special_projects
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=8 y=0 }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			has_mio_size > 4
+		}
+
+		on_complete = {
+			custom_effect_tooltip = {
+				localization_key = available_scientist_one_line_tt
+				CHARACTER = SIZ_erwin_aders
+			}
+		}
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_steel_wheel_design
+		name = SIZ_mio_trait_steel_wheel_design
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
+		special_trait_background = yes
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_interleaved_track_wheels
+
+		any_parent = { generic_mio_trait_interleaved_track_wheels generic_mio_trait_overlapped_track_wheels }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		equipment_bonus = {
+			reliability = 0.03
+			breakthrough = 0.05
+			armor_value = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_telescopic_sight
+		name = SIZ_mio_trait_telescopic_sight
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		special_trait_background = yes
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		position = { x=-0 y=1 }
+		relative_position_id = generic_mio_trait_turret_sights
+
+		any_parent = { generic_mio_trait_turret_sights }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		equipment_bonus = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+			breakthrough = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_technical_superiority
+		name = SIZ_mio_trait_technical_superiority
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_adaptable_chassis
+
+		any_parent = { generic_mio_trait_adaptable_chassis }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		equipment_bonus = {
+			defense = 0.05
+			soft_attack = 0.05
+			armor_value = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
+		}
+	}
+}
+
+SIZ_Army_war_vehicle_School_organization = { #陸軍少年戦車兵学校
+	include = generic_medium_tank_organization
+	icon = GFX_idea_SIZ_MAN
+	
+	allowed = {	
+		OR = {
+			original_tag = SIZ 
+			AND = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+	}
+
+	tree_header_text = {
+		text = mio_header_design
+		x = 1
+	}
+
+	tree_header_text = {
+		text = mio_header_armor
+		x = 4
+	}
+
+	tree_header_text = {
+		text = mio_header_engines
+		x = 7
+	}
+
+	override_trait = {
+		token = generic_mio_trait_armor_steel_working
+
+		position = { x=3 y=0 }
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_hoesch_facilities
+		name = SIZ_mio_trait_hoesch_facilities
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=@tank_hoesch_X y=@tank_hoesch_Y }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				NOT = { has_country_flag = SIZ_hoesch_facilities_trait_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_hoesch_facilities_trait_taken_flag
+			}
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_high_velocity_armament
+		name = SIZ_mio_trait_high_velocity_armament
+		icon = GFX_generic_mio_department_icon_tank_general_at
+		special_trait_background = yes
+
+		position = { x=1 y=2 }
+		relative_position_id = generic_mio_trait_spaced_armor
+
+		all_parents = { generic_mio_trait_improved_gun_metallurgy }
+
+		any_parent = { generic_mio_trait_spaced_armor generic_mio_trait_crew_survival_layout generic_mio_trait_sloped_side_armor }
+		
+		available = {
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_schachtellaufwerk 
+		name = SIZ_mio_trait_schachtellaufwerk 
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
+		special_trait_background = yes
+
+		position = { x=-1 y=1 }
+		relative_position_id = generic_mio_trait_improved_suspension
+
+		all_parents = { generic_mio_trait_improved_suspension }
+
+		
+		available = {
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.03
+			reliability = 0.03
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_mobility_design_philosophy
+		name = SIZ_mio_trait_mobility_design_philosophy 
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_engine
+		special_trait_background = yes
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_improved_suspension
+
+		all_parents = { generic_mio_trait_improved_suspension }
+
+		
+		available = {
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+SIZ_Miho_shipyard_organization = { #三保造船所
+	include = generic_escort_ship_organization
+	icon = GFX_idea_SIZ_deschimag
+
+	override_trait = {
+		token = generic_mio_trait_fleet_escorts
+		
+		position = { x=4 y=0 }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_anti_air_ships
+		
+		position = { x=-2 y=2 }
+	}
+	
+	allowed = {	
+		original_tag = SIZ 
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_krupp_contacts
+		name = SIZ_mio_trait_krupp_contacts
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_quality
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_escort_in_force
+
+		any_parent = { generic_mio_trait_anti_air_ships generic_mio_trait_escort_in_force }
+
+		position = { x=0 y=1 } 
+
+		#available = {
+		#	FROM = {
+		#		has_completed_focus = SIZ_high_seas_fleet
+		#	}
+		#}
+
+		equipment_bonus = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_armored_design
+		name = SIZ_mio_trait_armored_design
+		icon = GFX_generic_mio_trait_icon_armor_value
+		special_trait_background = yes
+
+		relative_position_id = SIZ_mio_trait_krupp_contacts
+
+		all_parents = { SIZ_mio_trait_krupp_contacts }
+
+		position = { x=0 y=1 } 
+
+		#available = {
+		#	FROM = {
+		#		has_completed_focus = SIZ_high_seas_fleet
+		#	}
+		#}
+
+		equipment_bonus = {
+			armor_value = 0.07
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_shipyard_conglomerate
+		name = SIZ_mio_trait_shipyard_conglomerate
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_fleet_escorts 
+
+		position = { x=3 y=0 } 
+
+		#available = {
+		#	FROM = {
+		#		has_completed_focus = SIZ_u_boat_efforts
+		#	}
+		#}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+SIZ_Numazu_navy_factory_organization = { #沼津海軍工廠
+	include = generic_submarine_organization
+	icon = GFX_idea_SIZ_hdw 
+	
+	allowed = {	
+		original_tag = SIZ 
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_ocean_u_boats
+		name = SIZ_mio_trait_ocean_u_boats
+		icon = GFX_generic_mio_department_icon_ship_submarine_engine
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_long_range_raiding
+
+		all_parents = { generic_mio_trait_long_range_raiding }
+
+		position = { x=0 y=1 }  
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_u_boat_efforts
+			}
+		}
+
+        equipment_bonus = {
+			sub_visibility = -0.03
+			naval_range = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_kilian_submarine_bunker
+		name = SIZ_mio_trait_kilian_submarine_bunker
+		icon = GFX_generic_mio_department_icon_ship_submarine_production
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_submarine_mass_production
+
+		all_parents = { generic_mio_trait_submarine_mass_production }
+
+		position = { x=0 y=1 }  
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_u_boat_efforts
+			}
+		}
+
+        production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.05		
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_saddle_tanks
+		name = SIZ_mio_trait_saddle_tanks
+		icon = GFX_generic_mio_department_icon_ship_submarine_quality
+		special_trait_background = yes
+
+		position = { x=9 y=0 }  
+
+		equipment_bonus = {
+			naval_range = 0.07
+			build_cost_ic = 0.02	
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_excellent_diving_performance
+		name = SIZ_mio_trait_excellent_diving_performance
+		icon = GFX_generic_mio_department_icon_ship_submarine_survivability
+		special_trait_background = yes
+
+		relative_position_id = SIZ_mio_trait_saddle_tanks
+
+		all_parents = { SIZ_mio_trait_saddle_tanks }
+
+		position = { x=0 y=1 } 
+
+		equipment_bonus = {
+			sub_visibility = -0.05	
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {  
+		token = SIZ_mio_trait_atlantic_raiders
+		name = SIZ_mio_trait_atlantic_raiders
+		icon = GFX_generic_mio_department_icon_ship_submarine_engine
+		special_trait_background = yes
+
+		relative_position_id = SIZ_mio_trait_excellent_diving_performance
+
+		all_parents = { SIZ_mio_trait_excellent_diving_performance }
+
+		position = { x=0 y=1 } 
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_u_boat_efforts
+			}
+		}
+
+		equipment_bonus = {
+			sub_visibility = -0.03
+			naval_range = 0.05
+			naval_speed = 0.03
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+SIZ_Nakajima_aircraft_hamamatsu_organization = { #中島飛行機（浜松工場）
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_messerschmitt
+	
+	allowed = {	
+		OR = {
+			original_tag = SIZ
+			NOR_AAT = yes 
+		}
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+		
+		if = {
+			limit = {
+				FROM = { original_tag = NOR }
+			}
+			FROM = { has_completed_focus = NOR_invite_SIZman_engineers }
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_maintenance_first_design
+		name = SIZ_mio_trait_maintenance_first_design
+
+		icon = GFX_generic_mio_department_icon_plane_fighter_line_efficiency
+		special_trait_background = yes
+		
+		position = { x=-2 y=1 }
+		relative_position_id = generic_mio_trait_expanded_production_facilities
+
+		all_parents = { generic_mio_trait_expanded_production_facilities }
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_fuselage_based_weapons
+		name = SIZ_mio_trait_fuselage_based_weapons
+
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+		special_trait_background = yes
+		
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_gun_pods
+
+		any_parent = { generic_mio_trait_heavier_airframe generic_mio_trait_maximum_wing_loads generic_mio_trait_gun_pods }
+
+		equipment_bonus = {
+			air_attack = 0.05
+			air_agility = 0.05
+		} 
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_hamburSIZ_flugzeugbau
+		name = SIZ_mio_trait_hamburSIZ_flugzeugbau
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=@aircraft_hamburSIZ_X y=@aircraft_hamburSIZ_Y }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				mio:SIZ_blohm_und_voss_organization = {
+					has_mio_size > 4
+				}
+				NOT = { has_country_flag = SIZ_hamburSIZ_flugzeugbau_trait_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_hamburSIZ_flugzeugbau_trait_taken_flag
+			}
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_aerodynamic_research_insitute
+		name = SIZ_mio_trait_aerodynamic_research_insitute
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_advanced_aerodynamics
+
+		position = { x = 2 y = 0 }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_aerodynamic_research_institute
+				NOT = { has_country_flag = SIZ_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_mio_trait_aerodynamic_research_insitute_taken_flag
+			}
+		}
+
+		organization_modifier = {
+		    military_industrial_organization_research_bonus = 0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_amerikabomber_learnings
+		name = SIZ_mio_trait_amerikabomber_learnings
+
+		icon = GFX_generic_mio_department_icon_plane_medium_engine
+		special_trait_background = yes
+		
+		position = { x=1 y=4 }
+		relative_position_id = SIZ_mio_trait_aerodynamic_research_insitute
+
+		visible = {
+			has_dlc = "Gotterdammerung"
+		}
+
+		available = {
+			owner = {
+				has_completed_focus = SIZ_amerikabomber
+				has_country_flag = SIZ_amerikabomber_messerschmitt_flag
+			}
+		}
+
+		limit_to_equipment_type = { mio_cat_eq_only_light_fighter }
+
+		equipment_bonus = {
+			air_range = 0.1
+		} 
+	}
+}
+
+SIZ_Yamaha_organization = { #ヤマハ
+	include = generic_helicopter_organization
+	icon = GFX_idea_SIZ_focke_achgelis
+	
+	allowed = {	
+		original_tag = SIZ 
+		has_dlc = "Gotterdammerung"		
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_hamburSIZ_flugzeugbau
+		name = SIZ_mio_trait_hamburSIZ_flugzeugbau
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=@aircraft_hamburSIZ_X y=@aircraft_hamburSIZ_Y }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				mio:SIZ_blohm_und_voss_organization = {
+					has_mio_size > 4
+				}
+				NOT = { has_country_flag = SIZ_hamburSIZ_flugzeugbau_trait_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_hamburSIZ_flugzeugbau_trait_taken_flag
+			}
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_aerodynamic_research_insitute
+		name = SIZ_mio_trait_aerodynamic_research_insitute
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		relative_position_id = SIZ_mio_trait_hamburSIZ_flugzeugbau
+
+		position = { x = 0 y = 1 }  
+		
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_aerodynamic_research_institute
+				NOT = { has_country_flag = SIZ_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = SIZ_mio_trait_aerodynamic_research_insitute_taken_flag
+			}
+		}
+
+		organization_modifier = {
+		    military_industrial_organization_research_bonus = 0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+SIZ_Kokutetsu_hamamatsu_factory_organization = {	 #国鉄浜松工場
+	include = generic_artillery_organization
+	icon = GFX_idea_rheinmetall
+	
+	allowed = {	
+		OR = {
+			original_tag = SIZ 
+			AND = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				original_tag = HUN
+				has_dlc = "Gotterdammerung"
+			}
+		}
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+	}
+
+	visible = {
+		IF = {
+			limit = { FROM = { original_tag = HUN } }
+			FROM = { has_completed_focus = wuw_HUN_seek_SIZman_contracts }
+		}
+	}
+
+	add_trait = { 
+		token = SIZ_mio_trait_3_7_cm_pak
+		name = SIZ_mio_trait_3_7_cm_pak
+		icon = GFX_generic_mio_department_icon_anti_tank
+		special_trait_background = yes
+
+		position = { x = 1 y = 0 }
+		relative_position_id = generic_mio_trait_big_guns
+
+		#any_parent = { generic_mio_trait_cantilever_wing_structure }
+
+		limit_to_equipment_type = { 
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+			soft_attack = 0.1
+		}
+	}
+
+	add_trait = { 
+		token = SIZ_mio_trait_7_5_cm_pak
+		name = SIZ_mio_trait_7_5_cm_pak
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		special_trait_background = yes
+
+		position = { x = 0 y = 1 }
+		relative_position_id = SIZ_mio_trait_3_7_cm_pak
+
+		any_parent = { SIZ_mio_trait_3_7_cm_pak }
+
+		limit_to_equipment_type = { 
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
+	}
+
+	add_trait = { 
+		token = SIZ_mio_trait_versatile_carriage
+		name = SIZ_mio_trait_versatile_carriage
+		icon = GFX_generic_mio_department_icon_anti_air
+		special_trait_background = yes
+
+		position = { x = 1 y = 1 }
+		relative_position_id = generic_mio_trait_rapid_fire
+
+		all_parents = {
+			generic_mio_trait_rapid_fire
+			generic_mio_trait_advanced_barrel_forging
+		}
+
+		limit_to_equipment_type = { 
+			anti_tank_equipment
+			anti_air_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.03
+			hard_attack = 0.03
+			air_attack = 0.05
+		}
+	}
+
+	add_trait = { 
+		token = SIZ_mio_trait_dual_recoil_mechanism
+		name = SIZ_mio_trait_dual_recoil_mechanism
+		icon = GFX_generic_mio_department_icon_artillery
+		special_trait_background = yes
+
+		position = { x = 1 y = 1 }
+		relative_position_id = generic_mio_trait_advanced_barrel_forging
+
+		all_parents = {
+			generic_mio_trait_advanced_barrel_forging
+			generic_mio_trait_big_guns
+		}
+
+		available = {
+			FROM = {
+				has_tech = artillery3
+			}
+		}
+
+		limit_to_equipment_type = { 
+			artillery_equipment
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+}
+
+SIZ_Suzuki_loom_organization = { #鈴木織機
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_mauser
+
+	override_trait = {
+		token = generic_mio_trait_armor_piercing_rounds
+
+		position = { x=0 y=2 }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_advanced_barrel_forging
+
+		position = { x=1 y=2 }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_reinforced_stocks
+
+		position = { x=3 y=0 }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_medium_machineguns
+
+		position = { x=0 y=2 }
+	}
+	
+	allowed = {	 
+		OR = {
+			original_tag = SIZ 
+			AND = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+		}
+	}
+	
+	visible = {
+		IF = {
+			limit = { FROM = { original_tag = ETH } }
+			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+		}
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+
+		IF = {
+			limit = {
+				FROM = { NOT  = { original_tag = SIZ } }
+			}
+			custom_trigSIZ_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_SIZ_mauser_organization_flag
+				}
+			}
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_experienced_manufacturer
+		name = SIZ_mio_trait_experienced_manufacturer
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x=-1 y=0 }  
+		relative_position_id = generic_mio_trait_drum_pattern_sights
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_export_models
+		name = SIZ_mio_trait_export_models
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=-1 y=1 }  
+		relative_position_id = generic_mio_trait_drum_pattern_sights
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+			production_cost_factor = -0.03
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_karabiner
+		name = SIZ_mio_trait_karabiner
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=0 y=1 }  
+		relative_position_id = generic_mio_trait_reinforced_stocks
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		all_parents = {	generic_mio_trait_reinforced_stocks }
+
+		equipment_bonus = {
+			soft_attack = 0.03
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_sturmgewehr
+		name = SIZ_mio_trait_sturmgewehr
+		icon = GFX_generic_mio_department_icon_infantry_offense
+		special_trait_background = yes
+
+		position = { x=2 y=2 }
+		relative_position_id = generic_mio_trait_bolt_action
+
+		any_parent = { generic_mio_trait_semi_auto generic_mio_trait_bolt_action }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				has_tech = advanced_infantry_weapons
+			}
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.07
+			breakthrough = 0.03
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+SIZ_Honda_organization = { #本田技研工業
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_opel
+	
+	allowed = {	
+		OR = {
+			original_tag = SIZ
+			AND = {
+				original_tag = ROM
+				has_dlc = "Death or Dishonor"
+			}
+			AND = {
+				original_tag = BUL
+				has_dlc = "Battle for the Bosporus"
+			}
+		}
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = SIZ } }
+			}
+			FROM = { NOT = { has_war_with = SIZ } }
+		}
+
+		IF = {
+			limit = { FROM = { original_tag = BUL } }
+			custom_trigSIZ_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_opel_mio_flag
+				}
+			}
+			FROM = { 
+				OR = {
+					is_subject = no
+					is_subject_of = SIZ
+				}
+				#is_in_faction_with = SIZ
+				NOT = { has_completed_focus = BUL_nationalization }
+			}
+		}
+		IF = {
+			limit = { FROM = { original_tag = ROM } }
+			FROM = { has_country_flag = SIZ_mot_chosen }
+		}	
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_continental_ag_tires
+		name = SIZ_mio_trait_continental_ag_tires
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x=9 y=0 }  
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = { 
+			FROM = {
+				has_completed_focus = SIZ_nationalize_ford_factories
+			}
+		}
+
+		equipment_bonus = {
+			reliability = 0.05
+			build_cost_ic = -0.02
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_ford_facilities
+		name = SIZ_mio_trait_ford_facilities
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		position = { x=9 y=1 }  
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		available = {
+			FROM = {
+				has_completed_focus = SIZ_nationalize_ford_factories
+			}
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_efficiency_in_mass_production
+		name = SIZ_mio_trait_efficiency_in_mass_production
+		icon = GFX_generic_mio_trait_icon_efficiency_cap
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = SIZ_mio_trait_ford_facilities
+
+		any_parent = { SIZ_mio_trait_ford_facilities }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_improved_engines
+		name = SIZ_mio_trait_improved_engines
+		icon = GFX_generic_mio_department_icon_motorized_mechanized_engine
+		special_trait_background = yes
+
+		position = { x=-1 y=1 }
+		relative_position_id = SIZ_mio_trait_ford_facilities
+
+		any_parent = { SIZ_mio_trait_ford_facilities }
+
+		visible = {
+			FROM = { original_tag = SIZ }
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+			reliability = 0.03
+			build_cost_ic = 0.02
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+SIZ_Seien_fabric_organization = { #西遠織布
+	include = generic_support_equipment_organization
+	icon = GFX_idea_SIZ_carl_walther
+	
+	allowed = {	
+		original_tag = SIZ 
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_innovative_safety_features
+		name = SIZ_mio_trait_innovative_safety_features
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=1 y=1 } 
+		relative_position_id = generic_mio_trait_private_scientists_program
+		
+		all_parents = { generic_mio_trait_private_scientists_program }
+
+		ai_will_do = {
+			base = 2
+		}
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+			military_industrial_organization_design_team_assign_cost = -0.05
+			military_industrial_organization_industrial_manufacturer_assign_cost = -0.05
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_policiary_equipment
+		name = SIZ_mio_trait_policiary_equipment
+		icon = GFX_generic_mio_department_icon_support_equipment
+		special_trait_background = yes
+
+		position = { x=0 y=1 } 
+		relative_position_id = generic_mio_trait_private_tenders
+		
+		all_parents = { generic_mio_trait_private_tenders }
+
+		ai_will_do = {
+			base = 2
+		}
+
+		limit_to_equipment_type = { support_equipment }
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.05
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+}
+
+SIZ_Marushou_auto_organization = { #丸正自動車
+	include = generic_armored_car_organization
+	icon = GFX_idea_SIZ_auto_union
+	
+	allowed = {	
+		original_tag = SIZ 
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_racing_pedigree
+		name = SIZ_mio_trait_racing_pedigree
+		icon = GFX_generic_mio_department_icon_armored_car_engine
+		special_trait_background = yes
+
+		position = { x=-1 y=1 }
+		relative_position_id = generic_mio_trait_simplified_suspension
+
+		all_parents = { generic_mio_trait_simplified_suspension }
+
+		equipment_bonus = {
+			maximum_speed = 0.07
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_military_exclusivity
+		name = SIZ_mio_trait_military_exclusivity
+		icon = GFX_generic_mio_department_icon_armored_car_line_efficiency
+		special_trait_background = yes
+
+		position = { x=0 y=3 }
+		relative_position_id = SIZ_mio_trait_racing_pedigree
+
+		all_parents = { SIZ_mio_trait_racing_pedigree generic_mio_trait_improved_tooling }
+
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+			production_efficiency_cap_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = SIZ_mio_trait_schwerer_panzerspahwagen
+		name = SIZ_mio_trait_schwerer_panzerspahwagen
+		icon = GFX_generic_mio_department_icon_armored_car_defense
+		special_trait_background = yes
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_defensive_equipment
+
+		all_parents = { generic_mio_trait_defensive_equipment }
+
+		available = { 
+			FROM = {
+				has_completed_focus = SIZ_panzergrenadier
+			}
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.03
+			armor_value = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}

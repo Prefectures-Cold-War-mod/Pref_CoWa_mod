@@ -1,0 +1,447 @@
+characters = {	#政治家
+	CHARACTER_Seiichi_Katsumata = {	#勝間田清一
+		name = CHARACTER_Seiichi_Katsumata
+		
+		portraits = {
+			civilian = {
+				small = GFX_Seiichi_Katsumata_small
+				large = GFX_Seiichi_Katsumata_large
+			}
+		}
+		country_leader = {
+			ideology = communism
+			desc = "CHARACTER_Seiichi_Katsumata_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Ichirou_Sunama = {	#砂間一良
+		name = CHARACTER_Ichirou_Sunama
+		
+		portraits = {
+			civilian = {
+				small = GFX_Ichirou_Sunama_small
+				large = GFX_Ichirou_Sunama_large
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			desc = "CHARACTER_Ichirou_Sunama_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Michiko_Fujiwara = {	#藤原道子
+		name = CHARACTER_Michiko_Fujiwara
+		
+		portraits = {
+			civilian = {
+				small = GFX_Michiko_Fujiwara_small
+				large = GFX_Michiko_Fujiwara_large
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			desc = "CHARACTER_Michiko_Fujiwara_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Taizou_Hasegawa = {	#長谷川泰三
+		name = CHARACTER_Taizou_Hasegawa
+		
+		portraits = {
+			civilian = {
+				small = GFX_Taizou_Hasegawa_small
+				large = GFX_Taizou_Hasegawa_large
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "CHARACTER_Taizou_Hasegawa_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Yuutarou_Takeyama = {	#竹山祐太郎
+		name = CHARACTER_Yuutarou_Takeyama
+		
+		portraits = {
+			civilian = {
+				small = GFX_Yuutarou_Takeyama_small
+				large = GFX_Yuutarou_Takeyama_large
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			desc = "CHARACTER_Yuutarou_Takeyama_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Tanzan_Ishibashi = {	#石橋湛山
+		name = CHARACTER_Tanzan_Ishibashi
+		
+		portraits = {
+			civilian = {
+				small = GFX_Tanzan_Ishibashi_small
+				large = GFX_Tanzan_Ishibashi_large
+			}
+		}
+		country_leader = {
+			ideology = democratic
+			desc = "CHARACTER_Tanzan_Ishibashi_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Takeji_Kobayashi = {	#小林武治
+		name = CHARACTER_Takeji_Kobayashi
+		
+		portraits = {
+			civilian = {
+				small = GFX_Takeji_Kobayashi_small
+				large = GFX_Takeji_Kobayashi_large
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "CHARACTER_Takeji_Kobayashi_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Yoshimitsu_Tokugawa = {	#徳川慶光
+		name = CHARACTER_Yoshimitsu_Tokugawa
+		
+		portraits = {
+			civilian = {
+				small = GFX_Yoshimitsu_Tokugawa_small
+				large = GFX_Yoshimitsu_Tokugawa_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			desc = "CHARACTER_Yoshimitsu_Tokugawa_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Masatomi_Kimura = {	#木村昌福
+		name = CHARACTER_Masatomi_Kimura
+		
+		portraits = {
+			civilian = {
+				small = GFX_Masatomi_Kimura_small
+				large = GFX_Masatomi_Kimura_large
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			desc = "CHARACTER_Masatomi_Kimura_desc"
+			expire = "2007.7.23"
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 5
+			coordination_skill = 3
+		}
+	}
+	CHARACTER_Ichitarou_Yamaguchi = {	#山口一太郎
+		name = CHARACTER_Ichitarou_Yamaguchi
+		
+		portraits = {
+			civilian = {
+				small = GFX_Ichitarou_Yamaguchi_small
+				large = GFX_Ichitarou_Yamaguchih_large
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+			desc = "CHARACTER_Ichitarou_Yamaguchi_desc"
+			expire = "2007.7.23"
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHARACTER_Sougen_Asahina = {	#朝比奈宗源
+		name = CHARACTER_Sougen_Asahina
+		
+		portraits = {
+			civilian = {
+				small = GFX_Sougen_Asahina_small
+				large = GFX_Sougen_Asahina_large
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			desc = "CHARACTER_Sougen_Asahina_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#政治顧問
+	CHARACTER_Hirotugu_Akaike = {	#赤池弘次（統計学者）
+		name = CHARACTER_Hirotugu_Akaike
+		
+		portraits = {
+			civilian = {
+				small = GFX_Hirotugu_Akaike_small
+				large = GFX_Hirotugu_Akaike_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Reisuke_Ishida = {	#石田礼助（三井物産社長、国鉄総裁）
+		name = CHARACTER_Reisuke_Ishida
+		
+		portraits = {
+			civilian = {
+				small = GFX_Reisuke_Ishida_small
+				large = GFX_Reisuke_Ishida_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Sanae_Inagaki = {	#稲垣早苗（IBM社長）
+		name = CHARACTER_Sanae_Inagaki
+		
+		portraits = {
+			civilian = {
+				small = GFX_Sanae_Inagaki_small
+				large = GFX_Sanae_Inagaki_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Shigezou_Okano = {	#岡野繁藏（南洋の貿易王）
+		name = CHARACTER_Shigezou_Okano
+		
+		portraits = {
+			civilian = {
+				small = GFX_Shigezou_Okano_small
+				large = GFX_Shigezou_Okano_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Haruo_Katsunuma = {	#勝沼晴雄（公衆衛生学者）
+		name = CHARACTER_Haruo_Katsunuma
+		
+		portraits = {
+			civilian = {
+				small = GFX_Haruo_Katsunuma_small
+				large = GFX_Haruo_Katsunuma_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Junichi_Shinmura = {	#秦村純一（報徳社社長）
+		name = CHARACTER_Junichi_Shinmura
+		
+		portraits = {
+			civilian = {
+				small = GFX_Junichi_Shinmura_small
+				large = GFX_Junichi_Shinmura_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Takeshi_Wakuda = {	#和久田武（農業関連）
+		name = CHARACTER_Takeshi_Wakuda
+		
+		portraits = {
+			civilian = {
+				small = GFX_Takeshi_Wakuda_small
+				large = GFX_Takeshi_Wakuda_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	CHARACTER_Kunio_Watanabe = {	#渡辺邦男（映画監督）
+		name = CHARACTER_Kunio_Watanabe
+		
+		portraits = {
+			civilian = {
+				small = GFX_Kunio_Watanabe_small
+				large = GFX_Kunio_Watanabe_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+	}
+	
+	
+	#陸軍
+	CHARACTER_Giichi_Hirano = {	#平野儀一、1891年生まれ
+		name = CHARACTER_Giichi_Hirano
+		
+		portraits = {
+			civilian = {
+				small = GFX_Giichi_Hirano_small
+				large = GFX_Giichi_Hirano_large
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHARACTER_Hanjirou_Iketani = {	#池谷半二郎、1900年生まれ
+		name = CHARACTER_Hanjirou_Iketani
+		
+		portraits = {
+			civilian = {
+				small = GFX_Hanjirou_Iketani_small
+				large = GFX_Hanjirou_Iketani_large
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CHARACTER_Yasugorou_Mori = {	#森安五郎、1913年生まれ
+		name = CHARACTER_Yasugorou_Mori
+		
+		portraits = {
+			civilian = {
+				small = GFX_Yasugorou_Mori_small
+				large = GFX_Yasugorou_Mori_large
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHARACTER_Tadayoshi_Sano = {	#佐野忠義、1889年生まれ
+		name = CHARACTER_Tadayoshi_Sano
+		
+		portraits = {
+			civilian = {
+				small = GFX_Tadayoshi_Sano_small
+				large = GFX_Tadayoshi_Sano_large
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	CHARACTER_Keiji_Suzuki = {	#鈴木敬司、1897年生まれ
+		name = CHARACTER_Keiji_Suzuki
+		
+		portraits = {
+			civilian = {
+				small = GFX_Keiji_Suzuki_small
+				large = GFX_Keiji_Suzuki_large
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHARACTER_Kenichi_Tanaka = {	#田中賢一、1918年生まれ
+		name = CHARACTER_Kenichi_Tanaka
+		
+		portraits = {
+			civilian = {
+				small = GFX_Kenichi_Tanaka_small
+				large = GFX_Kenichi_Tanaka_large
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHARACTER_Masao_Yamada = {	#山田正雄、1912年生まれ
+		name = CHARACTER_Masao_Yamada
+		
+		portraits = {
+			civilian = {
+				small = GFX_Masao_Yamada_small
+				large = GFX_Masao_Yamada_large
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	CHARACTER_Seiichi_Yoshie = {	#吉江誠一、1911年生まれ
+		name = CHARACTER_Seiichi_Yoshie
+		
+		portraits = {
+			civilian = {
+				small = GFX_Seiichi_Yoshie_small
+				large = GFX_Seiichi_Yoshie_large
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	
+	#海軍
+	CHARACTER_Tadakazu_Yoshioka = {	#吉岡忠一、1908年生まれ
+		name = CHARACTER_Tadakazu_Yoshioka
+		
+		portraits = {
+			civilian = {
+				small = GFX_Tadakazu_Yoshioka_small
+				large = GFX_Tadakazu_Yoshioka_large
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+}

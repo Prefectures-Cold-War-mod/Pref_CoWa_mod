@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		SIZ_Increasing_numbers_of_youth = {	#増え続ける青少年
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			removal_SIZt = -1
+			picture = SOV_restoration_and_development_idea_ccp_sov_compatibility
+			modifier = {
+			    stability_factor = -0.05
+				consumer_goods_factor = 0.15
+				conscription = 0.01
+				research_speed_factor = -0.05
+			}
+		}
+		SIZ_Mt_fuji_training_area_issue = {	#富士山麓演習場問題
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			removal_SIZt = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+			    experience_gain_army = -0.03
+				political_power_cost = 0.05
+				war_support_factor = -0.15
+				mobilization_laws_cost_factor = 0.25
+			}
+		}
+		SIZ_Atami_yugawara_issue = {	#熱海＝湯河原問題
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			removal_SIZt = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+			    stability_factor = -0.02
+				weekly_manpower = -200
+			}
+		}
+	}
+}
