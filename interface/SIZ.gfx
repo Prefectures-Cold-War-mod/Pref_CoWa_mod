@@ -1,0 +1,119 @@
+spriteTypes = {
+
+       spriteType = {
+              name = "GFX_Seiichi_Katsumata_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Seiichi_Katsumata.png"
+       }
+       spriteType = {
+              name = "GFX_Ichirou_Sunama_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Ichirou_Sunama.png"
+       }
+       spriteType = {
+              name = "GFX_Michiko_Fujiwara_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Michiko_Fujiwara.png"
+       }
+       spriteType = {
+              name = "GFX_Taizou_Hasegawa_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Taizou_Hasegawa.png"
+       }
+	   spriteType = {
+              name = "GFX_Yuutarou_Takeyama_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Yuutarou_Takeyama.png"
+       }
+	   spriteType = {
+              name = "GFX_Tanzan_Ishibashi_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Tanzan_Ishibashi.png"
+       }
+	   spriteType = {
+              name = "GFX_Takeji_Kobayashi_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Takeji_Kobayashi.png"
+       }
+	   spriteType = {
+              name = "GFX_Yoshimitsu_Tokugawa_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Yoshimitsu_Tokugawa.png"
+       }
+	   spriteType = {
+              name = "GFX_Masatomi_Kimura_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Masatomi_Kimura.png"
+       }
+	   spriteType = {
+              name = "GFX_Ichitarou_Yamaguchi_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Ichitarou_Yamaguchi.png"
+       }
+	   spriteType = {
+              name = "GFX_Sougen_Asahina_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Sougen_Asahina.png"
+       }
+	   
+	   #軍人
+	   spriteType = {
+              name = "GFX_Giichi_Hirano_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Giichi_Hirano.png"
+       }
+	   spriteType = {
+              name = "GFX_Hanjirou_Iketani_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Hanjirou_Iketani.png"
+       }
+	   spriteType = {
+              name = "GFX_Yasugorou_Mori_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Yasugorou_Mori.png"
+       }
+	   spriteType = {
+              name = "GFX_Tadayoshi_Sano_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Tadayoshi_Sano.png"
+       }
+	   spriteType = {
+              name = "GFX_Keiji_Suzuki_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Keiji_Suzuki.png"
+       }
+	   spriteType = {
+              name = "GFX_Kenichi_Tanaka_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Kenichi_Tanaka.png"
+       }
+	   spriteType = {
+              name = "GFX_Masao_Yamada_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Masao_Yamada.png"
+       }
+	   spriteType = {
+              name = "GFX_Seiichi_Yoshie_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Seiichi_Yoshie.png"
+       }
+	   spriteType = {
+              name = "GFX_Tadakazu_Yoshioka_large"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Tadakazu_Yoshioka.png"
+       }
+	   
+	   #政治顧問
+	   spriteType = {
+              name = "GFX_Hirotugu_Akaike_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Hirotugu_Akaike.png"
+       }
+	   spriteType = {
+              name = "GFX_Reisuke_Ishida_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Reisuke_Ishida.png"
+       }
+	   spriteType = {
+              name = "GFX_Sanae_Inagaki_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Sanae_Inagaki.png"
+       }
+	   spriteType = {
+              name = "GFX_Shigezou_Okano_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Shigezou_Okano.png"
+       }
+	   spriteType = {
+              name = "GFX_Haruo_Katsunuma_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Haruo_Katsunuma.png"
+       }
+	   spriteType = {
+              name = "GFX_Junichi_Shinmura_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Junichi_Shinmura.png"
+       }
+	   spriteType = {
+              name = "GFX_Takeshi_Wakuda_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Takeshi_Wakuda.png"
+       }
+	   spriteType = {
+              name = "GFX_Kunio_Watanabe_small"
+              texturefile = "gfx/characters/large/SIZ/SIZ_Kunio_Watanabe.png"
+       }
+ }

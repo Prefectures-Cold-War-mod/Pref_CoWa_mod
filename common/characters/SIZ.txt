@@ -44,18 +44,18 @@ characters = {	#政治家
 			expire = "2007.7.23"
 		}
 	}
-	CHARACTER_Taizou_Hasegawa = {	#長谷川泰三
-		name = CHARACTER_Taizou_Hasegawa
+	CHARACTER_Tamotsu_Hasegawa = {	#長谷川保
+		name = CHARACTER_Tamotsu_Hasegawa
 		
 		portraits = {
 			civilian = {
-				small = GFX_Taizou_Hasegawa_small
-				large = GFX_Taizou_Hasegawa_large
+				small = GFX_Tamotsu_Hasegawa_small
+				large = GFX_Tamotsu_Hasegawa_large
 			}
 		}
 		country_leader = {
 			ideology = progressivism
-			desc = "CHARACTER_Taizou_Hasegawa_desc"
+			desc = "CHARACTER_Tamotsu_Hasegawa_desc"
 			expire = "2007.7.23"
 		}
 	}
@@ -176,6 +176,38 @@ characters = {	#政治家
 		country_leader = {
 			ideology = fascism
 			desc = "CHARACTER_Sougen_Asahina_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#政治家（追加）
+	CHARACTER_Taizou_Hasegawa = {	#長谷川泰三
+		name = CHARACTER_Taizou_Hasegawa
+		
+		portraits = {
+			civilian = {
+				small = GFX_Taizou_Hasegawa_small
+				large = GFX_Taizou_Hasegawa_large
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "CHARACTER_Taizou_Hasegawa_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Toshio_Saitou = {	#斎藤寿夫
+		name = CHARACTER_Toshio_Saitou
+		
+		portraits = {
+			civilian = {
+				small = GFX_Toshio_Saitou_small
+				large = GFX_Toshio_Saitou_large
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "CHARACTER_Toshio_Saitou_desc"
 			expire = "2007.7.23"
 		}
 	}

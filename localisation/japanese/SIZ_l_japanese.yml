@@ -6,8 +6,8 @@
  CHARACTER_Ichirou_Sunama_desc:0 ""
  CHARACTER_Michiko_Fujiwara:0 "藤原道子"
  CHARACTER_Michiko_Fujiwara_desc:0 ""
- CHARACTER_Taizou_Hasegawa:0 "長谷川泰三"
- CHARACTER_Taizou_Hasegawa_desc:0 ""
+ CHARACTER_Tamotsu_Hasegawa:0 "長谷川保"
+ CHARACTER_Tamotsu_Hasegawa_desc:0 ""
  CHARACTER_Yuutarou_Takeyama:0 "竹山祐太郎"
  CHARACTER_Yuutarou_Takeyama_desc:0 ""
  CHARACTER_Tanzan_Ishibashi:0 "石橋湛山"
@@ -21,7 +21,13 @@
  CHARACTER_Ichitarou_Yamaguchi:0 "山口一太郎"
  CHARACTER_Ichitarou_Yamaguchi_desc:0 ""
  CHARACTER_Sougen_Asahina:0 "朝比奈宗源"
- CHARACTER_Sougen_Asahina_long:0 ""
+ CHARACTER_Sougen_Asahina_desc:0 ""
+ 
+ #政治家（追加）
+ CHARACTER_Taizou_Hasegawa:0 "長谷川泰三"
+ CHARACTER_Taizou_Hasegawa_desc:0 ""
+ CHARACTER_Toshio_Saitou:0 "斎藤寿夫"
+ CHARACTER_Toshio_Saitou_desc:0 ""
  
  #政治顧問
  CHARACTER_Hirotugu_Akaike:0 "赤池弘次"
@@ -29,7 +35,7 @@
  CHARACTER_Sanae_Inagaki:0 "稲垣早苗"
  CHARACTER_Shigezou_Okano:0 "岡野繁蔵"
  CHARACTER_Haruo_Katsunuma:0 "勝沼晴雄"
- CHARACTER_Junichi_Shinmura:0 "秦村純一"
+ CHARACTER_Junichi_Shinmura:0 "榛村純一"
  CHARACTER_Takeshi_Wakuda:0 "和久田武"
  CHARACTER_Kunio_Watanabe:0 "渡辺邦男"
  

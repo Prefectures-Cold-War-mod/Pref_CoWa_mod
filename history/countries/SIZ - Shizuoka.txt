@@ -4,7 +4,7 @@ oob = "SIZ_1962"
 
 
 
-set_research_slots = 4
+set_research_slots = 3
 add_ideas = {
 	SIZ_Increasing_numbers_of_youth
 	SIZ_Mt_fuji_training_area_issue
@@ -31,6 +31,7 @@ set_technology = {
 	tech_trucks = 1
 	motorised_infantry = 1
 	marines  = 1
+	paratroopers  = 1
 	gw_artillery = 1
 	basic_train = 1
 	trench_warfare = 1
@@ -81,7 +82,7 @@ set_popularities = {
 		ruling_party = conservatism
 		last_election = "1960.12.5"
 		election_frequency = 36
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 set_convoys = 220
@@ -91,7 +92,7 @@ set_war_support = 0.35
 recruit_character = CHARACTER_Seiichi_Katsumata
 recruit_character = CHARACTER_Ichirou_Sunama
 recruit_character = CHARACTER_Michiko_Fujiwara
-recruit_character = CHARACTER_Taizou_Hasegawa
+recruit_character = CHARACTER_Tamotsu_Hasegawa
 recruit_character = CHARACTER_Yuutarou_Takeyama
 recruit_character = CHARACTER_Tanzan_Ishibashi
 recruit_character = CHARACTER_Takeji_Kobayashi
@@ -99,6 +100,9 @@ recruit_character = CHARACTER_Yoshimitsu_Tokugawa
 recruit_character = CHARACTER_Masatomi_Kimura
 recruit_character = CHARACTER_Ichitarou_Yamaguchi
 recruit_character = CHARACTER_Sougen_Asahina
+
+recruit_character = CHARACTER_Taizou_Hasegawa
+recruit_character = CHARACTER_Toshio_Saitou
 
 recruit_character = CHARACTER_Hirotugu_Akaike
 recruit_character = CHARACTER_Reisuke_Ishida
