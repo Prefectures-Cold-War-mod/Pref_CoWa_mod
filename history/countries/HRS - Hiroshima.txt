@@ -169,6 +169,41 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "宮澤喜一"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_HRS2"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "木村兵太郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_HRS3"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = "賀屋興宣"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_HRS4"
+	expire = "1965.1.1"
+	ideology = neutrality
+	traits = {
+		
+	}
+}
+
+
+
 
 
 

@@ -1,25 +1,23 @@
-﻿capital = 27
+﻿capital = 233
 
-oob = "AOM_1936"
+oob = "SIG_1962"
 
-create_faction = AOM_union
-add_to_faction = AOM
-add_to_faction = MYG
-add_to_faction = YAG
-add_to_faction = AKI
-add_to_faction = HOK
-add_to_faction = H01
 
 
 set_research_slots = 4
 add_ideas = {
-AOM_ideas1
-AOM_ideas2
-AOM_ideas3
-AOM_ideas4
-AOM_ideas5
+service_by_requirement
+add_ideas = {
+Road_to_Serfdom5
+Army_budget3
+Police_budget2
+Education_budget3
+Public_budget3
+welfare3
+market5
+fair_tax3
+cop_tax5
 }
-
 
 set_technology = {
 	infantry_weapons = 1
@@ -60,8 +58,6 @@ set_technology = {
 			early_bomber = 1
 			CAS1 = 1
 }
-
-
 set_popularities = {
  communism = 0
  anarchist_communism = 0
@@ -69,33 +65,36 @@ set_popularities = {
  democratic_socialism = 0
  progressivism = 0
  democratic = 30
- liberalism = 20
- conservatism = 20
-neutrality = 10
-despotism = 10
-ultranationalism = 5
- fascism = 5
+ liberalism = 0
+ conservatism = 30
+ neutrality = 30
+ fascism = 10
  nazism = 0
  esoteric_nazism = 0
 }
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1960.12.5"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
+	declare_war_on = {
+		target = RAS
+		type = annex_everything
+	}
 
-set_convoys = 400
-set_stability = 0.4
+set_convoys = 140
+set_stability = 0.6
 set_war_support = 0.02
 
+
 create_country_leader = {
-	name = "田沢吉郎"
-	desc = "POLITICS_TAZAWA_KICHIRO_DESC"
-	picture = "GFX_AOM1"
+	name = "堤康次郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_SIG1"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = conservatism
 	traits = {
 		
 	}

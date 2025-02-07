@@ -7,7 +7,6 @@ add_to_faction = OSK
 add_to_faction = SET
 add_to_faction = SKY
 add_to_faction = NRA
-add_to_faction = TNB
 #革新自治体
 add_dynamic_modifier = { modifier = OSK_Kakushinzititai_modifier }
 set_variable = { var = democratic_deficit_research_speed_factor value = -0.2 }
@@ -108,11 +107,6 @@ set_cosmetic_tag = SKY_com
 }
 
 	set_autonomy = {
-		target = TNB
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
 		target = NRA
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -143,7 +137,7 @@ set_popularities = {
 }
 	set_politics = {
 		ruling_party = socialism
-		last_election = "1960.12.5"
+		last_election = "1958.3.5"
 		election_frequency = 36
 		elections_allowed = yes
 	}
@@ -164,19 +158,9 @@ anarcho_communist_council
 	}
 }
 create_country_leader = {
-	name = "朝田善次郎"
+	name = "鍋山貞親"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK3"
-	expire = "1965.1.1"
-	ideology = progressivism
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "宮本顕治"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK3"
+	picture = "GFX_OSK6"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {	
@@ -185,41 +169,42 @@ create_country_leader = {
 create_country_leader = {
 	name = "西村栄一"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK11"
+	picture = "GFX_OSK5"
 	expire = "1965.1.1"
 	ideology = democratic_socialism
-	traits = {
-		
+	traits = {	
 	}
 }
 create_country_leader = {
-	name = "原田憲"
+	name = "袴田里美"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK4"
+	picture = "GFX_OSK7"
 	expire = "1965.1.1"
-	ideology =  democratic
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "丸山眞男"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK4"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
+	ideology = communism
+	traits = {	
 	}
 }
 create_country_leader = {
 	name = "中山太郎"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_OSK4"
+	picture = "GFX_OSK6"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {
-		
+	traits = {	
 	}
 }
+create_country_leader = {
+	name = "朝田善之助"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_OSK9"
+	expire = "1965.1.1"
+	ideology = progressivism
+	traits = {	
+	}
+}
+
+
+
+
+
 

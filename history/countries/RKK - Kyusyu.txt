@@ -1,11 +1,11 @@
-﻿capital = 228
+﻿capital = 309
 
-oob = "OSK_1936"
-create_faction = japan_union
+oob = "RKK_1936"
 
 
 set_research_slots = 4
 add_ideas = {
+KGW_idea2
 }
 
 
@@ -77,6 +77,7 @@ if = {
 		cruiser_submarines = 1
 		basic_dp_light_battery = 1
 	}
+	set_naval_oob = "OSK_1936_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -95,6 +96,7 @@ if = {
 		basic_carrier = 1
 		transport = 1
 	}
+	set_naval_oob = "OSK_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -110,6 +112,7 @@ if = {
 			air_torpedoe_1 = 1
 		}
 	else = {
+		set_air_oob = "OSK_1936_air_legacy"
 		set_technology = {
 			cv_early_fighter = 1
 			cv_CAS1 = 1
@@ -133,22 +136,14 @@ if = {
 
 
 set_popularities = {
- communism = 0
- anarchist_communism = 0
- socialism = 10
- democratic_socialism = 30
- progressivism = 10
- democratic = 20
- liberalism = 15
- conservatism = 15
- fascism = 0
- nazism = 0
- esoteric_nazism = 0}
+ nazism = 80
+ esoteric_nazism = 20
+}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = nazism
 		last_election = "1960.12.5"
 		election_frequency = 36
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 
@@ -157,11 +152,12 @@ set_stability = 0.4
 set_war_support = 0.02
 
 create_country_leader = {
-	name = "藤山愛一郎"
+	name = "岸井寿郎"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_TKO1"
+	picture = "GFX_RKK1"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = nazism
+
 	traits = {
 		
 	}

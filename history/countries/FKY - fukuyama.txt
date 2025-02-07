@@ -5,6 +5,7 @@ oob = "FKY_1936"
 
 set_research_slots = 4
 add_ideas = {
+KGW_idea2
 }
 
 

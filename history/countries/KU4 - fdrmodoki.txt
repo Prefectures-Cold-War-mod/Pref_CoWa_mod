@@ -1,23 +1,23 @@
-﻿capital = 27
+﻿capital = 287
 
-oob = "AOM_1936"
-
-create_faction = AOM_union
-add_to_faction = AOM
-add_to_faction = MYG
-add_to_faction = YAG
-add_to_faction = AKI
-add_to_faction = HOK
-add_to_faction = H01
+oob = "KU4_1962"
 
 
 set_research_slots = 4
 add_ideas = {
-AOM_ideas1
-AOM_ideas2
-AOM_ideas3
-AOM_ideas4
-AOM_ideas5
+}
+set_research_slots = 4
+add_ideas = {
+Road_to_Serfdom6
+Army_budget6
+Police_budget5
+Education_budget2
+Public_budget2
+welfare2
+market5
+fair_tax5
+cop_tax5
+extensive_conscription
 }
 
 
@@ -62,27 +62,27 @@ set_technology = {
 }
 
 
+
+
 set_popularities = {
  communism = 0
  anarchist_communism = 0
  socialism = 0
- democratic_socialism = 0
- progressivism = 0
- democratic = 30
- liberalism = 20
- conservatism = 20
-neutrality = 10
-despotism = 10
-ultranationalism = 5
- fascism = 5
+ democratic_socialism = 5
+ ultranationalism = 0
+ progressivism = 15
+ democratic = 40
+ liberalism = 40
+ conservatism = 0
+ fascism = 10
  nazism = 0
  esoteric_nazism = 0
 }
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1960.12.5"
 		election_frequency = 36
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 
@@ -91,11 +91,12 @@ set_stability = 0.4
 set_war_support = 0.02
 
 create_country_leader = {
-	name = "田沢吉郎"
-	desc = "POLITICS_TAZAWA_KICHIRO_DESC"
-	picture = "GFX_AOM1"
+	name = "柳瀬嵩"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_KUT4"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = liberalism
+
 	traits = {
 		
 	}

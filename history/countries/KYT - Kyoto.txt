@@ -1,26 +1,33 @@
-﻿capital = 27
+﻿capital = 233
 
-oob = "AOM_1936"
+oob = "KYT_1962"
 
-create_faction = AOM_union
-add_to_faction = AOM
-add_to_faction = MYG
-add_to_faction = YAG
-add_to_faction = AKI
-add_to_faction = HOK
-add_to_faction = H01
 
 
 set_research_slots = 4
 add_ideas = {
-AOM_ideas1
-AOM_ideas2
-AOM_ideas3
-AOM_ideas4
-AOM_ideas5
+Road_to_Serfdom6
+Army_budget6
+Police_budget5
+Education_budget2
+Public_budget2
+welfare2
+market5
+fair_tax5
+cop_tax5
+extensive_conscription
 }
-
-
+add_ideas = {
+ideological_fanaticism_focus
+militarism_focus
+military_youth_focus
+	deterrence
+state_shintoism
+for_the_emperor_idea
+JAP_superior_will
+JAP_militarism_shogunate
+spiritual_mobilization_idea
+}
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -61,41 +68,42 @@ set_technology = {
 			CAS1 = 1
 }
 
-
 set_popularities = {
- communism = 0
- anarchist_communism = 0
- socialism = 0
- democratic_socialism = 0
- progressivism = 0
- democratic = 30
- liberalism = 20
- conservatism = 20
-neutrality = 10
-despotism = 10
-ultranationalism = 5
- fascism = 5
- nazism = 0
- esoteric_nazism = 0
+ democratic = 10
+ conservatism = 10
+ fascism = 10
+ neutrality = 70
 }
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1960.12.5"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 
-set_convoys = 400
-set_stability = 0.4
+set_convoys = 140
+set_stability = 0.6
 set_war_support = 0.02
 
+
 create_country_leader = {
-	name = "田沢吉郎"
-	desc = "POLITICS_TAZAWA_KICHIRO_DESC"
-	picture = "GFX_AOM1"
+	name = "谷垣専一"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_KYT1"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = neutrality
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "増田眞一"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_KYT2"
+	expire = "1965.1.1"
+	ideology = fascism
 	traits = {
 		
 	}
