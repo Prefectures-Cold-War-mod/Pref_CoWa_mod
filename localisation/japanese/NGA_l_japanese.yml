@@ -1,0 +1,39 @@
+﻿l_japanese:
+ #政治家
+ CHARACTER_Shouichi_Kasuga:0 "春日正一"
+ CHARACTER_Shouichi_Kasuga_desc:0 ""
+ CHARACTER_Teikou_Ozawa:0 "小沢貞孝"
+ CHARACTER_Teikou_Ozawa_desc:0 ""
+ CHARACTER_Mitsusuke_Yonekubo:0 "米窪満亮"
+ CHARACTER_Mitsusuke_Yonekubo_desc:0 ""
+ CHARACTER_Kaneshichi_Masuda:0 "増田甲子七"
+ CHARACTER_Kaneshichi_Masuda_desc:0 ""
+ CHARACTER_Taneo_Miyazawa:0 "宮沢胤勇"
+ CHARACTER_Taneo_Miyazawa_desc:0 ""
+ CHARACTER_Kazuo_Aoki:0 "青木一男"
+ CHARACTER_Kazuo_Aoki_desc:0 ""
+ #政治家（追加）
+ 
+ #政治顧問
+ 
+ #陸軍
+ CHARACTER_Takeo_Imai:0 "今井武夫"
+ CHARACTER_Takeo_Imai_desc:0 ""
+ #海軍
+ 
+ #MIO
+ 
+ #国民精神
+ NGA_great_division:0 "大分裂"
+ NGA_great_division_desc:0 "長野における中央集権は地理的、言語的、歴史的要因から失敗しており、議会では多くの地方政党が自らの主張を認めんがために論戦を繰り広げている。"
+ #政党
+ NGA_communism_party:0 "駒ヶ根共産党"
+ NGA_democratic_socialism_party:0 "長野民社党"
+ NGA_progressivism_party:0 "長野社会党"
+ NGA_democratic_party:0 "筑摩国民党"
+ NGA_liberalism_party:0 "諏訪民権党"
+ NGA_conservatism_party:0 "長野自由党"
+ NGA_despotism_party:0 "長野軍"
+ NGA_fascism_party:0 "§R禁止"
+ NGA_nazism_party:0 "§R禁止"
+ NGA_esoteric_nazism_party:0 "§R禁止"

@@ -1,0 +1,28 @@
+﻿l_japanese:
+ #政治家
+ CHARACTER_Youichi_Nakanishi:0 "中西陽一"
+ CHARACTER_Youichi_Nakanishi_desc:0 ""
+ CHARACTER_Shuuji_Masutani:0 "益谷秀次"
+ CHARACTER_Shuuji_Masutani_desc:0 ""
+ #政治家（追加）
+ 
+ #政治顧問
+ 
+ #陸軍
+ CHARACTER_Masanobu_Tsuji:0 "辻正信"
+ CHARACTER_Masanobu_Tsuji_desc:0 ""
+ #海軍
+ 
+ #MIO
+ 
+ #国民精神
+ 
+ #政党
+ ISI_communism_party:0 "加賀共産党"
+ ISI_socialism_party:0 "加賀社会党"
+ ISI_democratic_socialism_party:0 "加賀社会党"
+ ISI_liberalism_party:0 "石川自由党"
+ ISI_conservatism_party:0 "石川民主党"
+ ISI_ultranationalism_party:0 "石川軍-維新派"
+ ISI_nazism_party:0 "§R禁止"
+ ISI_esoteric_nazism_party:0 "§R禁止"

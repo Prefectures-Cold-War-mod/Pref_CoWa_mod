@@ -1,0 +1,94 @@
+﻿capital = 2005
+
+
+
+set_research_slots = 3
+add_ideas = {
+}
+add_ideas = {
+	Road_to_Serfdom4
+	Army_budget5
+	Police_budget4
+	Education_budget2
+	Public_budget3
+	welfare2
+	market3
+	fair_tax4
+	cop_tax4
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	marines  = 1
+	paratroopers  = 1
+	gw_artillery = 1
+	basic_train = 1
+	trench_warfare = 1
+	base_strike = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+		gwtank = 1
+		basic_light_tank = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+			cv_early_fighter = 1
+			cv_CAS1 = 1
+			cv_naval_bomber1 = 1
+			early_fighter = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+}
+set_popularities = {
+ communism = 8
+ anarchist_communism = 0
+ socialism = 0
+ democratic_socialism = 0
+ democratic = 7
+ liberalism = 21
+ progressivism = 17
+ conservatism = 42
+ neutrality = 5
+ despotism = 0
+ ultranationalism = 0
+ fascism = 0
+ nazism = 0
+ esoteric_nazism = 0
+}
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1960.12.5"
+		election_frequency = 36
+		elections_allowed = no
+	}
+
+set_convoys = 100
+set_stability = 0.50
+set_war_support = 0.50
+
+#recruit_character = CHARACTER_Seiichi_Katsumata
+
+recruit_character = CHARACTER_Kenzou_Matsumura
+
+}
+
+
+

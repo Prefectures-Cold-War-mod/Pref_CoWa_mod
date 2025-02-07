@@ -1,0 +1,86 @@
+characters = {	#政治家
+	CHARACTER_Hachirou_Arita = {	#有田八郎
+		name = CHARACTER_Hachirou_Arita
+		
+		portraits = {
+			civilian = {
+				small = GFX_Hachirou_Arita_small
+				large = GFX_Hachirou_Arita_large
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "CHARACTER_Hachirou_Arita_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Kakuei_Tanaka = {	#田中角栄
+		name = CHARACTER_Kakuei_Tanaka
+		
+		portraits = {
+			civilian = {
+				small = GFX_Kakuei_Tanaka_small
+				large = GFX_Kakuei_Tanaka_large
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "CHARACTER_Kakuei_Tanaka_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#政治顧問
+	#CHARACTER_Hirotugu_Akaike = {	#赤池弘次（統計学者）
+	#	name = CHARACTER_Hirotugu_Akaike
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Hirotugu_Akaike_small
+	#			large = GFX_Hirotugu_Akaike_large
+	#		}
+	#	}
+	#	advisor = {
+	#		slot = political_advisor
+	#	}
+	#}
+	
+	#陸軍
+	#CHARACTER_Giichi_Hirano = {	#平野儀一、1891年生まれ
+	#	name = CHARACTER_Giichi_Hirano
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Giichi_Hirano_small
+	#			large = GFX_Giichi_Hirano_large
+	#		}
+	#	}
+	#	corps_commander = {
+	#		skill = 3
+	#		attack_skill = 3
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#	}
+	#}
+	
+	#海軍
+	#CHARACTER_Tadakazu_Yoshioka = {	#吉岡忠一、1908年生まれ
+	#	name = CHARACTER_Tadakazu_Yoshioka
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Tadakazu_Yoshioka_small
+	#			large = GFX_Tadakazu_Yoshioka_large
+	#		}
+	#	}
+	#	navy_leader = {
+	#		traits = {  }
+	#		skill = 3
+	#		attack_skill = 3
+	#		defense_skill = 1
+	#		maneuvering_skill = 3
+	#		coordination_skill = 2
+	#	}
+	#}
+}

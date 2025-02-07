@@ -1,0 +1,25 @@
+﻿l_japanese:
+ #政治家
+ CHARACTER_Kenzou_Matsumura:0 "松村謙三"
+ CHARACTER_Kenzou_Matsumura_desc:0 ""
+ #政治家（追加）
+ 
+ #政治顧問
+ 
+ #陸軍
+ 
+ #海軍
+ 
+ #MIO
+ 
+ #国民精神
+ 
+ #政党
+ TYM_communism_party:0 "富山共産党"
+ TYM_democratic_party:0 "富山社会党"
+ TYM_liberalism_party:0 "富山民主党"
+ TYM_progressivism_party:0 "富山政友会"
+ TYM_conservatism_party:0 "富山民政党"
+ TYM_fascism_party:0 "§R禁止"
+ TYM_nazism_party:0 "§R禁止"
+ TYM_esoteric_nazism_party:0 "§R禁止"

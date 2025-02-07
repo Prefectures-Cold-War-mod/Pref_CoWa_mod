@@ -1,0 +1,151 @@
+characters = {	#政治家
+	CHARACTER_Shouichi_Kasuga = {	#春日正一
+		name = CHARACTER_Shouichi_Kasuga
+		
+		portraits = {
+			civilian = {
+				small = GFX_Shouichi_Kasuga_small
+				large = GFX_Shouichi_Kasuga_large
+			}
+		}
+		country_leader = {
+			ideology = communism
+			desc = "CHARACTER_Shouichi_Kasuga_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Teikou_Ozawa = {	#小沢貞孝
+		name = CHARACTER_Teikou_Ozawa
+		
+		portraits = {
+			civilian = {
+				small = GFX_Teikou_Ozawa_small
+				large = GFX_Teikou_Ozawa_large
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			desc = "CHARACTER_Teikou_Ozawa_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Mitsusuke_Yonekubo = {	#米窪満亮
+		name = CHARACTER_Mitsusuke_Yonekubo
+		
+		portraits = {
+			civilian = {
+				small = GFX_Mitsusuke_Yonekubo_small
+				large = GFX_Mitsusuke_Yonekubo_large
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "CHARACTER_Mitsusuke_Yonekubo_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Kaneshichi_Masuda = {	#増田甲子七
+		name = CHARACTER_Kaneshichi_Masuda
+		
+		portraits = {
+			civilian = {
+				small = GFX_Kaneshichi_Masuda_small
+				large = GFX_Kaneshichi_Masuda_large
+			}
+		}
+		country_leader = {
+			ideology = democratic
+			desc = "CHARACTER_Kaneshichi_Masuda_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Taneo_Miyazawa = {	#宮沢胤勇
+		name = CHARACTER_Taneo_Miyazawa
+		
+		portraits = {
+			civilian = {
+				small = GFX_Taneo_Miyazawa_small
+				large = GFX_Taneo_Miyazawa_large
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			desc = "CHARACTER_Taneo_Miyazawa_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Kazuo_Aoki = {	#青木一男
+		name = CHARACTER_Kazuo_Aoki
+		
+		portraits = {
+			civilian = {
+				small = GFX_Kazuo_Aoki_small
+				large = GFX_Kazuo_Aoki_large
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "CHARACTER_Kazuo_Aoki_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#政治顧問
+	#CHARACTER_Hirotugu_Akaike = {	#赤池弘次（統計学者）
+	#	name = CHARACTER_Hirotugu_Akaike
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Hirotugu_Akaike_small
+	#			large = GFX_Hirotugu_Akaike_large
+	#		}
+	#	}
+	#	advisor = {
+	#		slot = political_advisor
+	#	}
+	#}
+	
+	#陸軍
+	CHARACTER_Takeo_Imai = {	#今井武夫
+		name = CHARACTER_Takeo_Imai
+		
+		portraits = {
+			civilian = {
+				small = GFX_Takeo_Imai_small
+				large = GFX_Takeo_Imai_large
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		country_leader = {
+			ideology = despotism
+			desc = "CHARACTER_Takeo_Imai_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#海軍
+	#CHARACTER_Tadakazu_Yoshioka = {	#吉岡忠一、1908年生まれ
+	#	name = CHARACTER_Tadakazu_Yoshioka
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Tadakazu_Yoshioka_small
+	#			large = GFX_Tadakazu_Yoshioka_large
+	#		}
+	#	}
+	#	navy_leader = {
+	#		traits = {  }
+	#		skill = 3
+	#		attack_skill = 3
+	#		defense_skill = 1
+	#		maneuvering_skill = 3
+	#		coordination_skill = 2
+	#	}
+	#}
+}

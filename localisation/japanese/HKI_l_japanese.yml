@@ -1,0 +1,26 @@
+﻿l_japanese:
+ #政治家
+ CHARACTER_Hajime_Fukuda:0 "福田一"
+ CHARACTER_Hajime_Fukuda_desc:0 ""
+ CHARACTER_Kouichi_Takagi:0 "高木孝一"
+ CHARACTER_Kouichi_Takagi_desc:0 ""
+ #政治家（追加）
+ 
+ #政治顧問
+ 
+ #陸軍
+ 
+ #海軍
+ 
+ #MIO
+ 
+ #国民精神
+ 
+ #政党
+ HKI_communism_party:0 "福井共産党"
+ HKI_progressivism_party:0 "福井社会党"
+ HKI_democratic_party:0 "連邦党"
+ HKI_conservatism_party:0 "敦賀自由党"
+ HKI_fascism_party:0 "§R禁止"
+ HKI_nazism_party:0 "§R禁止"
+ HKI_esoteric_nazism_party:0 "§R禁止"

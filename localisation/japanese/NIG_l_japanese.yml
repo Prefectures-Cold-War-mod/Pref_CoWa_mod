@@ -1,0 +1,25 @@
+﻿l_japanese:
+ #政治家
+ CHARACTER_Hachirou_Arita:0 "有田八郎"
+ CHARACTER_Hachirou_Arita_desc:0 ""
+ CHARACTER_Kakuei_Tanaka:0 "田中角栄"
+ CHARACTER_Kakuei_Tanaka_desc:0 ""
+ #政治家（追加）
+ 
+ #政治顧問
+ 
+ #陸軍
+ 
+ #海軍
+ 
+ #MIO
+ 
+ #国民精神
+ 
+ #政党
+ NIG_communism_party:0 "新潟共産党"
+ NIG_progressivism_party:0 "新潟社会党"
+ NIG_conservatism_party:0 "新潟自由党"
+ NIG_fascism_party:0 "§R禁止"
+ NIG_nazism_party:0 "§R禁止"
+ NIG_esoteric_nazism_party:0 "§R禁止"

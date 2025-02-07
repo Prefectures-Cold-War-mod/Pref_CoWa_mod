@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		NGA_great_division = {	#大分裂
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			removal_NGAt = -1
+			picture = SOV_restoration_and_development_idea_ccp_sov_compatibility
+			modifier = {
+			    stability_factor = -0.15
+				war_support_factor = -0.15
+				conscription = -0.10
+			}
+		}
+	}
+}
