@@ -1,5 +1,6 @@
 add_namespace = news_event
 add_namespace = MIE_news_event
+add_namespace = WKY_news_event
 add_namespace = OSK_news_event
 
 news_event = {
@@ -62,6 +63,43 @@ news_event = {
 		name = MIE_news_event.4.a	
 	}			
 }
+#和や賀屋
+news_event = {
+	id = WKY_news_event.1
+	title = WKY_news_event.1.t
+	desc = WKY_news_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = WKY_news_event.1.a	
+	}			
+}
+news_event = {
+	id = WKY_news_event.2
+	title = WKY_news_event.2.t
+	desc = WKY_news_event.2.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = WKY_news_event.2.a	
+	}			
+}
+news_event = {
+	id = WKY_news_event.3
+	title = WKY_news_event.3.t
+	desc = WKY_news_event.3.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = WKY_news_event.3.a	
+}
+}
 #大阪
 news_event = {
 	id = OSK_news_event.1
@@ -73,5 +111,77 @@ news_event = {
 	major = yes
 	option = {
 		name = OSK_news_event.1.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.2
+	title = OSK_news_event.2.t
+	desc = OSK_news_event.2.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.2.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.3
+	title = OSK_news_event.3.t
+	desc = OSK_news_event.3.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.3.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.4
+	title = OSK_news_event.4.t
+	desc = OSK_news_event.4.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.4.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.5
+	title = OSK_news_event.5.t
+	desc = OSK_news_event.5.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.5.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.6
+	title = OSK_news_event.6.t
+	desc = OSK_news_event.6.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.6.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.7
+	title = OSK_news_event.7.t
+	desc = OSK_news_event.7.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.7.a	
 	}			
 }

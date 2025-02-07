@@ -1,0 +1,305 @@
+add_namespace = KGW_event_shikoku_rk_war
+
+country_event = {
+	id = KGW_event_shikoku_rk_war.0
+	title = KGW_event_shikoku_rk_war.0.t
+	desc = KGW_event_shikoku_rk_war.0.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+hidden = yes
+	trigger = {
+		original_tag = KGW
+has_global_flag = kagawa_civil_war_global
+	}	
+	option = {
+state_event = { 
+    days = 14
+id = KGW_event_shikoku_rk_war.1
+}
+state_event = { 
+    days = 18
+id = KGW_event_shikoku_rk_war.2
+}	
+state_event = { 
+    days = 20
+id = KGW_event_shikoku_rk_war.3
+}	
+state_event = { 
+    days = 22
+id = KGW_event_shikoku_rk_war.4
+}
+state_event = { 
+    days = 30
+id = KGW_event_shikoku_rk_war.5
+}		
+	}			
+}
+#高知
+country_event = {
+	id = KGW_event_shikoku_rk_war.1
+	title = KGW_event_shikoku_rk_war.1.t
+	desc = KGW_event_shikoku_rk_war1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_shikoku_rk_war.1.a	
+KU4 = {
+transfer_state = 284
+load_oob = "KUT_1962"
+add_ideas = KGW_idea1 
+add_state_core = 284
+add_state_core = 377
+add_state_core = 283
+add_state_core = 376
+add_state_core = 285
+add_state_core = 282
+}
+KU3 = {
+transfer_state = 282
+load_oob = "KUT_1962"
+add_ideas = KGW_idea1 
+add_state_core = 284
+add_state_core = 377
+add_state_core = 283
+add_state_core = 376
+add_state_core = 285
+add_state_core = 282
+}
+KU2 = {
+transfer_state = 377
+load_oob = "KUT_1962"
+add_ideas = KGW_idea1 
+add_state_core = 284
+add_state_core = 377
+add_state_core = 283
+add_state_core = 376
+add_state_core = 285
+add_state_core = 282
+}
+	}			
+}
+#愛媛
+country_event = {
+	id = KGW_event_shikoku_rk_war.2
+	title = KGW_event_shikoku_rk_war.2
+	desc = KGW_event_shikoku_rk_war.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_shikoku_rk_war.2.a	
+EH3 = {
+transfer_state = 374
+transfer_state = 375
+load_oob = "EHM_1962"
+add_ideas = KGW_idea1 
+add_state_core = 289
+add_state_core = 288
+add_state_core = 375
+add_state_core = 374
+add_state_core = 287
+add_state_core = 510
+}
+EH2 = {
+transfer_state = 289
+transfer_state = 288
+load_oob = "EHM_1962"
+add_ideas = KGW_idea1 
+add_state_core = 289
+add_state_core = 288
+add_state_core = 375
+add_state_core = 374
+add_state_core = 287
+add_state_core = 510
+}
+	}			
+}
+#徳島
+country_event = {
+	id = KGW_event_shikoku_rk_war.3
+	title = KGW_event_shikoku_rk_war.3
+	desc = KGW_event_shikoku_rk_war.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_shikoku_rk_war.3.a	
+TK2 = {
+transfer_state = 257
+transfer_state = 256
+transfer_state = 255
+transfer_state = 253
+load_oob = "TKS_1962"
+add_ideas = KGW_idea1 
+add_state_core = 254
+add_state_core = 371
+add_state_core = 505
+add_state_core = 255
+add_state_core = 253
+add_state_core = 256
+add_state_core = 257
+}
+	}			
+}
+#淡路
+country_event = {
+	id = KGW_event_shikoku_rk_war.4
+	title = KGW_event_shikoku_rk_war.4
+	desc = KGW_event_shikoku_rk_war.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_shikoku_rk_war.4.a	
+AW2 = {
+transfer_state = 544
+transfer_state = 545
+load_oob = "AWJ_1962"
+add_ideas = KGW_idea1 
+add_state_core = 544
+add_state_core = 545
+add_state_core = 243
+}
+	}			
+}
+#四国戦争
+country_event = {
+	id = KGW_event_shikoku_rk_war.5
+	title = KGW_event_shikoku_rk_war.5
+	desc = KGW_event_shikoku_rk_war.5.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = KGW_event_shikoku_rk_war.5.a	
+news_event = KGW_news_event.20
+
+TKS = {
+add_ideas = KGW_idea1 
+declare_war_on = {
+    target = TK2
+    type = annex_everything
+}
+}
+TK2 = {
+declare_war_on = {
+    target = TKS
+    type = annex_everything
+}
+}
+KUT = {
+add_ideas = KGW_idea1 
+declare_war_on = {
+    target = KU2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU4
+    type = annex_everything
+}
+}
+KU2 = {
+declare_war_on = {
+    target = KUT
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU4
+    type = annex_everything
+}
+}
+KU3 = {
+declare_war_on = {
+    target = KU2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KUT
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU4
+    type = annex_everything
+}
+}
+KU4 = {
+declare_war_on = {
+    target = KU2
+    type = annex_everything
+}
+declare_war_on = {
+    target = KU3
+    type = annex_everything
+}
+declare_war_on = {
+    target = KUT
+    type = annex_everything
+}
+}
+EHM = {
+add_ideas = KGW_idea1 
+declare_war_on = {
+    target = EH2
+    type = annex_everything
+}
+declare_war_on = {
+    target = EH3
+    type = annex_everything
+}
+}
+EH2 = {
+declare_war_on = {
+    target = EHM
+    type = annex_everything
+}
+declare_war_on = {
+    target = EH3
+    type = annex_everything
+}
+}
+EH3 = {
+declare_war_on = {
+    target = EH2
+    type = annex_everything
+}
+declare_war_on = {
+    target = EHM
+    type = annex_everything
+}
+}
+AWJ = {
+add_ideas = KGW_idea1 
+declare_war_on = {
+    target = AW2
+    type = annex_everything
+}
+}
+AW2 = {
+declare_war_on = {
+    target = AWJ
+    type = annex_everything
+}
+}
+
+	}			
+}

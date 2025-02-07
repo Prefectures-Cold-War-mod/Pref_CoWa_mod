@@ -13,9 +13,9 @@ country_event = {
 	option = {
 		name = kyoto_war_event.1.a	
 news_event = Kyoto_war_news_event.1
-KYT = {
+SKY = {
 declare_war_on = {
-    target = SKY
+    target = KYT
     type = annex_everything
 }
 }
@@ -54,7 +54,7 @@ country_event = {
 	
 	option = {
 		name = kyoto_war_event.3.a
-complete_national_focus = OSW_focus_16
+complete_national_focus = OSA_focus_61
 declare_war_on = {
     target = KYT
     type = annex_everything
@@ -97,7 +97,7 @@ white_peace = KYT
 }
 add_stability = -0.2
 add_war_support = -0.2
-complete_national_focus = OSW_focus_19
+complete_national_focus = OSA_focus_90
 
 		
 }
@@ -122,11 +122,14 @@ surrender_progress > 0.2
 }
 	option = {
 		name = kyoto_war_event.5.a
+KYT = {
+load_focus = KYT_focus2
+}
 OSK = {
 white_peace = KYT
 add_stability = 0.2
 add_war_support = 0.2
-complete_national_focus = OSW_focus_18
+complete_national_focus = OSA_focus_64
 }
 
 		

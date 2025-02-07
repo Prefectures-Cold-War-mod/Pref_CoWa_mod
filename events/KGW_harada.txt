@@ -143,8 +143,9 @@ set_country_flag = Harada_Fukuya
 }
 	}	
 	option = {
-		name = KGW_event_harada.10.a	
+		name = KGW_event_harada.10.b
 hidden_effect = {
+clr_country_flag = Harada_Fukuya
 set_country_flag = Harada_Ohira
 
 }
@@ -194,6 +195,9 @@ country_event = {
 			has_country_flag = Harada_Fukuya
 		}
 hidden_effect = {
+KG1 = {
+add_ideas = KGW_idea3
+}
 state_event = { 
     days = 1
 id = KGW_news_event.2
@@ -209,6 +213,9 @@ clr_country_flag = Harada_kondo
 			has_country_flag = Harada_Ohira
 		}
 hidden_effect = {
+KG2 = {
+add_ideas = KGW_idea3
+}
 state_event = { 
     days = 1
 id = KGW_news_event.3
@@ -224,6 +231,9 @@ clr_country_flag = Harada_kondo
 			has_country_flag = Harada_kondo
 		}
 hidden_effect = {
+KG3 = {
+add_ideas = KGW_idea3
+}
 state_event = { 
     days = 1
 id = KGW_news_event.4
@@ -239,6 +249,9 @@ clr_country_flag = Harada_Ohira
 			has_country_flag = Harada_Ono
 		}
 hidden_effect = {
+KG4 = {
+add_ideas = KGW_idea3
+}
 state_event = { 
     days = 1
 id = KGW_news_event.5
@@ -851,6 +864,9 @@ country_event = {
 		    hidden = yes
 	option = {
 		name = KGW_event_harada.19.a
+KGW = {
+dismantle_faction = yes
+}
 set_politics = {
 	ruling_party = nazism
         elections_allowed = no
@@ -866,10 +882,18 @@ state_event = {
 id = KGW_event_harada.15
 }
 KG1 = {
-transfer_state = 541
-transfer_state = 370
+transfer_state = 507
+transfer_state = 549
+transfer_state = 507
+transfer_state = 372
 transfer_state = 551
+transfer_state = 550
 load_oob = "KG1_civilwar"
+add_ideas = KGW_idea1 
+add_state_core = 507
+add_state_core = 549
+add_state_core = 550
+add_state_core = 372
 add_state_core = 541
 add_state_core = 370
 add_state_core = 551
@@ -881,6 +905,9 @@ add_state_core = 541
 add_state_core = 252
 add_state_core = 250
 add_state_core = 548
+add_state_core = 250
+add_state_core = 548
+add_state_core = 370
 }
 KG2 = {
 transfer_state = 286
@@ -888,7 +915,13 @@ transfer_state = 542
 transfer_state = 642
 transfer_state = 373
 transfer_state = 252
+transfer_state = 370
 load_oob = "KG2_civilwar"
+add_ideas = KGW_idea1 
+add_state_core = 507
+add_state_core = 549
+add_state_core = 550
+add_state_core = 372
 add_state_core = 541
 add_state_core = 370
 add_state_core = 551
@@ -900,11 +933,20 @@ add_state_core = 541
 add_state_core = 252
 add_state_core = 250
 add_state_core = 548
+add_state_core = 250
+add_state_core = 548
+add_state_core = 370
 }
 KG3 = {
 transfer_state = 250
 transfer_state = 548
+transfer_state = 541
 load_oob = "KG3_civilwar"
+add_ideas = KGW_idea1 
+add_state_core = 507
+add_state_core = 549
+add_state_core = 550
+add_state_core = 372
 add_state_core = 541
 add_state_core = 370
 add_state_core = 551
@@ -916,13 +958,19 @@ add_state_core = 541
 add_state_core = 252
 add_state_core = 250
 add_state_core = 548
+add_state_core = 250
+add_state_core = 548
+add_state_core = 370
 }
 KG4 = {
-transfer_state = 549
-transfer_state = 507
-transfer_state = 372
-transfer_state = 550
+transfer_state = 286
+transfer_state = 542
 load_oob = "KG4_civilwar"
+add_ideas = KGW_idea1 
+add_state_core = 507
+add_state_core = 549
+add_state_core = 550
+add_state_core = 372
 add_state_core = 541
 add_state_core = 370
 add_state_core = 551
@@ -934,6 +982,11 @@ add_state_core = 541
 add_state_core = 252
 add_state_core = 250
 add_state_core = 548
+add_state_core = 250
+add_state_core = 548
+add_state_core = 370
+
+
 }
 KGW = {
 		transfer_units_fraction = {

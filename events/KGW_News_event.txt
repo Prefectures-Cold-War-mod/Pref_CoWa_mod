@@ -121,3 +121,15 @@ news_event = {
 		name = KGW_news_event.10.a	
 	}			
 }
+news_event = {
+	id = KGW_news_event.20
+	title = KGW_news_event.20.t
+	desc = KGW_news_event.20.d
+	picture = GFX_report_event_generic_funeral
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = KGW_news_event.20.a	
+	}			
+}
