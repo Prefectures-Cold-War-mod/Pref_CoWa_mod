@@ -1,3 +1,34 @@
 ﻿l_japanese:
- WKY:0 "紀州共和国"
- WKY_DEF:0 "紀州共和国"
+ WKY:0 "紀伊公国"
+ WKY_DEF:0 "紀伊公国"
+
+ WKY_Kagawa:0 "紀伊国民共和国"
+ WKY_Kagawa_DEF:0 "紀伊国民共和国"
+
+ WKY_osaka:0 "紀伊社会主義共和国"
+ WKY_osaka_DEF:0 "紀伊社会主義共和国"
+
+Wakayama_game_category:0 "グレートゲーム:紀伊半島"
+Wakayama_game_mission:0 "タイムリミット"
+OSK_Wakayama_game_1:0 "クーデターを実行"
+OSK_Wakayama_game_2:0 "紀伊での街頭活動"
+OSK_Wakayama_game_3:0 "紀伊社会党党大会"
+OSK_Wakayama_game_4:0 "香川の影響力を批判"
+OSK_Wakayama_game_5:0 "世耕体制への批判"
+
+KGW_Wakayama_game_1:0 "クーデターを実行"
+KGW_Wakayama_game_2:0 "紀伊での街頭活動"
+KGW_Wakayama_game_3:0 "紀伊国粋党党大会"
+KGW_Wakayama_game_4:0 "大阪の影響力を批判"
+KGW_Wakayama_game_5:0 "世耕体制への批判"
+
+#和歌山
+WKY_news_event.1.t:0 "紀伊で国民社会主義者が権力を掌握"
+WKY_news_event.1.d:0 "紀伊で国民社会主義者が権力を掌握し、香川陣営に加盟した。"
+WKY_news_event.1.a:0 "紀伊半島のバランスが香川に傾いた。"
+WKY_news_event.2.t:0 "紀伊で社会党が権力を掌握"
+WKY_news_event.2.d:0 "紀伊で社会主義者が権力を掌握し、大阪陣営に加盟した。"
+WKY_news_event.2.a:0 "紀伊のバランスが大阪に傾いた。"
+WKY_news_event.3.t:0 "紀伊の反過激派運動"
+WKY_news_event.3.d:0 ""
+WKY_news_event.3.a:0 "紀伊の中立は保たれた！"

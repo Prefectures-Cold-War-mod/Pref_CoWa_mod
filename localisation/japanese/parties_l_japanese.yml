@@ -1,20 +1,29 @@
 ﻿l_japanese:
+#史実共産党
  communism:0 "労農社会主義"
  communism_noun:0 "労農社会主義"
+#史実無政府主義
  anarchist_communism:0 "無政府主義"
  anarchist_communism_noun:0 "無政府主義"
+#史実社会党
  socialism:0 "講壇社会主義"
  socialism_noun:0 "講壇社会主義"
+#史実民社党
  democratic_socialism:0 "民主社会主義"
  democratic_socialism_noun:0 "民主社会主義"
+#史実自民党保守本流
  democratic:0 "英国流保守主義"
- democratic_noun:0 "英国流保守主義" 
- liberalism:0 "功利主義的自由主義"
- liberalism_noun:0 "功利主義的自由主義"
+ democratic_noun:0 "英国流保守主義"
+#史実新自クとか
+ liberalism:0 "古典的自由主義"
+ liberalism_noun:0 "古典的自由主義"
+#史実朝日岩波文化人
  progressivism:0 "進歩民主主義"
  progressivism_noun:0 "進歩民主主義"
+#史実自民党保守傍流
  conservatism:0 "父権的保守主義"
  conservatism_noun:0 "父権的保守主義"
+
  neutrality:0 "権威主義"
  neutrality_noun:0 "権威主義"
  despotism:0 "専制主義"

@@ -1,5 +1,7 @@
 ﻿l_japanese:
  KGW_axis:0 "統一協定"
+ KGW_idea1:0 "香川内戦"
+ KGW_idea2:0 "国家弁務官区"
 #国名
  KGW:0 "大サヌキ帝国"
  KGW_DEF:0 "大サヌキ帝国"
@@ -19,8 +21,8 @@
  RK_EIM_DEF:0 "エイミーゲン国家弁務官区"
  RK_FKY:0 "フクヤマント国家騎士団領"
  RK_FKY_DEF:0 "フクヤマント国家騎士団領"
- RK_RKK:0 "ミッテル九州"
- RK_RKK_DEF:0 "ミッテル九州"
+ RK_RKK:0 "ミッテルキュウシュウ"
+ RK_RKK_DEF:0 "ミッテルキュウシュウ"
 #内戦国名
  KG1:0 "香川保守派政府"
  KG1_DEF:0 "香川保守派政府"
@@ -30,6 +32,24 @@
  KG3_DEF:0 "香川国防政府"
  KG4:0 "武装親衛隊"
  KG4_DEF:0 "武装親衛隊"
+#愛媛
+ EH2:0 "愛媛人民共和国"
+ EH2_DEF:0 "愛媛人民共和国"
+ EH3:0 "愛媛蜂起軍"
+ EH3_DEF:0 "愛媛蜂起軍"
+#愛媛
+ KU2:0 "高知人民共和国"
+ KU2_DEF:0 "高知人民共和国"
+ KU3:0 "高知救国軍"
+ KU3_DEF:0 "高知救国軍"
+ KU4:0 "高知反乱軍"
+ KU4_DEF:0 "高知反乱軍"
+#徳島
+ TK2:0 "徳島蜂起軍"
+ TK2_DEF:0 "徳島蜂起軍"
+#淡路
+ AW2:0 "淡路島国内軍"
+ AW2_DEF:0 "淡路島国内軍"
 
 
 #党
@@ -142,5 +162,18 @@ KGW_news_event.6.t:0 "香川内戦"
 KGW_news_event.6.d:0 ""
 KGW_news_event.6.a:0 "神々の黄昏"
 KGW_news_event.7.t:0 "保守派が香川内戦で勝利"
-KGW_news_event.7.d:0 ""
+KGW_news_event.7.d:0 "香川の復活"
 KGW_news_event.7.a:0 "現状維持こそ至高"
+KGW_news_event.8.t:0 "改革派が香川内戦で勝利した"
+KGW_news_event.8.d:0 "香川の復活"
+KGW_news_event.8.a:0 "香川の復活"
+KGW_news_event.9.t:0 "軍国派が香川内戦で勝利"
+KGW_news_event.9.d:0 "軍国派が香川内戦で勝利した"
+KGW_news_event.9.a:0 "香川の復活"
+KGW_news_event.10.t:0 "親衛隊が香川内戦で勝利"
+KGW_news_event.10.d:0 "親衛隊が香川内戦で勝利した"
+KGW_news_event.10.a:0 "香川の復活"
+
+KGW_news_event.20.t:0 "国家弁務官区統治の崩壊"
+KGW_news_event.20.d:0 "香川内戦の勃発により、徳島、愛媛、高知、淡路の香川統治が崩壊した。"
+KGW_news_event.20.a:0 "香川の支配は崩壊した"

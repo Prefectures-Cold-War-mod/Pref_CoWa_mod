@@ -1,0 +1,46 @@
+﻿l_japanese:
+ MIE:0 "四日市国"
+ MIE_DEF:0 "四日市国"
+ IGA:0 "伊賀根拠地"
+ IGA_DEF:0 "伊賀根拠地"
+ ISE:0 "伊勢志摩"
+ ISE_DEF:0 "伊勢志摩"
+ EKI:0 "東紀州国"
+ EKI_DEF:0 "東紀州国"
+ TSU:0 "安濃津共和国"
+ TSU_DEF:0 "安濃津共和国"
+ MIE_osaka:0 "東紀州人民共和国連邦"
+ MIE_osaka_DEF:0 "東紀州人民共和国連邦"
+
+#三重の統一
+#中勢
+MIE_news_event.1.t:0 "三重の統一"
+MIE_news_event.1.d:0 "自由主義者の田村元が三重を統一した。"
+MIE_news_event.1.a:0 "三重のバランスが東京に傾いた"
+MIE_news_event.2.t:0 "三重の統一"
+MIE_news_event.2.d:0 "経済官僚の服部正也が三重を統一した。"
+MIE_news_event.2.a:0 "三重のバランスが青森に傾いた"
+#四日市
+MIE_news_event.3.t:0 "三重の統一”"
+MIE_news_event.3.d:0 "四日市岡田家の岡田卓也が三重を統一した。"
+MIE_news_event.3.a:0 "三重のバランスが愛知に傾いた"
+#伊賀
+MIE_news_event.6.t:0 "三重の統一！"
+MIE_news_event.6.d:0 "社会主義者の角屋堅次郎が三重を統一した。"
+MIE_news_event.6.a:0 "紀伊のバランスが大阪に傾いた"
+#東紀伊
+MIE_news_event.5.t:0 "三重の統一！"
+MIE_news_event.5.d:0 "軍人の種村佐孝が三重を統一した。"
+MIE_news_event.5.a:0 "紀伊のバランスが香川に傾いた"
+MIE_news_event.5.b:0 "関西の第三極が完成しつつある"
+#伊勢神宮
+MIE_news_event.4.t:0 "三重の統一！"
+MIE_news_event.4.d:0 "伊勢神宮が三重を統一した。"
+MIE_news_event.4.a:0 "万歳！万歳！万歳！"
+#三重イベント
+MIE_news_event.7.t:0 "三重の社会主義者が統一"
+MIE_news_event.7.d:0 "東紀伊国と伊賀国が合併し、三重統一共和国が成立した"
+MIE_news_event.7.a:0 "社会主義者は神宮を狙っているのか？"
+MIE_news_event.8.t:0 "三重の社会主義者が統一"
+MIE_news_event.8.d:0 "東紀伊国と伊賀国が合併し、三重統一共和国が成立した"
+MIE_news_event.8.a:0 "社会主義者は神宮を狙っているのか？"
