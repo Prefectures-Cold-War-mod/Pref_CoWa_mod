@@ -12,7 +12,7 @@ state={
          chromium = 22
      }
      history ={
-         owner = SKY
+         owner = KYT
          add_core_of = SKY
          add_core_of = KYT
          victory_points = {5224 3} #‹T‰ªŽs,Kameoka-shi

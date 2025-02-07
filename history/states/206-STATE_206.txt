@@ -12,7 +12,8 @@ state={
          chromium = 10
      }
      history ={
-         owner = MIE
+         owner = EKI
+         add_core_of = EKI
          add_core_of = WKY
          add_core_of = MIE
          victory_points = {1625 1} #”ö˜hŽs,Owase-shi

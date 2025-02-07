@@ -12,8 +12,8 @@ state={
          chromium = 1
      }
      history ={
-         owner = MIE
-         add_core_of = MIE
+         owner = EKI
+         add_core_of = EKI
          buildings ={
              infrastructure = 2
              industrial_complex = 2

@@ -1,6 +1,6 @@
 state={
      id=523
-     name="STATE_523" #�P��#HIMEJIMA
+     name="STATE_523" # P  #HIMEJIMA
      manpower = 2034
      state_category = small_island
      resources={
@@ -12,9 +12,9 @@ state={
          chromium = 0
      }
      history ={
-         owner = OIT
+         owner = KGW
          add_core_of = OIT
-         victory_points = {6709 1} #�P����,Himeshima-mura
+         victory_points = {6709 1} # P    ,Himeshima-mura
          buildings ={
              infrastructure = 1
              industrial_complex = 0

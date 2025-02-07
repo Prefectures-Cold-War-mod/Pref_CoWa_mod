@@ -12,8 +12,8 @@ state={
          chromium = 0
      }
      history ={
-         owner = MIE
-         add_core_of = MIE
+         owner = WKY
+         add_core_of = WKY
          victory_points = {6038 2} #ŒF–ìŽs,Kumano-shi
          victory_points = {9281 2} #–kŽR‘º,Kitayama-mura
          buildings ={

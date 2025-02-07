@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SKY
+		owner = KYT
 		add_core_of = SKY
 		add_core_of = KYT
 		victory_points = {

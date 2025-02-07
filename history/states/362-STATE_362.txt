@@ -12,7 +12,7 @@ state={
          chromium = 0
      }
      history ={
-         owner = NRA
+         owner = WKY
          add_core_of = NRA
          add_core_of = WKY
          victory_points = {5948 1} #‰º–kŽR‘º,Shimokitayama-mura

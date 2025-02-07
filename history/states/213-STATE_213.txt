@@ -12,7 +12,7 @@ state={
          chromium = 1
      }
      history ={
-         owner = NRA
+         owner = WKY
          add_core_of = NRA
          add_core_of = WKY
          victory_points = {5890 1} #è\í√êÏë∫,Totsukawa-mura
