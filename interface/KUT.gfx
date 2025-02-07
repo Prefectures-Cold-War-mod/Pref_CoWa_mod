@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_KUT1"
+		texturefile = "gfx/leaders/KUT/KUT1.dds"
+	}
+	spriteType = {
+		name = "GFX_KUT2"
+		texturefile = "gfx/leaders/KUT/KUT2.dds"
+	}
+	spriteType = {
+		name = "GFX_KUT3"
+		texturefile = "gfx/leaders/KUT/KUT3.dds"
+	}
+	spriteType = {
+		name = "GFX_KUT4"
+		texturefile = "gfx/leaders/KUT/KUT4.dds"
+	}
+
+}

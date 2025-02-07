@@ -1,0 +1,13 @@
+
+guiTypes = {
+	containerWindowType = {
+		name = "decision_Wakayama_game_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 300% height= 230 }
+		background = {
+			name ="decision_Wakayama_game_haikei"
+			spriteType = "GFX_decision_Wakayama_game_haikei"
+			position = { x= 0	 y = 0 }
+		}
+}
+}

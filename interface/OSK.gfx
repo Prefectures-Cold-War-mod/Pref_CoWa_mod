@@ -1,5 +1,9 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_decision_Wakayama_game_haikei"
+		texturefile = "gfx/interface/decisions/decision_wakayama_game_haikei.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_category_usa_congress_Osaka_senate_ui"
 		texturefile = "gfx/interface/decisions/decision_category_usa_congress_Osaka_senate_ui.dds"
 	}
@@ -8,12 +12,40 @@ spriteTypes = {
 		texturefile = "gfx/leaders/OSK/OSK1.dds"
 	}
 	spriteType = {
+		name = "GFX_OSK2"
+		texturefile = "gfx/leaders/OSK/OSK2.dds"
+	}
+	spriteType = {
 		name = "GFX_OSK4"
 		texturefile = "gfx/leaders/OSK/OSK4.dds"
 	}
 	spriteType = {
 		name = "GFX_OSK3"
 		texturefile = "gfx/leaders/OSK/OSK3.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK5"
+		texturefile = "gfx/leaders/OSK/OSK5.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK6"
+		texturefile = "gfx/leaders/OSK/OSK6.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK7"
+		texturefile = "gfx/leaders/OSK/OSK7.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK8"
+		texturefile = "gfx/leaders/OSK/OSK8.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK9"
+		texturefile = "gfx/leaders/OSK/OSK9.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK6"
+		texturefile = "gfx/leaders/OSK/OSK6.dds"
 	}
 	spriteType = {
 		name = "GFX_SET1"

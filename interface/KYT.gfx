@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_KYT1"
+		texturefile = "gfx/leaders/KYT/KYT1.dds"
+	}
+	spriteType = {
+		name = "GFX_KYT2"
+		texturefile = "gfx/leaders/KYT/KYT2.dds"
+	}
+	spriteType = {
+		name = "GFX_KYT3"
+		texturefile = "gfx/leaders/KYT/KYT3.dds"
+	}
+	spriteType = {
+		name = "GFX_KYT4"
+		texturefile = "gfx/leaders/KYT/KYT4.dds"
+	}
+
+}

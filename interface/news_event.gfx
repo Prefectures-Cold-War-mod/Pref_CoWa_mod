@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_Wakayama_game_haikei"
+		texturefile = "gfx/interface/decisions/decision_wakayama_game_haikei.dds"
+	}
+}

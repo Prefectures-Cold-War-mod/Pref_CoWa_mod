@@ -36,6 +36,30 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_KGW7"
+		texturefile = "gfx/leaders/KGW/KGW7.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KGW8"
+		texturefile = "gfx/leaders/KGW/KGW8.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KGW9"
+		texturefile = "gfx/leaders/KGW/KGW9.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KGW10"
+		texturefile = "gfx/leaders/KGW/KGW10.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_RKK1"
 		texturefile = "gfx/leaders/RKK/RKK1.dds"
 	}

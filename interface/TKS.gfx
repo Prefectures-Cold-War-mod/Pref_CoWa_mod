@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_TKS1"
+		texturefile = "gfx/leaders/TKS/TKS1.dds"
+	}
+	spriteType = {
+		name = "GFX_TKS2"
+		texturefile = "gfx/leaders/TKS/TKS2.dds"
+	}
+	spriteType = {
+		name = "GFX_TKS3"
+		texturefile = "gfx/leaders/TKS/TKS3.dds"
+	}
+	spriteType = {
+		name = "GFX_TKS4"
+		texturefile = "gfx/leaders/TKS/TKS4.dds"
+	}
+
+}

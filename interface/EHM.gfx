@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_EHM1"
+		texturefile = "gfx/leaders/EHM/EHM1.dds"
+	}
+	spriteType = {
+		name = "GFX_EHM2"
+		texturefile = "gfx/leaders/EHM/EHM2.dds"
+	}
+	spriteType = {
+		name = "GFX_EHM3"
+		texturefile = "gfx/leaders/EHM/EHM3.dds"
+	}
+	spriteType = {
+		name = "GFX_EHM4"
+		texturefile = "gfx/leaders/EHM/EHM4.dds"
+	}
+
+}

@@ -40,14 +40,14 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="uchigeba_txt_kl"
-			position = { x = 43 y = 150 }
+			position = { x = 50 y = 150 }
 			font = "hoi_24header"
 			text = "OSK_pf_uchigeba_kl"
 			format = left
 		}
 		instantTextBoxType = {
 			name ="uchigeba_txt_murata"
-			position = { x = 135 y = 150 }
+			position = { x = 150 y = 150 }
 			font = "hoi_24header"
 			text = "OSK_pf_uchigeba_murata"
 			format = left

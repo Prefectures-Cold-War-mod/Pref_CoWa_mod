@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_AWJ1"
+		texturefile = "gfx/leaders/AWJ/AWJ1.dds"
+	}
+	spriteType = {
+		name = "GFX_AWJ2"
+		texturefile = "gfx/leaders/AWJ/AWJ2.dds"
+	}
+	spriteType = {
+		name = "GFX_AWJ3"
+		texturefile = "gfx/leaders/AWJ/AWJ3.dds"
+	}
+	spriteType = {
+		name = "GFX_AWJ4"
+		texturefile = "gfx/leaders/AWJ/AWJ4.dds"
+	}
+
+}
