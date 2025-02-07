@@ -112,181 +112,91 @@ units = {
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "自動車化旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "自動車化旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
-		division_template = "自動車化旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "自動車化旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
+		location = 121
 		division_template = "装甲師団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "装甲師団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
-		division_template = "装甲師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "装甲師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "装甲師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "歩兵旅団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
-		division_template = "歩兵旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "歩兵旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "歩兵旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "歩兵旅団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
+		location = 121
 		division_template = "国内SS歩兵師団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "国内SS歩兵師団"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 3137
+		location = 121
 		division_template = "国内SS歩兵師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS歩兵師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS歩兵師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS歩兵師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS歩兵師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS装甲師団"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 3137
-		division_template = "国内SS装甲師団"
 	}
 }
