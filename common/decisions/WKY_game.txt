@@ -1,0 +1,398 @@
+
+Wakayama_game_category = {
+
+Wakayama_game_mission = {
+    activation = {
+WKY = {
+has_government = conservatism
+}
+    }
+    available = {
+WKY = {
+NOT = {
+has_government = conservatism
+}
+}
+    }
+
+    cancel_trigger = {
+OR = {
+WKY = {
+has_government = socialism
+}
+WKY = {
+has_government = nazism
+}
+}
+    }
+    icon = mission_icon 
+
+		days_mission_timeout = 400
+		is_good = yes
+		fire_only_once = yes
+
+    complete_effect = {
+
+    }
+
+    timeout_effect = {
+news_event = WKY_news_event.3
+set_global_flag = wakayama_neutral
+add_popularity = {
+    ideology = conservatism
+    popularity = 0.4
+}
+add_popularity = {
+    ideology = liberalism
+    popularity = 0.4
+}
+    }
+}
+
+#大阪側
+	 OSK_Wakayama_game_1 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = OSK
+		}
+ 
+		available = {
+WKY = {
+socialism > 0.5
+}
+		}
+
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+news_event = WKY_news_event.2
+set_global_flag = wakayama_osaka
+WKY = {
+
+set_politics = {
+	ruling_party = socialism
+        elections_allowed = no
+        last_election = "1962.12.17"
+        election_frequency = 48
+}
+set_cosmetic_tag = WKY_osaka
+}
+OSK = { add_to_faction = WKY }
+OSK = { add_to_faction = EKI }
+		}
+}
+#共産支持率上げ
+	OSK_Wakayama_game_2 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = OSK
+		}
+ 
+		available = {
+
+		}
+
+		days_remove = 30
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = socialism
+    popularity = 0.05
+}
+}
+		}
+}
+#共産支持率上げ2
+	OSK_Wakayama_game_3 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = OSK
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = socialism
+    popularity = 0.1
+}
+}
+		}
+}
+#ナチ支持率下げ
+	OSK_Wakayama_game_4 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = OSK
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = nazism
+    popularity = -0.05
+}
+}
+		}
+}
+#中道支持率下げ
+	OSK_Wakayama_game_5 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = OSK
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = conservatism
+    popularity = -0.05
+}
+}
+}
+		}
+
+#香川側
+	KGW_Wakayama_game_1 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag = KGW		}
+ 
+		available = {
+WKY = {
+nazism > 0.5
+}
+		}
+
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+news_event = WKY_news_event.1
+set_global_flag = wakayama_kagawa
+WKY = {
+
+set_politics = {
+	ruling_party = nazism
+        elections_allowed = no
+        last_election = "1962.12.17"
+        election_frequency = 48
+}
+set_cosmetic_tag = WKY_nazism
+}
+ KGW = { add_to_faction = WKY }
+ KGW = { add_to_faction = EKI }
+		}
+}
+#共産支持率上げ
+	 KGW_Wakayama_game_2 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag =  KGW
+		}
+ 
+		available = {
+
+		}
+
+		days_remove = 30
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = nazism
+    popularity = 0.05
+}
+}
+		}
+}
+#共産支持率上げ2
+	 KGW_Wakayama_game_3 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag =  KGW
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = nazism
+    popularity = 0.1
+}
+}
+		}
+}
+#ナチ支持率下げ
+	 KGW_Wakayama_game_4 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag =  KGW
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = nazism
+    popularity = -0.05
+}
+}
+		}
+}
+#中道支持率下げ
+	 KGW_Wakayama_game_5 = {
+
+		icon = eng_trade_unions_demand
+		allowed = {
+			tag =  KGW
+		}
+ 
+		available = {
+		}
+
+		days_remove = 50
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+WKY = {
+add_popularity = {
+    ideology = conservatism
+    popularity = -0.05
+}
+}
+}
+		}
+
+
+
+	}
+

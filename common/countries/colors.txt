@@ -59,16 +59,8 @@ TJI = {
     color_ui = rgb { 255 212 148 }
 }
 MIE = {
-    color = rgb { 255 212 0 }
-    color_ui = rgb { 255 212 0 }
-}
-ANC = {
-    color = rgb { 48 0 0 }
-    color_ui = rgb { 48 0 0 }
-}
-FNR = {
-    color = rgb { 98 152 75 }
-    color_ui = rgb { 98 152 75 }
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
 }
 HKI = {
     color = rgb { 196 196 255 }
@@ -328,4 +320,52 @@ KG3 = {
 KG4 = {
     color = rgb { 31 48 32 }
     color_ui = rgb { 31 48 32 }
+}
+EH2 = {
+    color = rgb { 211 50 50 }
+    color_ui = rgb { 211 50 50 }
+}
+EH3 = {
+    color = rgb { 228 154 74 }
+    color_ui = rgb { 228 154 74 }
+}
+KU2 = {
+    color = rgb { 143 50 50 }
+    color_ui = rgb { 143 50 50 }
+}
+KU3 = {
+    color = rgb { 75 122 80 }
+    color_ui = rgb { 75 122 80 }
+}
+KU4 = {
+    color = rgb { 196 196 255 }
+    color_ui = rgb { 196 196 255 }
+}
+TK2 = {
+    color = rgb { 143 22 22 }
+    color_ui = rgb { 143 22 22 }
+}
+AW2 = {
+    color = rgb { 98 152 75 }
+    color_ui = rgb { 98 152 75 }
+}
+EKI = {
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 51 155 0 }
+}
+EKI = {
+	color = rgb { 94 143 83 }
+	color_ui = rgb { 94 143 83 }
+}
+TSU = {
+    color = rgb { 219 191 0 }
+    color_ui = rgb { 219 191 0 }
+}
+ISE = {
+    color = rgb { 235 233 216 }
+    color_ui = rgb { 235 233 216 }
+}
+IGA = {
+    color = rgb { 80 0 0 }
+    color_ui = rgb { 80 0 0 }
 }

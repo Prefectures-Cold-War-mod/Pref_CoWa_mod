@@ -2,7 +2,7 @@ OSK_com = {
     color = rgb { 143 22 22 }
     color_ui = rgb { 143 22 22 }
 }
-WKY_com = {
+WKY_osaka = {
     color = rgb { 211 50 50 }
     color_ui = rgb { 211 50 50 }
 }

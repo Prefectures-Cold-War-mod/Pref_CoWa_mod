@@ -1,0 +1,792 @@
+focus_tree = {
+	id = OSK_postmiyamoto
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OSK
+		}
+	}
+	default = no
+	focus = {
+		id = OSKB_focus_0
+		text = 大坂のルネッサンス
+		icon = GFX_focus_GER_the_peoples_victory
+		cost = 10.00
+		x = 24
+		y = 0
+
+	}
+	focus = {
+		id = OSKB_focus_5
+		text = 保守革命
+		icon = GFX_focus_ARG_strengthening_the_concordancia
+		cost = 10.00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = OSKB_focus_20
+		text = 500日計画
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_5
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_23
+		text = 堂島金融特区
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_20
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_16
+		text = 総合型リゾートの誘致
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_23
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_14
+		text = 社会主義理論との闘い
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_20
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_31
+		text = 中央集権構造の打破
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_23
+		}
+		prerequisite = {
+			focus = OSKB_focus_14
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_19
+		text = 地方分権を推進
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_31
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_21
+		text = 教育改革の実現
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_31
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_22
+		text = 社会保障改革
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_14
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_18
+		text = 大坂維新の会の結成
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_5
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_13
+		text = 解放同盟との決着
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_18
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_30
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_30
+		text = 同和対策審議会
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_18
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_13
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_52
+		text = 法の支配の復活
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_13
+			focus = OSKB_focus_30
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_15
+		text = 内務省への予算
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_52
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_54
+		text = 国防軍予算の増額
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_52
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_26
+		text = 大坂商人の伝統
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_5
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_57
+		text = 北摂的温情主義
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_26
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_12
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_56
+		text = 阪神間モダニズム
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_57
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_12
+		text = 泉州的放任主義
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_26
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_57
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_58
+		text = 大坂城の再建
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_57
+			focus = OSKB_focus_12
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_17
+		text = 遊郭の自由化
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_12
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_55
+		text = 東洋のマンチェスター
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_56
+			focus = OSKB_focus_17
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_53
+		text = 東洋のマンチェスター
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_31
+		}
+		prerequisite = {
+			focus = OSKB_focus_15
+		}
+		prerequisite = {
+			focus = OSKB_focus_54
+		}
+		prerequisite = {
+			focus = OSKB_focus_55
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_1
+		text = 右翼反対派
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_0
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_32
+		text = 社会改良主義
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_1
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_10
+		text = 左右の全体主義との戦い
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_32
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_37
+		text = 民主社会主義綱領
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_10
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_42
+		text = 大きな社会
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_37
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_36
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_36
+		text = 第三の道
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_37
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_42
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_40
+		text = 労働者福祉国家
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_32
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_2
+		text = 中央
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_0
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_41
+		text = 国家コーポラティズム
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_1
+			focus = OSKB_focus_2
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_45
+		text = 都市問題の研究
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_41
+			focus = OSKB_focus_40
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_44
+		text = 大阪住宅公団
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_45
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_46
+		text = 大坂的寛容主義
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_36
+			focus = OSKB_focus_42
+		}
+		prerequisite = {
+			focus = OSKB_focus_44
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = OSKB_focus_6
+		text = 大阪の実験
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_2
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_11
+		text = 大衆政党への道
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_41
+			focus = OSKB_focus_6
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_39
+			focus = OSK_focus_48
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_48
+		text = 包括的社会主義政党
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_6
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_11
+			focus = OSKB_focus_39
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_33
+		text = 労農赤軍の解体
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_11
+			focus = OSK_focus_48
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_34
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_3
+		text = 左翼反対派
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_0
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = OSKB_focus_9
+		text = 堂島の規制
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_3
+			focus = OSKB_focus_2
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_39
+		text = 前衛政党への道
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_6
+			focus = OSKB_focus_9
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_11
+			focus = OSK_focus_48
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_34
+		text = 赤色旅団
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_39
+			focus = OSK_focus_48
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_33
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_35
+		text = 解放同盟との関係
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_33
+			focus = OSKB_focus_34
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_4
+		text = 正統社会主義
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_3
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = OSKB_focus_7
+		text = 大塩平八郎の復活
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_4
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_29
+		text = 財閥の国有化
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_7
+			focus = OSKB_focus_9
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_43
+		text = 賽を投げる
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_4
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = OSKB_focus_8
+		text = 共産党宣言
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_43
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = OSKB_focus_25
+		text = モスクワの次女
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_8
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_24
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_27
+		text = 再教育運動
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_25
+			focus = OSKB_focus_24
+		}
+		prerequisite = {
+			focus = OSKB_focus_28
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = OSKB_focus_24
+		text = 第三世界に接近
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_8
+		}
+		mutually_exclusive = {
+			focus = OSKB_focus_25
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_28
+		text = 大阪国有鉄道
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_29
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = OSKB_focus_38
+		text = 泉北アルミニウム工場
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSK_focus_47
+		}
+		prerequisite = {
+			focus = OSK_focus_49
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = OSKB_focus_47
+		text = 人民鉱山
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSK_focus_51
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = OSKB_focus_49
+		text = 公共事業
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSK_focus_51
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = OSKB_focus_50
+		text = 差別撤廃宣言
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_35
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = OSKB_focus_51
+		text = 大坂社会運動顕彰塔﻿
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OSKB_focus_46
+			focus = OSK_focus_50
+			focus = OSKB_focus_27
+		}
+		x = 24
+		y = 7
+
+	}
+}

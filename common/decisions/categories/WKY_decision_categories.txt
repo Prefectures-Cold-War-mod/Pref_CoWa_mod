@@ -1,0 +1,17 @@
+Wakayama_game_category = {
+	icon = generic_political_actions
+
+	scripted_gui = wky_game_decision_ui
+
+	priority = 40
+
+	allowed = {
+OR = {
+		original_tag = KGW
+		original_tag = OSK
+	}
+}
+	priority = {
+		base = 20
+	}
+}
