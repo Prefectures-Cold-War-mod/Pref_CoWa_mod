@@ -1,11 +1,14 @@
-﻿capital = 232
+﻿capital = 233
 
 oob = "SKY_1962"
 
-set_research_slots = 3
+set_research_slots = 4
 
 add_ideas = {
 OSK_idea4
+OSK_idea8
+}
+add_ideas = {
 Road_to_Serfdom5
 Army_budget3
 Police_budget2
