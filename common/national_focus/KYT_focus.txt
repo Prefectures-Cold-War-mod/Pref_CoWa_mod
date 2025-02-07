@@ -1,0 +1,152 @@
+focus_tree = {
+	id = kyoto
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KYT
+		}
+
+	}
+	default = no
+	focus = {
+		id = KYT_focus_0
+		text = 申し訳程度の京都NF
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 0
+			available = {
+					date > 1964.04.01
+				}
+			completion_reward = {
+					add_political_power = 120
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 233
+        num_provinces = 6
+        on_win = kyoto_war_event.1
+        on_lose = kyoto_war_event.1
+        on_cancel = kyoto_war_event.1
+        modifier = 0.1
+        dig_in_factor = 0
+        terrain_factor = 0
+    }	
+    defender = {
+        state = 232
+        num_provinces = 6
+        on_win = kyoto_war_event.2
+        on_lose = kyoto_war_event.2
+        on_cancel = kyoto_war_event.2
+    }
+}
+				}
+	}
+	focus = {
+		id = KYT_focus_2
+		text = 青森の支援を得る
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_0
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = KYT_focus_3
+		text = 東京の支援を得る
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_0
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = KYT_focus_5
+		text = 大阪本土を空爆
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_2
+		}
+		prerequisite = {
+			focus = KYT_focus_3
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = KYT_focus_4
+		text = 第二戦線
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_5
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = KYT_focus_6
+		text = 後手からの一撃
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_5
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = KYT_focus_7
+		text = 大阪本土で不満を煽る
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_4
+		}
+		prerequisite = {
+			focus = KYT_focus_6
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = KYT_focus_1
+		text = ジパング
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_7
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = KYT_focus_8
+		text = 最後通牒
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KYT_focus_1
+		}
+		x = 9
+		y = 6
+			completion_reward = {
+OSK = {
+ country_event = kyoto_war_event.4
+}
+}
+	}
+}
