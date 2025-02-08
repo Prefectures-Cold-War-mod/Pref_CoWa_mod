@@ -1,0 +1,153 @@
+characters = {	#政治家
+	CHARACTER_Rikizou_Hirano = {	#平野力三
+		name = CHARACTER_Rikizou_Hirano
+		
+		portraits = {
+			civilian = {
+				small = GFX_Rikizou_Hirano_small
+				large = GFX_Rikizou_Hirano_large
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			desc = "CHARACTER_Rikizou_Hirano_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Takeyoshi_Kawashima = {	#川島武宜
+		name = CHARACTER_Takeyoshi_Kawashima
+		
+		portraits = {
+			civilian = {
+				small = GFX_Takeyoshi_Kawashima_small
+				large = GFX_Takeyoshi_Kawashima_large
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "CHARACTER_Takeyoshi_Kawashima_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Uichi_Noda = {	#野田卯一
+		name = CHARACTER_Uichi_Noda
+		
+		portraits = {
+			civilian = {
+				small = GFX_Uichi_Noda_small
+				large = GFX_Uichi_Noda_large
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "CHARACTER_Uichi_Noda_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Masataka_Ida = {	#井田正孝
+		name = CHARACTER_Masataka_Ida
+		
+		portraits = {
+			civilian = {
+				small = GFX_Masataka_Ida_small
+				large = GFX_Masataka_Ida_large
+			}
+		}
+		country_leader = {
+			ideology = neutrally
+			desc = "CHARACTER_Masataka_Ida_desc"
+			expire = "2007.7.23"
+		}
+	}
+	CHARACTER_Teruzou_Andou = {	#安藤輝三
+		name = CHARACTER_Teruzou_Andou
+		
+		portraits = {
+			civilian = {
+				small = GFX_Teruzou_Andou_small
+				large = GFX_Teruzou_Andou_large
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+			desc = "CHARACTER_Teruzou_Andou_desc"
+			expire = "2007.7.23"
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CHARACTER_Hiroshi_Osima = {	#大島浩
+		name = CHARACTER_Hiroshi_Osima
+		
+		portraits = {
+			civilian = {
+				small = GFX_Hiroshi_Osima_small
+				large = GFX_Hiroshi_Osima_large
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			desc = "CHARACTER_Hiroshi_Osima_desc"
+			expire = "2007.7.23"
+		}
+	}
+	
+	#政治顧問
+	#CHARACTER_Hirotugu_Akaike = {	#赤池弘次（統計学者）
+	#	name = CHARACTER_Hirotugu_Akaike
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Hirotugu_Akaike_small
+	#			large = GFX_Hirotugu_Akaike_large
+	#		}
+	#	}
+	#	advisor = {
+	#		slot = political_advisor
+	#	}
+	#}
+	
+	#陸軍
+	#CHARACTER_Giichi_Hirano = {	#平野儀一、1891年生まれ
+	#	name = CHARACTER_Giichi_Hirano
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Giichi_Hirano_small
+	#			large = GFX_Giichi_Hirano_large
+	#		}
+	#	}
+	#	corps_commander = {
+	#		skill = 3
+	#		attack_skill = 3
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#	}
+	#}
+	
+	#海軍
+	#CHARACTER_Tadakazu_Yoshioka = {	#吉岡忠一、1908年生まれ
+	#	name = CHARACTER_Tadakazu_Yoshioka
+	#	
+	#	portraits = {
+	#		civilian = {
+	#			small = GFX_Tadakazu_Yoshioka_small
+	#			large = GFX_Tadakazu_Yoshioka_large
+	#		}
+	#	}
+	#	navy_leader = {
+	#		traits = {  }
+	#		skill = 3
+	#		attack_skill = 3
+	#		defense_skill = 1
+	#		maneuvering_skill = 3
+	#		coordination_skill = 2
+	#	}
+	#}
+}

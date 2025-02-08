@@ -1,10 +1,9 @@
-﻿capital = 2179
+﻿capital = 3437
 
 
 
 set_research_slots = 3
 add_ideas = {
-	NGA_great_division
 }
 add_ideas = {
 	Road_to_Serfdom4
@@ -62,16 +61,16 @@ set_popularities = {
  communism = 9
  anarchist_communism = 0
  socialism = 0
- democratic_socialism = 10
- democratic = 15
- liberalism = 16
- progressivism = 18
- conservatism = 27
- neutrality = 0
- despotism = 5
- ultranationalism = 0
+ democratic_socialism = 17
+ democratic = 0
+ liberalism = 0
+ progressivism = 13
+ conservatism = 36
+ neutrality = 8
+ despotism = 0
+ ultranationalism = 7
  fascism = 0
- nazism = 0
+ nazism = 10
  esoteric_nazism = 0
 }
 	set_politics = {
@@ -81,20 +80,18 @@ set_popularities = {
 		elections_allowed = no
 	}
 
-set_convoys = 100
+set_convoys = 0
 set_stability = 0.50
 set_war_support = 0.50
 
 #recruit_character = CHARACTER_Seiichi_Katsumata
 
-recruit_character = CHARACTER_Shouichi_Kasuga
-recruit_character = CHARACTER_Teikou_Ozawa
-recruit_character = CHARACTER_Mitsusuke_Yonekubo
-recruit_character = CHARACTER_Kaneshichi_Masuda
-recruit_character = CHARACTER_Taneo_Miyazawa
-recruit_character = CHARACTER_Kazuo_Aoki
-
-recruit_character = CHARACTER_Takeo_Imai
+recruit_character = CHARACTER_Rikizou_Hirano
+recruit_character = CHARACTER_Takeyoshi_Kawashima
+recruit_character = CHARACTER_Uichi_Noda
+recruit_character = CHARACTER_Masataka_Ida
+recruit_character = CHARACTER_Teruzou_Andou
+recruit_character = CHARACTER_Hiroshi_Osima
 
 }
 
