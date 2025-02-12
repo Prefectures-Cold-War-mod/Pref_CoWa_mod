@@ -1,0 +1,90 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY1"
+		texturefile = "gfx/leaders/WKY/WKY1.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY2"
+		texturefile = "gfx/leaders/WKY/WKY2.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY3"
+		texturefile = "gfx/leaders/WKY/WKY3.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY4"
+		texturefile = "gfx/leaders/WKY/WKY4.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY5"
+		texturefile = "gfx/leaders/WKY/WKY5.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY6"
+		texturefile = "gfx/leaders/WKY/WKY6.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY7"
+		texturefile = "gfx/leaders/WKY/WKY7.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY8"
+		texturefile = "gfx/leaders/WKY/WKY8.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY9"
+		texturefile = "gfx/leaders/WKY/WKY9.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY10"
+		texturefile = "gfx/leaders/WKY/WKY10.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY11"
+		texturefile = "gfx/leaders/WKY/WKY11.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY12"
+		texturefile = "gfx/leaders/WKY/WKY12.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY13"
+		texturefile = "gfx/leaders/WKY/WKY13.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY14"
+		texturefile = "gfx/leaders/WKY/WKY14.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_WKY15"
+		texturefile = "gfx/leaders/WKY/WKY15.dds"
+	}
+}

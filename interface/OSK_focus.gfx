@@ -1,0 +1,65 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_osaka_focus_asada"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_asada.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_apdo"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_apdo.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_bkl"
+		texturefile = "gfx/interface/goals/osaka/osaka_osaka_focus_bkl.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_cp"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_cp.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_ds"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_ds.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_dan"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_dan.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_dan1"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_dan1.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_dan2"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_dan2.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_fac"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_fac.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_fac1"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_fac1.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_fac2"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_fac2.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_nabe"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_nabe.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_train"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_train.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_yada"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_yada.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_senri"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_senri.dds"
+	}
+	spriteType = {
+		name = "GFX_osaka_focus_shinosaka"
+		texturefile = "gfx/interface/goals/osaka/osaka_focus_shinosaka.dds"
+	}

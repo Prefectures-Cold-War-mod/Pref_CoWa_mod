@@ -1,6 +1,206 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_decision_Wakayama_game_haikei"
-		texturefile = "gfx/interface/decisions/decision_wakayama_game_haikei.dds"
+		name = "GFX_gen_news_event"
+		texturefile = "gfx/event/gen_news_event.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event2"
+		texturefile = "gfx/event/gen_news_event2.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event3"
+		texturefile = "gfx/event/gen_news_event3.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event4"
+		texturefile = "gfx/event/gen_news_event4.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event5"
+		texturefile = "gfx/event/gen_news_event5.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event6"
+		texturefile = "gfx/event/gen_news_event6.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event7"
+		texturefile = "gfx/event/gen_news_event7.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event8"
+		texturefile = "gfx/event/gen_news_event8.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event9"
+		texturefile = "gfx/event/gen_news_event9.dds"
+	}
+	spriteType = {
+		name = "GFX_gen_news_event10"
+		texturefile = "gfx/event/gen_news_event10.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event1"
+		texturefile = "gfx/event/OSK/OSK_news_event1.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event2"
+		texturefile = "gfx/event/OSK/OSK_news_event2.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event3"
+		texturefile = "gfx/event/OSK/OSK_news_event3.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event4"
+		texturefile = "gfx/event/OSK/OSK_news_event4.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event5"
+		texturefile = "gfx/event/OSK/OSK_news_event5.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event6"
+		texturefile = "gfx/event/OSK/OSK_news_event6.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event7"
+		texturefile = "gfx/event/OSK/OSK_news_event7.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event8"
+		texturefile = "gfx/event/OSK/OSK_news_event8.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event9"
+		texturefile = "gfx/event/OSK/OSK_news_event9.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event10"
+		texturefile = "gfx/event/OSK/OSK_news_event10.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_news_event11"
+		texturefile = "gfx/event/OSK/OSK_news_event11.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event1"
+		texturefile = "gfx/event/KGW/KGW_news_event1.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event2"
+		texturefile = "gfx/event/KGW/KGW_news_event2.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event3"
+		texturefile = "gfx/event/KGW/KGW_news_event3.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event4"
+		texturefile = "gfx/event/KGW/KGW_news_event4.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event5"
+		texturefile = "gfx/event/KGW/KGW_news_event5.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event6"
+		texturefile = "gfx/event/KGW/KGW_news_event6.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event7"
+		texturefile = "gfx/event/KGW/KGW_news_event7.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event8"
+		texturefile = "gfx/event/KGW/KGW_news_event8.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event9"
+		texturefile = "gfx/event/KGW/KGW_news_event9.dds"
+	}
+	spriteType = {
+		name = "GFX_KGW_news_event10"
+		texturefile = "gfx/event/KGW/KGW_news_event10.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event1"
+		texturefile = "gfx/event/WKY/WKY_news_event1.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event2"
+		texturefile = "gfx/event/WKY/WKY_news_event2.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event3"
+		texturefile = "gfx/event/WKY/WKY_news_event3.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event4"
+		texturefile = "gfx/event/WKY/WKY_news_event4.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event5"
+		texturefile = "gfx/event/WKY/WKY_news_event5.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event6"
+		texturefile = "gfx/event/WKY/WKY_news_event6.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event7"
+		texturefile = "gfx/event/WKY/WKY_news_event7.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event8"
+		texturefile = "gfx/event/WKY/WKY_news_event8.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event9"
+		texturefile = "gfx/event/WKY/WKY_news_event9.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY_news_event10"
+		texturefile = "gfx/event/WKY/WKY_news_event10.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event1"
+		texturefile = "gfx/event/HRS/HRS_news_event1.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event2"
+		texturefile = "gfx/event/HRS/HRS_news_event2.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event3"
+		texturefile = "gfx/event/HRS/HRS_news_event3.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event4"
+		texturefile = "gfx/event/HRS/HRS_news_event4.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event5"
+		texturefile = "gfx/event/HRS/HRS_news_event5.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event6"
+		texturefile = "gfx/event/HRS/HRS_news_event6.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event7"
+		texturefile = "gfx/event/HRS/HRS_news_event7.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event8"
+		texturefile = "gfx/event/HRS/HRS_news_event8.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event9"
+		texturefile = "gfx/event/HRS/HRS_news_event9.dds"
+	}
+	spriteType = {
+		name = "GFX_HRS_news_event10"
+		texturefile = "gfx/event/HRS/HRS_news_event10.dds"
 	}
 }

@@ -1,0 +1,106 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_Wakayama_game_haikei"
+		texturefile = "gfx/interface/decisions/decision_wakayama_game_haikei.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_usa_congress_Osaka_senate_ui"
+		texturefile = "gfx/interface/decisions/decision_category_usa_congress_Osaka_senate_ui.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK1"
+		texturefile = "gfx/leaders/OSK/OSK1.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK2"
+		texturefile = "gfx/leaders/OSK/OSK2.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK4"
+		texturefile = "gfx/leaders/OSK/OSK4.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK3"
+		texturefile = "gfx/leaders/OSK/OSK3.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK5"
+		texturefile = "gfx/leaders/OSK/OSK5.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK6"
+		texturefile = "gfx/leaders/OSK/OSK6.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK7"
+		texturefile = "gfx/leaders/OSK/OSK7.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK8"
+		texturefile = "gfx/leaders/OSK/OSK8.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK9"
+		texturefile = "gfx/leaders/OSK/OSK9.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK6"
+		texturefile = "gfx/leaders/OSK/OSK6.dds"
+	}
+	spriteType = {
+		name = "GFX_SET1"
+		texturefile = "gfx/leaders/SET/SET1.dds"
+	}
+	spriteType = {
+		name = "GFX_SKY1"
+		texturefile = "gfx/leaders/SKY/SKY1.dds"
+	}
+	spriteType = {
+		name = "GFX_NRA1"
+		texturefile = "gfx/leaders/NRA/NRA1.dds"
+	}
+	spriteType = {
+		name = "GFX_WKY1"
+		texturefile = "gfx/leaders/WKY/WKY1.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus1"
+		texturefile = "gfx/interface/OSK/OSK_focus1.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus2"
+		texturefile = "gfx/interface/OSK/OSK_focus2.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus3"
+		texturefile = "gfx/interface/OSK/OSK_focus3.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus4"
+		texturefile = "gfx/interface/OSK/OSK_focus4.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus5"
+		texturefile = "gfx/interface/OSK/OSK_focus5.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus6"
+		texturefile = "gfx/interface/OSK/OSK_focus6.dds"
+	}
+	spriteType = {
+		name = "GFX_OSK_focus7"
+		texturefile = "gfx/interface/OSK/OSK_focus7.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_osk_congress_senate_ui"
+		texturefile = "gfx/interface/decisions/decision_category_osk_congress_senate_ui.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_uchigeba_haikei"
+		texturefile = "gfx/interface/decisions/decision_uchigeba_haikei.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_uchigeba_haikei2"
+		texturefile = "gfx/interface/decisions/decision_uchigeba_haikei2.dds"
+	}
+}
