@@ -1,0 +1,17 @@
+﻿l_japanese:
+ HRS:0 "広島国民共和国"
+ HRS_DEF:0 "広島国民共和国"
+
+#和歌山
+HRS_news_event.1.t:0 "池田勇人の死"
+HRS_news_event.1.d:0 "広島指導者の池田勇人が死去した。"
+HRS_news_event.1.a:0 "経済の季節は終わった。"
+HRS_news_event.2.t:0 "宮澤喜一が広島首相に就任"
+HRS_news_event.2.d:0 "宮澤喜一が広島首相に就任した。"
+HRS_news_event.2.a:0 "哲人の時代が始まる。"
+HRS_news_event.3.t:0 "賀屋興宣が広島首相に就任"
+HRS_news_event.3.d:0 "賀屋興宣が広島首相に就任した。"
+HRS_news_event.3.a:0 "財は続く！...今のところは"
+HRS_news_event.4.t:0 "広島での軍事クーデター"
+HRS_news_event.4.d:0 "広島で軍事クーデターが発生し、木村兵太郎が首相に就任した。"
+HRS_news_event.4.a:0 "忍耐の時代は終わった"

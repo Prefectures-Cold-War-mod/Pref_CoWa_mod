@@ -1,16 +1,16 @@
 ﻿l_japanese:
 #史実共産党
- communism:0 "労農社会主義"
- communism_noun:0 "労農社会主義"
+ communism:0 "前衛社会主義"
+ communism_noun:0 "前衛社会主義"
 #史実無政府主義
  anarchist_communism:0 "無政府主義"
  anarchist_communism_noun:0 "無政府主義"
 #史実社会党
- socialism:0 "講壇社会主義"
- socialism_noun:0 "講壇社会主義"
+ socialism:0 "社会民主主義"
+ socialism_noun:0 "社会民主主義"
 #史実民社党
- democratic_socialism:0 "民主社会主義"
- democratic_socialism_noun:0 "民主社会主義"
+ democratic_socialism:0 "講壇社会主義"
+ democratic_socialism_noun:0 "講壇社会主義"
 #史実自民党保守本流
  democratic:0 "英国流保守主義"
  democratic_noun:0 "英国流保守主義"
