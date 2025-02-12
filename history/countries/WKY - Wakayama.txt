@@ -49,9 +49,11 @@ set_technology = {
 }
 
 set_popularities = {
- socialism = 30
- conservatism = 60
- nazism = 10
+ socialism = 23
+ conservatism = 5
+ despotism = 25
+ultranationalism = 10
+neutrality = 37
 }
 	set_politics = {
 		ruling_party = conservatism
