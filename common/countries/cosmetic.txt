@@ -2,6 +2,10 @@ OSK_com = {
     color = rgb { 143 22 22 }
     color_ui = rgb { 143 22 22 }
 }
+EKI_com = {
+    color = rgb { 143 22 22 }
+    color_ui = rgb { 143 22 22 }
+}
 WKY_osaka = {
     color = rgb { 211 50 50 }
     color_ui = rgb { 211 50 50 }
@@ -47,6 +51,10 @@ RK_HRM = {
     color_ui = rgb { 100 100 100 }
 }
 RK_AWJ = {
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
+}
+RK_CHU = {
     color = rgb { 100 100 100 }
     color_ui = rgb { 100 100 100 }
 }

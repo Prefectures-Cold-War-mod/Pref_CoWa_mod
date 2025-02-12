@@ -53,7 +53,43 @@ country_event = {
 		name = OSK_event_osaka.3.a	
 	}			
 }
-#矢田
+#保守主義
+country_event = {
+	id = OSK_event_osaka.4
+	title = OSK_event_osaka.4.t
+	desc = OSK_event_osaka.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = OSK
+		date > 1962.5.15
+	}	
+	option = {
+		name = OSK_event_osaka.4.a	
+	}			
+}
+#株式会社主婦の店ダイエー
+country_event = {
+	id = OSK_event_osaka.4
+	title = OSK_event_osaka.4.t
+	desc = OSK_event_osaka.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = OSK
+		date > 1963.5.15
+	}	
+	option = {
+		name = OSK_event_osaka.4.a	
+	}			
+}
+
+
+##矢田
 country_event = {
 	id = OSK_event_yada.1
 	title = OSK_event_yada.1.t
@@ -89,6 +125,7 @@ country_event = {
 	option = {
 		name = OSK_event_yada.2.a	
 add_stability = 0.02
+
 hidden_effect = {
 state_event = { 
     days = 30
@@ -96,18 +133,6 @@ id = OSK_event_yada.3
 
 }
 }
-	}		
-	option = {
-add_political_power = 50
-		name = OSK_event_yada.2.b
-hidden_effect = {
-state_event = { 
-    days = 30
-id = OSK_event_yada.3
-
-}
-}
-
 	}		
 }
 country_event = {
@@ -124,9 +149,9 @@ country_event = {
 		name = OSK_event_yada.3.a	
 add_political_power = -100
 add_stability = -0.05
-					OSK_pco_small_support = yes
+OSK_pco_small_support = yes
 state_event = { 
-    days = 10
+    days = 30
 id = OSK_event_yada.4
 
 }
@@ -136,9 +161,20 @@ id = OSK_event_yada.4
 		name = OSK_event_yada.3.b
 add_political_power = -100
 add_stability = -0.05
-					OSK_cp_small_support = yes
+OSK_kl_small_support = yes
 state_event = { 
-    days = 10
+    days = 30
+id = OSK_event_yada.4
+
+}
+	}
+	option = {
+		name = OSK_event_yada.3.c
+add_political_power = -100
+add_stability = -0.05
+OSK_pco_small_support = yes
+state_event = { 
+    days = 30
 id = OSK_event_yada.4
 
 }
@@ -156,8 +192,8 @@ country_event = {
 
 	option = {
 		name = OSK_event_yada.4.a	
-complete_national_focus = OSK_join_comintern
-					OSK_pco_small_support = yes
+complete_national_focus = OSA_focus_70
+OSK_pco_small_support = yes
 
 
 news_event = { 
@@ -174,14 +210,29 @@ id = OSK_event_yada.6
 	}		
 	option = {
 		name = OSK_event_yada.4.b
-complete_national_focus = OSK_join_comintern
+complete_national_focus = OSA_focus_70
+OSK_cp_small_support = yes
 news_event = { 
     days = 1
 id = OSK_news_event.1
 
 }
-					OSK_cp_small_support = yes
+state_event = { 
+    days = 3
+id = OSK_event_yada.6
 
+}
+	}		
+}
+	option = {
+		name = OSK_event_yada.4.c
+complete_national_focus = OSA_focus_70
+OSK_pco_small_support = yes
+news_event = { 
+    days = 1
+id = OSK_news_event.1
+
+}
 state_event = { 
     days = 3
 id = OSK_event_yada.6
@@ -201,33 +252,24 @@ country_event = {
 
 	option = {
 		name = OSK_event_yada.6.a	
+					OSK_kl_small_opposition = yes
+
 state_event = { 
     days = 3
 id = OSK_event_yada.7
 
 }
-					OSK_cp_small_opposition = yes
 
 	}		
 	option = {
 		name = OSK_event_yada.6.b
+					OSK_pco_small_opposition = yes
 state_event = { 
     days = 3
 id = OSK_event_yada.7
 
 }
-					OSK_kl_small_opposition = yes
-	}
-	option = {
-		name = OSK_event_yada.6.c
-state_event = { 
-    days = 3
-id = OSK_event_yada.7
-
-}
-					OSK_kl_small_opposition = yes
-
-	}		
+	}	
 }
 country_event = {
 	id = OSK_event_yada.7
@@ -257,6 +299,7 @@ add_popularity = {
 }
 	}			
 }
+
 #香川内戦後イベント
 country_event = {
 	id = OSK_event_cold.0

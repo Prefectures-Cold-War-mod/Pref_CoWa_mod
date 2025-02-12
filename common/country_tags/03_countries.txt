@@ -3,6 +3,7 @@ KG1 = "countries/kagawa.txt"
 KG2 = "countries/kagawa.txt"
 KG3 = "countries/kagawa.txt"
 KG4 = "countries/kagawa.txt"
+KGN = "countries/kagawa.txt"
 #徳島
 TK2 = "countries/tokushima.txt"
 #高知

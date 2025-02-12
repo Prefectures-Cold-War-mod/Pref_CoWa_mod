@@ -1,0 +1,179 @@
+characters = {	
+#政治顧問
+	KGW_Ohira_Masayoshi = {
+		name = "大平正芳"
+		
+		portraits = {
+			civilian = {
+				large = GFX_Hirotugu_Akaike_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+traits = {
+GER_reich_minister_of_economy
+}
+	}
+	KGW_Fukuya_syunichi = {
+		name = "福家俊一"
+		
+		portraits = {
+			civilian = {
+				large = GFX_Hirotugu_Akaike_large
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+traits = {
+conservative_nationalist
+}
+	}
+	
+#将軍
+	KGW_Miyawaki_syunzo = {
+		name = "宮脇俊三"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW10
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+#保守派
+	KGW_Katakiri_shigeru = {
+		name = "片桐茂"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW7
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KGW_Takahashi_tan = {
+		name = "高橋坦"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW13
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+#改革派
+	KGW_Ohira_syuno = {
+		name = "大平秀雄"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW11
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KGW_Takagi_shigeru = {
+		name = "高木繁"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW14
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+#軍国派
+	KGW_Kondo_shinpachi = {
+		name = "近藤新八"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW5
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+traits = {
+GER_oberster_kriegsherr_trait
+}
+	}
+	KGW_Saito_yaheita = {
+		name = "斎藤弥平太"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW15
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+#親衛隊
+	KGW_Ono_koichi = {
+		name = "大野広一"
+		
+		portraits = {
+			civilian = {
+				large = GFX_KGW6
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+traits = {
+GER_reichsfuhrer_ss
+}
+	}
+}

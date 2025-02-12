@@ -5,7 +5,7 @@ news_event = {
 	id = KGW_news_event.1
 	title = KGW_news_event.1.t
 	desc = KGW_news_event.1.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event1
 
 		is_triggered_only = yes	
 	major = yes
@@ -17,7 +17,7 @@ news_event = {
 	id = KGW_news_event.2
 	title = KGW_news_event.2.t
 	desc = KGW_news_event.2.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event1
 
 		is_triggered_only = yes	
 	major = yes
@@ -29,7 +29,7 @@ news_event = {
 	id = KGW_news_event.3
 	title = KGW_news_event.3.t
 	desc = KGW_news_event.3.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event1
 
 		is_triggered_only = yes	
 	major = yes
@@ -41,7 +41,7 @@ news_event = {
 	id = KGW_news_event.4
 	title = KGW_news_event.4.t
 	desc = KGW_news_event.4.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event1
 
 		is_triggered_only = yes	
 	major = yes
@@ -53,7 +53,7 @@ news_event = {
 	id = KGW_news_event.5
 	title = KGW_news_event.5.t
 	desc = KGW_news_event.5.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event1
 
 		is_triggered_only = yes	
 	major = yes
@@ -65,7 +65,7 @@ news_event = {
 	id = KGW_news_event.6
 	title = KGW_news_event.6.t
 	desc = KGW_news_event.6.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event4
 
 		is_triggered_only = yes	
 	major = yes
@@ -77,7 +77,7 @@ news_event = {
 	id = KGW_news_event.7
 	title = KGW_news_event.7.t
 	desc = KGW_news_event.7.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_OSK_news_event2
 
 		is_triggered_only = yes	
 	major = yes
@@ -89,7 +89,7 @@ news_event = {
 	id = KGW_news_event.8
 	title = KGW_news_event.8.t
 	desc = KGW_news_event.8.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_OSK_news_event2
 
 		is_triggered_only = yes	
 	major = yes
@@ -101,7 +101,7 @@ news_event = {
 	id = KGW_news_event.9
 	title = KGW_news_event.9.t
 	desc = KGW_news_event.9.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_OSK_news_event2
 
 		is_triggered_only = yes	
 	major = yes
@@ -113,7 +113,7 @@ news_event = {
 	id = KGW_news_event.10
 	title = KGW_news_event.10.t
 	desc = KGW_news_event.10.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_OSK_news_event2
 
 		is_triggered_only = yes	
 	major = yes
@@ -125,11 +125,23 @@ news_event = {
 	id = KGW_news_event.20
 	title = KGW_news_event.20.t
 	desc = KGW_news_event.20.d
-	picture = GFX_report_event_generic_funeral
+	picture = GFX_KGW_news_event3
 
 		is_triggered_only = yes	
 	major = yes
 	option = {
 		name = KGW_news_event.20.a	
+	}			
+}
+news_event = {
+	id = KGW_news_event.21
+	title = KGW_news_event.21.t
+	desc = KGW_news_event.21.d
+	picture = GFX_OSK_news_event9
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = KGW_news_event.21.a	
 	}			
 }

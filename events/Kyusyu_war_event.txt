@@ -1,0 +1,55 @@
+add_namespace = Kyusyu_war_event
+
+
+country_event = {
+	id = Kyusyu_war_event.1
+	title = Kyusyu_war_event.1.t
+	desc = Kyusyu_war_event.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+		trigger = {
+		original_tag = RKK
+has_global_flag = kagawa_civil_war_global
+	}
+
+	option = {
+		name = Kyusyu_war_event.1.a	
+
+	}			
+}
+#隼人共和国蜂起
+country_event = {
+	id = Kyusyu_war_event.2
+	title = Kyusyu_war_event.2.t
+	desc = Kyusyu_war_event.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+		trigger = {
+		original_tag = RKK
+has_global_flag = kagawa_civil_war_global
+	}
+
+	option = {
+		name = Kyusyu_war_event.2.a	
+
+	}			
+}
+country_event = {
+	id = Kyusyu_war_event.3
+	title = Kyusyu_war_event.3.t
+	desc = Kyusyu_war_event.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+		trigger = {
+		original_tag = RKK
+has_global_flag = kagawa_civil_war_global
+	}
+
+	option = {
+		name = Kyusyu_war_event.3.a	
+
+	}			
+}

@@ -1,0 +1,21 @@
+add_namespace = UN_event
+
+
+country_event = {
+	id = UN_event.1
+	title = KGW_event_harada.1.t
+	desc = KGW_event_harada.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = NGS
+		date > 1962.1.3
+	}	
+
+	option = {
+		name = KGW_event_harada.1.a	
+news_event = news_event.1 
+	}			
+}

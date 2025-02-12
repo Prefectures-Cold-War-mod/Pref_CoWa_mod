@@ -1,0 +1,148 @@
+
+add_namespace = OSK_news_event
+
+#大阪
+news_event = {
+	id = OSK_news_event.1
+	title = OSK_news_event.1.t
+	desc = OSK_news_event.1.d
+	picture = GFX_OSK_news_event7
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.1.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.2
+	title = OSK_news_event.2.t
+	desc = OSK_news_event.2.d
+	picture = GFX_OSK_news_event5
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.2.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.3
+	title = OSK_news_event.3.t
+	desc = OSK_news_event.3.d
+	picture = GFX_OSK_news_event3
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.3.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.4
+	title = OSK_news_event.4.t
+	desc = OSK_news_event.4.d
+	picture = GFX_OSK_news_event1
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.4.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.5
+	title = OSK_news_event.5.t
+	desc = OSK_news_event.5.d
+	picture = GFX_OSK_news_event2
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.5.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.6
+	title = OSK_news_event.6.t
+	desc = OSK_news_event.6.d
+	picture = GFX_OSK_news_event8
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.6.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.7
+	title = OSK_news_event.7.t
+	desc = OSK_news_event.7.d
+	picture = GFX_OSK_news_event6
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.7.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.8
+	title = OSK_news_event.8.t
+	desc = OSK_news_event.8.d
+	picture = GFX_gen_news_event4
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.8.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.9
+	title = OSK_news_event.9.t
+	desc = OSK_news_event.9.d
+	picture = GFX_gen_news_event9
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.9.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.10
+	title = OSK_news_event.10.t
+	desc = OSK_news_event.10.d
+	picture = GFX_OSK_news_event3
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.10.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.11
+	title = OSK_news_event.11.t
+	desc = OSK_news_event.11.d
+	picture = GFX_gen_news_event3
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event.11.a	
+	}			
+}
+news_event = {
+	id = OSK_news_event.12
+	title = OSK_news_event.12.t
+	desc = OSK_news_event.12.d
+	picture = GFX_OSK_news_event11
+
+		is_triggered_only = yes	
+	major = yes
+	option = {
+		name = OSK_news_event..a	
+	}			
+}

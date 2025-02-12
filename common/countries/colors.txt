@@ -369,3 +369,19 @@ IGA = {
     color = rgb { 80 0 0 }
     color_ui = rgb { 80 0 0 }
 }
+CHU = {
+    color = rgb { 75 122 80 }
+    color_ui = rgb { 75 122 80 }
+}
+PRO = {
+    color = rgb { 143 22 22 }
+    color_ui = rgb { 143 22 22 }
+}
+ONW = {
+    color = rgb { 130 130 130 }
+    color_ui = rgb { 130 130 130 }
+}
+KGN = {
+    color = rgb { 130 130 130 }
+    color_ui = rgb { 130 130 130 }
+}

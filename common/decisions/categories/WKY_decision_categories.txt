@@ -11,6 +11,15 @@ OR = {
 		original_tag = OSK
 	}
 }
+	visible = {
+NOT = {
+		OR = {
+has_global_flag = wakayama_osaka
+has_global_flag = wakayama_neutral
+has_global_flag = wakayama_kagawa
+}
+}
+	}
 	priority = {
 		base = 20
 	}

@@ -21,6 +21,10 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_political_power = 120
+news_event = {
+ id = OSK_news_event.8
+ day = 2
+}
 start_border_war = {
     change_state_after_war = no
     attacker = {
@@ -98,7 +102,7 @@ start_border_war = {
 		id = KYT_focus_6
 		text = 後手からの一撃
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KYT_focus_5
 		}
@@ -110,7 +114,7 @@ start_border_war = {
 		id = KYT_focus_7
 		text = 大阪本土で不満を煽る
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KYT_focus_4
 		}
@@ -123,9 +127,9 @@ start_border_war = {
 	}
 	focus = {
 		id = KYT_focus_1
-		text = ジパング
+		text = 元日攻勢
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KYT_focus_7
 		}
@@ -137,7 +141,7 @@ start_border_war = {
 		id = KYT_focus_8
 		text = 最後通牒
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KYT_focus_1
 		}

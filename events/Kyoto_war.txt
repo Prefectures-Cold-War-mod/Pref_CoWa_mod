@@ -11,7 +11,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = kyoto_war_event.1.a	
+		name = kyoto_war_event.1.a
+news_event = {
+ id = OSK_news_event.9
+ day = 2
+}	
 news_event = Kyoto_war_news_event.1
 SKY = {
 declare_war_on = {
@@ -74,15 +78,13 @@ country_event = {
 	
 	option = {
 		name = kyoto_war_event.4.a
+news_event = {
+ id = OSK_news_event.11
+ day = 1
+}
 KYT = {
 annex_country = {
     target = SKY
-    transfer_troops = no
-}
-}
-HRM = {
-annex_country = {
-    target = SET
     transfer_troops = no
 }
 }
@@ -122,8 +124,12 @@ surrender_progress > 0.2
 }
 	option = {
 		name = kyoto_war_event.5.a
+news_event = {
+ id = OSK_news_event.10
+ day = 1
+}
 KYT = {
-load_focus = KYT_focus2
+load_focus_tree = KYT_XXX
 }
 OSK = {
 white_peace = KYT

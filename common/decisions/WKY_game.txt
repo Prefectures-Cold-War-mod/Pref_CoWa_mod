@@ -20,14 +20,11 @@ OR = {
 WKY = {
 has_government = socialism
 }
-WKY = {
-has_government = nazism
-}
 }
     }
     icon = mission_icon 
 
-		days_mission_timeout = 400
+		days_mission_timeout = 300
 		is_good = yes
 		fire_only_once = yes
 
@@ -36,17 +33,12 @@ has_government = nazism
     }
 
     timeout_effect = {
-news_event = WKY_news_event.3
 set_global_flag = wakayama_neutral
-add_popularity = {
-    ideology = conservatism
-    popularity = 0.4
+WKY = {
+news_event = WKY_news_event.3
+
 }
-add_popularity = {
-    ideology = liberalism
-    popularity = 0.4
 }
-    }
 }
 
 #大阪側
@@ -69,6 +61,7 @@ socialism > 0.5
 		fire_only_once = yes
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -110,6 +103,7 @@ OSK = { add_to_faction = EKI }
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -142,6 +136,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -174,6 +169,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -182,7 +178,7 @@ add_popularity = {
 		remove_effect = {
 WKY = {
 add_popularity = {
-    ideology = nazism
+    ideology = despotism
     popularity = -0.05
 }
 }
@@ -206,6 +202,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -215,22 +212,23 @@ add_popularity = {
 WKY = {
 add_popularity = {
     ideology = conservatism
-    popularity = -0.05
+    popularity = 0.05
 }
 }
 }
 		}
 
 #香川側
-	KGW_Wakayama_game_1 = {
+	 KGW_Wakayama_game_1 = {
 
 		icon = eng_trade_unions_demand
 		allowed = {
-			tag = KGW		}
+			tag = KGW
+		}
  
 		available = {
 WKY = {
-nazism > 0.5
+despotism > 0.5
 }
 		}
 
@@ -240,6 +238,7 @@ nazism > 0.5
 		fire_only_once = yes
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -251,15 +250,14 @@ set_global_flag = wakayama_kagawa
 WKY = {
 
 set_politics = {
-	ruling_party = nazism
+	ruling_party = despotism
         elections_allowed = no
         last_election = "1962.12.17"
         election_frequency = 48
 }
-set_cosmetic_tag = WKY_nazism
 }
- KGW = { add_to_faction = WKY }
- KGW = { add_to_faction = EKI }
+KGW = { add_to_faction = WKY }
+KGW = { add_to_faction = EKI }
 		}
 }
 #共産支持率上げ
@@ -281,6 +279,7 @@ set_cosmetic_tag = WKY_nazism
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -289,7 +288,7 @@ set_cosmetic_tag = WKY_nazism
 		remove_effect = {
 WKY = {
 add_popularity = {
-    ideology = nazism
+    ideology = despotism
     popularity = 0.05
 }
 }
@@ -313,6 +312,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -321,7 +321,7 @@ add_popularity = {
 		remove_effect = {
 WKY = {
 add_popularity = {
-    ideology = nazism
+    ideology = despotism
     popularity = 0.1
 }
 }
@@ -345,6 +345,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
@@ -353,7 +354,7 @@ add_popularity = {
 		remove_effect = {
 WKY = {
 add_popularity = {
-    ideology = nazism
+    ideology = socialism
     popularity = -0.05
 }
 }
@@ -377,6 +378,7 @@ add_popularity = {
 		fire_only_once = no
 
 		ai_will_do = {
+			base = 1
 		}
 
 		complete_effect = {
