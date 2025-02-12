@@ -12,7 +12,7 @@ state={
          chromium = 0
      }
      history ={
-         owner = YMG
+         owner = KGW
          add_core_of = YMG
          buildings ={
              infrastructure = 1

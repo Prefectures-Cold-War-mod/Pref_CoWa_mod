@@ -1,0 +1,244 @@
+﻿division_template = {
+	name = "歩兵旅団" 			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "騎兵大隊" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "自動車化旅団" 		
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "装甲師団" 		
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_sp_anti_air_brigade = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_sp_artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "国内SS歩兵師団" 			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "国内SS装甲師団" 			
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor_sp_anti_air_brigade = { x = 0 y = 2 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		heavy_sp_artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "ゲシュタポ" 		
+ regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "自動車化旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "自動車化旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "装甲師団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "装甲師団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "歩兵旅団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "国内SS歩兵師団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "国内SS歩兵師団"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 2263
+		division_template = "国内SS歩兵師団"
+	}
+}

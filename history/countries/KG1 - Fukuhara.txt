@@ -3,6 +3,8 @@
 
 
 set_research_slots = 4
+recruit_character = KGW_Katakiri_shigeru
+recruit_character = KGW_Takahashi_tan
 add_ideas = {
 }
 

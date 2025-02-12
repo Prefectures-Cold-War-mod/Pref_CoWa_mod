@@ -7,7 +7,7 @@ oob = "SIG_1962"
 set_research_slots = 4
 add_ideas = {
 service_by_requirement
-add_ideas = {
+KGW_idea1
 Road_to_Serfdom5
 Army_budget3
 Police_budget2

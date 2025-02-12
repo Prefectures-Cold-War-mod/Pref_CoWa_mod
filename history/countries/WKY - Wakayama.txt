@@ -50,8 +50,8 @@ set_technology = {
 
 set_popularities = {
  socialism = 30
- conservatism = 40
- nazism = 30
+ conservatism = 60
+ nazism = 10
 }
 	set_politics = {
 		ruling_party = conservatism
@@ -67,9 +67,9 @@ set_war_support = 0.02
 
 
 create_country_leader = {
-	name = "大島靖"
+	name = "片山哲"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_WKY1"
+	picture = "GFX_Portrait_tetsu_katayama"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -87,11 +87,32 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "世耕弘一"
+	name = "小野田寛郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_WKY2"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "小野田寛郎"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "GFX_WKY2"
+	expire = "1965.1.1"
+	ideology = ultranationalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "徳川頼明"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
 	picture = "GFX_WKY3"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		
 	}

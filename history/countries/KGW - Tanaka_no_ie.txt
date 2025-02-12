@@ -5,59 +5,65 @@ create_faction = KGW_axis
 add_to_faction = KGW
 add_to_faction = FKY
 add_to_faction = HRS
+add_to_faction = KYT
+add_to_faction = TJI
+
+recruit_character = KGW_Ohira_Masayoshi
+recruit_character = KGW_Fukuya_syunichi
+recruit_character = KGW_Miyawaki_syunzo
+recruit_character = KGW_Katakiri_shigeru
+recruit_character = KGW_Takahashi_tan
+recruit_character = KGW_Ohira_syuno
+recruit_character = KGW_Takagi_shigeru
+recruit_character = KGW_Kondo_shinpachi
+recruit_character = KGW_Saito_yaheita
+recruit_character = KGW_Ono_koichi
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	tech_trucks = 1
-	motorised_infantry = 1
-	marines  = 1
-	gw_artillery = 1
-	basic_train = 1
-	trench_warfare = 1
-	base_strike = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
-		gwtank = 1
-		basic_light_tank = 1
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-			cv_early_fighter = 1
-			cv_CAS1 = 1
-			cv_naval_bomber1 = 1
-			early_fighter = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
+infantry_weapons = 1
+infantry_weapons1 = 1
+tech_support = 1
+tech_recon = 1
+tech_engineers = 1
+tech_trucks = 1
+motorised_infantry = 1
+marines  = 1
+gw_artillery = 1
+basic_train = 1
+trench_warfare = 1
+base_strike = 1
+fuel_silos = 1
+synth_oil_experiments = 1
+fuel_refining = 1
+gwtank = 1
+basic_light_tank = 1
+early_submarine = 1
+basic_submarine = 1
+early_destroyer = 1
+early_light_cruiser = 1
+basic_light_cruiser = 1
+early_heavy_cruiser = 1
+basic_heavy_cruiser = 1
+early_battleship = 1
+basic_battleship = 1
+early_battlecruiser = 1
+early_carrier = 1
+basic_carrier = 1
+transport = 1
+cv_early_fighter = 1
+cv_CAS1 = 1
+cv_naval_bomber1 = 1
+early_fighter = 1
+naval_bomber1 = 1
+early_bomber = 1
+CAS1 = 1
 improved_light_tank = 1
 basic_medium_tank = 1
 basic_medium_art = 1
-
 basic_medium_spaa = 1
-
 basic_heavy_tank = 1
-
 basic_heavy_art = 1
-
 basic_heavy_spaa = 1
-
-
-
 }
 
 
@@ -78,44 +84,53 @@ add_ideas = {
 triumphant_will
 militarism_focus
 general_staff
+
+KGW_Ohira_Masayoshi
+KGW_Fukuya_syunichi
+KGW_Kondo_shinpachi
+KGW_Ono_koichi
 }
 
-	set_autonomy = {
-		target = EHM
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = KUT
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = TKS
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = OKY
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = EIM
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = AWJ
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = OIT
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = RKK
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = HRM
-		autonomous_state = autonomy_puppet
-	}
+set_autonomy = {
+target = EHM
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = KUT
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = TKS
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = OKY
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = EIM
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = AWJ
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = OIT
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = RKK
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = HRM
+autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+target = CHU
+autonomous_state = autonomy_puppet
+}
 MYG = {
 set_cosmetic_tag = RK_MYG
 }
@@ -125,7 +140,9 @@ set_cosmetic_tag = RK_OIT
 RKK = {
 set_cosmetic_tag = RK_RKK
 }
-
+CHU = {
+set_cosmetic_tag = RK_CHU
+}
 EHM = {
 set_cosmetic_tag = RK_EHM
 }
@@ -151,6 +168,8 @@ FKY = {
 set_cosmetic_tag = RK_FKY
 }
 
+
+
 set_popularities = {
  communism = 0
  anarchist_communism = 0
@@ -165,12 +184,12 @@ set_popularities = {
 ultranationalism = 20
  esoteric_nazism = 20
 }
-	set_politics = {
-		ruling_party = nazism
-		last_election = "1960.12.5"
-		election_frequency = 36
-		elections_allowed = no
-	}
+set_politics = {
+ruling_party = nazism
+last_election = "1960.12.5"
+election_frequency = 36
+elections_allowed = no
+}
 
 
 set_convoys = 400
@@ -178,37 +197,37 @@ set_stability = 0.5
 set_war_support = 0.8
 
 create_country_leader = {
-	name = "原田熊吉"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_KGW1"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		dictator
-	}
+name = "原田熊吉"
+desc = "POLITICS_SVEN_LINDEROT_DESC"
+picture = "GFX_KGW1"
+expire = "1965.1.1"
+ideology = nazism
+traits = {
+dictator
+}
 }
 
 create_country_leader = { 
-	name = "大平正芳"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
-	picture = "KGW4.dds" 
-	expire = "2000.1.1" 
-	ideology = fascism
+name = "大平正芳"
+desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+picture = "KGW4.dds" 
+expire = "2000.1.1" 
+ideology = fascism
 
 }
 create_country_leader = { 
-	name = "近藤新八"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
-	picture = "KGW5.dds" 
-	expire = "2000.1.1" 
-	ideology = ultranationalism
+name = "近藤新八"
+desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+picture = "KGW5.dds" 
+expire = "2000.1.1" 
+ideology = ultranationalism
 
 }
 create_country_leader = { 
-	name = "大野広一"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
-	picture = "KGW6.dds" 
-	expire = "2000.1.1" 
-	ideology = esoteric_nazism
+name = "大野広一"
+desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC" 
+picture = "KGW6.dds" 
+expire = "2000.1.1" 
+ideology = esoteric_nazism
 
 }

@@ -12,8 +12,8 @@ state={
          chromium = 0
      }
      history ={
-         owner = ONW
-         add_core_of = ONW
+         owner = CHU
+         add_core_of = CHU
          buildings ={
              infrastructure = 2
              industrial_complex = 1

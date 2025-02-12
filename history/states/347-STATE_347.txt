@@ -12,8 +12,8 @@ state={
          chromium = 0
      }
      history ={
-         owner = ONW
-         add_core_of = ONW
+         owner = CHU
+         add_core_of = CHU
          victory_points = {6595 1} #ãXñÏç¿ë∫,Ginoza-son
          victory_points = {6595 1} #ã‡ïêí¨,Kin-cho
          buildings ={

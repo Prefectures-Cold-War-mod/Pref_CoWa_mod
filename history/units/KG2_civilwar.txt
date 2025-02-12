@@ -43,28 +43,5 @@ units = {
 		location = 401
 		division_template = "民兵大隊"
 	}
-	division = { 
-		division_name = {
-		}
-		location = 401
-		division_template = "民兵大隊"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 401
-		division_template = "民兵大隊"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 401
-		division_template = "民兵大隊"
-	}
-	division = { 
-		division_name = {
-		}
-		location = 401
-		division_template = "民兵大隊"
-	}
+
 }

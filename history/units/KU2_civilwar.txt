@@ -16,44 +16,55 @@ units = {
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
 	division = { 
 		division_name = {
 		}
-		location = 5098
+		location = 4991
 		division_template = "民兵大隊"
 	}
-
+	division = { 
+		division_name = {
+		}
+		location = 4991
+		division_template = "民兵大隊"
+	}
+	division = { 
+		division_name = {
+		}
+		location = 4991
+		division_template = "民兵大隊"
+	}
 }

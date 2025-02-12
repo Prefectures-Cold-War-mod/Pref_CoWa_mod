@@ -6,6 +6,9 @@ set_research_slots = 4
 add_ideas = {
 }
 
+recruit_character = KGW_Ohira_syuno
+recruit_character = KGW_Takagi_shigeru
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

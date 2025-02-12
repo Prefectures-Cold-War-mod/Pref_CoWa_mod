@@ -18,15 +18,7 @@ cop_tax5
 extensive_conscription
 }
 add_ideas = {
-ideological_fanaticism_focus
-militarism_focus
-military_youth_focus
-	deterrence
-state_shintoism
-for_the_emperor_idea
-JAP_superior_will
-JAP_militarism_shogunate
-spiritual_mobilization_idea
+
 }
 set_technology = {
 	infantry_weapons = 1

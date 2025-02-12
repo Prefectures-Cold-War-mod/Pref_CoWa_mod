@@ -3,9 +3,10 @@
 
 
 set_research_slots = 4
+
 add_ideas = {
 }
-recruit_character = KGW_Ono_koichi
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -53,15 +54,15 @@ set_popularities = {
  socialism = 0
  democratic_socialism = 0
  progressivism = 0
- democratic = 20
+ democratic = 0
  liberalism = 0
- conservatism = 20
+ conservatism = 0
  fascism = 0
- nazism = 60
+ nazism = 100
  esoteric_nazism = 0
 }
 	set_politics = {
-		ruling_party = esoteric_nazism
+		ruling_party = nazism
 		last_election = "1960.12.5"
 		election_frequency = 36
 		elections_allowed = no
@@ -73,11 +74,11 @@ set_stability = 0
 set_war_support = 1
 
 create_country_leader = {
-	name = "大野広一"
+	name = "鎌倉芳太郎"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "GFX_KGW6"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = esoteric_nazism
+	ideology = nazism
 
 	traits = {
 		
